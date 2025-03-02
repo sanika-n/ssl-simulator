@@ -9,7 +9,6 @@ target_link_libraries(kshetra
     shared::core
     katha::shunya
     katha::yodha
-    katha::drona
 )
 
 # this will allow the linker to find .h files in other packages which are linked

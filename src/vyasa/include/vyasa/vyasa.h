@@ -1,3 +1,13 @@
+/*
+ * The simulator is divided into various components.
+ * If you are versed with mythology you may be able to
+ * guess each components purpose.
+ *
+ * Vyasa: tells you all that is happening.
+ * the intermediary between the backend and
+ * frontend.
+ */
+
 #ifndef VYASA_H
 #define VYASA_H
 

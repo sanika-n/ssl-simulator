@@ -51,7 +51,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>22</height>
+     <height>19</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuKuruK">
@@ -75,9 +75,6 @@
    </attribute>
    <addaction name="separator"/>
    <addaction name="actionreset"/>
-   <addaction name="actionHotMap"/>
-   <addaction name="actionAttack"/>
-   <addaction name="actionDefense"/>
   </widget>
   <action name="actionreset">
    <property name="checkable">
@@ -95,37 +92,6 @@
    </property>
    <property name="shortcut">
     <string>Ctrl+R</string>
-   </property>
-   <property name="menuRole">
-    <enum>QAction::NoRole</enum>
-   </property>
-  </action>
-  <action name="actionHotMap">
-   <property name="icon">
-    <iconset>
-     <normaloff>strategy.svg</normaloff>strategy.svg</iconset>
-   </property>
-   <property name="text">
-    <string>HotMap</string>
-   </property>
-   <property name="toolTip">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Resets the field &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-   <property name="menuRole">
-    <enum>QAction::NoRole</enum>
-   </property>
-  </action>
-  <action name="actionAttack">
-   <property name="text">
-    <string>Attack</string>
-   </property>
-   <property name="menuRole">
-    <enum>QAction::NoRole</enum>
-   </property>
-  </action>
-  <action name="actionDefense">
-   <property name="text">
-    <string>Defense</string>
    </property>
    <property name="menuRole">
     <enum>QAction::NoRole</enum>

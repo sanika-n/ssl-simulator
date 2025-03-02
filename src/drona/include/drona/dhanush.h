@@ -39,11 +39,6 @@ class Dhanush: public QObject
     Q_OBJECT
 
 public:
-    // struct bot_packet{
-    //     float vel_x, vel_y, vel_angular;
-    //     int id;
-    //     bool is_blue;
-    // };
     Dhanush();
     ~Dhanush();
 
@@ -61,7 +56,6 @@ private:
     void moveToPosition(float x, float y);
 
 public slots:
-    // void send_velocity(std::vector<bot_packet> packet);
     void send_velocity(BotPacket* packet);
 
 

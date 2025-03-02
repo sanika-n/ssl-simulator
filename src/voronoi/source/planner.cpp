@@ -63,10 +63,12 @@ vector<QPointF> plan_path(vector<pair<double, double>> bot_pos, pair<double, dou
     // LOG << 3;
 
     vector<QPointF> pos;
-    for(int i=0;i<path.size()-1;i++){
+    for(int i=0;i<path.size();i++){
         auto p = g.getVertexById(path[i]);
         pos.push_back(QPointF(p.first, p.second));
     }
     LOG << "ended" << path.size();
+    delete v;
+    delete ver;
     return pos;
 }

@@ -14,9 +14,6 @@
 
 #include "dhanush.h"
 #include "yodha/yodha.h"
-#include "yodha/mantri.h"
-#include "protobuf/ssl_wrapper.pb.h"
-#include "protobuf/ssl_geometry.pb.h"
 #include <vector>
 #include <QObject>
 #include <QUdpSocket>
@@ -66,26 +63,6 @@ signals:
     void draw_graph(std::vector<QPointF> *vertices);
 public slots:
     void handleState(QByteArray *buffer);
-};
-
-class HotMap
-{
-public:
-    std::shared_ptr<std::vector<BlueBot>> scene_pandav;
-    std::shared_ptr<std::vector<YellowBot>> scene_kaurav;
-    std::shared_ptr<Ball> scene_ball;
-    std::shared_ptr<std::vector<Mantri>> scene_mantri;
-    SSL_WrapperPacket state;
-
-    HotMap(std::shared_ptr<std::vector<BlueBot>> scene_pandav,
-           std::shared_ptr<std::vector<YellowBot>> scene_kaurav,
-           std::shared_ptr<Ball> scene_ball,
-           std::shared_ptr<std::vector<Mantri>> scene_mantri,
-           SSL_WrapperPacket state)
-        : scene_pandav(scene_pandav), scene_kaurav(scene_kaurav),
-        scene_ball(scene_ball), scene_mantri(scene_mantri), state(state) {}
-
-    void setHotMap();
 };
 
 #endif // DRONA_H

@@ -1,3 +1,12 @@
+/*
+ * The simulator is divided into various components.
+ * If you are versed with mythology you may be able to
+ * guess each components purpose.
+ *
+ * Yodha: Warriors in our epic.
+ * frontend representation of bot positions.
+ */
+
 #ifndef YODHA_H
 #define YODHA_H
 
@@ -9,7 +18,7 @@ class YellowBotGraphics;
 class BlueBot{
 public:
     BlueBot(){};
-    BlueBot(QGraphicsScene *scene, QGraphicsScene *scene_hotmap, QPointF &&point, float orientation,int id);
+    BlueBot(QGraphicsScene *scene, QPointF &&point, float orientation,int id);
     float getx(){ return x; }
     float gety(){ return y; }
     QPointF mapFromScene(float x, float y){ return body_graphics->mapFromScene(x, y); }
@@ -29,14 +38,14 @@ private:
         void mouseMoveEvent(QGraphicsSceneMouseEvent *event) override;
     };
     float x, y, orientation;
-    BlueBotGraphics *body_graphics=nullptr, *body_graphics_hotmap=nullptr;
+    BlueBotGraphics *body_graphics=nullptr;
 
 };
 
 class YellowBot{
 public:
     YellowBot(){};
-    YellowBot(QGraphicsScene *scene, QGraphicsScene *scene_hotmap, QPointF &&point, float orientation,int id);
+    YellowBot(QGraphicsScene *scene, QPointF &&point, float orientation,int id);
     float getx(){ return x; }
     float gety(){ return y; }
     QPointF mapFromScene(float x, float y){ return body_graphics->mapFromScene(x, y); }
@@ -53,25 +62,21 @@ private:
         int id;
         void mousePressEvent(QGraphicsSceneMouseEvent *event) override;
         void mouseMoveEvent(QGraphicsSceneMouseEvent *event) override;
-        void keyPressEvent(QKeyEvent *event) override;
     };
-    YellowBotGraphics *body_graphics, *body_graphics_hotmap=nullptr;
+    YellowBotGraphics *body_graphics;
     float x, y, orientation;
 };
 
 class Ball{
 public:
     Ball(QColor color, float radius);
-    Ball(QPointF pos, QGraphicsScene *scene, QGraphicsScene *scene_hotmap);
+    Ball(QPointF pos, QGraphicsScene *scene);
     void updatePosition(QPointF pos);
     QPointF getPosition(){ return position; }
-    float getx(){ return position.x(); }
-    float gety(){ return position.y(); }
 private:
     QColor color;
     float radius;
     QGraphicsEllipseItem *graphics = nullptr;
-    QGraphicsEllipseItem *graphics_hotmap = nullptr;
     QPointF position;
 };
 

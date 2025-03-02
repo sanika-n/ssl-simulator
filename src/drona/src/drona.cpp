@@ -16,10 +16,11 @@ using namespace sslsim;
  * Creates a BotPacket array for blue bots
  * @param parent
  */
-
 Drona::Drona(QObject* parent) : QObject(parent),
     sender(new Dhanush())
 {
+    // sender will operate on a separate thread to
+    // reduce congestion on the main thread.
     sender->moveToThread(&sender_thread);
     connect(this, &Drona::send, sender, &Dhanush::send_velocity);
     // allocate the sender to a separate thread
@@ -98,13 +99,14 @@ void Drona::moveToPosition(int id, float x, float y, int team, BotPacket *packet
 void Drona::handleState(QByteArray *buffer)
 {
     // every time new position is received, recalculate velocity and send
-    // updated velocity, SEX.
+    // updated velocity.
 
     static int counter = 0;
     std::vector<std::pair<double, double>> bot_pos;
     for(int i=0; i < kaurav->size(); ++i){
         bot_pos.push_back(make_pair(kaurav->at(i).getx(), kaurav->at(i).gety()));
     }
+
 
     std::pair<double, double> endpt;
     endpt.first = 0.0f;
@@ -113,12 +115,10 @@ void Drona::handleState(QByteArray *buffer)
     if(counter == 100){
         vertices = plan_path(bot_pos, endpt, 0);
         counter =0;
+        LOG << bot_pos[0] <<  ' ' << vertices;
     }
     emit draw_graph(&vertices);
-    // LOG << vertices.size();
-    // }
 #if defined(SIMULATOR_MODE)
-    // reseting packet, will make this better
     for(int i=0; i < BLUE_BOTS; ++i){
         m_blue_packet[i].id = i;
         m_blue_packet[i].is_blue = true;
@@ -142,7 +142,8 @@ void Drona::handleState(QByteArray *buffer)
     emit send(m_yellow_packet);
 #else
 
-    // reseting packet, will make this better
+    // reseting packet,
+    // TODO: make this better
     for(int i=0; i < YELLOW_BOTS; ++i){
         m_packet[i].id = i;
         m_packet[i].is_blue = false;
@@ -163,15 +164,3 @@ Drona::~Drona()
     sender_thread.quit();
     sender_thread.wait();
 }
-
-void HotMap::setHotMap(){
-    for(auto i = 0; i < scene_mantri->size(); i++)
-    {
-        float color_value = 0;
-        // Write your strategy code here
-	
-        if(color_value <= 0) color_value = 0;
-        scene_mantri->at(i).updateColor(color_value, true);
-    }
-}
-

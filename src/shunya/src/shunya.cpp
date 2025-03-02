@@ -10,23 +10,7 @@ Shunya::Shunya(QObject *parent)
     socket(new QUdpSocket(this)),
     command(new sslsim::SimulatorCommand())
 {
-
-    /*
-     * uncomment this for debugging only, for some reason it occupies the whole loop
-     */
-
-    // this->_addr.setAddress(SSL_VISION_ADDRESS_LOCALHOST);
-    // this->_port = quint16(SSL_SIMULATED_VISION_PORT);
-    // // if socket fails to connect
-    // connect(socket, &QAbstractSocket::errorOccurred,this, &Shunya::onSocketError);
-    // socket->bind(_addr, _port, QUdpSocket::ShareAddress | QUdpSocket::ReuseAddressHint);
-    // if(socket->state() != QAbstractSocket::BoundState){
-    //     LOG << "socket not bound";
-    // }
-    // // new syntax, do not use SIGNAL() and SLOT()
-    // auto success = connect(socket, &QUdpSocket::readyRead, this, &Shunya::handleDatagrams);
-    // if(!success){ LOG << socket->errorString();}
-
+    // Nothing to do here.
 }
 
 void Shunya::onSocketError(QAbstractSocket::SocketError socketError)
@@ -80,6 +64,17 @@ void Shunya::move_one_bot(int id, QPointF point, bool is_blue)
 
 }
 
+
+/**
+ * @brief Sets up each bot, and send setup command message to control port
+ *
+ * Creates the command message for game setup
+ * Calls setBotPosition for each bot
+ * Sends command message via a QUDP Socket
+ *
+ * @see ssl_simulation_control.proto
+ *
+ */
 void Shunya::setup()
 {
     //creating the message
@@ -89,10 +84,11 @@ void Shunya::setup()
     auto bot = control->mutable_teleport_robot();
 
     //initial position of the bots can be set here
-    setBotPosition(bot, 0, 0, 0, 0.0, false);
-    setBotPosition(bot, 1, 1,-1, 0.0, false);
-    setBotPosition(bot, 2, 1.5,0, 0.0, false);
-    setBotPosition(bot, 3, 1.5,1, 0.0, false);
+    //note the metre unit
+    setBotPosition(bot, 0, 0  , 0, 0.0, false);
+    setBotPosition(bot, 1, 1  ,-1, 0.0, false);
+    setBotPosition(bot, 2, 1.5, 0, 0.0, false);
+    setBotPosition(bot, 3, 1.5, 1, 0.0, false);
     setBotPosition(bot, 4, 1.5,-1, 0.0, false);
     QByteArray dgram;
     dgram.resize(command->ByteSize());
@@ -104,82 +100,17 @@ void Shunya::setup()
     }
 }
 
-void Shunya::attack_setup()
-{
-    //creating the message
-    command->Clear();
-    LOG << "setting up";
-    sslsim::SimulatorControl *control = command->mutable_control();
-    auto bot = control->mutable_teleport_robot();
-
-    //initial position of the bots can be set here
-    setBotPosition(bot, 0, -0.2, 0.2, 0.0, false);
-    setBotPosition(bot, 1, 1.7, 1.8, 0.0, false);
-    setBotPosition(bot, 2, -4.1, -0.5, 0.0, false);
-    setBotPosition(bot, 3, 2.1, -1.2, 0, false);
-    setBotPosition(bot, 4, -1.7, -0.5, 0.0, false);
-    setBotPosition(bot, 5, -2.1, -1.8, 0.0, false);
-
-    setBotPosition(bot, 0, 1.0, -1.0, 0.0, true);
-    setBotPosition(bot, 1, 1.2, 1.8, 0.0, true);
-    setBotPosition(bot, 2, -2.6, -1.5, 0.0, true);
-    setBotPosition(bot, 3, 0.3, -2.4, 0.0, true);
-    setBotPosition(bot, 4, 2.4, -0.7, 0.0, true);
-    setBotPosition(bot, 5, 3.8, 0.3, 0.0, true);
-
-    QByteArray dgram;
-    dgram.resize(command->ByteSize());
-    command->SerializeToArray(dgram.data(), dgram.size());
-
-    //sending message
-    if (socket->writeDatagram(dgram, QHostAddress::LocalHost, SSL_SIMULATION_CONTROL_PORT) > -1) {
-        LOG << "sent data";
-    }
-}
-
-
-void Shunya::defense_setup()
-{
-    //creating the message
-    command->Clear();
-    LOG << "setting up";
-    sslsim::SimulatorControl *control = command->mutable_control();
-    auto bot = control->mutable_teleport_robot();
-
-    //initial position of the bots can be set here
-    setBotPosition(bot, 0, -1, -1.5, 0.0, false);
-    setBotPosition(bot, 1, -1.2, 0.2, 0.0, false);
-    setBotPosition(bot, 2, -4.1, -0.5, 0.0, false);
-    setBotPosition(bot, 3, 0.2, -1.2, 0.0, false);
-    setBotPosition(bot, 4, -2, 0.7, 0.0, false);
-    setBotPosition(bot, 5, 2.2, -1.4, 0.0, false);
-
-    setBotPosition(bot, 0, 1.0, -0.5, 0.0, true);
-    setBotPosition(bot, 1, -1.2,-1.8, 0.0, true);
-    setBotPosition(bot, 2, -1.5, 1.5, 0.0, true);
-    setBotPosition(bot, 3, 1.3, 0.6, 0.0, true);
-    setBotPosition(bot, 4, 2.4, 1.2, 0.0, true);
-    setBotPosition(bot, 5, 3.8, 0.3, 0.0, true);
-
-    QByteArray dgram;
-    dgram.resize(command->ByteSize());
-    command->SerializeToArray(dgram.data(), dgram.size());
-
-    //sending message
-    if (socket->writeDatagram(dgram, QHostAddress::LocalHost, SSL_SIMULATION_CONTROL_PORT) > -1) {
-        LOG << "sent data";
-    }
-}
-
-void Shunya::setBallPosition(google::protobuf::RepeatedPtrField<sslsim::TeleportBall> *ball, float x, float y)
-{
-    auto ball_pos = ball->Add();
-    ball_pos->set_x(x);
-    ball_pos->set_y(y);
-    ball_pos->set_by_force(true);
-}
-
-
+/**
+ * @brief Initializes the bot
+ *
+ * @param bot bot object
+ * @param id id of the bot being spawned
+ * @param x, y, orientation spawn position and orientation
+ * @param is_blue specifies team
+ * @see ssl_simulation_control.proto
+ *
+ * Initializes the positions and orientations of the bot, marking them present on the field and assigning teams.
+ */
 void Shunya::setBotPosition(google::protobuf::RepeatedPtrField<sslsim::TeleportRobot> *bot, int id, float x, float y, float orientation, bool is_blue)
 {
     auto bot_pos = bot->Add();

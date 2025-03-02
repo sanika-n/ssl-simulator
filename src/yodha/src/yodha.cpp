@@ -165,7 +165,7 @@ void Ball::updatePosition(QPointF pos)
     graphics_hotmap->setRect(boundingSquare(pos, radius));
 }
 
-void YellowBot::YellowBotGraphics::keyPressEvent()
+void YellowBot::YellowBotGraphics::keyPressEvent(QKeyEvent *event)
 {
     // TODO: Handle keyboard commands to move a selected bot
 }

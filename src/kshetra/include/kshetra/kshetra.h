@@ -1,3 +1,12 @@
+/*
+ * The simulator is divided into various components.
+ * If you are versed with mythology you may be able to
+ * guess each components purpose.
+ *
+ * Kshetra: the ground on which and epic battle unfolds
+ * A football playing field.
+ */
+
 #ifndef KSHETRA_H
 #define KSHETRA_H
 
@@ -13,10 +22,8 @@
 #include "protobuf/ssl_geometry.pb.h"
 #include <google/protobuf/repeated_field.h>
 
-class Bot;
-class Ball;
-
 //primitive graphics function for later use
+// convenience functions that draw some basic stuff
 inline QGraphicsEllipseItem* addCircle_(QGraphicsScene *scene, const QPointF &center, int radius, QColor color);
 inline QGraphicsLineItem* addLine_(QGraphicsScene *scene, const QPointF &point1, const QPointF &point2, int width);
 inline QGraphicsEllipseItem* addArc_(QGraphicsScene *scene, const QPointF center, int radius, int width);
@@ -48,9 +55,6 @@ private:
     QGraphicsScene *scene_hotmap;
     QGraphicsScene *scene_hotmap_future;
     QPainter *painter;
-    // you want to have the same object and share it with drona and Kshetra right?? who updates it? Kshetra obv but drona also uses it
-    // then drona does not need a handleState, does that make sense? yeah ig, you would want the updation to happen and you just have a pointer
-    // to the bots
     std::shared_ptr<std::vector<BlueBot>> scene_pandav;
     std::shared_ptr<std::vector<YellowBot>> scene_kaurav;
     std::shared_ptr<Ball> scene_ball;
@@ -62,17 +66,11 @@ private:
 
     SSL_WrapperPacket state;
     SSL_GeometryData field_geometry;
-    // google::protobuf::RepeatedPtrField<SSL_DetectionRobot> pandav;
-    // google::protobuf::RepeatedPtrField<SSL_DetectionRobot> kaurav;
-
     bool* see_hotmap_;
 
     bool has_state_;
-    // use static bool!
     bool ball_init_ = false;
     bool bots_init_ = false;
-
-    // Ball scene_ball;
 };
 
 #endif // KSHETRA_H

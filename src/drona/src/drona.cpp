@@ -9,6 +9,13 @@
 #define YELLOW_BOTS 6
 
 using namespace sslsim;
+/**
+ * @brief Construct a new Drona::Drona object
+ *
+ * Creates a Dhanush object named sender
+ * Creates a BotPacket array for blue bots
+ * @param parent
+ */
 
 Drona::Drona(QObject* parent) : QObject(parent),
     sender(new Dhanush())
@@ -36,6 +43,19 @@ void Drona::setBall(std::shared_ptr<Ball> ball)
     this->ball = ball;
 }
 
+/**
+ * @brief Moves the bot to (x,y) field coordinates using P-control
+ *
+ * @param id of the bot.
+ * @param x
+ * @param y
+ *
+ * relative_pos is error between bot coordinates and target (x,y) used for P-control.
+ *
+ * Call this in Drona::handleState
+ *
+ * @see https://doc.qt.io/qt-6/qgraphicsitem.html#mapToScene
+ */
 void Drona::moveToPosition(int id, float x, float y, int team, BotPacket *packet)
 {
     // calculating the x and y velocities
@@ -61,6 +81,20 @@ void Drona::moveToPosition(int id, float x, float y, int team, BotPacket *packet
     packet[id].kick_speed = 5.0f;
 }
 
+/**
+ * @brief Resets each BotPacket for blue bots, gives new velocity commands and emits packets again.
+ *
+ * @param buffer
+ *
+ * @see Vyasa::receivedState
+ *
+ * Include bot-specific movement commands like moveToPosition here.
+ *
+ * Called when Vyasa::receivedState signal is emitted
+ *
+ * Drona::send signal is recived by the slot Dhanush::send_velocity
+ *
+ */
 void Drona::handleState(QByteArray *buffer)
 {
     // every time new position is received, recalculate velocity and send
@@ -133,12 +167,9 @@ Drona::~Drona()
 void HotMap::setHotMap(){
     for(auto i = 0; i < scene_mantri->size(); i++)
     {
-        float color_value = 0
-        
+        float color_value = 0;
         // Write your strategy code here
-        
-        //
-        
+	
         if(color_value <= 0) color_value = 0;
         scene_mantri->at(i).updateColor(color_value, true);
     }

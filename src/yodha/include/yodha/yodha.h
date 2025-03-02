@@ -53,7 +53,7 @@ private:
         int id;
         void mousePressEvent(QGraphicsSceneMouseEvent *event) override;
         void mouseMoveEvent(QGraphicsSceneMouseEvent *event) override;
-        void keyPressEvent() override;
+        void keyPressEvent(QKeyEvent *event) override;
     };
     YellowBotGraphics *body_graphics, *body_graphics_hotmap=nullptr;
     float x, y, orientation;

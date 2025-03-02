@@ -1,3 +1,12 @@
+/*
+ * The simulator is divided into various components.
+ * If you are versed with mythology you may be able to
+ * guess each components purpose.
+ *
+ * Dhanush: runs to the backend to inform the next
+ *  bot positions.
+ */
+
 #ifndef DHANUSH_H
 #define DHANUSH_H
 

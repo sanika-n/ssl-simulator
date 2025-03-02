@@ -17,11 +17,14 @@ inline QGraphicsEllipseItem* addCircle_(QGraphicsScene *scene, const QPointF &ce
 
 inline QGraphicsLineItem* addLine_(QGraphicsScene *scene, const QPointF &point1, const QPointF &point2, int width)
 {
+    // alright this is a little dumb but whatever
     return scene->addLine(QLineF(point1, point2), QPen(QBrush(Qt::white), width));
 }
 
 inline QGraphicsEllipseItem* addArc_(QGraphicsScene *scene, const QPointF center, int radius, int width)
 {
+    //internal function to draw an arc
+    //the coordinate system of QGraphicsScene is based on top-left corner as origin and an inverted y-axis
     QRectF bounding_rect = QRectF(center.x() - radius, center.y() - radius, 2*radius, 2*radius);
     return scene->addEllipse(bounding_rect, QPen(QBrush(Qt::white), width));
 }
@@ -98,6 +101,17 @@ void Kshetra::handleGraph(std::vector<QPointF> *vertices){
     }
 }
 
+/**
+ * @brief Draws field and ball as received from Vyasa
+ *
+ * @param buffer
+ *
+ * Called when Vyasa::receivedState signal is emitted
+ *
+ * Initializes ball if it doesn't exist, or updates position
+ *
+ * Sets scene if not set
+ */
 void Kshetra::handleState(QByteArray *buffer)
 {
     static bool scene_set = false;
@@ -177,6 +191,7 @@ void Kshetra::handleState(QByteArray *buffer)
 void Kshetra::setGround(qint32 width, qint32 height)
 {
     //sets the ground and field color with dimensions, the length received should be in mm
+    // backend uses mm in protobuf messages while QGraphicsScene uses cm.
     static bool background_init_ = false;
     if(background_init_) return;
     scene->setSceneRect(QRectF(0,0,width/10, height/10));
@@ -193,7 +208,7 @@ void Kshetra::setGround(qint32 width, qint32 height)
 
 void Kshetra::setFieldLines(const SSL_GeometryFieldSize &field_info)
 {
-    //rn i am not storing the field lines since they are static
+    //not storing the field lines since they are static
     static bool lines_init_ = false;
     if(lines_init_) return;
     auto lines = field_info.field_lines();

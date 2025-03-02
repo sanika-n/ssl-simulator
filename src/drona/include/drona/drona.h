@@ -1,3 +1,12 @@
+/*
+ * The simulator is divided into various components.
+ * If you are versed with mythology you may be able to
+ * guess each components purpose.
+ *
+ * Drona: The strategy module of the simulator
+ *  This is where our next actions are determined.
+ */
+
 #ifndef DRONA_H
 #define DRONA_H
 

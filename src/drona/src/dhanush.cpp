@@ -1,7 +1,7 @@
 #include "dhanush.h"
 #include "core/sslprotocols.h"
 #define LOG qDebug() << "[dhanush] : "
-// this method is very bad, need to think of a better way to get total bots and the format of the game,
+// this method is not ideal, need to think of a better way to get total bots and the format of the game,
 // probably some message from the simulator
 #define TOTAL_BOTS 10
 using namespace sslsim;
@@ -18,16 +18,24 @@ Dhanush::~Dhanush(){
 }
 
 
+/**
+ * @brief Prepares and sends velocity packets
+ * @param packet
+ *
+ * Creates sslsim::RobotControl which is a repeated pointer.
+ * Creates and sets fields for an sslsim:RobotCommand for each bot. Velocity is given in local frame NOT in global frame.
+ * These are sent to SSL_SIMULATION_CONTROL_BLUE_PORT through QUDP Datagrams
+ *
+ * @see https://protobuf.dev/getting-started/cpptutorial/
+ * @see ssl_simulation_robot_control.proto
+ *
+ */
 void Dhanush::send_velocity(BotPacket* packet)
 {
     // this can lead to race conditions since memory is shared between two threads.
     // cannot provide local copy since QObjects are non-copyable
     // In practice, it is rare since the signal is emmitted at 100 Hz and this function should
     // finish much faster
-    // This is so dumb, a thread should be launched for performing heavy tasks. This light ahh
-    // function should not need a separate thread!!
-    // But, this is not entirely useless. In the future, we can spawn threads for heavy computations
-    // like high level strategy which would run at 10 or 25 or 50 Hz
     RobotControl robot_control;
     //preparing packet
     for(int i=0;i < TOTAL_BOTS/2; ++i){

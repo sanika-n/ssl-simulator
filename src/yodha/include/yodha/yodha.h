@@ -22,7 +22,6 @@ private:
         BlueBotGraphics(int id): id(id){};
         ~BlueBotGraphics(){};
         BlueBotGraphics(QPainterPath &path, int id):QGraphicsPathItem(path), id(id){};
-        void keyPressEvent() override;
         void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget = nullptr) override;
     protected:
         int id;
@@ -49,12 +48,12 @@ private:
         YellowBotGraphics(){};
         YellowBotGraphics(int id): id(id){};
         YellowBotGraphics(QPainterPath &path, int id):QGraphicsPathItem(path), id(id){};
-        void keyPressEvent() override;
         void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget = nullptr) override;
     protected:
         int id;
         void mousePressEvent(QGraphicsSceneMouseEvent *event) override;
         void mouseMoveEvent(QGraphicsSceneMouseEvent *event) override;
+        void keyPressEvent() override;
     };
     YellowBotGraphics *body_graphics, *body_graphics_hotmap=nullptr;
     float x, y, orientation;

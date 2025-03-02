@@ -1,3 +1,13 @@
+/*
+ * The simulator is divided into various components.
+ * If you are versed with mythology you may be able to
+ * guess each components purpose.
+ *
+ * Shunya: Setup the initial position of all bots
+ * Also used for resetting bot position back to time zero.
+ *
+ */
+
 #ifndef SHUNYA_H
 #define SHUNYA_H
 

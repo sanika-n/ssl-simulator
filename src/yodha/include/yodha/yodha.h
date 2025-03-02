@@ -1,3 +1,12 @@
+/*
+ * The simulator is divided into various components.
+ * If you are versed with mythology you may be able to
+ * guess each components purpose.
+ *
+ * Yodha: Warriors in our epic.
+ * frontend representation of bot positions.
+ */
+
 #ifndef YODHA_H
 #define YODHA_H
 

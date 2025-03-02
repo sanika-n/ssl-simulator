@@ -1,3 +1,14 @@
+/*
+ * The simulator is divided into various components.
+ * If you are versed with mythology you may be able to
+ * guess each components purpose.
+ *
+ * KuruK: The MainWindow of the application.
+ * parent of all components. All components
+ * are constructed here.
+ *
+ */
+
 #ifndef KURUK_H
 #define KURUK_H
 

@@ -8,11 +8,17 @@
 #define ROBOT_RADIUS 10
 float SUBTEND_ANGLE=30;
 
+/**
+ * @brief Converting to m and changing origin to center of field from top left corner
+ *
+ * @param point
+ * @return QPointF
+ *
+ * QGraphicsScene : (0,0) top left corner, +y downwards vertical, +x forward horizontal
+ * Simulator : (0,0) field center, +y downwards vertical, +x forward horizontal
+ */
 inline QPointF transformFromScene(const QPointF &&point)
 {
-    // converting to m and changing origin to center of field from top left corner
-    // QGraphicsScene : (0,0) top left corner, +y downwards vertical, +x forward horizontal
-    // Simulator : (0,0) field center, +y downwards vertical, +x forward horizontal
     //NOTE : hard coded field length and width!!!
     return QPointF(point.x()/100 - 4.5, point.y()/100 - 3);
 }
@@ -81,7 +87,6 @@ void YellowBot::YellowBotGraphics::mouseMoveEvent(QGraphicsSceneMouseEvent *even
     // LOG << "my transform : " << QPointF(pos().x() - event->lastPos().y() ,event->lastPos().x() + pos().y());
     temp.move_one_bot(id, transformFromScene(mapToScene(event->lastPos())), false);
 }
-
 BlueBot::BlueBot(QGraphicsScene *scene, QGraphicsScene *scene_hotmap, QPointF &&point, float orientation, int id):
     id(id),
     x(point.x()),

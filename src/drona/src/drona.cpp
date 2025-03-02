@@ -4,6 +4,7 @@
 #include <cmath>
 #include <QtMath>
 #include <QNetworkDatagram>
+this will break everything
 #define LOG qDebug() << "[drona] : "
 #define BLUE_BOTS 6
 #define YELLOW_BOTS 6

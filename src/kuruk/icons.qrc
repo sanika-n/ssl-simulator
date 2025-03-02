@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>edit-redo.svg</file>
+        <file>strategy.svg</file>
+    </qresource>
+</RCC>

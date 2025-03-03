@@ -43,6 +43,7 @@ Kshetra::Kshetra(QWidget *parent):
     scene_hotmap(new QGraphicsScene(this))
 {
     scene_mantri = std::make_shared<std::vector<Mantri>>();
+    see_hotmap_ = false;
 }
 
 Kshetra::~Kshetra()
@@ -78,13 +79,13 @@ void Kshetra::setBall(std::shared_ptr<Ball> ball)
 
 void Kshetra::viewHotMap()
 {
-    if (*see_hotmap_ == true) {
-        *see_hotmap_ = false;
+    if (see_hotmap_ == true) {
+        see_hotmap_ = false;
     } else {
-        *see_hotmap_ = true;
+        see_hotmap_ = true;
     }
 
-    LOG << "VIEW CHANGED " << *see_hotmap_;
+    LOG << "VIEW CHANGED " << see_hotmap_;
 }
 // void Kshetra::setGrid(std::shared_ptr<Mantri> grid)
 // {
@@ -176,7 +177,7 @@ void Kshetra::handleState(QByteArray *buffer)
                 LOG << "yellow bots not there! paying respects";
             }
 
-            if(*see_hotmap_ == false) setScene(scene);
+            if(see_hotmap_ == false) setScene(scene);
             else setScene(scene_hotmap);
 
             if(!scene_set){

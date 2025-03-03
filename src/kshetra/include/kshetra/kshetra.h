@@ -66,7 +66,7 @@ private:
 
     SSL_WrapperPacket state;
     SSL_GeometryData field_geometry;
-    bool* see_hotmap_;
+    bool see_hotmap_;
 
     bool has_state_;
     bool ball_init_ = false;

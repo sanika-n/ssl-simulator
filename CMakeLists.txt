@@ -35,7 +35,6 @@ set(CMAKE_AUTOMOC ON)
 find_package(Qt5 COMPONENTS Core Widgets Network OpenGL REQUIRED)
 
 # place to download stuff
-cmake_policy(CMP0135 OLD)
 set(DEPENDENCY_DOWNLOADS "${CMAKE_BINARY_DIR}/dependencies")
 include(BuildBullet)
 include(BuildEigen)

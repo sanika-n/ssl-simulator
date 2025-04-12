@@ -1,0 +1,12 @@
+<map id="Eigen::GMRES&lt; _MatrixType, _Preconditioner &gt;" name="Eigen::GMRES&lt; _MatrixType, _Preconditioner &gt;">
+<area shape="rect" id="Node000001" title="A GMRES solver for sparse square problems." alt="" coords="59,255,269,295"/>
+<area shape="rect" id="Node000002" href="$classEigen_1_1IterativeSolverBase.html" title=" " alt="" coords="5,167,323,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,220,159,254,154,255,153,220"/>
+<area shape="poly" id="edge6_Node000001_Node000002" title=" " alt="" coords="175,220,174,255,169,254,170,220"/>
+<area shape="rect" id="Node000003" href="$classEigen_1_1SparseSolverBase.html" title="A base class for sparse solvers." alt="" coords="73,79,255,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="158,132,159,166,154,167,153,132"/>
+<area shape="poly" id="edge5_Node000002_Node000003" title=" " alt="" coords="175,132,174,167,169,166,170,132"/>
+<area shape="rect" id="Node000004" href="$classEigen_1_1internal_1_1noncopyable.html" title=" " alt="" coords="61,5,267,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="158,44,159,78,154,79,153,44"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="175,44,174,79,169,78,170,44"/>
+</map>

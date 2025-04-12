@@ -1,0 +1,22 @@
+<map id="InplaceSolverIslandCallback" name="InplaceSolverIslandCallback">
+<area shape="rect" id="Node000001" title=" " alt="" coords="599,194,804,219"/>
+<area shape="rect" id="Node000002" href="$structbtSimulationIslandManager_1_1IslandCallback.html" title=" " alt="" coords="237,5,439,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="453,37,516,53,576,79,614,106,647,137,693,192,689,195,644,141,611,110,573,84,514,58,452,42"/>
+<area shape="rect" id="Node000003" href="$structbtContactSolverInfo.html" title=" " alt="" coords="263,70,413,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="428,91,501,105,576,128,637,160,685,192,682,196,635,164,574,133,500,110,427,96"/>
+<area shape="rect" id="Node000004" href="$structbtContactSolverInfoData.html" title=" " alt="" coords="5,70,188,95"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="202,89,263,88,263,94,202,94"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="202,71,263,72,263,77,202,76"/>
+<area shape="rect" id="Node000005" href="$classbtConstraintSolver.html" title=" " alt="" coords="267,119,409,145"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="424,141,575,168,661,191,660,197,574,173,423,146"/>
+<area shape="rect" id="Node000006" href="$classbtIDebugDraw.html" title=" " alt="" coords="281,169,395,194"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="409,184,599,197,598,202,409,189"/>
+<area shape="rect" id="Node000007" href="$classbtDispatcher.html" title=" " alt="" coords="285,218,391,243"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="404,229,486,228,574,223,625,217,626,222,575,228,486,233,404,234"/>
+<area shape="rect" id="Node000008" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="251,268,425,308"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="439,274,506,264,574,249,625,234,669,217,671,222,626,239,575,255,507,269,440,280"/>
+<area shape="rect" id="Node000009" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="239,332,437,372"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="450,330,512,314,574,291,636,254,684,217,687,222,639,258,576,296,514,319,452,335"/>
+<area shape="rect" id="Node000010" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="247,396,429,436"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="441,398,509,378,542,364,573,347,612,316,646,280,690,218,695,221,650,283,616,320,576,352,544,369,510,383,443,403"/>
+</map>

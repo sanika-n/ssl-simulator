@@ -1,0 +1,16 @@
+<map id="amun::CommandDebuggerInput" name="amun::CommandDebuggerInput">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1047,39,1277,65"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="30,5,211,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,25,1023,45,1047,46,1047,51,1023,51,225,30"/>
+<area shape="rect" id="Node000006" href="$classamun_1_1CommandDebuggerInputLine.html" title=" " alt="" coords="332,74,589,99"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="225,41,390,71,389,77,224,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="720,67,951,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="964,70,1046,62,1047,67,965,76"/>
+<area shape="rect" id="Node000004" href="$classamun_1_1CommandDebuggerInputDisable.html" title=" " alt="" coords="345,129,576,169"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="589,125,719,103,720,109,590,130"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="16,136,225,176"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="239,151,345,149,345,154,239,156"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="603,84,720,84,720,89,603,89"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="5,72,236,112"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="250,89,308,88,332,88,332,93,308,93,250,94"/>
+</map>

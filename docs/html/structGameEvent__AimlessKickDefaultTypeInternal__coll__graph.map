@@ -1,0 +1,14 @@
+<map id="GameEvent_AimlessKickDefaultTypeInternal" name="GameEvent_AimlessKickDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,401,239,441"/>
+<area shape="rect" id="Node000002" href="$classGameEvent__AimlessKick.html" title=" " alt="" coords="29,313,215,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,352,125,401,119,401,119,352"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="10,5,191,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="106,59,124,313,119,313,100,59"/>
+<area shape="rect" id="Node000005" href="$classVector2.html" title=" " alt="" coords="196,108,267,133"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="140,51,217,106,214,110,137,56"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="139,211,324,251"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="201,262,138,315,134,311,197,258"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="234,147,234,210,229,210,229,147"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="215,13,330,38"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="264,52,239,109,234,107,260,50"/>
+</map>

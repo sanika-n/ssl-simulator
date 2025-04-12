@@ -1,0 +1,7 @@
+<map id="PrimVertex" name="PrimVertex">
+<area shape="rect" id="Node000001" title=" " alt="" coords="53,108,147,133"/>
+<area shape="rect" id="Node000002" href="$structPrimVec4.html" title=" " alt="" coords="5,5,88,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="56,43,73,83,91,106,86,109,68,85,51,45"/>
+<area shape="rect" id="Node000003" href="$structPrimVec2.html" title=" " alt="" coords="112,5,195,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="146,45,126,85,111,109,106,106,122,83,141,42"/>
+</map>

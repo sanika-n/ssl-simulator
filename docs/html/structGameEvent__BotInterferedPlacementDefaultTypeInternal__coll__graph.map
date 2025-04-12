@@ -1,0 +1,14 @@
+<map id="GameEvent_BotInterferedPlacementDefaultTypeInternal" name="GameEvent_BotInterferedPlacementDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,387,265,427"/>
+<area shape="rect" id="Node000002" href="$classGameEvent__BotInterferedPlacement.html" title=" " alt="" coords="5,299,265,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,338,138,386,133,386,133,338"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="23,5,205,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="119,59,137,298,132,299,114,60"/>
+<area shape="rect" id="Node000005" href="$classVector2.html" title=" " alt="" coords="245,108,316,133"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="161,50,261,106,259,110,158,54"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="151,196,411,236"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="241,246,155,301,152,296,239,241"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="283,147,283,196,278,196,278,147"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="229,13,343,38"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="287,52,284,108,279,108,282,52"/>
+</map>

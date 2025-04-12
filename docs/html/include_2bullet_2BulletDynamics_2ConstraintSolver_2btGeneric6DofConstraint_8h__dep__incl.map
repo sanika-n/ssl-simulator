@@ -1,0 +1,11 @@
+<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletDynamics/ConstraintSolver/btGeneric6DofConstraint.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletDynamics/ConstraintSolver/btGeneric6DofConstraint.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="161,5,472,89"/>
+<area shape="rect" id="Node000002" href="$include_2bullet_2BulletDynamics_2ConstraintSolver_2btGeneric6DofSpringConstraint_8h.html" title=" " alt="" coords="5,137,279,236"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="255,100,205,139,202,135,252,96"/>
+<area shape="rect" id="Node000003" href="$include_2bullet_2btBulletDynamicsCommon_8h.html" title=" " alt="" coords="199,284,434,368"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="319,103,319,284,314,284,314,103"/>
+<area shape="rect" id="Node000004" href="$include_2bullet_2BulletDynamics_2ConstraintSolver_2btUniversalConstraint_8h.html" title=" " alt="" coords="355,145,647,229"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="385,96,447,142,444,146,381,100"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="216,243,266,282,263,286,213,247"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="436,239,373,286,370,282,433,235"/>
+</map>

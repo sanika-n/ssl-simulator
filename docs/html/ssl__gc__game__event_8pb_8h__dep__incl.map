@@ -1,0 +1,27 @@
+<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/src/protobuf/ssl_gc_game_event.pb.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/src/protobuf/ssl_gc_game_event.pb.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="225,5,417,75"/>
+<area shape="rect" id="Node000002" href="$ssl__gc__change_8pb_8h.html" title=" " alt="" coords="8,357,243,412"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,58,182,68,153,82,126,101,105,124,90,152,83,183,81,215,83,248,98,309,115,356,110,358,93,310,78,249,75,215,77,182,85,150,100,121,123,97,150,77,180,63,211,53"/>
+<area shape="rect" id="Node000006" href="$ssl__gc__game__event_8pb_8cc.html" title=" " alt="" coords="115,123,307,192"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="281,87,245,124,241,121,277,83"/>
+<area shape="rect" id="Node000007" href="$ssl__gc__referee__message_8pb_8h.html" title=" " alt="" coords="331,123,533,192"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="365,83,402,121,398,124,361,87"/>
+<area shape="rect" id="Node000009" href="$ssl__gc__state_8pb_8h.html" title=" " alt="" coords="575,247,795,302"/>
+<area shape="poly" id="edge14_Node000001_Node000009" title=" " alt="" coords="431,67,490,90,547,120,584,150,618,183,669,245,665,249,614,187,581,154,544,125,488,95,429,72"/>
+<area shape="rect" id="Node000003" href="$ssl__gc__api_8pb_8h.html" title=" " alt="" coords="362,460,569,515"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="228,413,377,457,376,463,226,418"/>
+<area shape="rect" id="Node000005" href="$ssl__gc__change_8pb_8cc.html" title=" " alt="" coords="5,460,245,515"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="128,426,128,460,123,460,123,426"/>
+<area shape="rect" id="Node000004" href="$ssl__gc__api_8pb_8cc.html" title=" " alt="" coords="359,563,572,617"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="468,528,468,563,463,563,463,528"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="317,195,257,201,208,201,187,204,167,210,148,222,129,242,115,269,111,299,114,330,119,356,114,357,109,330,106,299,110,267,124,238,144,218,165,205,186,198,208,196,257,196,317,189"/>
+<area shape="rect" id="Node000008" href="$ssl__gc__referee__message_8pb_8cc.html" title=" " alt="" coords="139,240,341,309"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="365,202,298,242,295,237,363,197"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="520,195,629,245,627,250,517,200"/>
+<area shape="rect" id="Node000011" href="$vishnu_8cpp.html" title=" " alt="" coords="366,262,551,287"/>
+<area shape="poly" id="edge13_Node000007_Node000011" title=" " alt="" coords="446,205,459,261,453,263,440,206"/>
+<area shape="poly" id="edge11_Node000009_Node000002" title=" " alt="" coords="581,308,565,312,397,345,243,369,242,364,396,339,563,307,580,303"/>
+<area shape="poly" id="edge10_Node000009_Node000003" title=" " alt="" coords="626,311,593,334,562,359,517,411,483,461,479,458,512,408,558,355,590,329,623,307"/>
+<area shape="rect" id="Node000010" href="$ssl__gc__state_8pb_8cc.html" title=" " alt="" coords="572,357,799,412"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="688,316,688,357,683,357,683,316"/>
+</map>

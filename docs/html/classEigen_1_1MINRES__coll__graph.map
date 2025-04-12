@@ -1,0 +1,14 @@
+<map id="Eigen::MINRES&lt; _MatrixType, _UpLo, _Preconditioner &gt;" name="Eigen::MINRES&lt; _MatrixType, _UpLo, _Preconditioner &gt;">
+<area shape="rect" id="Node000001" title="A minimal residual solver for sparse symmetric problems." alt="" coords="884,13,1099,53"/>
+<area shape="rect" id="Node000002" href="$classEigen_1_1IterativeSolverBase.html" title=" " alt="" coords="633,5,835,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="849,39,884,39,884,44,849,44"/>
+<area shape="poly" id="edge7_Node000001_Node000002" title=" " alt="" coords="849,21,884,21,884,26,849,26"/>
+<area shape="rect" id="Node000003" href="$classEigen_1_1SparseSolverBase.html" title="A base class for sparse solvers." alt="" coords="273,13,455,53"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="469,38,633,38,633,43,469,44"/>
+<area shape="poly" id="edge5_Node000002_Node000003" title=" " alt="" coords="469,22,633,22,633,27,469,27"/>
+<area shape="rect" id="Node000004" href="$classEigen_1_1internal_1_1noncopyable.html" title=" " alt="" coords="5,20,212,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="226,39,272,39,272,44,226,44"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="226,21,272,21,272,27,226,26"/>
+<area shape="rect" id="Node000005" href="$structEigen_1_1internal_1_1traits_3_01MINRES_3_01__MatrixType_00_01__UpLo_00_01__Preconditioner_01_4_01_4.html" title=" " alt="" coords="261,77,467,132"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="480,80,632,50,633,55,481,85"/>
+</map>

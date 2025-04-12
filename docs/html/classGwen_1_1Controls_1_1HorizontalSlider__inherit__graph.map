@@ -1,0 +1,9 @@
+<map id="Gwen::Controls::HorizontalSlider" name="Gwen::Controls::HorizontalSlider">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,225,201,265"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="20,152,187,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,191,106,225,101,225,101,191"/>
+<area shape="rect" id="Node000003" href="$classGwen_1_1Controls_1_1Base.html" title=" " alt="" coords="23,79,184,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="106,118,106,152,101,152,101,118"/>
+<area shape="rect" id="Node000004" href="$classGwen_1_1Event_1_1Handler.html" title=" " alt="" coords="22,5,185,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="106,44,106,79,101,79,101,44"/>
+</map>

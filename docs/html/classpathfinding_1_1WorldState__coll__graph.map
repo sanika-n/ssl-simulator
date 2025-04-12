@@ -1,0 +1,17 @@
+<map id="pathfinding::WorldState" name="pathfinding::WorldState">
+<area shape="rect" id="Node000001" title=" " alt="" coords="10,504,185,529"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,59,82,88,79,119,79,422,85,467,95,503,90,504,79,468,73,423,73,119,76,87,83,58"/>
+<area shape="rect" id="Node000004" href="$classpathfinding_1_1RectObstacle.html" title=" " alt="" coords="113,313,303,339"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="103,59,119,147,134,199,154,249,176,284,199,311,195,315,172,287,150,252,129,201,114,148,97,60"/>
+<area shape="rect" id="Node000006" href="$classpathfinding_1_1Vector.html" title=" " alt="" coords="187,108,331,133"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="142,50,240,106,237,110,139,54"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="117,401,291,441"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,452,113,506,109,502,170,448"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="210,352,207,401,202,401,204,352"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="164,211,353,251"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="244,264,217,314,212,312,240,261"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="261,147,261,210,256,210,256,147"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="211,5,355,45"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="277,59,264,108,259,107,272,58"/>
+</map>

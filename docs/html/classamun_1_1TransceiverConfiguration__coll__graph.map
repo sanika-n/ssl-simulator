@@ -1,0 +1,7 @@
+<map id="amun::TransceiverConfiguration" name="amun::TransceiverConfiguration">
+<area shape="rect" id="Node000001" title=" " alt="" coords="97,108,325,133"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,52,198,106,195,110,128,56"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="211,5,439,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="293,56,227,110,223,106,290,52"/>
+</map>

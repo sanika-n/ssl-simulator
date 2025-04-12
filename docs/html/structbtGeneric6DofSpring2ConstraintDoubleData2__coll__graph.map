@@ -1,0 +1,23 @@
+<map id="btGeneric6DofSpring2ConstraintDoubleData2" name="btGeneric6DofSpring2ConstraintDoubleData2">
+<area shape="rect" id="Node000001" title=" " alt="" coords="412,839,644,879"/>
+<area shape="rect" id="Node000002" href="$structbtTypedConstraintDoubleData.html" title=" " alt="" coords="593,751,810,776"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="669,785,565,841,562,836,667,780"/>
+<area shape="rect" id="Node000003" href="$structbtRigidBodyDoubleData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="640,646,819,671"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="725,685,707,751,702,750,720,684"/>
+<area shape="rect" id="Node000004" href="$structbtCollisionObjectDoubleData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="207,488,417,513"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="326,524,359,573,382,598,409,618,453,630,513,636,622,641,640,644,639,649,621,647,512,641,452,635,407,622,379,602,355,577,322,527"/>
+<area shape="rect" id="Node000005" href="$structbtCollisionShapeData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="111,264,273,289"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="173,301,157,322,144,346,139,371,145,395,154,404,163,409,189,418,296,486,294,490,187,422,161,413,150,409,140,397,133,371,139,344,153,319,169,298"/>
+<area shape="rect" id="Node000006" href="$structbtTransformDoubleData.html" title=" " alt="" coords="337,264,514,289"/>
+<area shape="poly" id="edge12_Node000001_Node000006" title=" " alt="" coords="456,296,488,326,504,345,516,366,529,400,537,431,540,485,535,541,531,611,531,765,531,839,525,839,525,765,525,611,529,541,535,485,532,432,524,402,511,368,499,348,485,329,452,300"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="387,297,342,326,322,345,306,368,297,400,298,433,303,464,310,487,305,489,298,465,292,434,292,399,302,366,318,342,339,322,384,293"/>
+<area shape="rect" id="Node000007" href="$structbtMatrix3x3DoubleData.html" title="for serialization" alt="" coords="392,93,571,119"/>
+<area shape="poly" id="edge10_Node000003_Node000007" title=" " alt="" coords="518,124,534,141,553,176,563,207,567,237,567,265,567,324,572,358,583,395,617,472,657,545,723,644,718,647,653,548,612,475,577,397,567,359,562,325,562,265,561,237,558,208,548,178,530,144,514,128"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="476,133,432,265,427,263,471,131"/>
+<area shape="rect" id="Node000008" href="$structbtVector3DoubleData.html" title=" " alt="" coords="226,5,387,31"/>
+<area shape="poly" id="edge13_Node000001_Node000008" title=" " alt="" coords="213,30,143,41,77,56,49,66,27,78,13,91,8,105,8,764,10,771,18,777,48,791,94,803,151,814,283,832,412,845,411,851,283,838,150,819,93,808,46,796,15,782,6,774,3,765,3,104,8,88,24,74,47,62,75,51,142,36,212,25"/>
+<area shape="poly" id="edge11_Node000003_Node000008" title=" " alt="" coords="401,16,514,19,633,32,685,43,727,58,756,78,764,91,767,104,767,502,763,544,755,586,736,647,731,645,750,584,758,544,761,502,761,105,759,93,752,82,725,63,684,48,632,37,514,24,401,21"/>
+<area shape="poly" id="edge9_Node000004_Node000008" title=" " alt="" coords="266,39,231,56,191,80,153,109,121,144,92,193,85,215,82,237,87,285,101,342,113,371,134,394,147,403,160,407,189,418,250,454,298,486,295,490,247,458,187,422,158,412,145,408,130,398,108,374,96,343,81,286,77,237,80,214,87,191,117,141,150,105,188,75,228,52,264,34"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="309,44,312,80,321,118,342,162,369,203,417,262,413,266,365,206,338,165,316,120,307,81,304,45"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="344,34,459,91,456,95,341,39"/>
+</map>

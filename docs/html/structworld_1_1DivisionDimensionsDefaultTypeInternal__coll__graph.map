@@ -1,0 +1,9 @@
+<map id="world::DivisionDimensionsDefaultTypeInternal" name="world::DivisionDimensionsDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="105,196,301,236"/>
+<area shape="rect" id="Node000002" href="$classworld_1_1DivisionDimensions.html" title=" " alt="" coords="105,108,301,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,147,205,196,200,196,200,147"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="130,52,191,106,187,110,126,56"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="211,5,407,45"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="279,56,218,110,214,106,276,52"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classGwen_1_1Renderer_1_1Base.html" title=" " alt="" coords="5,133,172,159"/>
+<area shape="rect" id="Node000001" href="$classGwen_1_1Renderer_1_1DirectX9.html" title=" " alt="" coords="228,5,419,31"/>
+<area shape="poly" id="edge1127_Node000000_Node000001" title=" " alt="" coords="110,121,157,79,187,58,219,40,249,28,251,33,221,44,190,62,161,84,114,125"/>
+<area shape="rect" id="Node000002" href="$classGwen_1_1Renderer_1_1GDIPlus.html" title=" " alt="" coords="231,55,416,80"/>
+<area shape="poly" id="edge1128_Node000000_Node000002" title=" " alt="" coords="128,125,219,89,260,77,261,83,221,94,130,130"/>
+<area shape="rect" id="Node000004" href="$classGwen_1_1Renderer_1_1OpenGL.html" title=" " alt="" coords="231,104,416,129"/>
+<area shape="poly" id="edge1130_Node000000_Node000004" title=" " alt="" coords="185,131,230,126,231,131,186,137"/>
+<area shape="rect" id="Node000005" href="$classGwen_1_1Renderer_1_1OpenGL__DebugFont.html" title=" " alt="" coords="231,154,416,194"/>
+<area shape="poly" id="edge1131_Node000000_Node000005" title=" " alt="" coords="186,155,231,160,230,166,185,160"/>
+<area shape="rect" id="Node000006" href="$classGwen_1_1Renderer_1_1SFML.html" title=" " alt="" coords="239,219,408,244"/>
+<area shape="poly" id="edge1132_Node000000_Node000006" title=" " alt="" coords="127,162,221,203,263,216,262,221,219,209,125,167"/>
+<area shape="rect" id="Node000007" href="$classGwenOpenGL3CoreRenderer.html" title=" " alt="" coords="220,268,427,293"/>
+<area shape="poly" id="edge1133_Node000000_Node000007" title=" " alt="" coords="113,167,160,211,189,234,221,253,253,265,251,270,219,258,186,238,156,215,109,171"/>
+<area shape="rect" id="Node000003" href="$classGwen_1_1Renderer_1_1GDIPlusBuffered.html" title=" " alt="" coords="475,55,715,80"/>
+<area shape="poly" id="edge1129_Node000002_Node000003" title=" " alt="" coords="430,65,474,65,474,70,430,70"/>
+</map>

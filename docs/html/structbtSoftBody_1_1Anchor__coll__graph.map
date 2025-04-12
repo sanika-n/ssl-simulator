@@ -1,0 +1,25 @@
+<map id="btSoftBody::Anchor" name="btSoftBody::Anchor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="211,348,357,373"/>
+<area shape="rect" id="Node000002" href="$structbtSoftBody_1_1Node.html" title=" " alt="" coords="113,260,247,285"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,292,272,346,268,350,203,296"/>
+<area shape="rect" id="Node000003" href="$structbtSoftBody_1_1Feature.html" title=" " alt="" coords="43,170,192,195"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="128,205,167,258,163,261,124,209"/>
+<area shape="poly" id="edge8_Node000002_Node000003" title=" " alt="" coords="143,204,180,258,176,261,139,207"/>
+<area shape="rect" id="Node000004" href="$structbtSoftBody_1_1Element.html" title=" " alt="" coords="5,5,160,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="76,44,83,105,93,140,107,169,102,171,88,142,77,106,71,45"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="97,44,107,105,124,169,118,170,101,106,91,45"/>
+<area shape="rect" id="Node000005" href="$structbtSoftBody_1_1Material.html" title=" " alt="" coords="104,80,259,105"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="104,37,160,78,157,82,101,42"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="119,36,174,77,170,82,115,41"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="167,118,128,171,124,168,163,115"/>
+<area shape="rect" id="Node000006" href="$structbtDbvtNode.html" title=" " alt="" coords="217,170,317,195"/>
+<area shape="poly" id="edge9_Node000002_Node000006" title=" " alt="" coords="248,207,194,262,190,258,244,203"/>
+<area shape="poly" id="edge11_Node000006_Node000006" title=" " alt="" coords="331,173,340,176,343,183,335,191,317,194,316,188,333,186,338,182,336,181,329,178"/>
+<area shape="rect" id="Node000007" href="$structbtDbvtAabbMm.html" title=" " alt="" coords="283,80,407,105"/>
+<area shape="poly" id="edge10_Node000006_Node000007" title=" " alt="" coords="328,117,279,171,275,168,324,114"/>
+<area shape="rect" id="Node000008" href="$classbtRigidBody.html" title=" " alt="" coords="424,260,525,285"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="438,294,311,350,309,345,435,289"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="408,170,541,195"/>
+<area shape="poly" id="edge13_Node000008_Node000009" title=" " alt="" coords="469,209,471,260,466,260,464,209"/>
+<area shape="poly" id="edge14_Node000008_Node000009" title=" " alt="" coords="486,209,484,260,478,260,480,209"/>
+</map>

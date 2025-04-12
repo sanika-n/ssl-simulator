@@ -1,0 +1,14 @@
+<map id="gameController::GameEvent_BoundaryCrossingDefaultTypeInternal" name="gameController::GameEvent_BoundaryCrossingDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,401,280,441"/>
+<area shape="rect" id="Node000002" href="$classgameController_1_1GameEvent__BoundaryCrossing.html" title=" " alt="" coords="39,299,246,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,353,145,401,140,401,140,353"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="31,5,212,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="126,59,144,298,139,299,121,60"/>
+<area shape="rect" id="Node000005" href="$classgameController_1_1Vector2.html" title=" " alt="" coords="173,108,353,133"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="163,51,247,106,244,110,160,55"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="159,196,366,236"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="231,247,167,301,163,297,228,243"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="265,147,265,196,260,196,260,147"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="237,5,417,45"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="308,58,273,109,269,106,304,55"/>
+</map>

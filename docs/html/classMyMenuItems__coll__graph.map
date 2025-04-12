@@ -1,0 +1,65 @@
+<map id="MyMenuItems" name="MyMenuItems">
+<area shape="rect" id="Node000001" title=" " alt="" coords="2648,63,2763,89"/>
+<area shape="rect" id="Node000002" href="$classGwen_1_1Controls_1_1Base.html" title=" " alt="" coords="616,271,777,297"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="708,257,743,196,768,163,800,136,840,113,875,97,909,88,942,83,1011,83,1099,85,2431,85,2648,83,2648,88,2431,91,1099,91,1011,88,942,88,910,93,877,102,842,118,803,141,772,167,747,199,713,260"/>
+<area shape="poly" id="edge12_Node000001_Node000002" title=" " alt="" coords="702,257,715,223,736,183,764,144,800,113,840,89,875,73,909,64,942,59,1011,59,1099,61,2431,61,2648,64,2648,69,2431,67,1099,67,1011,64,942,64,910,69,877,78,842,94,803,117,768,148,740,186,720,225,707,259"/>
+<area shape="poly" id="edge5_Node000002_Node000002" title=" " alt="" coords="665,257,675,248,697,245,715,247,726,253,729,263,724,273,719,270,724,262,722,257,713,252,697,250,677,253,669,261"/>
+<area shape="rect" id="Node000009" href="$structGwen_1_1DragAndDrop_1_1Package.html" title=" " alt="" coords="1019,227,1181,267"/>
+<area shape="poly" id="edge10_Node000009_Node000002" title=" " alt="" coords="791,275,973,260,1018,255,1019,260,974,265,791,281"/>
+<area shape="rect" id="Node000013" href="$classGwen_1_1Controls_1_1ResizableControl.html" title=" " alt="" coords="1004,701,1196,741"/>
+<area shape="poly" id="edge16_Node000013_Node000002" title=" " alt="" coords="702,310,708,370,724,448,737,490,754,531,776,569,803,604,823,622,842,634,881,646,923,654,974,668,1050,699,1048,704,972,673,922,659,879,652,840,639,820,626,799,607,772,572,749,533,732,492,719,449,703,371,696,311"/>
+<area shape="rect" id="Node000014" href="$classGwen_1_1ControlsInternal_1_1Dragger.html" title=" " alt="" coords="1015,621,1185,661"/>
+<area shape="poly" id="edge20_Node000014_Node000002" title=" " alt="" coords="712,308,749,374,774,412,803,446,826,467,848,482,889,504,930,525,952,541,975,562,987,583,991,592,999,601,1029,619,1026,623,996,605,987,595,982,585,971,566,949,545,927,529,886,508,845,487,823,471,799,450,770,415,744,377,707,310"/>
+<area shape="poly" id="edge23_Node000014_Node000002" title=" " alt="" coords="701,310,707,368,722,441,735,479,753,516,775,550,803,579,824,594,843,602,881,605,923,603,974,607,1025,619,1024,624,973,612,923,608,881,611,842,607,821,599,800,583,771,554,748,519,730,481,717,443,702,368,696,311"/>
+<area shape="rect" id="Node000015" href="$classGwen_1_1Controls_1_1Label.html" title=" " alt="" coords="1421,398,1585,423"/>
+<area shape="poly" id="edge25_Node000015_Node000002" title=" " alt="" coords="720,260,756,233,800,212,911,185,957,180,1000,180,1090,190,1203,212,1262,224,1307,238,1349,259,1399,291,1430,317,1458,346,1496,396,1492,400,1454,350,1426,321,1396,295,1346,263,1305,243,1260,230,1202,217,1090,196,1000,185,957,186,912,191,802,217,759,238,723,264"/>
+<area shape="rect" id="Node000016" href="$classGwen_1_1ControlsInternal_1_1Text.html" title=" " alt="" coords="1015,291,1185,331"/>
+<area shape="poly" id="edge28_Node000016_Node000002" title=" " alt="" coords="791,288,1015,302,1014,308,791,293"/>
+<area shape="rect" id="Node000018" href="$classGwen_1_1Controls_1_1ImagePanel.html" title=" " alt="" coords="997,126,1203,151"/>
+<area shape="poly" id="edge33_Node000018_Node000002" title=" " alt="" coords="709,258,745,207,770,181,800,160,848,142,899,131,949,126,997,125,997,131,950,131,900,136,850,147,803,165,774,185,749,210,713,261"/>
+<area shape="rect" id="Node000021" href="$classGwen_1_1ControlsInternal_1_1Modal.html" title=" " alt="" coords="1227,353,1397,393"/>
+<area shape="poly" id="edge37_Node000021_Node000002" title=" " alt="" coords="720,305,756,337,778,352,802,363,837,371,883,377,996,382,1118,380,1226,376,1227,381,1119,386,996,387,882,382,836,377,800,368,776,356,753,341,717,309"/>
+<area shape="rect" id="Node000003" href="$classGwen_1_1Event_1_1Handler.html" title=" " alt="" coords="291,238,453,263"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="467,255,592,267,616,270,616,275,592,272,467,260"/>
+<area shape="rect" id="Node000004" href="$structGwen_1_1Rect.html" title=" " alt="" coords="324,302,420,327"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="434,316,509,317,592,311,659,294,660,299,592,316,510,322,434,321"/>
+<area shape="rect" id="Node000005" href="$classGwen_1_1Event_1_1Caller.html" title=" " alt="" coords="297,571,447,597"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="397,560,476,495,535,458,561,441,590,417,620,385,647,351,685,295,690,298,651,354,624,388,594,421,564,446,538,462,479,499,400,564"/>
+<area shape="poly" id="edge17_Node000013_Node000005" title=" " alt="" coords="397,605,434,641,486,684,549,725,582,743,617,756,672,770,729,777,787,778,844,775,949,759,1034,739,1035,744,950,764,844,780,787,783,729,782,671,775,615,761,580,748,546,730,483,689,431,645,393,609"/>
+<area shape="poly" id="edge21_Node000014_Node000005" title=" " alt="" coords="461,588,1015,632,1014,637,461,594"/>
+<area shape="rect" id="Node000017" href="$classGwen_1_1Controls_1_1Button.html" title=" " alt="" coords="1709,398,1881,423"/>
+<area shape="poly" id="edge31_Node000017_Node000005" title=" " alt="" coords="461,576,1202,528,1311,509,1460,480,1736,421,1737,426,1461,485,1312,515,1203,533,461,581"/>
+<area shape="rect" id="Node000006" href="$classGwen_1_1Skin_1_1Base.html" title=" " alt="" coords="305,189,439,214"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="453,211,522,224,593,241,667,269,665,274,591,247,520,229,452,216"/>
+<area shape="rect" id="Node000007" href="$classGwen_1_1Renderer_1_1Base.html" title=" " alt="" coords="5,189,172,214"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="186,199,304,199,304,204,186,204"/>
+<area shape="rect" id="Node000008" href="$structGwen_1_1Margin.html" title=" " alt="" coords="316,385,428,410"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="441,388,515,375,591,351,640,323,679,295,682,299,643,328,593,356,516,380,442,393"/>
+<area shape="poly" id="edge26_Node000015_Node000008" title=" " alt="" coords="442,396,801,401,1421,407,1421,413,801,407,442,401"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="1005,240,906,238,854,241,802,248,761,259,725,274,723,269,759,254,801,243,853,236,906,233,1005,235"/>
+<area shape="rect" id="Node000010" href="$structGwen_1_1Point.html" title=" " alt="" coords="647,706,747,731"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="757,700,775,685,785,661,790,627,788,544,786,459,790,424,799,397,817,373,836,355,876,335,921,320,972,294,996,276,1024,264,1026,269,999,281,975,298,923,325,878,340,839,360,821,376,804,400,795,425,791,459,794,544,795,628,790,662,779,688,761,705"/>
+<area shape="poly" id="edge18_Node000013_Node000010" title=" " alt="" coords="760,728,802,733,887,737,973,733,1004,731,1004,736,974,739,887,743,801,739,760,733"/>
+<area shape="poly" id="edge22_Node000014_Node000010" title=" " alt="" coords="760,715,861,707,973,688,1016,675,1055,659,1057,664,1017,680,974,693,861,712,760,720"/>
+<area shape="rect" id="Node000011" href="$classMyProfileWindow.html" title=" " alt="" coords="2363,518,2497,543"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="2444,504,2694,87,2699,90,2449,507"/>
+<area shape="rect" id="Node000012" href="$classGwen_1_1Controls_1_1WindowControl.html" title=" " alt="" coords="2033,518,2261,543"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="2275,528,2363,528,2363,533,2275,533"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="1209,700,1881,581,2009,559,2091,541,2092,546,2010,564,1882,587,1210,705"/>
+<area shape="poly" id="edge19_Node000012_Node000014" title=" " alt="" coords="1199,629,1585,589,2033,541,2034,546,1586,595,1199,634"/>
+<area shape="poly" id="edge24_Node000012_Node000015" title=" " alt="" coords="1582,423,1710,448,2076,515,2075,521,1709,453,1581,429"/>
+<area shape="poly" id="edge30_Node000017_Node000015" title=" " alt="" coords="1599,408,1709,408,1709,413,1599,413"/>
+<area shape="poly" id="edge27_Node000015_Node000016" title=" " alt="" coords="1199,309,1297,320,1348,330,1398,344,1449,369,1488,396,1485,400,1446,373,1396,349,1347,335,1296,325,1199,315"/>
+<area shape="poly" id="edge29_Node000012_Node000017" title=" " alt="" coords="1895,415,1953,425,2010,442,2046,458,2080,478,2132,516,2129,520,2078,483,2044,463,2008,446,1952,430,1894,420"/>
+<area shape="poly" id="edge32_Node000017_Node000018" title=" " alt="" coords="1157,153,1269,189,1398,235,1612,324,1768,395,1766,400,1610,329,1396,240,1267,194,1155,158"/>
+<area shape="rect" id="Node000019" href="$structGwen_1_1Texture.html" title=" " alt="" coords="639,7,754,33"/>
+<area shape="poly" id="edge34_Node000018_Node000019" title=" " alt="" coords="754,34,1056,123,1055,128,753,39"/>
+<area shape="rect" id="Node000020" href="$classGwen_1_1TextObject.html" title=" " alt="" coords="304,7,440,33"/>
+<area shape="poly" id="edge35_Node000019_Node000020" title=" " alt="" coords="454,17,639,17,639,23,454,23"/>
+<area shape="poly" id="edge36_Node000012_Node000021" title=" " alt="" coords="1355,399,1387,418,1422,434,1502,459,1584,480,1668,496,1750,508,1905,523,2033,528,2033,534,1905,528,1750,513,1667,501,1583,485,1500,464,1420,438,1385,422,1352,403"/>
+<area shape="rect" id="Node000022" href="$classCProfileIterator.html" title="An iterator to navigate through the tree." alt="" coords="2087,643,2207,669"/>
+<area shape="poly" id="edge38_Node000011_Node000022" title=" " alt="" coords="2188,635,2399,541,2401,546,2190,640"/>
+<area shape="rect" id="Node000023" href="$classCProfileNode.html" title="A node in the Profile Hierarchy Tree." alt="" coords="1742,781,1849,806"/>
+<area shape="poly" id="edge39_Node000022_Node000023" title=" " alt="" coords="1852,774,1927,750,2008,720,2121,666,2123,671,2010,725,1929,755,1854,779"/>
+<area shape="poly" id="edge40_Node000023_Node000023" title=" " alt="" coords="1766,766,1775,758,1795,754,1812,756,1823,763,1825,772,1820,782,1816,779,1820,772,1818,766,1811,761,1795,759,1778,762,1770,770"/>
+</map>

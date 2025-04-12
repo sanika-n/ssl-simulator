@@ -1,0 +1,12 @@
+<map id="_XkbClientMapRec" name="_XkbClientMapRec">
+<area shape="rect" id="Node000001" title=" " alt="" coords="61,273,205,299"/>
+<area shape="rect" id="Node000002" href="$struct__XkbKeyType.html" title=" " alt="" coords="5,185,113,211"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,219,124,271,120,275,76,223"/>
+<area shape="rect" id="Node000003" href="$struct__XkbMods.html" title=" " alt="" coords="15,5,104,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="58,44,53,93,54,144,60,185,55,186,49,145,47,93,53,44"/>
+<area shape="rect" id="Node000004" href="$struct__XkbKTMapEntry.html" title=" " alt="" coords="120,95,252,121"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="88,36,171,93,168,97,85,41"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="160,131,77,187,74,183,157,126"/>
+<area shape="rect" id="Node000005" href="$struct__XkbSymMapRec.html" title=" " alt="" coords="137,185,272,211"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="188,223,145,275,141,271,184,219"/>
+</map>

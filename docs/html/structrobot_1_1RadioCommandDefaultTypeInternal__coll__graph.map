@@ -1,0 +1,24 @@
+<map id="robot::RadioCommandDefaultTypeInternal" name="robot::RadioCommandDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,592,221,632"/>
+<area shape="rect" id="Node000002" href="$classrobot_1_1RadioCommand.html" title=" " alt="" coords="29,504,197,529"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,543,116,592,111,592,111,543"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="13,5,195,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,59,95,119,95,422,101,467,111,503,106,504,95,468,89,423,89,119,95,59"/>
+<area shape="rect" id="Node000005" href="$classrobot_1_1Command.html" title=" " alt="" coords="148,313,279,339"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="113,59,135,147,151,199,170,250,189,284,207,312,203,315,184,287,166,252,146,200,129,148,108,60"/>
+<area shape="rect" id="Node000007" href="$classrobot_1_1ControllerInput.html" title=" " alt="" coords="183,108,345,133"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="149,50,246,106,243,110,147,54"/>
+<area shape="rect" id="Node000009" href="$classrobot_1_1SpeedVector.html" title=" " alt="" coords="369,108,514,133"/>
+<area shape="poly" id="edge11_Node000009_Node000003" title=" " alt="" coords="209,43,338,67,384,86,423,106,420,110,382,91,337,72,208,48"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="129,401,297,441"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="185,453,128,506,124,502,181,449"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="216,352,216,401,211,401,211,352"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="181,225,355,251"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="256,264,223,314,219,311,251,261"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="268,147,270,225,265,225,262,147"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="219,5,381,45"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="290,59,271,109,266,107,285,57"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="422,145,388,174,348,204,300,228,297,223,345,199,385,170,418,141"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="405,5,550,45"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="468,59,448,109,443,107,463,57"/>
+</map>

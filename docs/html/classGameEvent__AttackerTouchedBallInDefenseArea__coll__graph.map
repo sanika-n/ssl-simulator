@@ -1,0 +1,12 @@
+<map id="GameEvent_AttackerTouchedBallInDefenseArea" name="GameEvent_AttackerTouchedBallInDefenseArea">
+<area shape="rect" id="Node000001" title=" " alt="" coords="11,299,223,339"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,59,119,298,113,299,96,60"/>
+<area shape="rect" id="Node000004" href="$classVector2.html" title=" " alt="" coords="203,108,274,133"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="138,51,223,106,220,110,135,55"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="133,196,345,236"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,247,142,301,138,297,204,243"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="241,147,241,196,236,196,236,147"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="211,13,325,38"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="263,52,245,109,240,107,258,50"/>
+</map>

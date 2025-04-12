@@ -1,0 +1,11 @@
+<map id="btSphereTriangleCollisionAlgorithm" name="btSphereTriangleCollisionAlgorithm">
+<area shape="rect" id="Node000001" title=" " alt="" coords="23,243,209,283"/>
+<area shape="rect" id="Node000002" href="$classbtActivatingCollisionAlgorithm.html" title="This class is not enabled yet (work&#45;in&#45;progress) to more aggressively activate objects." alt="" coords="5,168,227,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,207,111,243,106,243,105,207"/>
+<area shape="poly" id="edge5_Node000001_Node000002" title=" " alt="" coords="127,207,126,243,121,243,122,207"/>
+<area shape="rect" id="Node000003" href="$classbtCollisionAlgorithm.html" title=" " alt="" coords="39,93,193,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,132,112,168,106,168,105,133"/>
+<area shape="poly" id="edge4_Node000002_Node000003" title=" " alt="" coords="127,133,126,168,120,168,122,132"/>
+<area shape="rect" id="Node000004" href="$classbtDispatcher.html" title=" " alt="" coords="63,5,169,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="119,45,119,93,113,93,113,45"/>
+</map>

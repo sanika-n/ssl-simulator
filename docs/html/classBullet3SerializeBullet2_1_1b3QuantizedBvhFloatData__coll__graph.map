@@ -1,0 +1,12 @@
+<map id="Bullet3SerializeBullet2::b3QuantizedBvhFloatData" name="Bullet3SerializeBullet2::b3QuantizedBvhFloatData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="837,109,1039,149"/>
+<area shape="rect" id="Node000002" href="$classBullet3SerializeBullet2_1_1b3Vector3FloatData.html" title=" " alt="" coords="5,44,176,84"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,46,200,45,254,43,308,45,563,50,673,59,814,84,888,107,887,112,813,89,673,65,562,55,308,51,254,49,200,51,190,52"/>
+<area shape="rect" id="Node000003" href="$classBullet3SerializeBullet2_1_1b3OptimizedBvhNodeFloatData.html" title=" " alt="" coords="332,77,568,117"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="190,74,200,75,332,86,331,92,200,80,189,79"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="582,103,837,120,837,125,582,109"/>
+<area shape="rect" id="Node000004" href="$classBullet3SerializeBullet2_1_1b3QuantizedBvhNodeData.html" title=" " alt="" coords="349,141,551,181"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="565,153,813,137,837,136,837,141,814,143,565,158"/>
+<area shape="rect" id="Node000005" href="$classBullet3SerializeBullet2_1_1b3BvhSubtreeInfoData.html" title=" " alt="" coords="361,205,539,245"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="552,214,677,197,813,171,887,147,888,152,814,176,678,203,553,219"/>
+</map>

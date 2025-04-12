@@ -1,0 +1,12 @@
+<map id="UnitTest" name="UnitTest">
+<area shape="rect" id="Node000001" title=" " alt="" coords="82,313,157,339"/>
+<area shape="rect" id="Node000002" href="$classGwen_1_1Controls_1_1WindowControl.html" title=" " alt="" coords="5,240,233,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,279,115,313,110,313,108,279"/>
+<area shape="poly" id="edge5_Node000001_Node000002" title=" " alt="" coords="131,279,129,313,124,313,125,279"/>
+<area shape="rect" id="Node000003" href="$classGwen_1_1Controls_1_1ResizableControl.html" title=" " alt="" coords="23,152,215,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="122,206,122,240,117,240,117,206"/>
+<area shape="rect" id="Node000004" href="$classGwen_1_1Controls_1_1Base.html" title=" " alt="" coords="39,79,200,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="122,118,122,152,117,152,117,118"/>
+<area shape="rect" id="Node000005" href="$classGwen_1_1Event_1_1Handler.html" title=" " alt="" coords="38,5,201,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="122,44,122,79,117,79,117,44"/>
+</map>

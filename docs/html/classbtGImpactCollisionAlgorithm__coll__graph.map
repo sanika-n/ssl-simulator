@@ -1,0 +1,24 @@
+<map id="btGImpactCollisionAlgorithm" name="btGImpactCollisionAlgorithm">
+<area shape="rect" id="Node000001" title="Collision Algorithm for GImpact Shapes." alt="" coords="975,55,1185,81"/>
+<area shape="rect" id="Node000002" href="$classbtActivatingCollisionAlgorithm.html" title="This class is not enabled yet (work&#45;in&#45;progress) to more aggressively activate objects." alt="" coords="600,55,821,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="835,74,974,74,974,79,835,79"/>
+<area shape="poly" id="edge5_Node000001_Node000002" title=" " alt="" coords="835,57,974,57,974,62,835,62"/>
+<area shape="rect" id="Node000003" href="$classbtCollisionAlgorithm.html" title=" " alt="" coords="275,47,430,73"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="414,42,477,31,554,23,655,18,785,20,951,35,1036,53,1035,58,950,40,785,25,655,23,554,28,478,36,415,47"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="444,67,600,71,600,77,444,73"/>
+<area shape="poly" id="edge4_Node000002_Node000003" title=" " alt="" coords="444,51,600,54,600,60,444,57"/>
+<area shape="rect" id="Node000004" href="$classbtDispatcher.html" title=" " alt="" coords="5,47,111,73"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="124,57,275,57,275,63,124,63"/>
+<area shape="rect" id="Node000005" href="$classbtManifoldResult.html" title="btManifoldResult is a helper class to manage contact results." alt="" coords="644,105,777,130"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="790,106,950,85,1000,78,1001,83,951,91,791,111"/>
+<area shape="rect" id="Node000006" href="$structbtDiscreteCollisionDetectorInterface_1_1Result.html" title=" " alt="" coords="252,97,453,137"/>
+<area shape="poly" id="edge8_Node000005_Node000006" title=" " alt="" coords="467,123,644,122,644,127,467,128"/>
+<area shape="poly" id="edge9_Node000005_Node000006" title=" " alt="" coords="467,106,644,107,644,113,467,112"/>
+<area shape="rect" id="Node000007" href="$structbtCollisionObjectWrapper.html" title=" " alt="" coords="259,201,447,226"/>
+<area shape="poly" id="edge10_Node000005_Node000007" title=" " alt="" coords="413,195,661,128,663,133,415,200"/>
+<area shape="poly" id="edge11_Node000007_Node000007" title=" " alt="" coords="319,186,329,177,353,174,372,176,384,183,387,192,381,202,377,199,382,192,380,186,371,181,353,179,332,182,323,190"/>
+<area shape="rect" id="Node000008" href="$structbtDispatcherInfo.html" title=" " alt="" coords="645,202,776,227"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="758,195,950,120,1049,78,1051,83,952,125,760,200"/>
+<area shape="rect" id="Node000009" href="$classbtIDebugDraw.html" title=" " alt="" coords="295,250,410,275"/>
+<area shape="poly" id="edge13_Node000008_Node000009" title=" " alt="" coords="424,254,576,237,648,225,649,230,576,243,424,260"/>
+</map>

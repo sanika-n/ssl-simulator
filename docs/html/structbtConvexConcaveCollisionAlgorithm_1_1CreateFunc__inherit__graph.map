@@ -1,0 +1,6 @@
+<map id="btConvexConcaveCollisionAlgorithm::CreateFunc" name="btConvexConcaveCollisionAlgorithm::CreateFunc">
+<area shape="rect" id="Node000001" title=" " alt="" coords="21,79,217,119"/>
+<area shape="rect" id="Node000002" href="$structbtCollisionAlgorithmCreateFunc.html" title="Used by the btCollisionDispatcher to register and create instances for btCollisionAlgorithm." alt="" coords="5,5,233,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,44,114,78,109,79,108,44"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="130,44,130,79,124,78,125,44"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="GameEvent_DefenderTooCloseToKickPointDefaultTypeInternal" name="GameEvent_DefenderTooCloseToKickPointDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,401,231,441"/>
+<area shape="rect" id="Node000002" href="$classGameEvent__DefenderTooCloseToKickPoint.html" title=" " alt="" coords="7,299,229,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,353,121,401,115,401,115,353"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="6,5,187,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="102,59,119,298,114,299,96,60"/>
+<area shape="rect" id="Node000005" href="$classVector2.html" title=" " alt="" coords="209,108,280,133"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="139,50,228,106,225,110,137,55"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="133,196,356,236"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="212,247,143,301,140,297,208,243"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="247,147,247,196,242,196,242,147"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="211,13,326,38"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="265,52,250,109,245,107,260,51"/>
+</map>

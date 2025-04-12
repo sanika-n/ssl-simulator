@@ -1,0 +1,19 @@
+<map id="SSL_GeometryModelsDefaultTypeInternal" name="SSL_GeometryModelsDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="11,401,223,441"/>
+<area shape="rect" id="Node000002" href="$classSSL__GeometryModels.html" title=" " alt="" coords="35,313,199,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,352,120,401,115,401,115,352"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,59,119,313,114,313,96,59"/>
+<area shape="rect" id="Node000005" href="$classSSL__BallModelStraightTwoPhase.html" title=" " alt="" coords="134,108,327,148"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="134,51,207,106,204,110,131,56"/>
+<area shape="rect" id="Node000007" href="$classSSL__BallModelChipFixedLoss.html" title=" " alt="" coords="351,115,561,141"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="158,48,261,81,395,113,394,118,259,87,156,53"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="149,211,313,251"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="199,262,133,315,130,311,195,258"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="233,162,233,211,228,211,228,162"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="211,5,405,45"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="287,58,247,110,243,106,283,55"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="433,152,407,171,376,189,312,213,310,208,374,184,404,167,430,147"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="429,5,638,45"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="513,58,467,116,463,113,508,55"/>
+</map>

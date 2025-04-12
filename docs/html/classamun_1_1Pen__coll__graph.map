@@ -1,0 +1,12 @@
+<map id="amun::Pen" name="amun::Pen">
+<area shape="rect" id="Node000001" title=" " alt="" coords="72,284,163,309"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,59,119,284,114,284,96,59"/>
+<area shape="rect" id="Node000004" href="$classamun_1_1Color.html" title=" " alt="" coords="151,108,252,133"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="129,52,190,106,186,110,126,56"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="134,196,269,221"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,233,131,285,127,282,178,229"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="204,147,204,195,199,195,199,147"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="211,13,357,38"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="267,50,214,110,210,106,263,47"/>
+</map>

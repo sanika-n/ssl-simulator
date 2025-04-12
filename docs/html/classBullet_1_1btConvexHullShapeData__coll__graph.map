@@ -1,0 +1,12 @@
+<map id="Bullet::btConvexHullShapeData" name="Bullet::btConvexHullShapeData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="900,109,1127,135"/>
+<area shape="rect" id="Node000002" href="$classBullet_1_1btConvexInternalShapeData.html" title=" " alt="" coords="465,43,645,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="659,73,876,101,921,107,920,112,876,106,659,78"/>
+<area shape="rect" id="Node000003" href="$classBullet_1_1btCollisionShapeData.html" title=" " alt="" coords="5,5,213,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="227,25,428,45,466,49,465,54,428,50,227,30"/>
+<area shape="rect" id="Node000004" href="$classBullet_1_1btVector3FloatData.html" title=" " alt="" coords="12,87,207,112"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="221,100,452,107,900,117,900,123,452,113,220,106"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="220,90,428,74,465,70,465,76,428,79,221,95"/>
+<area shape="rect" id="Node000005" href="$classBullet_1_1btVector3DoubleData.html" title=" " alt="" coords="452,171,659,196"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="672,175,772,166,876,153,967,132,968,137,876,158,772,172,673,180"/>
+</map>

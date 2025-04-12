@@ -1,0 +1,13 @@
+<map id="Eigen::internal::kernel_retval_base&lt; _DecompositionType &gt;" name="Eigen::internal::kernel_retval_base&lt; _DecompositionType &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="491,107,716,161"/>
+<area shape="rect" id="Node000002" href="$classEigen_1_1ReturnByValue.html" title=" " alt="" coords="240,107,443,161"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="457,140,490,140,490,146,457,146"/>
+<area shape="poly" id="edge6_Node000001_Node000002" title=" " alt="" coords="457,122,490,122,490,128,457,128"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,192,89"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="206,83,265,104,263,109,204,88"/>
+<area shape="rect" id="Node000004" href="$classEigen_1_1internal_1_1no__assignment__operator.html" title=" " alt="" coords="15,114,182,154"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="196,140,240,140,240,146,196,146"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="196,122,240,122,240,128,196,128"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="25,178,172,218"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="185,173,239,158,240,163,186,178"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="gameController::GameEvent_AttackerTouchedOpponentInDefenseAreaDefaultTypeInternal" name="gameController::GameEvent_AttackerTouchedOpponentInDefenseAreaDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1345,27,1611,82"/>
+<area shape="rect" id="Node000002" href="$classgameController_1_1GameEvent__AttackerTouchedOpponentInDefenseArea.html" title=" " alt="" coords="936,35,1231,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1245,52,1345,52,1345,57,1245,57"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="201,26,912,47,936,47,936,53,912,52,201,31"/>
+<area shape="rect" id="Node000005" href="$classgameController_1_1Vector2.html" title=" " alt="" coords="283,75,463,101"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="199,46,316,73,315,78,197,51"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="575,61,840,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="854,72,935,65,936,70,854,78"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="476,85,574,85,574,91,476,91"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="6,71,186,111"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="200,87,259,87,282,86,282,92,259,92,200,93"/>
+</map>

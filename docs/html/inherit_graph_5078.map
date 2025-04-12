@@ -1,0 +1,19 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,229,187,269"/>
+<area shape="rect" id="Node000001" href="$classAutoRefConfig__GameEventBehaviorEntry__DoNotUse.html" title=" " alt="" coords="235,5,491,45"/>
+<area shape="poly" id="edge1253_Node000000_Node000001" title=" " alt="" coords="109,215,129,178,157,134,191,91,233,55,255,43,258,48,236,60,195,95,161,138,134,180,114,218"/>
+<area shape="rect" id="Node000002" href="$classConfig__AutoRefConfigsEntry__DoNotUse.html" title=" " alt="" coords="261,69,465,109"/>
+<area shape="poly" id="edge1254_Node000000_Node000002" title=" " alt="" coords="120,217,169,166,200,141,233,119,260,107,262,112,236,124,203,145,173,170,124,221"/>
+<area shape="rect" id="Node000003" href="$classConfig__GameEventBehaviorEntry__DoNotUse.html" title=" " alt="" coords="261,133,465,173"/>
+<area shape="poly" id="edge1255_Node000000_Node000003" title=" " alt="" coords="147,221,234,183,272,171,274,176,236,188,149,226"/>
+<area shape="rect" id="Node000004" href="$classGcState__AutoRefStateEntry__DoNotUse.html" title=" " alt="" coords="263,197,463,237"/>
+<area shape="poly" id="edge1256_Node000000_Node000004" title=" " alt="" coords="200,234,262,227,263,232,200,240"/>
+<area shape="rect" id="Node000005" href="$classGcState__TeamStateEntry__DoNotUse.html" title=" " alt="" coords="271,261,454,301"/>
+<area shape="poly" id="edge1257_Node000000_Node000005" title=" " alt="" coords="201,259,271,268,271,273,200,264"/>
+<area shape="rect" id="Node000006" href="$classGcState__TrackersEntry__DoNotUse.html" title=" " alt="" coords="279,325,446,365"/>
+<area shape="poly" id="edge1258_Node000000_Node000006" title=" " alt="" coords="149,273,236,311,280,324,278,330,234,316,147,278"/>
+<area shape="rect" id="Node000007" href="$classShootoutState__NumberOfAttemptsEntry__DoNotUse.html" title=" " alt="" coords="239,389,487,429"/>
+<area shape="poly" id="edge1259_Node000000_Node000007" title=" " alt="" coords="124,278,173,328,203,354,236,375,262,387,260,392,233,380,200,358,169,332,120,282"/>
+<area shape="rect" id="Node000008" href="$classState__TeamStateEntry__DoNotUse.html" title=" " alt="" coords="279,453,446,493"/>
+<area shape="poly" id="edge1260_Node000000_Node000008" title=" " alt="" coords="114,281,134,318,161,361,195,404,236,439,257,451,280,459,278,464,255,455,233,444,191,407,157,364,129,321,109,283"/>
+</map>

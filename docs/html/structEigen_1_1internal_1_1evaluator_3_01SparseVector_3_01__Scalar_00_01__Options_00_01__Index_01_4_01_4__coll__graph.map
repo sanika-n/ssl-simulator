@@ -1,0 +1,19 @@
+<map id="Eigen::internal::evaluator&lt; SparseVector&lt; _Scalar, _Options, _Index &gt; &gt;" name="Eigen::internal::evaluator&lt; SparseVector&lt; _Scalar, _Options, _Index &gt; &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1183,5,1371,60"/>
+<area shape="rect" id="Node000002" href="$structEigen_1_1internal_1_1evaluator__base.html" title=" " alt="" coords="840,5,1067,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1080,39,1182,38,1182,44,1080,44"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="1080,21,1182,22,1182,27,1080,27"/>
+<area shape="rect" id="Node000003" href="$classEigen_1_1SparseVector.html" title="a sparse vector class" alt="" coords="877,84,1030,139"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="1043,87,1182,53,1183,58,1044,92"/>
+<area shape="rect" id="Node000004" href="$classEigen_1_1SparseCompressedBase.html" title=" " alt="" coords="509,84,732,139"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="746,117,877,116,877,122,746,123"/>
+<area shape="poly" id="edge9_Node000003_Node000004" title=" " alt="" coords="746,100,877,101,877,106,746,105"/>
+<area shape="rect" id="Node000005" href="$classEigen_1_1SparseMatrixBase.html" title="Base class of any sparse matrices or sparse expressions." alt="" coords="269,91,453,131"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="467,118,509,118,509,123,467,123"/>
+<area shape="poly" id="edge8_Node000004_Node000005" title=" " alt="" coords="467,100,509,100,509,105,467,105"/>
+<area shape="rect" id="Node000006" href="$structEigen_1_1EigenBase.html" title=" " alt="" coords="5,99,220,124"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="234,118,269,117,269,123,234,123"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="234,100,269,100,269,105,234,105"/>
+<area shape="rect" id="Node000007" href="$classEigen_1_1internal_1_1CompressedStorage.html" title=" " alt="" coords="503,163,739,203"/>
+<area shape="poly" id="edge10_Node000003_Node000007" title=" " alt="" coords="727,158,876,125,877,130,728,163"/>
+</map>

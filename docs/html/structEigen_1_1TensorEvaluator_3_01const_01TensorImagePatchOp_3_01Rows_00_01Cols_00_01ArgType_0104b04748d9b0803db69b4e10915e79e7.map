@@ -1,0 +1,29 @@
+<map id="Eigen::TensorEvaluator&lt; const TensorImagePatchOp&lt; Rows, Cols, ArgType &gt;, Device &gt;" name="Eigen::TensorEvaluator&lt; const TensorImagePatchOp&lt; Rows, Cols, ArgType &gt;, Device &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1964,184,2176,253"/>
+<area shape="rect" id="Node000002" href="$structEigen_1_1DSizes.html" title=" " alt="" coords="1581,15,1747,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1760,25,1804,26,1851,32,1897,43,1941,62,1977,87,2008,118,2033,152,2053,182,2048,185,2029,155,2004,122,1974,91,1939,66,1896,48,1850,37,1804,32,1760,30"/>
+<area shape="rect" id="Node000003" href="$classEigen_1_1array.html" title=" " alt="" coords="1361,22,1516,47"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1530,41,1581,41,1581,46,1530,46"/>
+<area shape="poly" id="edge12_Node000002_Node000003" title=" " alt="" coords="1530,23,1581,23,1581,29,1530,28"/>
+<area shape="rect" id="Node000004" href="$classEigen_1_1Triplet.html" title=" " alt="" coords="1085,22,1265,47"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1279,32,1361,32,1361,37,1279,37"/>
+<area shape="rect" id="Node000005" href="$classEigen_1_1SparseMatrix.html" title=" " alt="" coords="840,15,992,55"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1006,32,1085,32,1085,37,1006,37"/>
+<area shape="rect" id="Node000006" href="$classEigen_1_1SparseCompressedBase.html" title="Common base class for sparse [compressed]&#45;{row|column}&#45;storage format." alt="" coords="509,15,732,55"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="746,41,840,40,840,45,746,46"/>
+<area shape="poly" id="edge10_Node000005_Node000006" title=" " alt="" coords="746,23,840,24,840,29,746,28"/>
+<area shape="rect" id="Node000007" href="$classEigen_1_1SparseMatrixBase.html" title="Base class of any sparse matrices or sparse expressions." alt="" coords="269,15,453,55"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="467,41,509,41,509,46,467,46"/>
+<area shape="poly" id="edge9_Node000006_Node000007" title=" " alt="" coords="467,23,509,23,509,28,467,28"/>
+<area shape="rect" id="Node000008" href="$structEigen_1_1EigenBase.html" title=" " alt="" coords="5,22,220,47"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="234,41,269,41,269,46,234,46"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="234,23,269,23,269,29,234,28"/>
+<area shape="rect" id="Node000009" href="$classEigen_1_1internal_1_1CompressedStorage.html" title=" " alt="" coords="503,79,739,119"/>
+<area shape="poly" id="edge11_Node000005_Node000009" title=" " alt="" coords="726,73,839,48,840,54,727,78"/>
+<area shape="rect" id="Node000010" href="$structEigen_1_1internal_1_1TensorIntDivisor.html" title=" " alt="" coords="1573,149,1755,189"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="1769,179,1964,203,1964,209,1768,185"/>
+<area shape="rect" id="Node000011" href="$structEigen_1_1internal_1_1remove__const.html" title=" " alt="" coords="1565,214,1763,269"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="1777,233,1940,224,1964,223,1964,228,1940,229,1777,238"/>
+<area shape="rect" id="Node000012" href="$structEigen_1_1TensorEvaluator.html" title=" " alt="" coords="1579,293,1749,333"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="1762,291,1939,252,1963,246,1964,251,1941,257,1763,297"/>
+</map>

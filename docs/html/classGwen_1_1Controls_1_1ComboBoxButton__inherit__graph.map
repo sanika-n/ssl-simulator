@@ -1,0 +1,11 @@
+<map id="Gwen::Controls::ComboBoxButton" name="Gwen::Controls::ComboBoxButton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,299,205,339"/>
+<area shape="rect" id="Node000002" href="$classGwen_1_1Controls_1_1Button.html" title=" " alt="" coords="19,225,191,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,264,108,299,103,299,103,264"/>
+<area shape="rect" id="Node000003" href="$classGwen_1_1Controls_1_1Label.html" title=" " alt="" coords="23,152,187,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="108,191,108,225,103,225,103,191"/>
+<area shape="rect" id="Node000004" href="$classGwen_1_1Controls_1_1Base.html" title=" " alt="" coords="25,79,186,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="108,118,108,152,103,152,103,118"/>
+<area shape="rect" id="Node000005" href="$classGwen_1_1Event_1_1Handler.html" title=" " alt="" coords="24,5,187,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="108,44,108,79,103,79,103,44"/>
+</map>

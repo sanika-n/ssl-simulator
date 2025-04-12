@@ -1,0 +1,7 @@
+<map id="Bullet3SerializeBullet2::SoftBodyNodeData" name="Bullet3SerializeBullet2::SoftBodyNodeData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="371,57,541,97"/>
+<area shape="rect" id="Node000002" href="$classBullet3SerializeBullet2_1_1SoftBodyMaterialData.html" title=" " alt="" coords="5,5,179,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,32,347,52,371,56,370,62,346,57,192,37"/>
+<area shape="rect" id="Node000003" href="$classBullet3SerializeBullet2_1_1b3Vector3FloatData.html" title=" " alt="" coords="7,109,177,149"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,140,268,141,308,138,346,131,388,115,424,95,427,100,390,120,347,136,308,143,268,146,192,145"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="Bullet3SerializeBullet2::b3StridingMeshInterfaceData" name="Bullet3SerializeBullet2::b3StridingMeshInterfaceData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="681,69,901,109"/>
+<area shape="rect" id="Node000002" href="$classBullet3SerializeBullet2_1_1b3MeshPartData.html" title=" " alt="" coords="352,133,523,173"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="536,133,681,107,682,112,537,138"/>
+<area shape="rect" id="Node000003" href="$classBullet3SerializeBullet2_1_1b3Vector3FloatData.html" title=" " alt="" coords="22,5,193,45"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="207,31,328,41,682,76,681,81,328,47,207,36"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="198,47,263,67,329,92,404,131,402,136,327,97,261,72,197,52"/>
+<area shape="rect" id="Node000004" href="$classBullet3SerializeBullet2_1_1b3Vector3DoubleData.html" title=" " alt="" coords="21,69,193,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="207,106,352,134,351,139,206,111"/>
+<area shape="rect" id="Node000005" href="$classBullet3SerializeBullet2_1_1b3IntIndexData.html" title=" " alt="" coords="22,133,193,173"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="206,151,352,151,352,156,206,156"/>
+<area shape="rect" id="Node000006" href="$classBullet3SerializeBullet2_1_1b3ShortIntIndexTripletData.html" title=" " alt="" coords="5,197,209,237"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="223,192,351,167,352,172,224,198"/>
+<area shape="rect" id="Node000007" href="$classBullet3SerializeBullet2_1_1b3CharIndexTripletData.html" title=" " alt="" coords="16,261,199,301"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="200,255,263,235,327,211,403,171,405,176,329,216,265,240,201,260"/>
+<area shape="rect" id="Node000008" href="$classBullet3SerializeBullet2_1_1b3ShortIntIndexData.html" title=" " alt="" coords="22,325,193,365"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="205,320,267,297,327,266,355,244,381,218,420,172,424,175,384,222,358,248,329,270,269,302,207,325"/>
+</map>

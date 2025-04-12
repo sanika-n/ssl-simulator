@@ -1,0 +1,27 @@
+<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/CollisionShapes/btPolyhedralConvexShape.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/CollisionShapes/btPolyhedralConvexShape.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,321,89"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="24,365,215,390"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,90,127,138,118,197,116,256,119,351,114,351,110,256,113,197,122,137,139,89"/>
+<area shape="rect" id="Node000003" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btConvexInternalShape_8h.html" title=" " alt="" coords="137,137,323,163"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,88,217,124,213,127,188,91"/>
+<area shape="rect" id="Node000004" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btConvexShape_8h.html" title=" " alt="" coords="377,211,513,236"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="265,160,398,204,396,209,264,165"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="136,211,324,236"/>
+<area shape="poly" id="edge14_Node000003_Node000011" title=" " alt="" coords="233,163,233,197,227,197,227,163"/>
+<area shape="poly" id="edge11_Node000004_Node000002" title=" " alt="" coords="377,237,237,261,178,274,148,286,137,300,129,317,122,351,117,350,124,315,132,297,144,282,177,269,236,255,376,232"/>
+<area shape="rect" id="Node000005" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btCollisionShape_8h.html" title=" " alt="" coords="636,284,779,309"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="488,233,652,278,651,283,486,239"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="385,365,574,390"/>
+<area shape="poly" id="edge10_Node000004_Node000006" title=" " alt="" coords="502,234,542,252,560,265,575,283,580,295,580,307,568,328,546,346,521,361,518,356,543,342,564,324,575,305,575,296,570,285,557,269,540,256,500,239"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="841,365,1014,390"/>
+<area shape="poly" id="edge9_Node000004_Node000007" title=" " alt="" coords="513,225,574,231,645,241,720,258,792,282,825,297,856,316,906,353,902,358,853,321,822,302,790,286,718,263,644,247,573,236,513,230"/>
+<area shape="rect" id="Node000009" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btCollisionMargin_8h.html" title=" " alt="" coords="157,284,305,309"/>
+<area shape="poly" id="edge12_Node000004_Node000009" title=" " alt="" coords="411,239,280,282,278,277,410,233"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="329,284,560,309"/>
+<area shape="poly" id="edge13_Node000004_Node000010" title=" " alt="" coords="447,236,447,270,442,270,442,236"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="636,310,219,366,218,360,635,305"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="675,312,526,363,525,358,673,307"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="740,307,883,358,881,363,738,312"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="598,357,817,397"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="710,310,710,344,705,344,705,310"/>
+</map>

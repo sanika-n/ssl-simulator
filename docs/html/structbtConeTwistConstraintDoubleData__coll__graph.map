@@ -1,0 +1,22 @@
+<map id="btConeTwistConstraintDoubleData" name="btConeTwistConstraintDoubleData">
+<area shape="rect" id="Node000001" title="btConeTwistConstraint can be used to simulate ragdoll joints (upper arm, leg etc)" alt="" coords="80,703,325,728"/>
+<area shape="rect" id="Node000002" href="$structbtTypedConstraintDoubleData.html" title=" " alt="" coords="245,615,462,640"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="323,649,224,705,222,700,320,645"/>
+<area shape="rect" id="Node000003" href="$structbtRigidBodyDoubleData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="316,510,495,535"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="395,549,362,616,357,613,391,547"/>
+<area shape="rect" id="Node000004" href="$structbtCollisionObjectDoubleData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="487,420,697,445"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="556,454,431,512,429,507,554,449"/>
+<area shape="rect" id="Node000005" href="$structbtCollisionShapeData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="537,264,700,289"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="617,303,597,420,591,419,612,303"/>
+<area shape="rect" id="Node000006" href="$structbtTransformDoubleData.html" title=" " alt="" coords="183,264,361,289"/>
+<area shape="poly" id="edge12_Node000001_Node000006" title=" " alt="" coords="241,299,208,322,176,352,151,389,144,410,141,431,141,628,146,650,157,670,188,700,184,704,153,673,141,652,136,629,136,431,139,408,146,387,172,349,205,318,238,294"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="242,299,214,320,190,345,182,358,178,371,179,383,186,394,199,401,224,407,300,417,487,427,487,432,300,422,223,413,197,406,182,398,174,384,173,370,177,356,185,342,211,316,239,295"/>
+<area shape="rect" id="Node000007" href="$structbtMatrix3x3DoubleData.html" title="for serialization" alt="" coords="333,93,512,119"/>
+<area shape="poly" id="edge10_Node000003_Node000007" title=" " alt="" coords="424,132,408,510,403,510,419,132"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="375,127,347,145,322,175,302,208,278,265,273,263,297,206,317,172,344,141,372,122"/>
+<area shape="rect" id="Node000008" href="$structbtVector3DoubleData.html" title=" " alt="" coords="254,5,415,31"/>
+<area shape="poly" id="edge11_Node000003_Node000008" title=" " alt="" coords="241,28,163,37,87,53,55,63,30,75,14,89,8,105,8,433,16,444,38,455,117,476,218,494,316,508,315,513,217,499,116,481,36,460,12,448,3,435,3,104,9,86,27,71,53,58,86,48,162,32,240,23"/>
+<area shape="poly" id="edge9_Node000004_Node000008" title=" " alt="" coords="403,32,478,54,562,90,605,113,645,141,682,173,714,209,750,258,775,303,780,326,780,349,773,373,757,398,732,412,693,423,692,417,730,408,753,394,768,371,775,348,775,327,770,305,745,260,710,212,678,176,642,145,602,118,560,95,476,59,402,37"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="307,41,282,65,262,94,255,117,252,141,253,190,261,232,270,263,265,264,256,234,248,190,247,141,250,116,258,92,278,61,304,37"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="358,38,412,91,409,95,354,42"/>
+</map>

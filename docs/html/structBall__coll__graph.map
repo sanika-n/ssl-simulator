@@ -1,0 +1,12 @@
+<map id="Ball&lt; Dim &gt;" name="Ball&lt; Dim &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="65,299,169,324"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,59,119,298,114,299,96,60"/>
+<area shape="rect" id="Node000004" href="$classVector3.html" title=" " alt="" coords="173,108,243,133"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="131,52,196,106,192,110,128,56"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="134,211,282,236"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,248,132,300,128,296,184,244"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="211,147,211,211,205,211,205,147"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="211,13,325,38"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="255,51,218,109,213,106,251,48"/>
+</map>

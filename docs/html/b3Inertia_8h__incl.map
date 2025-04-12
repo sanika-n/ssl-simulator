@@ -1,0 +1,12 @@
+<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/src/Bullet3Dynamics/shared/b3Inertia.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/src/Bullet3Dynamics/shared/b3Inertia.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,196,104"/>
+<area shape="rect" id="Node000002" href="$b3Mat3x3_8h.html" title=" " alt="" coords="13,152,188,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,105,103,138,98,138,98,105"/>
+<area shape="rect" id="Node000003" href="$b3Quat_8h.html" title=" " alt="" coords="13,240,188,280"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,192,103,226,98,226,98,192"/>
+<area shape="rect" id="Node000004" href="$b3PlatformDefinitions_8h.html" title=" " alt="" coords="11,416,191,456"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="89,281,76,303,66,329,63,348,66,367,82,403,77,406,61,369,57,348,61,327,71,301,84,279"/>
+<area shape="rect" id="Node000005" href="$b3Float4_8h.html" title=" " alt="" coords="76,328,251,368"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="117,279,144,315,139,318,112,282"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="152,370,125,406,120,403,147,367"/>
+</map>

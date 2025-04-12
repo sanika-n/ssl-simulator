@@ -10,10 +10,9 @@
 
 using namespace sslsim;
 /**
- * @brief Construct a new Drona::Drona object
- *
- * Creates a Dhanush object named sender
- * Creates a BotPacket array for blue bots
+ * @brief constructor for Drona class.
+ * creates a Dhanush sender object, that sends velocities.
+ * creates m_packet to send velocity commands
  * @param parent
  */
 
@@ -33,7 +32,7 @@ Drona::Drona(QObject* parent) : QObject(parent),
 #endif
 }
 /**
- * @brief setting blue bots and yellow bots as players
+ * @brief stores shared pointers to blue and yellow bots
  */
 void Drona::setPlayers(std::shared_ptr<std::vector<BlueBot>> pandav, std::shared_ptr<std::vector<YellowBot>> kaurav)
 {
@@ -42,7 +41,7 @@ void Drona::setPlayers(std::shared_ptr<std::vector<BlueBot>> pandav, std::shared
 }
 
 /**
- * @brief setting the ball */
+ * @brief stores shared pointers to the ball */
 void Drona::setBall(std::shared_ptr<Ball> ball)
 {
     this->ball = ball;
@@ -101,17 +100,17 @@ void Drona::moveToPosition(int id, float x, float y, int team, BotPacket *packet
  * Drona::send signal is recived by the slot Dhanush::send_velocity
  *
  */
-void Drona::handleState(QByteArray *buffer)
+void Drona::handleState(QByteArray //called when a new state is received. triggers bot movement.*buffer)
 {
-    // every time new position is received, recalculate velocity and send
-    // updated velocity, SEX.
 
+    //extracts all yellow bot positions
     static int counter = 0;
     std::vector<std::pair<double, double>> bot_pos;
     for(int i=0; i < kaurav->size(); ++i){
         bot_pos.push_back(make_pair(kaurav->at(i).getx(), kaurav->at(i).gety()));
     }
 
+    //plans new paths and has them drawn every 100 calls.
     std::pair<double, double> endpt;
     endpt.first = 0.0f;
     endpt.second = 100.0f;
@@ -132,7 +131,7 @@ void Drona::handleState(QByteArray *buffer)
         m_blue_packet[i].vel_y = 0.0f;
 
     }
-
+    //resetting yellow packets
     for(int i=0; i < YELLOW_BOTS; ++i){
         m_yellow_packet[i].id = i;
         m_yellow_packet[i].is_blue = false;
@@ -140,10 +139,12 @@ void Drona::handleState(QByteArray *buffer)
         m_yellow_packet[i].vel_y = 0.0f;
 
     }
+    //move the bots to predefined positions
     moveToPosition(10, ball->getPosition().x(), ball->getPosition().y(), Team::YELLOW, m_yellow_packet);
     // moveToPosition(0, ball->getPosition().x(), ball->getPosition().y(), Team::YELLOW, m_yellow_packet);
     // moveToPosition(0, ball->getPosition().x(), ball->getPosition().y(), Team::BLUE, m_blue_packet);
     // moveToPosition(1, ball->getPosition().x(), ball->getPosition().y(), Team::BLUE, m_blue_packet);
+    //send data
     emit send(m_blue_packet);
     emit send(m_yellow_packet);
 #else
@@ -157,6 +158,7 @@ void Drona::handleState(QByteArray *buffer)
         m_packet[i].vel_angular = 0.0f;
 
     }
+    //sends only yellow bots to predefined positions
     if(vertices.size() > 0)moveToPosition(kaurav->front().id, vertices.back().x(), vertices.back().y(), Team::YELLOW, m_packet);
     emit send(m_packet);
 #endif //SIMULATOR MODE
@@ -165,7 +167,7 @@ void Drona::handleState(QByteArray *buffer)
 
 
 /**
- * @brief destructor for Drona class
+ * @brief destructor for Drona class, disconnects the tread and cleans up
 
 */
 Drona::~Drona()

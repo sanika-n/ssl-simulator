@@ -2,23 +2,24 @@
 #include "ui_kuruk.h"
 /**
  * @brief Constructor for kuruk class.
+ * creates a window widget and displays GUI and all elements
  * @param parent
  */
 Kuruk::Kuruk(QWidget *parent)
     : QMainWindow{parent},
-    ui(new Ui::kuruk), //new ui element
-    vyasa(new Vyasa(this)), //new vyasa instance
-    shunya(new Shunya(this)),//new shunya instance
-    drona(new Drona(this)),//new drona instance
-    vishnu(new Vishnu(this)) //new vishnu instance
+    ui(new Ui::kuruk), ///new ui element
+    vyasa(new Vyasa(this)), ///new vyasa instance
+    shunya(new Shunya(this)),///new shunya instance
+    drona(new Drona(this)),///new drona instance
+    vishnu(new Vishnu(this)) ///new vishnu instance
 {
-    //initialising list of players and ball in ui
+    ///initialising list of players and ball in ui
     ui->setupUi(this);
     pandav = std::make_shared<std::vector<BlueBot>>();
     kaurav = std::make_shared<std::vector<YellowBot>>();
     ball = std::make_shared<Ball>(Qt::black, 5);
 
-    // giving ownership of players and ball to kshetra and drona
+    /// giving ownership of players and ball to kshetra and drona
     ui->kshetra->setPlayers(pandav, kaurav);
     ui->kshetra->setBall(ball);
     drona->setPlayers(pandav, kaurav);

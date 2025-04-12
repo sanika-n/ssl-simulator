@@ -57,15 +57,14 @@ constexpr const uint16_t SSL_AUTOREF_TO_GC_PORT = 10007;
  */
 constexpr const uint16_t SSL_TEAM_TO_GC_PORT = 10008;
 
-/* A SSL vision tracker (e.g an autoref) may publish tracked vision data on
+/* A SSL vision tracker may publish tracked vision data on
  * this address:port
  */
 constexpr const char* SSL_VISION_TRACKER_ADDRESS = "224.5.23.2";
 constexpr const char* SSL_VISION_TRACKER_ADDRESS_LOCALHOST = "127.0.0.1";
 constexpr const uint16_t SSL_VISION_TRACKER_PORT = 10010;
 
-/* A simulator will listen for simulation control commands (e.g ball
- * teleportation) on this port
+/* A simulator will listen for simulation control commands on this port
  */
 constexpr const uint16_t SSL_SIMULATION_CONTROL_PORT = 10300;
 

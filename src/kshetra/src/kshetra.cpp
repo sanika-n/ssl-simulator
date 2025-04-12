@@ -102,17 +102,7 @@ void Kshetra::handleGraph(std::vector<QPointF> *vertices){
     }
 }
 
-/**
- * @brief Draws field and ball as received from Vyasa
- *
- * @param buffer
- *
- * Called when Vyasa::receivedState signal is emitted
- *
- * Initializes ball if it doesn't exist, or updates position
- *
- * Sets scene if not set
- */
+
 void Kshetra::handleState(QByteArray *buffer)
 {
     static bool scene_set = false;

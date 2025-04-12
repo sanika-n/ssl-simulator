@@ -4,9 +4,9 @@
 #include <cmath>
 #include <QtMath>
 #include <QNetworkDatagram>
-#define LOG qDebug() << "[drona] : "
-#define BLUE_BOTS 6
-#define YELLOW_BOTS 6
+#define LOG qDebug() << "[drona] : "  //macro to format log messages
+#define BLUE_BOTS 6 //set number of blue bots
+#define YELLOW_BOTS 6 //set number of yellow bots
 
 using namespace sslsim;
 /**
@@ -20,9 +20,10 @@ using namespace sslsim;
 Drona::Drona(QObject* parent) : QObject(parent),
     sender(new Dhanush())
 {
+    //allocating a thread to sender
     sender->moveToThread(&sender_thread);
-    connect(this, &Drona::send, sender, &Dhanush::send_velocity);
-    // allocate the sender to a separate thread
+    connect(this, &Drona::send, sender, &Dhanush::send_velocity);//connecting the sender with drona and dhanush objects
+
     sender_thread.setObjectName("sender");
     sender_thread.start();
     m_packet = new BotPacket[BLUE_BOTS];
@@ -31,13 +32,17 @@ Drona::Drona(QObject* parent) : QObject(parent),
     m_yellow_packet = new BotPacket[YELLOW_BOTS];
 #endif
 }
-
+/**
+ * @brief setting blue bots and yellow bots as players
+ */
 void Drona::setPlayers(std::shared_ptr<std::vector<BlueBot>> pandav, std::shared_ptr<std::vector<YellowBot>> kaurav)
 {
     this->pandav = pandav;
     this->kaurav = kaurav;
 }
 
+/**
+ * @brief setting the ball */
 void Drona::setBall(std::shared_ptr<Ball> ball)
 {
     this->ball = ball;
@@ -49,13 +54,12 @@ void Drona::setBall(std::shared_ptr<Ball> ball)
  * @param id of the bot.
  * @param x
  * @param y
- *
- * relative_pos is error between bot coordinates and target (x,y) used for P-control.
- *
- * Call this in Drona::handleState
- *
+ * @param team - team colour
+ *Calculates the relative position of the bot wrt target position and user Proportional Control to change velocity.
  * @see https://doc.qt.io/qt-6/qgraphicsitem.html#mapToScene
  */
+
+
 void Drona::moveToPosition(int id, float x, float y, int team, BotPacket *packet)
 {
     // calculating the x and y velocities
@@ -67,13 +71,15 @@ void Drona::moveToPosition(int id, float x, float y, int team, BotPacket *packet
         relative_pos = kaurav->at(id).mapFromScene(x, y);
         packet[id].is_blue = false;
     }
+
     QPointF err = relative_pos;
-    float orientation_err = qAtan2(relative_pos.y(), relative_pos.x());
+    float orientation_err = qAtan2(relative_pos.y(), relative_pos.x());//calculating angle between position and target position using relative position
     orientation_err = relative_pos.y() > 0 ? fabs(orientation_err) : -fabs(orientation_err);
-    float dist_err = pow(err.x()*err.x() + err.y()*err.y(), 0.5);
-    float kp = 0.01;
-    float vel_for = dist_err*kp;
+    float dist_err = pow(err.x()*err.x() + err.y()*err.y(), 0.5);//relative distnace magnitude
+    float kp = 0.01; //kp for proportional tuning of velocity
+    float vel_for = dist_err*kp; //changing velocity gradually
     float vel_th = 2*orientation_err;
+    //adding all values to packets
     packet[id].vel_angular = vel_th;
     packet[id].vel_x = vel_for;
     packet[id].vel_y = 0.0f;
@@ -157,13 +163,19 @@ void Drona::handleState(QByteArray *buffer)
     counter++;
 }
 
+
+/**
+ * @brief destructor for Drona class
+
+*/
 Drona::~Drona()
 {
     delete sender;
     sender_thread.quit();
     sender_thread.wait();
 }
-
+/**
+ * @brief set hotmap function for hotmap logic */
 void HotMap::setHotMap(){
     for(auto i = 0; i < scene_mantri->size(); i++)
     {

@@ -4,43 +4,33 @@
 #include "VPoint.h"
 #include <iostream>
 
-/*
-	A class that stores an edge in Voronoi diagram
-
-	start		: pointer to start point
-	end			: pointer to end point
-	left		: pointer to Voronoi place on the left side of edge
-	right		: pointer to Voronoi place on the right side of edge
-
-	neighbour	: some edges consist of two parts, so we add the pointer to another part to connect them at the end of an algorithm
-
-	direction	: directional vector, from "start", points to "end", normal of |left, right|
-	f, g		: directional coeffitients satisfying equation y = f*x + g (edge lies on this line)
-*/
+/**
+ * @class VEdge
+ * @brief A class that stores an edge in the Voronoi diagram.
+ */
 
 class VEdge
 {
 public:
 
-	VPoint *	start; //passing address much easier than passing value
-	VPoint *	end;
-	VPoint *	direction;
-	VPoint *	left;
-	VPoint *	right;
+    //passing address much easier than passing value
+    VPoint *	start;  ///pointer to start point
+    VPoint *	end; ///pointer to end point
+    VPoint *	direction; /// Directional vector from start to end; normal of the line formed by |left, right|.
+    VPoint *	left; ///pointer to Voronoi place on the left side of edge
+    VPoint *	right; ///pointer to Voronoi place on the right side of edge
 	
-	double		f;
-	double		g;
+    double		f;	/// Directional slope of the edge (used in y = f*x + g).
+    double		g; 	/// Y-intercept of the edge (used in y = f*x + g).
 
-	VEdge * neighbour;
+    VEdge * neighbour; /// In case the edge has two parts, this pointer connects to the other part at the end of an algorithm.
 
-	/*
-		Constructor of the class
-
-		s		: pointer to start
-		a		: pointer to left place
-		b		: pointer to right place
-	*/
-
+    /**
+     * @brief Constructor of the VEdge class.
+     * @param s Pointer to the start point of the edge.
+     * @param a Pointer to the left Voronoi site.
+     * @param b Pointer to the right Voronoi site.
+     */
 	VEdge(VPoint * s, VPoint * a, VPoint * b)
 	{
 		start		= s;
@@ -54,11 +44,12 @@ public:
 		direction = new VPoint(b->y - a->y, -(b->x - a->x));
 	}
 
-	/*
-		Destructor of the class
-		direction belongs only to the current edge, other pointers can be shared by other edges
-	*/
-
+    /**
+     * @brief Destructor of the VEdge class.
+     *
+     * Deletes the direction vector, which is owned exclusively by this edge.
+     * Other pointers may be shared across multiple edges and are not deleted here.
+     */
 	~VEdge()
 	{
 		delete direction ;

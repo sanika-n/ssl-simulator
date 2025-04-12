@@ -4,9 +4,9 @@
 #include "VPoint.h"
 #include "VEdge.h"
 
-/*
-	Parabolas and events have pointers to each other, so we declare class VEvent, which will be defined later.
-*/
+/**
+ * @brief Parabolas and events have pointers to each other, so we declare class VEvent, which will be defined later.
+ */
 
 class VEvent;
 
@@ -34,10 +34,10 @@ public:
 	VEvent *	cEvent;
 	VParabola * parent;
 
-	/*
-		Constructors of the class (empty for edge, with focus parameter for an arch).
-	*/
-	
+    /**
+     * @brief Default constructor of the class (empty for edge, with focus parameter for an arch).
+     */
+
 	VParabola	();
 	VParabola	(VPoint * s);
 
@@ -51,16 +51,16 @@ public:
 	VParabola *	Left () { return _left;  }
 	VParabola * Right() { return _right; }
 
-	/*
-		Some useful tree operations
-
-		GetLeft			: returns the closest left leave of the tree
-		GetRight		: returns the closest right leafe of the tree
-		GetLeftParent	: returns the closest parent which is on the left
-		GetLeftParent	: returns the closest parent which is on the right
-		GetLeftChild	: returns the closest leave which is on the left of current node
-		GetRightChild	: returns the closest leave which is on the right of current node
-	*/
+    /**
+     * @brief Some useful tree operations:
+     *
+     * GetLeft           : Returns the closest left leaf of the tree.
+     * GetRight          : Returns the closest right leaf of the tree.
+     * GetLeftParent     : Returns the closest parent which is on the left.
+     * GetRightParent    : Returns the closest parent which is on the right.
+     * GetLeftChild      : Returns the closest leaf which is on the left of the current node.
+     * GetRightChild     : Returns the closest leaf which is on the right of the current node.
+     */
 
 	static VParabola * GetLeft			(VParabola * p);
 	static VParabola * GetRight			(VParabola * p);

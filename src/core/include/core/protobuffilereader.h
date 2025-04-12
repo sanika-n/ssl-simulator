@@ -18,26 +18,47 @@
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>. *
  ***************************************************************************/
 
-#ifndef PROTOBUFFILEREADER_H
-#define PROTOBUFFILEREADER_H
-
-#include <google/protobuf/message.h>
-#include <QDataStream>
-#include <QFile>
-
-class ProtobufFileReader : public QObject
-{
-public:
-    ProtobufFileReader();
-
-    bool open(QString filename, QString filePrefix);
-
-    // returns true if the message has be sucessfully parsed
-    bool readNext(google::protobuf::Message &message);
-
-private:
-    QFile m_file;
-    QDataStream m_stream;
-};
-
-#endif // PROTOBUFFILEREADER_H
+ #ifndef PROTOBUFFILEREADER_H
+ #define PROTOBUFFILEREADER_H
+ 
+ #include <google/protobuf/message.h>
+ #include <QDataStream>
+ #include <QFile>
+ 
+ /*!
+  * \class ProtobufFileReader
+  * \brief Reads protobuf-encoded messages from a file.
+  *
+  * This class reads serialized protobuf messages sequentially from a binary file
+  * written using QDataStream. It is primarily used for log replay or debugging.
+  */
+ class ProtobufFileReader : public QObject
+ {
+ public:
+     /*!
+      * \brief Constructs an empty ProtobufFileReader.
+      */
+     ProtobufFileReader();
+ 
+     /*!
+      * \brief Opens the file for reading.
+      * \param filename Path to the file.
+      * \param filePrefix Optional prefix to interpret within the stream (currently unused).
+      * \return True if the file was opened successfully.
+      */
+     bool open(QString filename, QString filePrefix);
+ 
+     /*!
+      * \brief Reads the next protobuf message from the stream.
+      * \param message A protobuf message object to populate.
+      * \return True if a message was successfully read and parsed.
+      */
+     bool readNext(google::protobuf::Message &message);
+ 
+ private:
+     QFile m_file;          //!< Input file stream
+     QDataStream m_stream;  //!< Qt data stream for reading binary data
+ };
+ 
+ #endif // PROTOBUFFILEREADER_H
+ 

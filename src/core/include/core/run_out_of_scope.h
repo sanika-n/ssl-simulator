@@ -18,27 +18,61 @@
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>. *
  ***************************************************************************/
 
-#ifndef RUN_WHEN_OUT_OF_SCOPE
-
-namespace core {
-    namespace internal {
-        template<class T>
-        class Runner{
-        public:
-            Runner(T lambda) : m_lambda(lambda) {}
-            ~Runner() {
-                m_lambda();
-            }
-        private:
-            T m_lambda;
-        };
-
-        template <class T>
-        Runner<T> make_runner(T t) {
-            return Runner<T>{t};
-        }
-    }
-}
-
-#define RUN_WHEN_OUT_OF_SCOPE(X) auto r{core::internal::make_runner([&]() X )}
-#endif
+ #ifndef RUN_WHEN_OUT_OF_SCOPE
+ #define RUN_WHEN_OUT_OF_SCOPE
+ 
+ namespace core {
+ namespace internal {
+ 
+ /*!
+  * \class Runner
+  * \brief Executes a lambda function when the object goes out of scope (RAII).
+  *
+  * This utility class stores a lambda and runs it in the destructor,
+  * allowing deferred or cleanup actions to be defined inline.
+  *
+  * \tparam T A callable type (e.g., lambda)
+  */
+ template<class T>
+ class Runner {
+ public:
+     /*!
+      * \brief Constructs the Runner with a lambda.
+      * \param lambda The function to run when this object is destroyed.
+      */
+     Runner(T lambda) : m_lambda(lambda) {}
+ 
+     /*!
+      * \brief Destructor: automatically calls the stored lambda.
+      */
+     ~Runner() {
+         m_lambda();
+     }
+ 
+ private:
+     T m_lambda; //!< Stored lambda function
+ };
+ 
+ /*!
+  * \brief Utility function to create a Runner object.
+  * \tparam T Type of the lambda/callable
+  * \param t The lambda function
+  * \return A Runner that will execute the lambda when destroyed
+  */
+ template <class T>
+ Runner<T> make_runner(T t) {
+     return Runner<T>{t};
+ }
+ 
+ } // namespace internal
+ } // namespace core
+ 
+ /*!
+  * \def RUN_WHEN_OUT_OF_SCOPE(X)
+  * \brief Executes the given block X when the current scope ends.
+  *
+  */
+ #define RUN_WHEN_OUT_OF_SCOPE(X) auto r{core::internal::make_runner([&]() X )}
+ 
+ #endif // RUN_WHEN_OUT_OF_SCOPE
+ 

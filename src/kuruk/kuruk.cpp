@@ -1,6 +1,15 @@
 #include "kuruk.h"
 #include "ui_kuruk.h"
 
+/**
+ * @class Kuruk
+ * @brief Main window class for the SSL simulator UI.
+ *
+ * This class sets up the main application window,
+ * initializes the components such as Vyasa, Shunya, Drona, and Vishnu
+ * and connects them through Qt signal-slot mechanism
+ *
+*/
 Kuruk::Kuruk(QWidget *parent)
     : QMainWindow{parent},
     ui(new Ui::kuruk),
@@ -10,28 +19,46 @@ Kuruk::Kuruk(QWidget *parent)
     vishnu(new Vishnu(this))
 {
     ui->setupUi(this);
+
+    //! Shared pointers to lists of bots
     pandav = std::make_shared<std::vector<BlueBot>>();
     kaurav = std::make_shared<std::vector<YellowBot>>();
+
+    //! Shared pointer to the ball
     ball = std::make_shared<Ball>(Qt::black, 5);
 
-    // giving ownership of players and ball to kshetra and drona
+    //! Giving ownership of players and ball to kshetra and drona
     ui->kshetra->setPlayers(pandav, kaurav);
     ui->kshetra->setBall(ball);
     drona->setPlayers(pandav, kaurav);
     drona->setBall(ball);
 
+    //! Connect Vyasa's state updates to Kshetra for visualization
     connect(vyasa, &Vyasa::recievedState, ui->kshetra, &Kshetra::handleState);
-    // voronoi graph
-    // connect(drona, &Drona::draw_graph, ui->kshetra, &Kshetra::handleGraph);
-    // make sure vyasa is connected to drona AFTER kshetra, since kshetra updates
-    // the bot position, and the new bot positions are used by drona
-    // forums online say not to rely on the ordering of slots but, idgaf
+    //! Uncomment to visualize Voronoi graph from Drona in Kshetra
+    //! connect(drona, &Drona::draw_graph, ui->kshetra, &Kshetra::handleGraph);
+
+
+    /** Connect Vyasa to Drona AFTER Kshetra, since Kshetra updates
+     *  the bot positions, and the new bot positions are used by Drona
+     *
+    */
     connect(vyasa, &Vyasa::recievedState, drona, &Drona::handleState);
+
+    //! Connect UI actions to Shunya and Kshetra slots
     connect(ui->actionreset, &QAction::triggered, shunya, &Shunya::setup);
     connect(ui->actionHotMap, &QAction::triggered, ui->kshetra, &Kshetra::viewHotMap);
     connect(ui->actionAttack, &QAction::triggered, shunya, &Shunya::attack_setup);
     connect(ui->actionDefense, &QAction::triggered, shunya, &Shunya::defense_setup);
 }
+
+/**
+ * @brief Destructor for Kuruk.
+ *
+ * Deallocate all dynamically allocated memory and do cleanup for
+ * UI and strategy modules and clears pointers.
+ *
+ * */
 
 
 Kuruk::~Kuruk(){

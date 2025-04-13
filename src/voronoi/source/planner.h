@@ -14,6 +14,10 @@
 #include "Voronoi.h"
 #include "VPoint.h"
 
+/**
+ * @brief Plans a path for a bot using Voronoi-based path planning.
+ */
+
 std::vector<QPointF> plan_path(std::vector<std::pair<double, double>> bot_pos, std::pair<double, double> endpt, int target_id);
 
 #endif //Planner

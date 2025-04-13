@@ -55,6 +55,12 @@ void Graph::display(){
     }
 }
 
+/**
+ * @brief Finds the nearest vertex to a given point (x, y).
+ * @param x X-coordinate of the point.
+ * @param y Y-coordinate of the point.
+ * @return The ID of the nearest vertex.
+ */
 int Graph::getNearestVertex(double x, double y){
     int minind = 0;
     double minval = dist(make_pair(x, y), getVertexById(vertices[0]));
@@ -69,6 +75,16 @@ int Graph::getNearestVertex(double x, double y){
 }
 
 
+/**
+ * @brief Determines the best path endpoints between two sets of vertices based on the shortest path.
+ * @param startVertices A pair of starting vertex IDs.
+ * @param endVertices A pair of ending vertex IDs.
+ * @param startx X-coordinate of the starting point.
+ * @param starty Y-coordinate of the starting point.
+ * @param endx X-coordinate of the ending point.
+ * @param endy Y-coordinate of the ending point.
+ * @return A pair of vertex IDs representing the optimal path endpoints.
+ */
 pair<int, int> Graph::getPathEndpoints(pair<int, int> startVertices, pair<int, int> endVertices, double startx, double starty, double endx, double endy){
     pair<double, double> A = make_pair(startx, starty);
     pair<double, double> B = make_pair((*idmap[startVertices.first]).x, (*idmap[startVertices.first]).y);
@@ -106,6 +122,7 @@ pair<double, double> Graph::getVertexById(int id){
     return make_pair((*idmap[id]).x, (*idmap[id]).y);
 }
 
+//similar to Dijkstra
 vector<int> Graph::shortestPath(int start, int end){
     map<int, double> d;
     for(int v :vertices){

@@ -1,0 +1,14 @@
+<map id="gameController::GameEvent_KeeperHeldBallDefaultTypeInternal" name="gameController::GameEvent_KeeperHeldBallDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,401,263,441"/>
+<area shape="rect" id="Node000002" href="$classgameController_1_1GameEvent__KeeperHeldBall.html" title=" " alt="" coords="31,299,237,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,353,137,401,131,401,131,353"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="22,5,203,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,59,135,298,130,299,112,60"/>
+<area shape="rect" id="Node000005" href="$classgameController_1_1Vector2.html" title=" " alt="" coords="164,108,344,133"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="154,51,238,106,235,110,151,55"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="151,196,357,236"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="222,247,158,301,155,297,219,243"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="257,147,257,196,251,196,251,147"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="228,5,408,45"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="299,58,264,109,260,106,295,55"/>
+</map>

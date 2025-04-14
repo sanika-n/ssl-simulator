@@ -1,0 +1,14 @@
+<map id="Eigen::BiCGSTAB&lt; _MatrixType, _Preconditioner &gt;" name="Eigen::BiCGSTAB&lt; _MatrixType, _Preconditioner &gt;">
+<area shape="rect" id="Node000001" title="A bi conjugate gradient stabilized solver for sparse square problems." alt="" coords="877,13,1072,53"/>
+<area shape="rect" id="Node000002" href="$classEigen_1_1IterativeSolverBase.html" title=" " alt="" coords="628,5,828,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="842,39,877,39,877,44,842,44"/>
+<area shape="poly" id="edge7_Node000001_Node000002" title=" " alt="" coords="842,21,877,21,877,27,842,26"/>
+<area shape="rect" id="Node000003" href="$classEigen_1_1SparseSolverBase.html" title="A base class for sparse solvers." alt="" coords="270,13,453,53"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="467,38,628,38,628,43,467,44"/>
+<area shape="poly" id="edge5_Node000002_Node000003" title=" " alt="" coords="467,22,628,22,628,27,467,27"/>
+<area shape="rect" id="Node000004" href="$classEigen_1_1internal_1_1noncopyable.html" title=" " alt="" coords="5,20,212,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="226,39,270,39,270,44,226,44"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="226,21,270,21,270,27,226,26"/>
+<area shape="rect" id="Node000005" href="$structEigen_1_1internal_1_1traits_3_01BiCGSTAB_3_01__MatrixType_00_01__Preconditioner_01_4_01_4.html" title=" " alt="" coords="261,77,461,132"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="475,80,627,50,628,55,476,85"/>
+</map>

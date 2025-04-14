@@ -1,0 +1,12 @@
+<map id="robot::Spline" name="robot::Spline">
+<area shape="rect" id="Node000001" title=" " alt="" coords="65,313,169,339"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,59,119,313,114,313,96,59"/>
+<area shape="rect" id="Node000004" href="$classrobot_1_1Polynomial.html" title=" " alt="" coords="139,108,277,133"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="131,52,196,106,192,110,128,56"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="134,225,282,251"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,262,132,315,128,311,184,258"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="211,147,211,225,205,225,205,147"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="211,5,357,45"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="262,57,220,109,216,106,258,54"/>
+</map>

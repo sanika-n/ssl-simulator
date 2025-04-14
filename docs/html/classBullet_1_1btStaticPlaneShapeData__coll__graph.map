@@ -1,0 +1,7 @@
+<map id="Bullet::btStaticPlaneShapeData" name="Bullet::btStaticPlaneShapeData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="109,108,334,133"/>
+<area shape="rect" id="Node000002" href="$classBullet_1_1btCollisionShapeData.html" title=" " alt="" coords="5,5,213,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,41,139,62,158,82,195,105,192,110,154,86,135,66,120,44"/>
+<area shape="rect" id="Node000003" href="$classBullet_1_1btVector3FloatData.html" title=" " alt="" coords="237,5,432,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="331,45,322,66,307,86,288,100,266,110,264,106,285,96,303,82,317,64,326,43"/>
+</map>

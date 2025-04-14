@@ -1,0 +1,14 @@
+<map id="timeline::GameEventDefaultTypeInternal" name="timeline::GameEventDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="13,387,221,427"/>
+<area shape="rect" id="Node000002" href="$classtimeline_1_1GameEvent.html" title=" " alt="" coords="37,299,197,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,338,120,386,115,386,115,338"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,59,119,298,114,299,96,60"/>
+<area shape="rect" id="Node000005" href="$classtimeline_1_1FrameDescriptor.html" title=" " alt="" coords="133,108,325,133"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="136,51,214,106,211,110,132,55"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="141,196,301,236"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="192,247,132,300,129,296,188,243"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="230,147,226,196,220,196,225,147"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="211,5,403,45"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="284,57,241,109,237,106,280,54"/>
+</map>

@@ -1,0 +1,23 @@
+<map id="Bullet3SerializeBullet2::b3GImpactMeshShapeData" name="Bullet3SerializeBullet2::b3GImpactMeshShapeData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1099,63,1305,103"/>
+<area shape="rect" id="Node000002" href="$classBullet3SerializeBullet2_1_1b3CollisionShapeData.html" title=" " alt="" coords="705,5,878,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="892,36,1075,61,1099,65,1098,70,1074,67,892,41"/>
+<area shape="rect" id="Node000003" href="$classBullet3SerializeBullet2_1_1b3StridingMeshInterfaceData.html" title=" " alt="" coords="681,120,901,160"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="915,132,994,125,1074,113,1133,100,1134,105,1075,119,994,130,915,137"/>
+<area shape="rect" id="Node000004" href="$classBullet3SerializeBullet2_1_1b3MeshPartData.html" title=" " alt="" coords="352,241,523,281"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="508,234,731,158,733,163,510,239"/>
+<area shape="rect" id="Node000005" href="$classBullet3SerializeBullet2_1_1b3Vector3FloatData.html" title=" " alt="" coords="22,113,193,153"/>
+<area shape="poly" id="edge11_Node000001_Node000005" title=" " alt="" coords="206,117,233,115,476,99,718,89,1098,81,1099,86,718,94,477,104,234,120,206,123"/>
+<area shape="poly" id="edge10_Node000003_Node000005" title=" " alt="" coords="206,132,681,136,681,142,206,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="198,155,263,175,329,200,404,239,402,244,327,205,261,180,197,160"/>
+<area shape="rect" id="Node000006" href="$classBullet3SerializeBullet2_1_1b3Vector3DoubleData.html" title=" " alt="" coords="21,177,193,217"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="207,214,352,242,351,247,206,219"/>
+<area shape="rect" id="Node000007" href="$classBullet3SerializeBullet2_1_1b3IntIndexData.html" title=" " alt="" coords="22,241,193,281"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="206,259,352,259,352,264,206,264"/>
+<area shape="rect" id="Node000008" href="$classBullet3SerializeBullet2_1_1b3ShortIntIndexTripletData.html" title=" " alt="" coords="5,305,209,345"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="223,300,351,275,352,280,224,306"/>
+<area shape="rect" id="Node000009" href="$classBullet3SerializeBullet2_1_1b3CharIndexTripletData.html" title=" " alt="" coords="16,369,199,409"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="200,363,263,343,327,319,403,279,405,284,329,324,265,348,201,368"/>
+<area shape="rect" id="Node000010" href="$classBullet3SerializeBullet2_1_1b3ShortIntIndexData.html" title=" " alt="" coords="22,433,193,473"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="205,428,267,405,327,374,355,352,381,326,420,280,424,283,384,330,358,356,329,378,269,410,207,433"/>
+</map>

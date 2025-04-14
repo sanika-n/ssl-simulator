@@ -1,0 +1,27 @@
+<map id="Gwen::Controls::ImagePanel" name="Gwen::Controls::ImagePanel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="997,221,1203,247"/>
+<area shape="rect" id="Node000002" href="$classGwen_1_1Controls_1_1Base.html" title=" " alt="" coords="616,152,777,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="785,177,1026,219,1025,224,785,182"/>
+<area shape="poly" id="edge5_Node000002_Node000002" title=" " alt="" coords="665,137,675,129,697,125,715,128,726,134,729,144,724,153,719,151,724,143,722,137,713,133,697,131,677,134,669,141"/>
+<area shape="rect" id="Node000009" href="$structGwen_1_1DragAndDrop_1_1Package.html" title=" " alt="" coords="1019,99,1181,139"/>
+<area shape="poly" id="edge10_Node000009_Node000002" title=" " alt="" coords="790,147,801,146,1018,123,1019,129,802,151,791,153"/>
+<area shape="rect" id="Node000003" href="$classGwen_1_1Event_1_1Handler.html" title=" " alt="" coords="291,5,453,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="467,11,531,19,563,28,593,41,627,65,655,96,691,150,686,153,651,99,623,69,591,46,561,33,530,24,467,17"/>
+<area shape="rect" id="Node000004" href="$structGwen_1_1Rect.html" title=" " alt="" coords="324,69,420,95"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="434,84,511,94,593,113,637,130,675,150,672,154,635,135,591,118,510,99,434,89"/>
+<area shape="rect" id="Node000005" href="$classGwen_1_1Event_1_1Caller.html" title=" " alt="" coords="297,129,447,155"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="461,146,616,156,616,162,461,151"/>
+<area shape="rect" id="Node000006" href="$classGwen_1_1Skin_1_1Base.html" title=" " alt="" coords="305,179,439,204"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="453,185,592,175,616,173,616,178,592,181,453,190"/>
+<area shape="rect" id="Node000007" href="$classGwen_1_1Renderer_1_1Base.html" title=" " alt="" coords="5,179,172,204"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="186,189,304,189,304,194,186,194"/>
+<area shape="rect" id="Node000008" href="$structGwen_1_1Margin.html" title=" " alt="" coords="316,235,428,260"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="442,244,515,236,591,219,638,199,676,175,679,180,640,203,593,225,515,242,442,249"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="1041,147,974,166,872,175,777,174,778,169,872,170,973,161,1040,142"/>
+<area shape="rect" id="Node000010" href="$structGwen_1_1Point.html" title=" " alt="" coords="647,20,747,45"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="761,43,1019,99,1018,105,759,49"/>
+<area shape="rect" id="Node000011" href="$structGwen_1_1Texture.html" title=" " alt="" coords="639,257,754,283"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="768,261,973,243,997,241,997,246,974,249,768,267"/>
+<area shape="rect" id="Node000012" href="$classGwen_1_1TextObject.html" title=" " alt="" coords="304,284,440,309"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="454,295,521,294,592,289,643,280,644,285,592,294,521,299,454,301"/>
+</map>

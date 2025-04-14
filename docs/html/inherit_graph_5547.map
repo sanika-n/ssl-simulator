@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classtesting_1_1TestPartResultReporterInterface.html" title=" " alt="" coords="5,117,228,157"/>
+<area shape="rect" id="Node000001" href="$classtesting_1_1ScopedFakeTestPartResultReporter.html" title=" " alt="" coords="289,5,491,45"/>
+<area shape="poly" id="edge1668_Node000000_Node000001" title=" " alt="" coords="163,108,216,81,275,55,310,43,311,48,277,60,219,86,166,113"/>
+<area shape="rect" id="Node000002" href="$classtesting_1_1internal_1_1DefaultGlobalTestPartResultReporter.html" title=" " alt="" coords="288,70,492,125"/>
+<area shape="poly" id="edge1669_Node000000_Node000002" title=" " alt="" coords="241,116,287,110,288,115,242,122"/>
+<area shape="rect" id="Node000003" href="$classtesting_1_1internal_1_1DefaultPerThreadTestPartResultReporter.html" title=" " alt="" coords="276,149,504,203"/>
+<area shape="poly" id="edge1670_Node000000_Node000003" title=" " alt="" coords="242,152,276,157,275,162,241,158"/>
+<area shape="rect" id="Node000004" href="$classtesting_1_1internal_1_1HasNewFatalFailureHelper.html" title=" " alt="" coords="293,228,487,268"/>
+<area shape="poly" id="edge1671_Node000000_Node000004" title=" " alt="" coords="168,162,277,212,315,225,313,230,275,217,166,166"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="Eigen::SparseMatrix&lt; _Scalar, _Options, _StorageIndex &gt;" name="Eigen::SparseMatrix&lt; _Scalar, _Options, _StorageIndex &gt;">
+<area shape="rect" id="Node000001" title="A versatible sparse matrix representation." alt="" coords="840,5,993,60"/>
+<area shape="rect" id="Node000002" href="$classEigen_1_1SparseCompressedBase.html" title=" " alt="" coords="509,5,732,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="746,39,840,38,840,43,746,44"/>
+<area shape="poly" id="edge6_Node000001_Node000002" title=" " alt="" coords="746,21,840,22,840,27,746,26"/>
+<area shape="rect" id="Node000003" href="$classEigen_1_1SparseMatrixBase.html" title="Base class of any sparse matrices or sparse expressions." alt="" coords="269,13,453,53"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="467,39,509,39,509,44,467,44"/>
+<area shape="poly" id="edge5_Node000002_Node000003" title=" " alt="" coords="467,21,509,21,509,26,467,26"/>
+<area shape="rect" id="Node000004" href="$structEigen_1_1EigenBase.html" title=" " alt="" coords="5,20,220,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="234,39,269,39,269,44,234,44"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="234,21,269,21,269,27,234,26"/>
+<area shape="rect" id="Node000005" href="$classEigen_1_1internal_1_1CompressedStorage.html" title=" " alt="" coords="503,85,739,125"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="716,79,839,49,840,54,718,84"/>
+</map>

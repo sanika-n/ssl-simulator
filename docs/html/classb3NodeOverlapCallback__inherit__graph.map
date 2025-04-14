@@ -1,0 +1,5 @@
+<map id="b3NodeOverlapCallback" name="b3NodeOverlapCallback">
+<area shape="rect" id="Node000001" title="b3BvhSubtreeInfo provides info to gather a subtree of limited size" alt="" coords="5,5,184,31"/>
+<area shape="rect" id="Node000002" href="$structMyTriangleCallback.html" title=" " alt="" coords="20,79,169,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,44,97,79,92,79,92,44"/>
+</map>

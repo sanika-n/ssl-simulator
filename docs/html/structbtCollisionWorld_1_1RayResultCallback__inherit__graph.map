@@ -1,0 +1,11 @@
+<map id="btCollisionWorld::RayResultCallback" name="btCollisionWorld::RayResultCallback">
+<area shape="rect" id="Node000001" title="RayResultCallback is used to report new raycast results." alt="" coords="5,37,208,77"/>
+<area shape="rect" id="Node000002" href="$structbtCollisionWorld_1_1AllHitsRayResultCallback.html" title=" " alt="" coords="259,5,437,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,48,261,43,262,48,222,54"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="206,33,258,26,259,31,207,38"/>
+<area shape="rect" id="Node000003" href="$structbtCollisionWorld_1_1ClosestRayResultCallback.html" title=" " alt="" coords="256,69,440,109"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="207,77,256,83,255,89,206,82"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="222,61,262,67,261,72,221,66"/>
+<area shape="rect" id="Node000004" href="$classbtKinematicClosestNotMeRayResultCallback.html" title=" " alt="" coords="488,69,705,109"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="454,87,488,87,488,92,454,92"/>
+</map>

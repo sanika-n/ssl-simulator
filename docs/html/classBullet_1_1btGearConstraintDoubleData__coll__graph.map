@@ -1,0 +1,22 @@
+<map id="Bullet::btGearConstraintDoubleData" name="Bullet::btGearConstraintDoubleData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="674,728,853,768"/>
+<area shape="rect" id="Node000002" href="$classBullet_1_1btTypedConstraintDoubleData.html" title=" " alt="" coords="537,625,724,665"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="666,672,705,702,738,726,735,730,702,706,663,676"/>
+<area shape="rect" id="Node000003" href="$classBullet_1_1btRigidBodyDoubleData.html" title=" " alt="" coords="374,523,598,548"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="514,554,607,623,603,627,511,558"/>
+<area shape="rect" id="Node000004" href="$classBullet_1_1btCollisionObjectDoubleData.html" title=" " alt="" coords="366,420,545,460"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="469,472,485,521,480,523,464,474"/>
+<area shape="rect" id="Node000005" href="$classBullet_1_1btCollisionShapeData.html" title=" " alt="" coords="428,264,636,289"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="523,303,467,421,462,418,518,301"/>
+<area shape="rect" id="Node000006" href="$classBullet_1_1btTransformDoubleData.html" title=" " alt="" coords="96,264,319,289"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="202,303,196,349,200,373,211,394,234,409,272,420,366,432,365,438,271,425,232,414,207,398,195,375,191,349,197,302"/>
+<area shape="rect" id="Node000007" href="$classBullet_1_1btMatrix3x3DoubleData.html" title=" " alt="" coords="20,93,244,119"/>
+<area shape="poly" id="edge10_Node000003_Node000007" title=" " alt="" coords="113,131,71,182,49,215,30,250,15,288,9,325,12,361,29,394,53,416,91,437,139,456,193,473,309,501,413,520,412,525,308,506,192,478,137,461,89,442,50,421,24,398,7,363,3,325,10,286,25,248,45,212,67,179,109,127"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="145,130,205,263,200,265,140,132"/>
+<area shape="rect" id="Node000008" href="$classBullet_1_1btVector3DoubleData.html" title=" " alt="" coords="287,5,494,31"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="508,26,626,38,745,55,838,76,866,89,874,96,877,104,877,647,874,679,858,706,842,720,824,730,822,726,839,715,854,702,869,677,872,647,872,105,870,99,863,94,836,81,744,60,625,43,508,31"/>
+<area shape="poly" id="edge11_Node000003_Node000008" title=" " alt="" coords="508,29,570,40,627,56,669,77,682,90,686,104,686,441,684,458,678,473,657,497,626,514,592,525,590,520,624,509,653,493,674,471,679,457,681,441,681,105,677,92,666,81,625,61,569,45,507,34"/>
+<area shape="poly" id="edge9_Node000004_Node000008" title=" " alt="" coords="392,44,395,173,403,257,418,342,432,384,448,419,443,421,427,386,413,343,398,258,390,173,387,44"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="367,41,339,66,312,95,280,142,251,191,215,265,210,263,247,188,275,139,308,92,335,62,363,37"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="313,36,237,57,191,76,153,96,151,91,189,71,235,52,312,31"/>
+</map>

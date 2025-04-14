@@ -1,0 +1,7 @@
+<map id="Protocol" name="Protocol">
+<area shape="rect" id="Node000001" title=" " alt="" coords="145,108,220,133"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,53,174,106,170,109,121,57"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="211,13,330,38"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="252,50,195,110,192,106,249,46"/>
+</map>

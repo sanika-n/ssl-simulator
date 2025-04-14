@@ -1,0 +1,9 @@
+<map id="TKey" name="TKey">
+<area shape="rect" id="Node000001" title=" " alt="" coords="14,93,69,119"/>
+<area shape="rect" id="Node000002" href="$structNode.html" title=" " alt="" coords="36,181,92,207"/>
+<area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="18,130,9,143,11,156,22,170,37,180,34,184,18,174,6,158,4,142,13,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,168,42,120,47,118,60,167"/>
+<area shape="rect" id="Node000003" href="$structlua__TValue.html" title=" " alt="" coords="33,5,127,31"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="72,44,49,94,44,92,67,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,43,97,54,109,86,109,113,96,158,80,182,75,179,91,156,104,112,104,87,92,55,89,44"/>
+</map>

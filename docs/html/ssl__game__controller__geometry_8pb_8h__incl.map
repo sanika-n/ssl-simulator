@@ -1,0 +1,31 @@
+<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/src/protobuf/ssl_game_controller_geometry.pb.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/src/protobuf/ssl_game_controller_geometry.pb.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1023,5,1214,75"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,130,64,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1023,47,806,56,533,72,268,95,159,109,77,125,70,127,68,122,75,120,158,104,267,90,533,67,806,51,1023,42"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="88,130,147,155"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1023,48,822,58,573,74,333,97,234,110,159,125,153,127,151,122,158,120,233,105,332,92,573,69,822,53,1023,43"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="171,123,325,163"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1023,51,722,77,533,99,339,125,338,120,532,93,722,72,1023,45"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="349,123,504,163"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1023,55,797,83,518,125,517,120,796,78,1023,49"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="528,123,669,163"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1023,61,683,125,682,120,1022,55"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="693,130,872,155"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1024,72,835,129,834,123,1023,67"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="897,130,1111,155"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1082,77,1030,122,1026,118,1078,73"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1136,123,1331,163"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1159,73,1203,111,1199,115,1156,77"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1355,123,1547,163"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1215,68,1376,116,1374,121,1213,73"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1571,123,1765,163"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1215,56,1558,119,1557,124,1214,61"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1789,130,1989,155"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1215,49,1469,79,1778,120,1811,125,1810,130,1777,125,1469,84,1214,55"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="2013,123,2200,163"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1215,45,1557,72,1776,93,2000,120,1999,125,1775,99,1557,77,1214,50"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="2225,123,2418,163"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="1214,43,1642,68,1923,90,2211,120,2211,125,1922,95,1642,73,1214,48"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="2442,123,2630,163"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="1214,41,1430,48,1729,62,2074,85,2429,120,2428,125,2074,91,1729,68,1429,53,1214,46"/>
+</map>

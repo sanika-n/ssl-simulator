@@ -1,0 +1,14 @@
+<map id="ssl::PoseDefaultTypeInternal" name="ssl::PoseDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="14,372,221,397"/>
+<area shape="rect" id="Node000002" href="$classssl_1_1Pose.html" title=" " alt="" coords="78,284,157,309"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,323,120,371,115,371,115,323"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,59,119,284,114,284,96,59"/>
+<area shape="rect" id="Node000005" href="$classssl_1_1Location.html" title=" " alt="" coords="143,108,246,133"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="128,53,184,106,180,110,124,57"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="133,196,256,221"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="177,234,130,285,126,282,173,230"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="197,147,197,195,192,195,192,147"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="211,13,357,38"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="265,50,208,110,204,106,262,46"/>
+</map>

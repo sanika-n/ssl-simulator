@@ -1,0 +1,47 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$structbtCollisionAlgorithmCreateFunc.html" title="Used by the btCollisionDispatcher to register and create instances for btCollisionAlgorithm." alt="" coords="5,671,233,696"/>
+<area shape="rect" id="Node000001" href="$structCreateFunc.html" title=" " alt="" coords="357,5,451,31"/>
+<area shape="poly" id="edge92_Node000000_Node000001" title=" " alt="" coords="121,657,138,527,170,342,192,247,217,160,246,89,262,62,280,41,297,29,316,21,356,14,357,19,317,26,299,34,283,45,267,65,251,92,222,162,197,248,175,343,143,528,126,658"/>
+<area shape="rect" id="Node000002" href="$structbtBox2dBox2dCollisionAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="285,55,523,95"/>
+<area shape="poly" id="edge93_Node000000_Node000002" title=" " alt="" coords="122,656,142,538,176,373,198,289,222,212,250,148,279,105,295,93,298,98,283,109,254,151,227,213,203,290,181,374,147,539,127,657"/>
+<area shape="rect" id="Node000003" href="$structbtBoxBoxCollisionAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="301,119,507,159"/>
+<area shape="poly" id="edge94_Node000000_Node000003" title=" " alt="" coords="118,657,123,564,131,502,145,433,165,362,193,292,231,227,280,169,299,155,303,159,283,173,235,230,198,294,170,364,150,434,137,503,129,565,123,657"/>
+<area shape="rect" id="Node000004" href="$structbtCompoundCollisionAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="291,183,517,223"/>
+<area shape="poly" id="edge95_Node000000_Node000004" title=" " alt="" coords="119,657,128,575,138,520,153,461,173,399,201,339,236,282,280,233,296,221,299,226,283,237,240,286,205,341,178,401,158,462,143,521,134,576,125,657"/>
+<area shape="rect" id="Node000005" href="$structbtCompoundCollisionAlgorithm_1_1SwappedCreateFunc.html" title=" " alt="" coords="291,247,517,287"/>
+<area shape="poly" id="edge96_Node000000_Node000005" title=" " alt="" coords="121,657,134,585,161,488,182,436,208,386,241,338,280,297,297,285,300,290,283,301,245,342,213,388,187,438,166,490,139,586,126,658"/>
+<area shape="rect" id="Node000006" href="$structbtCompoundCompoundCollisionAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="289,311,519,351"/>
+<area shape="poly" id="edge97_Node000000_Node000006" title=" " alt="" coords="123,657,140,596,170,516,191,474,216,433,245,394,280,361,298,349,301,354,283,365,249,398,220,436,195,476,175,518,145,598,129,658"/>
+<area shape="rect" id="Node000007" href="$structbtCompoundCompoundCollisionAlgorithm_1_1SwappedCreateFunc.html" title=" " alt="" coords="289,375,519,415"/>
+<area shape="poly" id="edge98_Node000000_Node000007" title=" " alt="" coords="127,656,147,607,179,544,223,480,250,451,280,425,300,413,303,418,283,430,254,454,227,483,184,547,152,609,132,658"/>
+<area shape="rect" id="Node000008" href="$structbtConvex2dConvex2dAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="289,439,519,479"/>
+<area shape="poly" id="edge99_Node000000_Node000008" title=" " alt="" coords="132,657,156,619,189,574,231,528,280,489,303,477,306,482,283,494,235,532,193,577,160,622,137,660"/>
+<area shape="rect" id="Node000009" href="$structbtConvexConcaveCollisionAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="306,503,502,543"/>
+<area shape="poly" id="edge100_Node000000_Node000009" title=" " alt="" coords="141,659,200,606,239,577,280,553,309,541,311,546,283,558,242,582,204,610,144,663"/>
+<area shape="rect" id="Node000010" href="$structbtConvexConcaveCollisionAlgorithm_1_1SwappedCreateFunc.html" title=" " alt="" coords="291,567,517,607"/>
+<area shape="poly" id="edge101_Node000000_Node000010" title=" " alt="" coords="161,663,280,617,320,605,321,610,282,622,163,668"/>
+<area shape="rect" id="Node000011" href="$structbtConvexConvexAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="305,631,503,671"/>
+<area shape="poly" id="edge102_Node000000_Node000011" title=" " alt="" coords="246,666,305,660,305,665,246,672"/>
+<area shape="rect" id="Node000012" href="$structbtConvexConvexMprAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="293,695,515,735"/>
+<area shape="poly" id="edge103_Node000000_Node000012" title=" " alt="" coords="246,695,293,700,292,705,246,700"/>
+<area shape="rect" id="Node000013" href="$structbtConvexPlaneCollisionAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="284,759,524,799"/>
+<area shape="poly" id="edge104_Node000000_Node000013" title=" " alt="" coords="163,699,282,745,321,757,320,762,280,750,161,704"/>
+<area shape="rect" id="Node000014" href="$structbtEmptyAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="293,824,515,849"/>
+<area shape="poly" id="edge105_Node000000_Node000014" title=" " alt="" coords="144,704,203,758,241,786,282,809,318,821,316,827,280,814,238,790,200,762,140,708"/>
+<area shape="rect" id="Node000015" href="$structbtGImpactCollisionAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="299,874,509,914"/>
+<area shape="poly" id="edge106_Node000000_Node000015" title=" " alt="" coords="138,706,163,741,196,782,236,823,283,858,310,871,307,876,280,863,233,827,192,785,158,744,134,709"/>
+<area shape="rect" id="Node000016" href="$structbtSoftBodyConcaveCollisionAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="301,938,507,978"/>
+<area shape="poly" id="edge107_Node000000_Node000016" title=" " alt="" coords="133,708,154,755,186,814,229,873,255,900,283,924,303,936,301,940,280,928,251,904,225,877,181,816,149,757,128,710"/>
+<area shape="rect" id="Node000017" href="$structbtSoftBodyConcaveCollisionAlgorithm_1_1SwappedCreateFunc.html" title=" " alt="" coords="291,1002,517,1042"/>
+<area shape="poly" id="edge108_Node000000_Node000017" title=" " alt="" coords="129,709,146,767,177,843,197,882,222,921,250,957,283,988,302,1000,299,1004,280,992,246,961,217,924,193,885,172,845,141,768,124,710"/>
+<area shape="rect" id="Node000018" href="$structbtSoftRigidCollisionAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="297,1066,511,1106"/>
+<area shape="poly" id="edge109_Node000000_Node000018" title=" " alt="" coords="127,709,140,778,168,871,189,920,214,969,246,1013,283,1052,300,1064,297,1068,280,1056,241,1017,210,971,184,923,163,873,135,779,122,710"/>
+<area shape="rect" id="Node000019" href="$structbtSoftSoftCollisionAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="301,1130,507,1170"/>
+<area shape="poly" id="edge110_Node000000_Node000019" title=" " alt="" coords="125,710,135,789,145,842,160,899,180,958,207,1016,241,1069,283,1116,303,1130,300,1134,280,1120,237,1073,202,1018,175,960,155,901,140,843,130,790,120,710"/>
+<area shape="rect" id="Node000020" href="$structbtSphereBoxCollisionAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="291,1194,517,1234"/>
+<area shape="poly" id="edge111_Node000000_Node000020" title=" " alt="" coords="124,710,130,799,138,860,152,926,172,995,200,1063,236,1125,283,1180,299,1192,295,1196,280,1184,232,1128,195,1065,167,997,147,928,133,861,124,800,118,710"/>
+<area shape="rect" id="Node000021" href="$structbtSphereSphereCollisionAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="281,1258,527,1298"/>
+<area shape="poly" id="edge112_Node000000_Node000021" title=" " alt="" coords="122,710,125,809,132,878,144,953,164,1032,192,1109,232,1181,256,1214,283,1244,298,1256,295,1260,280,1248,252,1217,227,1184,187,1111,158,1033,139,954,126,878,120,810,117,710"/>
+<area shape="rect" id="Node000022" href="$structbtSphereTriangleCollisionAlgorithm_1_1CreateFunc.html" title=" " alt="" coords="311,1322,497,1362"/>
+<area shape="poly" id="edge113_Node000000_Node000022" title=" " alt="" coords="127,710,145,837,178,1017,199,1109,224,1193,252,1262,267,1288,283,1308,312,1327,309,1331,280,1312,263,1291,248,1265,219,1195,194,1111,172,1018,139,838,121,711"/>
+</map>

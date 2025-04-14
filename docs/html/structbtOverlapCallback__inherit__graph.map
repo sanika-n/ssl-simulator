@@ -1,0 +1,9 @@
+<map id="btOverlapCallback" name="btOverlapCallback">
+<area shape="rect" id="Node000001" title=" " alt="" coords="225,5,368,31"/>
+<area shape="rect" id="Node000002" href="$classCheckOverlapCallback.html" title=" " alt="" coords="5,79,175,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,38,124,81,123,76,250,33"/>
+<area shape="rect" id="Node000003" href="$classRemovingOverlapCallback.html" title=" " alt="" coords="199,79,394,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="299,44,299,79,294,79,294,44"/>
+<area shape="rect" id="Node000004" href="$classbtCollisionPairCallback.html" title=" " alt="" coords="418,79,589,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="344,33,471,76,469,81,342,38"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="btConvexHullInternal::Face" name="btConvexHullInternal::Face">
+<area shape="rect" id="Node000001" title=" " alt="" coords="293,152,453,192"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="468,162,476,165,480,172,472,181,454,185,453,180,469,176,475,172,473,169,466,166"/>
+<area shape="rect" id="Node000002" href="$classbtConvexHullInternal_1_1Vertex.html" title=" " alt="" coords="177,269,337,309"/>
+<area shape="poly" id="edge8_Node000002_Node000001" title=" " alt="" coords="283,195,268,205,256,217,250,229,249,242,253,269,248,269,243,242,245,228,251,215,264,201,280,190"/>
+<area shape="rect" id="Node000003" href="$classbtConvexHullInternal_1_1Edge.html" title=" " alt="" coords="252,374,412,414"/>
+<area shape="poly" id="edge7_Node000003_Node000001" title=" " alt="" coords="458,198,474,215,479,230,474,246,452,287,422,323,390,353,362,376,358,372,387,349,418,320,448,284,470,244,474,230,470,217,455,201"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="343,261,362,244,372,219,373,192,378,193,377,220,366,247,347,264"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="352,280,364,289,356,298,338,301,337,296,354,293,359,290,349,285"/>
+<area shape="poly" id="edge6_Node000003_Node000002" title=" " alt="" coords="292,317,305,332,327,372,322,375,300,335,288,321"/>
+<area shape="poly" id="edge4_Node000002_Node000003" title=" " alt="" coords="273,368,256,349,250,329,251,309,256,310,256,328,261,347,277,364"/>
+<area shape="poly" id="edge5_Node000003_Node000003" title=" " alt="" coords="427,385,439,394,431,402,413,406,412,401,428,398,433,394,424,389"/>
+<area shape="rect" id="Node000004" href="$classbtConvexHullInternal_1_1PointR128.html" title=" " alt="" coords="5,152,165,192"/>
+<area shape="poly" id="edge9_Node000002_Node000004" title=" " alt="" coords="102,203,117,224,135,243,156,257,179,267,177,272,153,261,132,247,112,228,98,206"/>
+<area shape="rect" id="Node000005" href="$classbtConvexHullInternal_1_1Int128.html" title=" " alt="" coords="5,5,165,45"/>
+<area shape="poly" id="edge10_Node000004_Node000005" title=" " alt="" coords="88,59,88,152,83,152,83,59"/>
+<area shape="rect" id="Node000006" href="$classbtConvexHullInternal_1_1Point32.html" title=" " alt="" coords="241,5,401,45"/>
+<area shape="poly" id="edge12_Node000001_Node000006" title=" " alt="" coords="335,57,369,151,364,153,330,59"/>
+<area shape="poly" id="edge11_Node000002_Node000006" title=" " alt="" coords="299,58,270,101,247,153,237,198,243,245,250,268,245,270,237,246,232,198,241,151,266,99,295,55"/>
+</map>

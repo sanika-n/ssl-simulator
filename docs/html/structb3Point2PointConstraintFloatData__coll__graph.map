@@ -1,0 +1,7 @@
+<map id="b3Point2PointConstraintFloatData" name="b3Point2PointConstraintFloatData">
+<area shape="rect" id="Node000001" title="point to point constraint between two rigidbodies each with a pivotpoint that descibes the &#39;ballsocke..." alt="" coords="65,108,307,133"/>
+<area shape="rect" id="Node000002" href="$structb3TypedConstraintData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="5,5,180,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,44,93,64,100,82,114,96,133,106,130,110,111,100,96,86,87,65,86,45"/>
+<area shape="rect" id="Node000003" href="$structb3Vector3FloatData.html" title=" " alt="" coords="204,5,355,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="275,45,266,66,252,86,235,100,217,110,214,106,232,95,248,82,261,63,270,43"/>
+</map>

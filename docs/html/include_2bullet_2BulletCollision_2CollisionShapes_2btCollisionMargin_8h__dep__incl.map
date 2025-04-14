@@ -1,0 +1,56 @@
+<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/CollisionShapes/btCollisionMargin.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/CollisionShapes/btCollisionMargin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="2000,5,2259,89"/>
+<area shape="rect" id="Node000002" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btBoxShape_8h.html" title=" " alt="" coords="1883,541,2106,625"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2096,102,2078,138,2045,250,2021,362,2007,464,2000,540,1995,540,2002,463,2016,362,2039,248,2074,136,2091,100"/>
+<area shape="rect" id="Node000007" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btCompoundShape_8h.html" title=" " alt="" coords="2231,269,2499,353"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="2273,83,2311,105,2342,136,2360,167,2369,202,2373,238,2373,269,2367,269,2368,238,2364,203,2355,169,2338,139,2307,109,2270,87"/>
+<area shape="rect" id="Node000008" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btConvexShape_8h.html" title=" " alt="" coords="1190,137,1437,221"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="1987,74,1438,161,1437,156,1986,69"/>
+<area shape="rect" id="Node000021" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btEmptyShape_8h.html" title=" " alt="" coords="2088,137,2328,221"/>
+<area shape="poly" id="edge32_Node000001_Node000021" title=" " alt="" coords="2164,100,2185,136,2181,138,2159,103"/>
+<area shape="rect" id="Node000003" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btCylinderShape_8h.html" title=" " alt="" coords="1419,680,1671,764"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1880,632,1871,635,1672,692,1671,687,1870,629,1878,627"/>
+<area shape="rect" id="Node000004" href="$include_2bullet_2btBulletCollisionCommon_8h.html" title=" " alt="" coords="937,812,1162,896"/>
+<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="1930,635,1818,705,1752,739,1684,767,1616,787,1546,805,1405,830,1274,845,1162,852,1162,847,1273,840,1405,825,1545,799,1615,782,1682,761,1750,734,1815,700,1927,630"/>
+<area shape="rect" id="Node000006" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btTriangleShape_8h.html" title=" " alt="" coords="1889,680,2138,764"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="2005,638,2010,679,2005,680,1999,639"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1406,762,1163,826,1161,821,1405,757"/>
+<area shape="rect" id="Node000005" href="$include_2bullet_2btBulletDynamicsCommon_8h.html" title=" " alt="" coords="932,944,1167,1028"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1052,910,1052,944,1047,944,1047,910"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="2367,367,2359,457,2350,510,2336,567,2317,623,2290,676,2256,725,2214,766,2191,778,2155,788,2053,806,1917,821,1760,832,1431,847,1162,854,1162,848,1431,842,1760,827,1916,815,2052,801,2154,783,2189,773,2210,762,2252,721,2286,674,2312,621,2331,565,2345,509,2354,456,2362,367"/>
+<area shape="poly" id="edge29_Node000008_Node000006" title=" " alt="" coords="1451,193,1527,206,1613,226,1705,253,1799,288,1892,332,1978,387,2018,418,2056,453,2090,491,2120,532,2133,558,2136,582,2131,606,2120,633,2103,660,2081,682,2077,678,2099,656,2115,631,2126,604,2131,581,2127,559,2115,535,2085,494,2052,457,2015,422,1975,391,1889,337,1797,292,1704,258,1612,231,1526,212,1450,198"/>
+<area shape="rect" id="Node000009" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btConvexInternalShape_8h.html" title=" " alt="" coords="587,269,885,353"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="1177,214,885,279,884,274,1176,209"/>
+<area shape="rect" id="Node000020" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btUniformScalingShape_8h.html" title=" " alt="" coords="5,680,304,764"/>
+<area shape="poly" id="edge30_Node000008_Node000020" title=" " alt="" coords="1176,190,929,210,785,226,638,248,498,276,374,311,321,331,275,353,238,377,210,403,188,435,172,470,161,508,154,546,149,619,152,679,147,680,144,619,149,545,156,506,167,468,184,432,206,400,234,373,272,348,319,326,372,306,497,271,637,243,784,221,929,204,1176,185"/>
+<area shape="rect" id="Node000010" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btCapsuleShape_8h.html" title=" " alt="" coords="379,680,629,764"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="583,362,558,381,538,403,519,436,505,472,497,509,492,548,492,620,499,680,493,680,487,621,487,547,491,508,500,470,514,433,534,400,555,377,580,358"/>
+<area shape="rect" id="Node000011" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btConeShape_8h.html" title=" " alt="" coords="654,680,885,764"/>
+<area shape="poly" id="edge13_Node000009_Node000011" title=" " alt="" coords="616,363,595,381,578,403,549,463,541,491,538,517,541,544,548,571,578,630,589,642,607,654,655,678,653,682,604,659,586,646,574,634,543,573,535,545,533,517,536,490,544,462,574,400,591,378,612,359"/>
+<area shape="rect" id="Node000012" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btMinkowskiSumShape_8h.html" title=" " alt="" coords="588,401,884,485"/>
+<area shape="poly" id="edge15_Node000009_Node000012" title=" " alt="" coords="739,367,739,401,733,401,733,367"/>
+<area shape="rect" id="Node000013" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btMultiSphereShape_8h.html" title=" " alt="" coords="909,401,1185,485"/>
+<area shape="poly" id="edge16_Node000009_Node000013" title=" " alt="" coords="848,356,950,399,948,404,845,361"/>
+<area shape="rect" id="Node000014" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btPolyhedralConvexShape_8h.html" title=" " alt="" coords="1223,401,1539,485"/>
+<area shape="poly" id="edge18_Node000009_Node000014" title=" " alt="" coords="899,340,1197,399,1224,404,1223,410,1195,404,898,346"/>
+<area shape="rect" id="Node000019" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btSphereShape_8h.html" title=" " alt="" coords="220,401,463,485"/>
+<area shape="poly" id="edge27_Node000009_Node000019" title=" " alt="" coords="600,360,464,405,462,400,598,355"/>
+<area shape="poly" id="edge12_Node000010_Node000004" title=" " alt="" coords="643,762,800,799,937,828,936,833,799,804,642,767"/>
+<area shape="poly" id="edge14_Node000011_Node000004" title=" " alt="" coords="871,767,962,809,960,814,869,772"/>
+<area shape="poly" id="edge17_Node000013_Node000004" title=" " alt="" coords="896,488,826,494,746,500,674,512,647,521,629,535,603,570,588,598,583,619,587,634,598,645,616,653,667,660,797,660,855,663,879,669,898,678,916,698,924,718,930,740,943,762,993,810,989,814,939,766,925,742,919,720,912,700,894,682,877,674,854,669,796,665,667,666,614,658,595,650,582,637,578,619,583,596,598,567,625,531,644,517,673,506,745,495,826,489,895,482"/>
+<area shape="poly" id="edge19_Node000014_Node000002" title=" " alt="" coords="1553,465,1709,492,1871,531,1895,538,1893,543,1870,536,1708,498,1552,470"/>
+<area shape="rect" id="Node000015" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btConvexHullShape_8h.html" title=" " alt="" coords="938,541,1211,625"/>
+<area shape="poly" id="edge20_Node000014_Node000015" title=" " alt="" coords="1278,494,1167,543,1165,538,1276,489"/>
+<area shape="rect" id="Node000016" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btConvexPointCloudShape_8h.html" title=" " alt="" coords="1236,541,1553,625"/>
+<area shape="poly" id="edge22_Node000014_Node000016" title=" " alt="" coords="1389,499,1393,540,1388,541,1384,499"/>
+<area shape="rect" id="Node000017" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btConvexTriangleMeshShape_8h.html" title=" " alt="" coords="1578,533,1859,632"/>
+<area shape="poly" id="edge23_Node000014_Node000017" title=" " alt="" coords="1496,488,1601,531,1599,536,1494,493"/>
+<area shape="rect" id="Node000018" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btTetrahedronShape_8h.html" title=" " alt="" coords="639,541,913,625"/>
+<area shape="poly" id="edge25_Node000014_Node000018" title=" " alt="" coords="1210,485,1196,488,1061,510,1001,519,926,536,899,543,898,538,925,531,1000,514,1060,505,1196,483,1209,480"/>
+<area shape="poly" id="edge21_Node000015_Node000004" title=" " alt="" coords="1072,639,1056,812,1051,812,1067,638"/>
+<area shape="poly" id="edge24_Node000017_Node000004" title=" " alt="" coords="1566,635,1484,657,1408,682,1256,749,1126,814,1124,810,1254,744,1406,678,1482,652,1564,630"/>
+<area shape="poly" id="edge26_Node000018_Node000004" title=" " alt="" coords="878,630,912,652,943,678,972,710,996,745,1033,810,1029,813,992,748,967,713,939,682,909,656,875,634"/>
+<area shape="poly" id="edge28_Node000019_Node000004" title=" " alt="" coords="330,499,320,560,319,631,323,667,333,702,347,734,368,762,396,776,447,789,597,813,776,831,937,843,936,848,775,836,597,818,446,795,394,781,365,766,343,737,328,704,318,668,314,632,315,560,325,498"/>
+<area shape="poly" id="edge31_Node000020_Node000004" title=" " alt="" coords="318,760,323,761,490,788,657,811,936,840,936,846,656,816,489,794,322,767,317,766"/>
+<area shape="poly" id="edge33_Node000021_Node000004" title=" " alt="" coords="2206,235,2199,331,2196,442,2196,584,2198,639,2197,685,2193,706,2185,726,2171,746,2151,766,2130,778,2097,788,2002,806,1875,821,1728,832,1418,847,1162,854,1162,848,1418,841,1727,827,1874,815,2001,801,2096,783,2128,773,2148,762,2167,743,2180,724,2188,705,2192,685,2193,639,2191,584,2191,442,2194,331,2201,235"/>
+</map>

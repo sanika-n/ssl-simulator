@@ -1,0 +1,20 @@
+<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/CollisionShapes/btConvexShape.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/CollisionShapes/btConvexShape.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="346,5,593,89"/>
+<area shape="rect" id="Node000002" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btCollisionShape_8h.html" title=" " alt="" coords="343,137,486,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="449,91,430,127,425,124,445,88"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,218,195,243"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="387,92,137,214,134,210,385,87"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="219,218,392,243"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="387,92,358,113,334,139,318,171,310,205,305,203,313,170,330,136,355,109,384,87"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="659,218,850,243"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="492,88,518,126,552,161,580,178,611,192,673,212,671,217,609,197,578,183,549,165,514,130,488,91"/>
+<area shape="rect" id="Node000007" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btCollisionMargin_8h.html" title=" " alt="" coords="562,137,710,163"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="538,87,607,128,604,133,536,92"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="734,137,965,163"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="593,79,794,131,792,136,592,84"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="370,165,160,217,158,212,368,160"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="400,165,334,212,331,208,397,161"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="465,160,693,212,692,218,464,165"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="416,211,635,251"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="433,161,489,201,486,205,429,165"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="Eigen::BlockImpl&lt; const SparseMatrix&lt; _Scalar, _Options, _StorageIndex &gt;, BlockRows, BlockCols, true, Sparse &gt;" name="Eigen::BlockImpl&lt; const SparseMatrix&lt; _Scalar, _Options, _StorageIndex &gt;, BlockRows, BlockCols, true, Sparse &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1019,5,1211,89"/>
+<area shape="rect" id="Node000002" href="$classEigen_1_1internal_1_1sparse__matrix__block__impl.html" title=" " alt="" coords="771,5,971,89"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="984,54,1019,53,1019,59,984,59"/>
+<area shape="poly" id="edge8_Node000001_Node000002" title=" " alt="" coords="984,36,1019,36,1019,41,984,41"/>
+<area shape="rect" id="Node000003" href="$classEigen_1_1SparseCompressedBase.html" title="Common base class for sparse [compressed]&#45;{row|column}&#45;storage format." alt="" coords="500,27,723,67"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="736,54,770,53,770,59,736,59"/>
+<area shape="poly" id="edge7_Node000002_Node000003" title=" " alt="" coords="736,36,770,36,770,41,736,41"/>
+<area shape="rect" id="Node000004" href="$classEigen_1_1SparseMatrixBase.html" title="Base class of any sparse matrices or sparse expressions." alt="" coords="268,27,452,67"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="466,54,500,54,500,59,466,59"/>
+<area shape="poly" id="edge6_Node000003_Node000004" title=" " alt="" coords="466,36,500,36,500,41,466,41"/>
+<area shape="rect" id="Node000005" href="$structEigen_1_1EigenBase.html" title=" " alt="" coords="5,35,220,60"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="234,54,268,53,268,59,234,59"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="234,36,268,36,268,41,234,41"/>
+</map>

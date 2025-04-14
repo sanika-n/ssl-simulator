@@ -1,0 +1,17 @@
+<map id="src/core/include/core/timer.h" name="src/core/include/core/timer.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="505,5,661,45"/>
+<area shape="rect" id="Node000002" href="$moc__timer_8cpp.html" title=" " alt="" coords="5,93,220,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="492,45,369,67,233,96,221,99,220,94,232,91,368,62,491,39"/>
+<area shape="rect" id="Node000004" href="$fastsimulator_8h.html" title=" " alt="" coords="244,108,485,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="531,54,407,110,405,106,529,49"/>
+<area shape="rect" id="Node000006" href="$amun_2simulator_2simulator_8cpp.html" title=" " alt="" coords="509,108,657,148"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="586,59,586,108,581,108,581,59"/>
+<area shape="rect" id="Node000007" href="$timer_8cpp.html" title=" " alt="" coords="682,115,821,141"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="628,50,733,113,731,117,625,55"/>
+<area shape="rect" id="Node000008" href="$simulator_2simulator_8cpp.html" title=" " alt="" coords="845,115,1044,141"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="669,46,833,91,908,113,907,118,832,96,668,51"/>
+<area shape="rect" id="Node000003" href="$core_2core__autogen_2mocs__compilation_8cpp.html" title=" " alt="" coords="17,211,208,280"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,177,115,210,110,210,110,177"/>
+<area shape="rect" id="Node000005" href="$fastsimulator_8cpp.html" title=" " alt="" coords="291,225,439,265"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="367,162,367,225,362,225,362,162"/>
+</map>

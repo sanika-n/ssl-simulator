@@ -1,0 +1,12 @@
+<map id="btCompoundCompoundCollisionAlgorithm" name="btCompoundCompoundCollisionAlgorithm">
+<area shape="rect" id="Node000001" title="btCompoundCompoundCollisionAlgorithm supports collision between two btCompoundCollisionShape shapes" alt="" coords="5,225,236,265"/>
+<area shape="rect" id="Node000002" href="$classbtCompoundCollisionAlgorithm.html" title="btCompoundCollisionAlgorithm supports collision between CompoundCollisionShapes and other collision s..." alt="" coords="8,152,233,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,191,116,225,110,225,110,191"/>
+<area shape="poly" id="edge6_Node000001_Node000002" title=" " alt="" coords="132,191,131,225,126,225,126,191"/>
+<area shape="rect" id="Node000003" href="$classbtActivatingCollisionAlgorithm.html" title="This class is not enabled yet (work&#45;in&#45;progress) to more aggressively activate objects." alt="" coords="10,79,231,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,118,116,152,111,152,109,118"/>
+<area shape="poly" id="edge5_Node000002_Node000003" title=" " alt="" coords="132,118,130,152,125,152,127,118"/>
+<area shape="rect" id="Node000004" href="$classbtCollisionAlgorithm.html" title=" " alt="" coords="43,5,198,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="115,44,116,78,111,79,109,45"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="132,45,130,79,125,78,127,44"/>
+</map>

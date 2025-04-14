@@ -1,0 +1,14 @@
+<map id="pathfinding::RectObstacleDefaultTypeInternal" name="pathfinding::RectObstacleDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="23,401,212,441"/>
+<area shape="rect" id="Node000002" href="$classpathfinding_1_1RectObstacle.html" title=" " alt="" coords="23,313,212,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,352,120,401,115,401,115,352"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,59,119,313,114,313,96,59"/>
+<area shape="rect" id="Node000005" href="$classpathfinding_1_1Vector.html" title=" " alt="" coords="156,108,300,133"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="135,51,213,106,210,110,132,55"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="133,211,323,251"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="197,262,133,315,130,311,193,258"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="231,147,231,210,225,210,225,147"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="211,5,355,45"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="267,59,237,109,233,106,262,56"/>
+</map>

@@ -1,0 +1,43 @@
+<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/Extras/HACD/hacdGraph.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/Extras/HACD/hacdGraph.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="489,5,679,89"/>
+<area shape="rect" id="Node000002" href="$hacdVersion_8h.html" title=" " alt="" coords="410,431,523,456"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="489,60,344,79,264,94,186,112,116,133,59,159,37,173,21,189,11,205,8,222,8,298,12,327,23,347,42,364,68,380,93,392,128,402,215,418,311,429,396,435,396,441,310,434,214,423,126,407,91,397,65,385,39,368,19,350,7,328,3,298,3,222,6,203,17,185,34,169,56,154,114,128,185,106,263,88,343,74,488,55"/>
+<area shape="rect" id="Node000003" href="$hacdVector_8h.html" title=" " alt="" coords="237,284,342,309"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="502,92,418,144,376,176,338,212,316,242,301,273,296,270,312,240,334,209,372,172,415,140,499,87"/>
+<area shape="rect" id="Node000007" href="$hacdICHull_8h.html" title=" " alt="" coords="465,137,569,163"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="559,91,535,127,530,124,555,88"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="791,284,833,309"/>
+<area shape="poly" id="edge26_Node000001_Node000013" title=" " alt="" coords="638,87,700,142,762,209,802,270,797,273,758,212,696,146,634,91"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="610,211,673,236"/>
+<area shape="poly" id="edge25_Node000001_Node000014" title=" " alt="" coords="600,89,636,197,631,199,595,91"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="697,211,748,236"/>
+<area shape="poly" id="edge24_Node000001_Node000015" title=" " alt="" coords="619,88,707,198,703,202,615,91"/>
+<area shape="poly" id="edge5_Node000003_Node000002" title=" " alt="" coords="237,304,174,312,114,327,91,337,78,350,74,364,83,381,104,396,134,409,217,426,311,435,396,439,396,444,310,441,216,431,132,414,101,401,79,384,69,364,73,347,89,333,112,322,173,307,236,299"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="94,357,162,383"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="264,312,168,354,166,349,262,307"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="324,357,404,383"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="303,307,344,346,340,350,299,311"/>
+<area shape="rect" id="Node000006" href="$hacdVector_8inl.html" title=" " alt="" coords="186,357,299,383"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="284,311,260,347,256,344,279,308"/>
+<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="481,165,446,183,430,196,418,212,408,238,404,266,406,295,412,323,432,376,454,418,449,420,427,379,406,325,400,295,399,266,403,237,414,209,427,193,443,179,478,160"/>
+<area shape="poly" id="edge21_Node000007_Node000003" title=" " alt="" coords="478,165,427,185,373,213,337,243,309,275,305,271,334,239,371,208,425,180,477,160"/>
+<area shape="rect" id="Node000008" href="$hacdManifoldMesh_8h.html" title=" " alt="" coords="428,211,585,236"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="518,163,513,198,508,197,513,163"/>
+<area shape="poly" id="edge22_Node000007_Node000014" title=" " alt="" coords="539,160,611,201,608,206,536,165"/>
+<area shape="poly" id="edge23_Node000007_Node000015" title=" " alt="" coords="551,160,685,206,683,211,549,165"/>
+<area shape="poly" id="edge12_Node000008_Node000002" title=" " alt="" coords="507,237,474,418,469,417,502,236"/>
+<area shape="poly" id="edge19_Node000008_Node000003" title=" " alt="" coords="473,239,338,282,337,277,471,233"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="497,238,387,349,383,346,493,235"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="530,284,603,309"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="519,235,550,272,546,275,515,238"/>
+<area shape="rect" id="Node000010" href="$hacdCircularList_8h.html" title=" " alt="" coords="628,284,767,309"/>
+<area shape="poly" id="edge13_Node000008_Node000010" title=" " alt="" coords="538,234,654,276,652,281,536,239"/>
+<area shape="poly" id="edge20_Node000008_Node000013" title=" " alt="" coords="569,233,663,253,778,281,777,287,662,258,568,239"/>
+<area shape="poly" id="edge15_Node000010_Node000002" title=" " alt="" coords="667,312,620,332,569,360,526,392,490,423,486,419,523,387,567,355,618,327,665,307"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="673,431,743,456"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="711,308,727,329,741,357,743,374,741,391,727,420,722,418,736,389,738,373,736,358,723,332,707,311"/>
+<area shape="rect" id="Node000012" href="$hacdCircularList_8inl.html" title=" " alt="" coords="580,357,727,383"/>
+<area shape="poly" id="edge16_Node000010_Node000012" title=" " alt="" coords="692,311,670,347,665,344,688,308"/>
+<area shape="poly" id="edge18_Node000012_Node000002" title=" " alt="" coords="624,385,511,428,509,423,622,380"/>
+<area shape="poly" id="edge17_Node000012_Node000011" title=" " alt="" coords="664,381,693,418,689,421,660,385"/>
+</map>

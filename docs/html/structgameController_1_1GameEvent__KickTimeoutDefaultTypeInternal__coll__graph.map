@@ -1,0 +1,14 @@
+<map id="gameController::GameEvent_KickTimeoutDefaultTypeInternal" name="gameController::GameEvent_KickTimeoutDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,401,244,441"/>
+<area shape="rect" id="Node000002" href="$classgameController_1_1GameEvent__KickTimeout.html" title=" " alt="" coords="21,299,228,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,353,127,401,122,401,122,353"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="13,5,194,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="108,59,126,298,121,299,103,60"/>
+<area shape="rect" id="Node000005" href="$classgameController_1_1Vector2.html" title=" " alt="" coords="155,108,335,133"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="145,51,229,106,226,110,142,55"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="141,196,348,236"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="213,247,149,301,145,297,210,243"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="247,147,247,196,242,196,242,147"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="219,5,399,45"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="290,58,255,109,251,106,286,55"/>
+</map>

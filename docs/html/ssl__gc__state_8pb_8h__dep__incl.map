@@ -1,0 +1,14 @@
+<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/src/protobuf/ssl_gc_state.pb.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/src/protobuf/ssl_gc_state.pb.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="157,5,377,60"/>
+<area shape="rect" id="Node000002" href="$ssl__gc__api_8pb_8h.html" title=" " alt="" coords="9,211,215,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,69,161,87,140,110,127,134,119,161,114,211,108,210,113,160,122,132,135,106,157,83,183,64"/>
+<area shape="rect" id="Node000004" href="$ssl__gc__change_8pb_8h.html" title=" " alt="" coords="149,108,384,163"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="269,74,269,108,264,108,264,74"/>
+<area shape="rect" id="Node000006" href="$ssl__gc__state_8pb_8cc.html" title=" " alt="" coords="408,108,635,163"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="347,62,456,105,454,110,345,67"/>
+<area shape="rect" id="Node000003" href="$ssl__gc__api_8pb_8cc.html" title=" " alt="" coords="5,313,219,368"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,279,115,313,109,313,109,279"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="216,172,154,213,151,208,213,168"/>
+<area shape="rect" id="Node000005" href="$ssl__gc__change_8pb_8cc.html" title=" " alt="" coords="240,211,480,265"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="303,171,338,209,334,212,299,175"/>
+</map>

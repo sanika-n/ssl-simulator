@@ -1,0 +1,12 @@
+<map id="pathfinding::MovingCircleObstacle" name="pathfinding::MovingCircleObstacle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="23,328,211,368"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,59,119,328,113,328,96,59"/>
+<area shape="rect" id="Node000004" href="$classpathfinding_1_1Vector.html" title=" " alt="" coords="156,108,300,133"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="135,51,213,106,210,110,132,55"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="134,225,322,265"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,276,140,330,136,326,195,272"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="231,147,231,225,225,225,225,147"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="211,5,355,45"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="267,59,237,109,233,106,262,56"/>
+</map>

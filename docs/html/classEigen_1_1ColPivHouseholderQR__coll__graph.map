@@ -1,0 +1,30 @@
+<map id="Eigen::ColPivHouseholderQR&lt; _MatrixType &gt;" name="Eigen::ColPivHouseholderQR&lt; _MatrixType &gt;">
+<area shape="rect" id="Node000001" title="Householder rank&#45;revealing QR decomposition of a matrix with column&#45;pivoting." alt="" coords="1033,197,1223,237"/>
+<area shape="rect" id="Node000002" href="$classEigen_1_1SolverBase.html" title=" " alt="" coords="626,5,794,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="808,54,908,81,961,99,1011,122,1062,158,1102,195,1099,199,1058,162,1008,127,959,104,907,86,807,60"/>
+<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="808,34,908,57,961,75,1011,98,1044,120,1074,146,1118,195,1114,198,1070,150,1041,124,1008,103,959,80,907,62,807,39"/>
+<area shape="rect" id="Node000003" href="$structEigen_1_1EigenBase.html" title=" " alt="" coords="297,20,511,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="525,39,626,38,626,43,525,44"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="525,21,626,22,626,27,525,27"/>
+<area shape="rect" id="Node000004" href="$structEigen_1_1internal_1_1plain__diag__type.html" title=" " alt="" coords="613,85,807,125"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="822,123,914,143,1010,169,1080,194,1078,199,1009,174,913,148,820,128"/>
+<area shape="rect" id="Node000005" href="$classEigen_1_1PermutationMatrix.html" title=" " alt="" coords="588,149,832,204"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="846,187,1033,205,1033,210,845,192"/>
+<area shape="rect" id="Node000006" href="$classEigen_1_1PermutationBase.html" title=" " alt="" coords="269,142,539,211"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="552,183,588,183,588,188,552,188"/>
+<area shape="poly" id="edge10_Node000005_Node000006" title=" " alt="" coords="552,165,588,165,588,170,552,170"/>
+<area shape="rect" id="Node000007" href="$structEigen_1_1EigenBase.html" title=" " alt="" coords="5,164,220,189"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="234,183,269,183,269,188,234,188"/>
+<area shape="poly" id="edge9_Node000006_Node000007" title=" " alt="" coords="234,165,269,165,269,170,234,170"/>
+<area shape="rect" id="Node000008" href="$structEigen_1_1internal_1_1plain__row__type.html" title=" " alt="" coords="620,228,800,283"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="814,249,1009,234,1033,231,1034,236,1010,239,814,254"/>
+<area shape="rect" id="Node000009" href="$structEigen_1_1internal_1_1plain__row__type.html" title=" " alt="" coords="615,307,805,347"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="818,310,912,293,1008,267,1087,234,1089,239,1010,273,913,298,819,316"/>
+<area shape="rect" id="Node000010" href="$structEigen_1_1internal_1_1plain__row__type.html" title=" " alt="" coords="620,372,800,427"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="813,393,861,386,911,376,961,361,1008,340,1041,317,1070,289,1112,235,1116,239,1074,292,1044,321,1011,344,963,366,912,381,862,392,814,398"/>
+<area shape="rect" id="Node000011" href="$structEigen_1_1NumTraits.html" title=" " alt="" coords="609,451,811,476"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="825,469,871,467,919,459,965,445,1008,422,1031,403,1052,380,1084,328,1106,277,1119,236,1124,238,1111,279,1089,331,1056,384,1035,407,1011,427,967,450,920,464,872,472,825,475"/>
+<area shape="rect" id="Node000012" href="$structEigen_1_1GenericNumTraits.html" title=" " alt="" coords="294,451,514,476"/>
+<area shape="poly" id="edge15_Node000011_Node000012" title=" " alt="" coords="528,470,609,469,609,475,528,475"/>
+<area shape="poly" id="edge16_Node000011_Node000012" title=" " alt="" coords="528,452,609,452,609,457,528,457"/>
+</map>

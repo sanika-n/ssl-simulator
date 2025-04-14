@@ -1,0 +1,12 @@
+<map id="world::SimulatorState" name="world::SimulatorState">
+<area shape="rect" id="Node000001" title=" " alt="" coords="36,299,199,324"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,59,119,298,114,299,96,60"/>
+<area shape="rect" id="Node000004" href="$classworld_1_1SimBall.html" title=" " alt="" coords="157,108,273,133"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="132,52,201,106,198,110,129,56"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="133,196,296,236"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,247,131,300,128,296,183,243"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="217,147,217,196,212,196,212,147"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="211,13,371,38"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="275,50,226,110,222,106,271,47"/>
+</map>

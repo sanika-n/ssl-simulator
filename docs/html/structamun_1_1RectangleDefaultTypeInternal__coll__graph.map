@@ -1,0 +1,14 @@
+<map id="amun::RectangleDefaultTypeInternal" name="amun::RectangleDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="12,387,223,427"/>
+<area shape="rect" id="Node000002" href="$classamun_1_1Rectangle.html" title=" " alt="" coords="51,299,183,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,338,120,386,115,386,115,338"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,59,119,298,114,299,96,60"/>
+<area shape="rect" id="Node000005" href="$classamun_1_1Point.html" title=" " alt="" coords="171,108,271,133"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="134,52,207,106,204,110,131,56"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="133,211,309,236"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="199,247,133,300,130,296,195,243"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="224,147,224,211,219,211,219,147"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="211,13,355,38"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="270,51,231,109,227,106,265,48"/>
+</map>

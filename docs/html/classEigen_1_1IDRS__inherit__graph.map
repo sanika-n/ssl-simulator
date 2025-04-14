@@ -1,0 +1,12 @@
+<map id="Eigen::IDRS&lt; _MatrixType, _Preconditioner &gt;" name="Eigen::IDRS&lt; _MatrixType, _Preconditioner &gt;">
+<area shape="rect" id="Node000001" title="The Induced Dimension Reduction method (IDR(s)) is a short&#45;recurrences Krylov method for sparse squar..." alt="" coords="59,255,253,295"/>
+<area shape="rect" id="Node000002" href="$classEigen_1_1IterativeSolverBase.html" title=" " alt="" coords="5,167,307,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,220,151,254,146,255,145,220"/>
+<area shape="poly" id="edge6_Node000001_Node000002" title=" " alt="" coords="167,220,166,255,161,254,162,220"/>
+<area shape="rect" id="Node000003" href="$classEigen_1_1SparseSolverBase.html" title="A base class for sparse solvers." alt="" coords="65,79,247,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="150,132,151,166,146,167,145,132"/>
+<area shape="poly" id="edge5_Node000002_Node000003" title=" " alt="" coords="167,132,166,167,161,166,162,132"/>
+<area shape="rect" id="Node000004" href="$classEigen_1_1internal_1_1noncopyable.html" title=" " alt="" coords="53,5,259,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="150,44,151,78,146,79,145,44"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="167,44,166,79,161,78,162,44"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="UrdfLink" name="UrdfLink">
+<area shape="rect" id="Node000001" title=" " alt="" coords="67,93,145,119"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="160,97,168,100,171,106,163,114,145,117,145,111,161,110,166,106,164,104,158,102"/>
+<area shape="rect" id="Node000002" href="$structUrdfInertia.html" title=" " alt="" coords="5,5,97,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="57,43,67,68,90,91,86,95,62,71,52,45"/>
+<area shape="rect" id="Node000003" href="$structUrdfJoint.html" title=" " alt="" coords="121,5,200,31"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="150,44,134,71,117,95,113,92,129,68,145,42"/>
+</map>

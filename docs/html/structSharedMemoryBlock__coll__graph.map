@@ -1,0 +1,26 @@
+<map id="SharedMemoryBlock" name="SharedMemoryBlock">
+<area shape="rect" id="Node000001" title=" " alt="" coords="901,319,1059,345"/>
+<area shape="rect" id="Node000002" href="$structSharedMemoryCommand.html" title=" " alt="" coords="525,214,713,239"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="678,241,936,317,935,322,676,246"/>
+<area shape="rect" id="Node000003" href="$structUrdfArgs.html" title=" " alt="" coords="89,119,168,145"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="182,130,328,138,415,150,502,169,555,189,598,212,595,216,552,194,501,175,414,156,327,144,182,135"/>
+<area shape="rect" id="Node000004" href="$structInitPoseArgs.html" title=" " alt="" coords="77,169,180,194"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="194,183,335,193,502,208,530,211,529,217,501,213,335,198,194,188"/>
+<area shape="rect" id="Node000005" href="$structSendPhysicsSimulationParameters.html" title=" " alt="" coords="5,218,252,243"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="266,227,525,225,525,230,266,232"/>
+<area shape="rect" id="Node000006" href="$structBulletDataStreamArgs.html" title=" " alt="" coords="45,402,212,427"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="225,411,381,402,452,392,500,376,540,346,572,307,595,268,610,239,615,241,600,271,576,310,543,349,503,381,453,397,382,408,226,417"/>
+<area shape="rect" id="Node000011" href="$structSharedMemoryStatus.html" title=" " alt="" coords="538,425,701,450"/>
+<area shape="poly" id="edge11_Node000011_Node000006" title=" " alt="" coords="217,427,276,433,414,439,538,438,538,443,414,444,276,439,216,432"/>
+<area shape="rect" id="Node000007" href="$structSendDesiredStateArgs.html" title=" " alt="" coords="45,274,212,299"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="226,285,357,280,430,274,501,263,546,251,586,237,588,242,547,256,502,268,430,279,357,286,226,291"/>
+<area shape="rect" id="Node000008" href="$structRequestActualStateArgs.html" title=" " alt="" coords="39,334,218,359"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="232,354,294,355,363,351,433,340,500,320,533,303,563,280,605,238,609,241,566,284,536,307,502,325,434,345,363,356,294,360,232,359"/>
+<area shape="rect" id="Node000009" href="$structCreateSensorArgs.html" title=" " alt="" coords="59,21,198,46"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="211,20,278,17,353,21,430,36,467,49,503,66,525,81,545,99,577,141,601,182,615,213,611,215,596,184,573,144,541,103,521,85,500,70,465,54,429,41,352,27,278,23,212,25"/>
+<area shape="rect" id="Node000010" href="$structCreateBoxShapeArgs.html" title="This command will be replaced to allow arbitrary collision shape types." alt="" coords="49,70,208,95"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="222,82,379,91,451,101,502,115,538,136,569,163,611,212,607,215,565,167,535,140,500,120,450,106,378,97,221,87"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="676,418,935,342,936,347,678,423"/>
+<area shape="rect" id="Node000012" href="$structSendActualStateArgs.html" title=" " alt="" coords="49,470,208,495"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="222,478,354,472,501,459,564,447,565,453,502,464,354,478,222,484"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="gameController::GameEvent_BotDribbledBallTooFarDefaultTypeInternal" name="gameController::GameEvent_BotDribbledBallTooFarDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1181,23,1432,78"/>
+<area shape="rect" id="Node000002" href="$classgameController_1_1GameEvent__BotDribbledBallTooFar.html" title=" " alt="" coords="860,31,1067,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1081,48,1181,48,1181,53,1081,53"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="201,24,487,29,836,40,860,41,860,47,836,45,487,34,201,29"/>
+<area shape="rect" id="Node000005" href="$classgameController_1_1Vector2.html" title=" " alt="" coords="283,67,463,93"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="200,43,308,65,307,70,199,48"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="548,60,764,100"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="778,66,860,58,860,63,778,71"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="476,77,548,77,548,83,476,83"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="6,71,186,111"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="199,88,259,87,282,85,282,91,259,92,200,94"/>
+</map>

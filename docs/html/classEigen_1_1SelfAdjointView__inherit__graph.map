@@ -1,0 +1,9 @@
+<map id="Eigen::SelfAdjointView&lt; _MatrixType, UpLo &gt;" name="Eigen::SelfAdjointView&lt; _MatrixType, UpLo &gt;">
+<area shape="rect" id="Node000001" title="Expression of a selfadjoint matrix from a triangular part of a dense matrix." alt="" coords="39,181,211,221"/>
+<area shape="rect" id="Node000002" href="$classEigen_1_1TriangularBase.html" title=" " alt="" coords="5,79,244,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,147,120,181,115,181,113,147"/>
+<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="136,147,135,181,129,181,131,147"/>
+<area shape="rect" id="Node000003" href="$structEigen_1_1EigenBase.html" title=" " alt="" coords="17,5,232,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="119,44,119,79,114,79,114,44"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="136,44,136,79,130,79,130,44"/>
+</map>

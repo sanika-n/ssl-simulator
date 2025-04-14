@@ -1,0 +1,27 @@
+<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/src/Bullet3Common/b3Quaternion.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/src/Bullet3Common/b3Quaternion.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="106,5,341,89"/>
+<area shape="rect" id="Node000002" href="$b3Vector3_8h.html" title=" " alt="" coords="109,137,207,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,91,175,127,171,124,195,88"/>
+<area shape="rect" id="Node000011" href="$b3QuadWord_8h.html" title=" " alt="" coords="242,137,359,163"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="257,88,286,125,281,128,253,91"/>
+<area shape="rect" id="Node000003" href="$b3Scalar_8h.html" title=" " alt="" coords="179,284,268,309"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,165,96,178,70,195,55,214,54,224,59,235,80,256,107,272,136,282,166,289,164,294,135,287,105,277,77,260,54,237,49,225,50,212,66,191,93,174,123,160"/>
+<area shape="rect" id="Node000009" href="$b3MinMax_8h.html" title=" " alt="" coords="249,211,352,236"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="182,160,266,202,264,207,180,165"/>
+<area shape="rect" id="Node000010" href="$b3AlignedAllocator_8h.html" title=" " alt="" coords="69,211,225,236"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="159,163,154,198,148,197,154,163"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,357,73,383"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="195,312,83,355,81,350,193,307"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="97,357,168,383"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="210,311,160,351,157,346,207,307"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="192,357,255,383"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="226,310,226,344,221,344,221,310"/>
+<area shape="rect" id="Node000007" href="$b3Logging_8h.html" title=" " alt="" coords="279,357,381,383"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="242,307,303,347,300,352,239,312"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="405,357,479,383"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="259,307,394,350,393,356,258,312"/>
+<area shape="poly" id="edge9_Node000009_Node000003" title=" " alt="" coords="290,238,248,276,244,273,286,234"/>
+<area shape="poly" id="edge11_Node000010_Node000003" title=" " alt="" coords="161,234,203,273,199,276,158,238"/>
+<area shape="poly" id="edge13_Node000011_Node000003" title=" " alt="" coords="322,161,342,175,361,194,371,215,372,226,367,237,350,257,329,271,282,289,280,284,326,266,346,253,362,235,366,225,366,216,356,197,339,179,319,165"/>
+<area shape="poly" id="edge14_Node000011_Node000009" title=" " alt="" coords="303,163,303,197,298,197,298,163"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="btSoftBodyTriangleCallback" name="btSoftBodyTriangleCallback">
+<area shape="rect" id="Node000001" title="For each triangle in the concave mesh that overlaps with the AABB of a soft body (m_softBody),..." alt="" coords="5,79,205,104"/>
+<area shape="rect" id="Node000002" href="$classbtTriangleCallback.html" title=" " alt="" coords="34,5,177,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,44,101,78,96,79,94,45"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="117,45,115,79,110,78,111,44"/>
+</map>

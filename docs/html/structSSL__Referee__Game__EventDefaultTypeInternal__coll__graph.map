@@ -1,0 +1,14 @@
+<map id="SSL_Referee_Game_EventDefaultTypeInternal" name="SSL_Referee_Game_EventDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,401,247,441"/>
+<area shape="rect" id="Node000002" href="$classSSL__Referee__Game__Event.html" title=" " alt="" coords="29,313,223,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,352,129,401,123,401,123,352"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="14,5,195,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,59,128,313,123,313,104,59"/>
+<area shape="rect" id="Node000005" href="$classSSL__Referee__Game__Event__Originator.html" title=" " alt="" coords="143,108,336,148"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="142,51,216,106,213,110,139,56"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="143,211,336,251"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="207,262,142,315,139,311,204,258"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="242,162,242,211,237,211,237,162"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="220,5,413,45"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="296,58,256,110,252,106,292,55"/>
+</map>

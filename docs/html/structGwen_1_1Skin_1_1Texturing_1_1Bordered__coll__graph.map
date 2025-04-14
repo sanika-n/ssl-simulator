@@ -1,0 +1,11 @@
+<map id="Gwen::Skin::Texturing::Bordered" name="Gwen::Skin::Texturing::Bordered">
+<area shape="rect" id="Node000001" title=" " alt="" coords="155,196,317,236"/>
+<area shape="rect" id="Node000002" href="$structGwen_1_1Texture.html" title=" " alt="" coords="16,101,131,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,131,207,194,204,198,102,135"/>
+<area shape="rect" id="Node000003" href="$classGwen_1_1TextObject.html" title=" " alt="" coords="5,5,141,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,44,76,101,71,101,71,44"/>
+<area shape="rect" id="Node000004" href="$structGwen_1_1Skin_1_1Texturing_1_1Bordered_1_1SubRect.html" title=" " alt="" coords="155,93,317,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="239,147,239,196,233,196,233,147"/>
+<area shape="rect" id="Node000005" href="$structGwen_1_1Margin.html" title=" " alt="" coords="341,101,453,126"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="369,135,268,198,265,194,366,131"/>
+</map>

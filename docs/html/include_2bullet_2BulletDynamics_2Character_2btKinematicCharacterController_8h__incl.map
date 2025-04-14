@@ -1,0 +1,12 @@
+<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletDynamics/Character/btKinematicCharacterController.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletDynamics/Character/btKinematicCharacterController.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="90,5,401,89"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,233,179,258"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,92,142,113,120,139,109,158,102,179,96,219,90,218,97,178,104,156,115,136,138,109,165,87"/>
+<area shape="rect" id="Node000003" href="$include_2bullet_2BulletDynamics_2Character_2btCharacterControllerInterface_8h.html" title=" " alt="" coords="129,145,361,170"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="248,90,248,131,243,131,243,90"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="385,137,612,177"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="343,87,443,130,441,134,340,92"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="226,173,126,228,124,223,223,168"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="203,225,397,265"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="255,169,283,212,278,215,250,172"/>
+</map>

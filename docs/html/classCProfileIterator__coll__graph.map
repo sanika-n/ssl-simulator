@@ -1,0 +1,6 @@
+<map id="CProfileIterator" name="CProfileIterator">
+<area shape="rect" id="Node000001" title="An iterator to navigate through the tree." alt="" coords="5,127,125,152"/>
+<area shape="rect" id="Node000002" href="$classCProfileNode.html" title="A node in the Profile Hierarchy Tree." alt="" coords="12,15,119,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,54,68,126,63,126,63,54"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="133,16,142,20,145,28,137,37,119,41,118,36,135,33,140,27,138,24,131,21"/>
+</map>

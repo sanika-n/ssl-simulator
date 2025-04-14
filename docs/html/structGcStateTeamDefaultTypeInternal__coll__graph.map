@@ -1,0 +1,14 @@
+<map id="GcStateTeamDefaultTypeInternal" name="GcStateTeamDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,372,241,397"/>
+<area shape="rect" id="Node000002" href="$classGcStateTeam.html" title=" " alt="" coords="69,284,177,309"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,323,126,371,121,371,121,323"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="11,5,193,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="107,59,125,284,120,284,102,59"/>
+<area shape="rect" id="Node000005" href="$classTeamAdvantageChoice.html" title=" " alt="" coords="139,108,310,133"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="140,52,211,106,208,110,136,56"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="143,196,295,221"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="198,232,138,285,135,281,195,228"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="226,147,223,196,217,195,220,147"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="217,5,387,45"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="280,57,236,109,232,106,276,54"/>
+</map>

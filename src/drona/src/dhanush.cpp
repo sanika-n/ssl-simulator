@@ -1,66 +1,80 @@
-#include "dhanush.h"
+#include "dhanush.h"  ///< Include the corresponding header file
 #include "core/sslprotocols.h"
+
+/// Macro for logging with a consistent tag
 #define LOG qDebug() << "[dhanush] : "
-// this method is not ideal, need to think of a better way to get total bots and the format of the game,
-// probably some message from the simulator
+
+// TODO: Replace hardcoded TOTAL_BOTS with dynamic data from the simulator
+
+/// Defines the total number of bots in the simulation
 #define TOTAL_BOTS 10
+
 using namespace sslsim;
 
+/// Constructor for the Dhanush class
 Dhanush::Dhanush():
-    socket(new QUdpSocket(this))
+    // Create a new QUdpSocket for sending data over UDP
+    socket(new QUdpSocket(this))  // 'this' sets the parent so Qt can manage cleanup
 {
-
 }
 
-
-Dhanush::~Dhanush(){
+/// Destructor for the Dhanush class
+Dhanush::~Dhanush() {
+    // Delete the socket manually
     delete socket;
 }
 
 
 /**
- * @brief Prepares and sends velocity packets
- * @param packet
+ * @brief Prepares and sends velocity control packets to the simulator
  *
- * Creates sslsim::RobotControl which is a repeated pointer.
- * Creates and sets fields for an sslsim:RobotCommand for each bot. Velocity is given in local frame NOT in global frame.
- * These are sent to SSL_SIMULATION_CONTROL_BLUE_PORT through QUDP Datagrams
+ * This method builds a RobotControl protobuf message that contains commands for each robot.
+ * Each command specifies velocities in the robot's **local coordinate frame**:
+ *  - `forward`: movement along x
+ *  - `left`: movement along y
+ *  - `angular`: rotation
+ *
+ * After construction, the message is serialized and sent to the appropriate simulator port
+ * using a QUdpSocket.
+ *
+ * @param packet Pointer to an array of BotPacket objects, containing velocity and kick data for each bot.
  *
  * @see https://protobuf.dev/getting-started/cpptutorial/
  * @see ssl_simulation_robot_control.proto
- *
  */
 void Dhanush::send_velocity(BotPacket* packet)
 {
-    // this can lead to race conditions since memory is shared between two threads.
-    // cannot provide local copy since QObjects are non-copyable
-    // In practice, it is rare since the signal is emmitted at 100 Hz and this function should
-    // finish much faster
+    // Create a RobotControl message that will contain commands for multiple bots
     RobotControl robot_control;
-    //preparing packet
-    for(int i=0;i < TOTAL_BOTS/2; ++i){
+
+    //loops through half of the bots i.e one team
+    for (int i = 0; i < TOTAL_BOTS / 2; ++i) {
+        //adds a new RobotCommand to the robot_control message
         command = robot_control.add_robot_commands();
+
+        //setting the robot's ID and kick speed
         command->set_id(packet[i].id);
         command->set_kick_speed(packet[i].kick_speed);
-        RobotMoveCommand *move_command = command->mutable_move_command();
-        MoveLocalVelocity *local_vel = move_command->mutable_local_velocity();
+
+        //creating and populating the move command
+        RobotMoveCommand* move_command = command->mutable_move_command();
+        MoveLocalVelocity* local_vel = move_command->mutable_local_velocity();
+
+        //setting local frame velocities (forward, left, and angular)
         local_vel->set_forward(packet[i].vel_x);
         local_vel->set_left(packet[i].vel_y);
         local_vel->set_angular(packet[i].vel_angular);
-
     }
 
-    // sending packets
+    //serialising the RobotControl message to a QByteArray
     QByteArray dgram;
-    dgram.resize(robot_control.ByteSize());
+    dgram.resize(robot_control.ByteSize());  // Resize buffer to fit serialized message
     robot_control.SerializeToArray(dgram.data(), dgram.size());
-    if(packet->is_blue){
-        if (socket->writeDatagram(dgram, QHostAddress::LocalHost, SSL_SIMULATION_CONTROL_BLUE_PORT) > -1) {
-            // for logging purposes
-        }
-    }else{
-        if (socket->writeDatagram(dgram, QHostAddress::LocalHost, SSL_SIMULATION_CONTROL_YELLOW_PORT) > -1) {
-            // for logging purposes
-        }
+
+    //sending the datagram to the correct team port (blue or yellow)
+    if (packet->is_blue) {
+        socket->writeDatagram(dgram, QHostAddress::LocalHost, SSL_SIMULATION_CONTROL_BLUE_PORT);
+    } else {
+        socket->writeDatagram(dgram, QHostAddress::LocalHost, SSL_SIMULATION_CONTROL_YELLOW_PORT);
     }
 }

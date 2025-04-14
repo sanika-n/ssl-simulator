@@ -1,0 +1,20 @@
+<map id="ssl::RobotPlanDefaultTypeInternal" name="ssl::RobotPlanDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="136,548,328,588"/>
+<area shape="rect" id="Node000002" href="$classssl_1_1RobotPlan.html" title=" " alt="" coords="175,460,289,485"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,499,235,548,229,548,229,499"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="176,5,357,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="282,58,291,87,295,119,295,386,290,410,278,431,249,462,245,458,274,427,285,408,289,386,289,119,286,88,277,59"/>
+<area shape="rect" id="Node000005" href="$classssl_1_1Pose.html" title=" " alt="" coords="131,284,210,309"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="268,60,263,102,253,154,237,209,213,262,190,286,186,282,208,258,232,207,248,153,258,101,262,59"/>
+<area shape="rect" id="Node000007" href="$classssl_1_1Location.html" title=" " alt="" coords="63,108,166,133"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="226,55,135,110,132,106,223,50"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="91,372,250,397"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="189,407,226,458,221,461,185,410"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="173,323,173,371,168,371,168,323"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="81,196,204,221"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="153,233,169,283,164,284,148,235"/>
+<area shape="poly" id="edge10_Node000004_Node000007" title=" " alt="" coords="99,146,83,169,70,198,62,229,67,259,85,294,109,325,157,370,153,374,105,329,80,297,61,261,57,228,64,196,78,167,94,143"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="125,145,141,195,136,196,120,147"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="5,13,152,38"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="90,50,113,107,108,109,85,52"/>
+</map>

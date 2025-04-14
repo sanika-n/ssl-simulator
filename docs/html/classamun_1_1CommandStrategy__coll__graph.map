@@ -1,0 +1,24 @@
+<map id="amun::CommandStrategy" name="amun::CommandStrategy">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1105,118,1295,143"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="43,83,224,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,101,610,106,1081,120,1105,121,1105,127,1081,125,610,111,238,106"/>
+<area shape="rect" id="Node000004" href="$classamun_1_1CommandStrategyLoad.html" title=" " alt="" coords="375,39,595,65"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="237,85,396,62,397,67,238,90"/>
+<area shape="rect" id="Node000009" href="$classamun_1_1CommandStrategyAutomaticEntrypoints.html" title=" " alt="" coords="357,140,613,180"/>
+<area shape="poly" id="edge11_Node000009_Node000002" title=" " alt="" coords="238,117,362,137,361,143,237,122"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="820,140,1009,180"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1023,146,1105,138,1105,143,1023,152"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="551,65,835,137,833,142,549,71"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="23,5,243,45"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="257,32,375,41,375,46,257,37"/>
+<area shape="rect" id="Node000006" href="$classamun_1_1CommandStrategyClose.html" title=" " alt="" coords="373,269,598,294"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="605,264,699,246,795,219,840,199,880,178,882,182,842,204,797,224,700,251,606,269"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="29,225,238,265"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="252,255,373,267,372,272,251,260"/>
+<area shape="rect" id="Node000008" href="$classamun_1_1CommandStrategyTriggerDebugger.html" title=" " alt="" coords="369,204,602,244"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="252,236,368,228,369,234,252,241"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="615,204,796,177,819,174,820,179,796,183,616,209"/>
+<area shape="poly" id="edge10_Node000003_Node000009" title=" " alt="" coords="627,157,820,157,820,163,627,163"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="5,151,261,191"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="275,168,333,167,357,166,357,171,333,172,275,173"/>
+</map>

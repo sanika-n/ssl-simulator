@@ -1,0 +1,23 @@
+<map id="btGImpactMeshShapeData" name="btGImpactMeshShapeData">
+<area shape="rect" id="Node000001" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="1033,56,1229,81"/>
+<area shape="rect" id="Node000002" href="$structbtCollisionShapeData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="650,5,813,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="826,25,1010,47,1051,53,1050,59,1009,53,826,31"/>
+<area shape="rect" id="Node000003" href="$structbtStridingMeshInterfaceData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="627,108,836,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="850,115,929,110,1009,99,1091,79,1093,84,1010,105,929,115,850,121"/>
+<area shape="rect" id="Node000004" href="$structbtMeshPartData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="341,233,468,259"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="450,226,696,131,698,136,452,231"/>
+<area shape="rect" id="Node000005" href="$structbtVector3FloatData.html" title=" " alt="" coords="28,108,176,133"/>
+<area shape="poly" id="edge11_Node000001_Node000005" title=" " alt="" coords="189,103,222,99,450,82,676,72,1033,66,1033,71,676,77,450,88,223,105,190,109"/>
+<area shape="poly" id="edge10_Node000003_Node000005" title=" " alt="" coords="190,118,626,118,626,123,190,123"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="162,135,237,160,318,193,385,231,383,236,316,198,235,165,160,140"/>
+<area shape="rect" id="Node000006" href="$structbtVector3DoubleData.html" title=" " alt="" coords="21,184,183,209"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="197,208,318,227,341,232,340,237,317,233,196,213"/>
+<area shape="rect" id="Node000007" href="$structbtIntIndexData.html" title=" " alt="" coords="43,233,161,259"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="175,243,341,243,341,249,175,249"/>
+<area shape="rect" id="Node000008" href="$structbtShortIntIndexTripletData.html" title=" " alt="" coords="5,283,199,308"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="212,280,317,263,352,256,353,261,318,269,213,285"/>
+<area shape="rect" id="Node000009" href="$structbtCharIndexTripletData.html" title=" " alt="" coords="16,332,188,357"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="201,330,259,318,316,300,355,279,386,257,389,261,358,283,318,304,261,323,202,336"/>
+<area shape="rect" id="Node000010" href="$structbtShortIntIndexData.html" title=" " alt="" coords="25,381,179,407"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="192,386,255,372,287,361,316,346,342,326,364,302,394,257,399,260,368,305,346,330,319,351,289,366,257,377,193,391"/>
+</map>

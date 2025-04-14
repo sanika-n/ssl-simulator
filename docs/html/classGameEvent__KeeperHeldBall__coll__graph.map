@@ -1,0 +1,12 @@
+<map id="GameEvent_KeeperHeldBall" name="GameEvent_KeeperHeldBall">
+<area shape="rect" id="Node000001" title=" " alt="" coords="15,299,220,324"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,59,119,298,114,299,96,60"/>
+<area shape="rect" id="Node000004" href="$classVector2.html" title=" " alt="" coords="201,108,271,133"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="137,51,220,106,217,110,134,55"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="133,196,339,236"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,247,134,300,131,296,200,242"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="239,147,239,196,233,196,233,147"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="211,13,325,38"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="262,52,242,109,237,107,257,50"/>
+</map>

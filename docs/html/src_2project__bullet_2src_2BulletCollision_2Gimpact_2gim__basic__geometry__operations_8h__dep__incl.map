@@ -1,0 +1,22 @@
+<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/src/BulletCollision/Gimpact/gim_basic_geometry_operations.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/src/BulletCollision/Gimpact/gim_basic_geometry_operations.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="57,5,307,104"/>
+<area shape="rect" id="Node000002" href="$src_2project__bullet_2src_2BulletCollision_2Gimpact_2gim__box__collision_8h.html" title=" " alt="" coords="179,152,369,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,114,245,150,241,153,218,117"/>
+<area shape="rect" id="Node000005" href="$src_2project__bullet_2src_2BulletCollision_2Gimpact_2gim__geometry_8h.html" title=" " alt="" coords="5,445,196,544"/>
+<area shape="poly" id="edge11_Node000001_Node000005" title=" " alt="" coords="173,118,112,446,107,445,168,117"/>
+<area shape="rect" id="Node000003" href="$src_2project__bullet_2src_2BulletCollision_2Gimpact_2gim__box__set_8h.html" title=" " alt="" coords="435,445,625,544"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="374,256,421,297,450,332,475,371,513,444,508,446,471,374,446,336,417,301,371,261"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="231,263,206,300,162,376,126,446,121,444,157,374,201,297,226,260"/>
+<area shape="rect" id="Node000008" href="$src_2project__bullet_2src_2BulletCollision_2Gimpact_2gim__tri__collision_8h.html" title=" " alt="" coords="216,299,407,397"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="293,263,301,298,296,299,287,265"/>
+<area shape="rect" id="Node000004" href="$gim__box__set_8cpp.html" title=" " alt="" coords="435,592,625,691"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="533,558,533,592,527,592,527,558"/>
+<area shape="rect" id="Node000006" href="$src_2project__bullet_2src_2BulletCollision_2Gimpact_2gim__contact_8h.html" title=" " alt="" coords="5,592,196,691"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="103,558,103,592,98,592,98,558"/>
+<area shape="rect" id="Node000007" href="$gim__contact_8cpp.html" title=" " alt="" coords="5,739,196,837"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="103,705,103,738,98,738,98,705"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="398,403,458,443,455,447,395,408"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="231,408,173,447,170,443,228,403"/>
+<area shape="rect" id="Node000009" href="$gim__tri__collision_8cpp.html" title=" " alt="" coords="220,445,411,544"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="316,411,317,445,311,445,310,411"/>
+</map>

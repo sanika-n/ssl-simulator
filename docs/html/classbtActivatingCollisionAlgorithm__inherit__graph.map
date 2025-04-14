@@ -1,0 +1,41 @@
+<map id="btActivatingCollisionAlgorithm" name="btActivatingCollisionAlgorithm">
+<area shape="rect" id="Node000001" title="This class is not enabled yet (work&#45;in&#45;progress) to more aggressively activate objects." alt="" coords="208,268,429,293"/>
+<area shape="rect" id="Node000003" href="$classbtBox2dBox2dCollisionAlgorithm.html" title="box&#45;box collision detection" alt="" coords="481,5,719,31"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="330,254,351,210,382,155,424,100,448,75,476,53,511,37,547,28,549,33,513,42,479,58,452,79,428,103,387,158,356,212,335,256"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="325,254,344,205,375,143,419,81,446,53,476,29,480,27,483,31,479,33,450,57,423,84,380,146,349,207,329,256"/>
+<area shape="rect" id="Node000004" href="$classbtBoxBoxCollisionAlgorithm.html" title="box&#45;box collision detection" alt="" coords="497,55,703,80"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="336,255,391,179,430,137,476,102,515,86,554,77,555,83,516,91,479,107,434,141,395,182,340,258"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="328,254,350,214,383,166,425,118,476,78,496,69,498,74,479,83,429,122,387,169,354,216,332,256"/>
+<area shape="rect" id="Node000005" href="$classbtCompoundCollisionAlgorithm.html" title="btCompoundCollisionAlgorithm supports collision between CompoundCollisionShapes and other collision s..." alt="" coords="487,104,713,129"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="345,256,401,203,437,175,476,152,520,136,562,127,563,132,521,141,478,156,440,180,405,207,349,260"/>
+<area shape="poly" id="edge10_Node000001_Node000005" title=" " alt="" coords="332,255,356,225,390,190,431,156,476,128,486,123,488,128,479,132,434,160,394,194,360,228,336,258"/>
+<area shape="rect" id="Node000007" href="$classbtConvex2dConvex2dAlgorithm.html" title=" " alt="" coords="485,153,715,179"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="362,259,416,229,476,201,526,186,570,176,572,181,527,192,478,206,418,234,365,263"/>
+<area shape="poly" id="edge12_Node000001_Node000007" title=" " alt="" coords="338,257,398,215,436,194,476,177,484,174,486,179,478,182,439,199,401,220,341,261"/>
+<area shape="rect" id="Node000008" href="$classbtConvexConcaveCollisionAlgorithm.html" title="btConvexConcaveCollisionAlgorithm supports collision between convex shapes and (concave) trianges mes..." alt="" coords="502,203,698,243"/>
+<area shape="poly" id="edge13_Node000001_Node000008" title=" " alt="" coords="437,263,537,241,538,246,438,268"/>
+<area shape="poly" id="edge14_Node000001_Node000008" title=" " alt="" coords="365,262,501,232,502,237,366,267"/>
+<area shape="rect" id="Node000009" href="$classbtConvexConvexAlgorithm.html" title=" " alt="" coords="501,268,699,293"/>
+<area shape="poly" id="edge15_Node000001_Node000009" title=" " alt="" coords="443,287,501,287,501,292,443,292"/>
+<area shape="poly" id="edge16_Node000001_Node000009" title=" " alt="" coords="443,269,501,269,501,275,443,274"/>
+<area shape="rect" id="Node000010" href="$classbtConvexConvexMprAlgorithm.html" title=" " alt="" coords="489,317,711,343"/>
+<area shape="poly" id="edge17_Node000001_Node000010" title=" " alt="" coords="406,293,527,315,526,320,405,298"/>
+<area shape="rect" id="Node000011" href="$classbtGImpactCollisionAlgorithm.html" title="Collision Algorithm for GImpact Shapes." alt="" coords="495,367,705,392"/>
+<area shape="poly" id="edge18_Node000001_Node000011" title=" " alt="" coords="343,299,403,333,478,365,495,370,494,375,476,370,401,338,340,304"/>
+<area shape="poly" id="edge19_Node000001_Node000011" title=" " alt="" coords="374,297,424,320,478,341,572,364,571,369,477,346,422,325,372,302"/>
+<area shape="rect" id="Node000012" href="$classbtSphereBoxCollisionAlgorithm.html" title=" " alt="" coords="487,416,713,441"/>
+<area shape="poly" id="edge20_Node000001_Node000012" title=" " alt="" coords="337,302,396,360,435,390,479,414,488,418,486,423,476,419,432,394,392,364,333,306"/>
+<area shape="poly" id="edge21_Node000001_Node000012" title=" " alt="" coords="352,300,408,347,442,370,478,390,522,405,563,413,562,419,520,410,476,395,439,375,405,351,348,305"/>
+<area shape="rect" id="Node000013" href="$classbtSphereSphereCollisionAlgorithm.html" title=" " alt="" coords="477,465,723,491"/>
+<area shape="poly" id="edge22_Node000001_Node000013" title=" " alt="" coords="333,304,356,341,388,385,430,428,478,464,475,468,426,432,384,388,351,344,329,307"/>
+<area shape="poly" id="edge23_Node000001_Node000013" title=" " alt="" coords="342,303,398,372,435,409,479,440,516,454,554,463,553,468,514,460,476,444,432,413,394,376,338,306"/>
+<area shape="rect" id="Node000014" href="$classbtSphereTriangleCollisionAlgorithm.html" title=" " alt="" coords="507,515,693,555"/>
+<area shape="poly" id="edge24_Node000001_Node000014" title=" " alt="" coords="330,305,351,351,383,408,426,465,451,491,479,513,507,528,505,533,476,518,448,495,422,469,378,410,346,353,326,307"/>
+<area shape="poly" id="edge25_Node000001_Node000014" title=" " alt="" coords="336,304,358,345,390,395,430,446,479,489,505,503,534,513,532,518,503,508,476,494,426,450,385,398,354,348,332,307"/>
+<area shape="rect" id="Node000002" href="$classbtCollisionAlgorithm.html" title=" " alt="" coords="5,268,160,293"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,287,208,287,208,292,174,292"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="174,269,208,269,208,274,174,275"/>
+<area shape="rect" id="Node000006" href="$classbtCompoundCompoundCollisionAlgorithm.html" title="btCompoundCompoundCollisionAlgorithm supports collision between two btCompoundCollisionShape shapes" alt="" coords="771,97,1001,137"/>
+<area shape="poly" id="edge8_Node000005_Node000006" title=" " alt="" coords="726,123,770,123,770,128,726,128"/>
+<area shape="poly" id="edge9_Node000005_Node000006" title=" " alt="" coords="726,105,770,105,770,110,726,110"/>
+</map>

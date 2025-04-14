@@ -1,0 +1,13 @@
+<map id="btBridgedManifoldResult" name="btBridgedManifoldResult">
+<area shape="rect" id="Node000001" title=" " alt="" coords="152,225,335,251"/>
+<area shape="rect" id="Node000002" href="$classbtManifoldResult.html" title="btManifoldResult is a helper class to manage contact results." alt="" coords="39,130,173,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,161,228,223,225,227,133,165"/>
+<area shape="rect" id="Node000003" href="$structbtDiscreteCollisionDetectorInterface_1_1Result.html" title=" " alt="" coords="5,5,207,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,59,100,97,103,129,98,130,95,97,95,59"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="117,59,117,97,114,130,109,129,112,97,112,59"/>
+<area shape="rect" id="Node000004" href="$structbtCollisionObjectWrapper.html" title=" " alt="" coords="231,13,419,38"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="292,47,129,132,126,128,290,42"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="434,16,445,25,437,34,420,38,419,33,435,29,440,26,431,20"/>
+<area shape="rect" id="Node000005" href="$structbtCollisionWorld_1_1ContactResultCallback.html" title="ContactResultCallback is used to report contact points." alt="" coords="197,123,383,163"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="277,176,252,226,247,224,272,174"/>
+</map>

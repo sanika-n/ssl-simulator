@@ -1,0 +1,6 @@
+<map id="btTriangleInfoMap" name="btTriangleInfoMap">
+<area shape="rect" id="Node000001" title="The btTriangleInfoMap stores edge angle information for some triangles. You can compute this informat..." alt="" coords="31,79,169,104"/>
+<area shape="rect" id="Node000002" href="$classbtHashMap.html" title=" " alt="" coords="5,5,195,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,44,96,78,90,79,89,45"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="111,45,110,79,104,78,106,44"/>
+</map>

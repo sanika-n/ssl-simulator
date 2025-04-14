@@ -1,0 +1,27 @@
+<map id="Eigen::Homogeneous&lt; MatrixType, _Direction &gt;" name="Eigen::Homogeneous&lt; MatrixType, _Direction &gt;">
+<area shape="rect" id="Node000001" title="Expression of one (or a set of) homogeneous vector(s)" alt="" coords="1381,315,1580,355"/>
+<area shape="rect" id="Node000002" href="$classEigen_1_1MatrixBase.html" title=" " alt="" coords="1121,264,1332,319"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1346,318,1381,324,1381,330,1345,324"/>
+<area shape="poly" id="edge14_Node000001_Node000002" title=" " alt="" coords="1346,300,1412,313,1411,318,1345,306"/>
+<area shape="rect" id="Node000003" href="$classEigen_1_1DenseBase.html" title="Base class for all dense matrices, vectors, and arrays." alt="" coords="852,279,1072,304"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1086,298,1121,297,1121,303,1086,303"/>
+<area shape="poly" id="edge12_Node000002_Node000003" title=" " alt="" coords="1086,280,1121,280,1121,285,1086,285"/>
+<area shape="rect" id="Node000004" href="$classEigen_1_1DenseCoeffsBase.html" title=" " alt="" coords="372,264,591,319"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="605,297,852,296,852,302,605,302"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="605,281,852,281,852,286,605,286"/>
+<area shape="rect" id="Node000005" href="$classEigen_1_1CwiseNullaryOp.html" title=" " alt="" coords="375,185,587,240"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="602,224,828,258,911,276,910,281,828,263,601,229"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="36,84,237,168"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="251,152,376,183,374,189,250,157"/>
+<area shape="rect" id="Node000007" href="$classEigen_1_1internal_1_1no__assignment__operator.html" title=" " alt="" coords="53,342,220,382"/>
+<area shape="poly" id="edge13_Node000001_Node000007" title=" " alt="" coords="234,372,480,378,1228,378,1335,370,1427,353,1428,358,1335,375,1228,383,480,383,234,378"/>
+<area shape="poly" id="edge15_Node000001_Node000007" title=" " alt="" coords="234,352,480,354,1228,354,1306,350,1381,341,1382,346,1307,355,1228,359,480,359,234,357"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="232,348,267,334,297,317,319,299,340,281,371,262,427,238,429,243,373,267,343,286,322,303,300,321,269,339,234,353"/>
+<area shape="poly" id="edge9_Node000005_Node000007" title=" " alt="" coords="197,336,267,310,297,293,319,275,340,257,371,238,374,237,376,241,373,243,343,262,322,279,300,297,269,315,198,341"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="63,193,210,233"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="224,210,375,210,375,215,224,215"/>
+<area shape="rect" id="Node000009" href="$classEigen_1_1internal_1_1variable__if__dynamic.html" title=" " alt="" coords="5,257,268,312"/>
+<area shape="poly" id="edge10_Node000005_Node000009" title=" " alt="" coords="281,252,374,232,376,237,282,257"/>
+<area shape="rect" id="Node000010" href="$classEigen_1_1internal_1_1variable__if__dynamic.html" title=" " alt="" coords="9,5,265,60"/>
+<area shape="poly" id="edge11_Node000005_Node000010" title=" " alt="" coords="254,62,269,69,320,96,369,126,447,183,444,187,366,131,317,100,267,74,252,67"/>
+</map>

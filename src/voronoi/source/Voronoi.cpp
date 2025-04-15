@@ -93,7 +93,7 @@ Edges * Voronoi::GetEdges(Vertices * v, int w, int h, int ignore)
     // Insert site events into the priority queue, ignoring the excluded site
     for(Vertices::iterator i = places->begin(); i!=places->end(); ++i)
 	{
-		if((*i)->id != ignore)
+        if((*i)->id != ignore)
 		queue.push(new VEvent( *i, true));
 	}
 

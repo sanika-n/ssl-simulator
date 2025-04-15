@@ -32,18 +32,51 @@ double dist(pair<double, double> &p1, pair<double, double> &p2){
 using namespace gra;
 
 /**
+ * @brief Clips Voronoi edges to a bounding box of width w and height h.
+ *
+ * This function removes any edges that lie completely outside the field bounds.
+ * It doesn't clip/intersect edges that partially go out — it just skips them for now.
+ *
+ * @param original The original list of Voronoi edges.
+ * @param w Width of the bounding box.
+ * @param h Height of the bounding box.
+ * @return Clipped list of edges inside the bounding box.
+ */
+vor::Edges* clipToBoundingBox(vor::Edges* original, double w, double h) {
+    auto* clipped = new vor::Edges();
+
+    for (auto* edge : *original) {
+        if (!edge->start || !edge->end)
+            continue;
+
+        auto x1 = edge->start->x, y1 = edge->start->y;
+        auto x2 = edge->end->x, y2 = edge->end->y;
+
+        // Skip edges that go completely outside the bounding box
+        if ((x1 < 0 && x2 < 0) || (x1 > w && x2 > w) ||
+            (y1 < 0 && y2 < 0) || (y1 > h && y2 > h))
+            continue;
+
+        clipped->push_back(edge);
+    }
+
+    return clipped;
+}
+
+
+/**
  * @brief Plans a path using Voronoi diagram and graph-based shortest path.
  *
  * This function receives positions of all bots, creates Voronoi diagrams using them as obstacles,
  * adds buffer points around the start and end points, constructs a graph from the Voronoi edges,
  * and calculates the shortest path from start to end.
  *
- * @param bot_pos Vector of positions of all bots
+ * @param my_team Vector of positions of all bots
  * @param endpt Target endpoint coordinates
  * @param target_id ID of the bot which is to move (used to find start point)
  * @return Vector of waypoints (QPointF) representing the planned path
  */
-vector<QPointF> plan_path(vector<pair<double, double>> bot_pos, pair<double, double> endpt, int target_id)
+vector<QPointF> plan_path(vector<pair<double, double>> my_team,vector<pair<double, double>> enemy_team, pair<double, double> endpt, int target_id)
 {
     LOG << "started";
     using namespace vor;
@@ -51,28 +84,39 @@ vector<QPointF> plan_path(vector<pair<double, double>> bot_pos, pair<double, dou
     v = new Voronoi();
     ver = new Vertices();   // ver stores the positions of all adversary bots
 
-    // Add all bot positions as obstacles
-    for(int i=0; i < bot_pos.size(); ++i)
+    int id=0;
+
+    //IS THIS NEEDED????
+    // Add friendly bots as obstacles
+    for(int i=0; i < my_team.size(); ++i)
+    {   //if(i==target_id) continue;
+        ver->push_back(new VPoint( my_team[i].first , my_team[i].second, id++));
+        LOG << i << ' ' << my_team[i].first << ' ' << my_team[i].second;
+    }
+
+    // Add all enemy bots as obstacles
+    for (const auto& bot : enemy_team)
     {
-        ver->push_back(new VPoint( bot_pos[i].first , bot_pos[i].second, i));
-        LOG << i << ' ' << bot_pos[i].first << ' ' << bot_pos[i].second;
+        ver->push_back(new VPoint(bot.first, bot.second, id++));
     }
 
     // Add buffer points for start and end
-    int val = 200;
+    int val = 10;
     // start point front
-    ver->push_back(new VPoint( ver->at(target_id)->x + val*0.766, ver->at(target_id)->y + val*0.642, bot_pos.size()));
-    ver->push_back(new VPoint( ver->at(target_id)->x + val*0.342, ver->at(target_id)->y - val*0.939, bot_pos.size() + 1));
-    ver->push_back(new VPoint( ver->at(target_id)->x - val*0.984, ver->at(target_id)->y + val*0.173, bot_pos.size() + 2));
+    const auto& start_bot = my_team[target_id];
+    ver->push_back(new VPoint( start_bot.first + val*0.766, start_bot.second + val*0.642, id++));
+    ver->push_back(new VPoint( start_bot.first + val*0.342, start_bot.second - val*0.939, id++));
+    ver->push_back(new VPoint( start_bot.first - val*0.984, start_bot.second + val*0.173, id++));
 
     // end point front
-    ver->push_back(new VPoint( endpt.first + val*0.766, endpt.second + val*0.642, bot_pos.size() + 3));
-    ver->push_back(new VPoint( endpt.first + val*0.342, endpt.second - val*0.939, bot_pos.size() + 4));
-    ver->push_back(new VPoint( endpt.first - val*0.984, endpt.second + val*0.173, bot_pos.size() + 5));
+    ver->push_back(new VPoint( endpt.first + val*0.766, endpt.second + val*0.642,id++));
+    ver->push_back(new VPoint( endpt.first + val*0.342, endpt.second - val*0.939, id++));
+    ver->push_back(new VPoint( endpt.first - val*0.984, endpt.second + val*0.173, id++));
 
     // LOG << 1;
     // make w and h large if cup happens
     edg = v->GetEdges(ver, w, h, target_id);
+    edg = clipToBoundingBox(edg, w, h);
 
     // GetEdges takes the vertices and the bounding box size as input
     // and generates voronoi diagram, returning all the edges.
@@ -82,8 +126,7 @@ vector<QPointF> plan_path(vector<pair<double, double>> bot_pos, pair<double, dou
     Graph g = Graph(edg);
 
     // Get nearest Voronoi vertex to bot (start) and endpoint
-    auto nearest_index = g.getNearestVertex(ver->at(target_id)->x, ver->at(target_id)->y);
-    int start_id = nearest_index;
+    int start_id = g.getNearestVertex(start_bot.first, start_bot.second);
     int end_id = g.getNearestVertex(endpt.first, endpt.second);
 
     // Get shortest path from start to end in graph

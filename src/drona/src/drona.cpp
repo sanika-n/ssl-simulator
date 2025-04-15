@@ -67,18 +67,34 @@ void Drona::moveToPosition(int id, float x, float y, int team, BotPacket *packet
         relative_pos = kaurav->at(id).mapFromScene(x, y);
         packet[id].is_blue = false;
     }
-    QPointF err = relative_pos;
+
     float orientation_err = qAtan2(relative_pos.y(), relative_pos.x());
-    orientation_err = relative_pos.y() > 0 ? fabs(orientation_err) : -fabs(orientation_err);
-    float dist_err = pow(err.x()*err.x() + err.y()*err.y(), 0.5);
+    float dist_err = std::hypot(relative_pos.x(), relative_pos.y());
+    //orientation_err = relative_pos.y() > 0 ? fabs(orientation_err) : -fabs(orientation_err);
+    //float dist_err = pow(err.x()*err.x() + err.y()*err.y(), 0.5);
+
     float kp = 0.01;
+    float ka = 2.0; // angular gain
+
+    /* Debug logs
+    LOG << "[moveToPosition] Bot ID: " << id;
+    LOG << "Target Position: (" << x << ", " << y << ")";
+    LOG << "Relative Position: (" << relative_pos.x() << ", " << relative_pos.y() << ")";
+    LOG << "Distance Error: " << dist_err;
+    LOG << "Orientation Error (rad): " << orientation_err;
+    */
+
     float vel_for = dist_err*kp;
-    float vel_th = 2*orientation_err;
+    float vel_th = ka*orientation_err;
+
     packet[id].vel_angular = vel_th;
     packet[id].vel_x = vel_for;
     packet[id].vel_y = 0.0f;
     packet[id].id = id;
     packet[id].kick_speed = 5.0f;
+
+    //LOG << "Sending to bot: " << packet[id].vel_x << " , " << packet[id].vel_angular;
+
 }
 
 /**
@@ -101,17 +117,26 @@ void Drona::handleState(QByteArray *buffer)
     // updated velocity, SEX.
 
     static int counter = 0;
-    std::vector<std::pair<double, double>> bot_pos;
+
+    std::vector<std::pair<double, double>> my_team;     // Blue bots
+    std::vector<std::pair<double, double>> enemy_team;  // Yellow bots
+
     for(int i=0; i < kaurav->size(); ++i){
-        bot_pos.push_back(make_pair(kaurav->at(i).getx(), kaurav->at(i).gety()));
+        my_team.push_back(make_pair(kaurav->at(i).getx(), kaurav->at(i).gety()));
     }
+
+    for (int i = 0; i < pandav->size(); ++i) {
+        enemy_team.push_back(make_pair(pandav->at(i).getx(), pandav->at(i).gety()));
+    }
+
+    int n=5; //target
 
     std::pair<double, double> endpt;
     endpt.first = 0.0f;
     endpt.second = 100.0f;
     // LOG << counter << endl;
     if(counter == 100){
-        vertices = plan_path(bot_pos, endpt, 0);
+        vertices = plan_path(my_team, enemy_team, endpt, n);
         counter =0;
     }
     emit draw_graph(&vertices);
@@ -151,8 +176,11 @@ void Drona::handleState(QByteArray *buffer)
         m_packet[i].vel_angular = 0.0f;
 
     }
-    if(vertices.size() > 0)moveToPosition(kaurav->front().id, vertices.back().x(), vertices.back().y(), Team::YELLOW, m_packet);
-    emit send(m_packet);
+
+    if(vertices.size() > 0)
+    {   moveToPosition(kaurav->at(n).id, vertices.back().x(), vertices.back().y(), Team::YELLOW, m_packet);}
+
+    emit send(m_packet); //received by dhanush
 #endif //SIMULATOR MODE
     counter++;
 }

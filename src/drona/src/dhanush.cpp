@@ -38,21 +38,31 @@ void Dhanush::send_velocity(BotPacket* packet)
     // finish much faster
     RobotControl robot_control;
     //preparing packet
-    for(int i=0;i < TOTAL_BOTS/2; ++i){
+    for(int i=0;i <= TOTAL_BOTS/2; ++i){
         command = robot_control.add_robot_commands();
         command->set_id(packet[i].id);
         command->set_kick_speed(packet[i].kick_speed);
+
         RobotMoveCommand *move_command = command->mutable_move_command();
         MoveLocalVelocity *local_vel = move_command->mutable_local_velocity();
         local_vel->set_forward(packet[i].vel_x);
         local_vel->set_left(packet[i].vel_y);
         local_vel->set_angular(packet[i].vel_angular);
 
+
+        // Debug the data being packed
+        LOG << QString("Bot %1 | Kick: %2 | Vx: %3 | Vy: %4 | W: %5")
+                   .arg(packet[i].id)
+                   .arg(packet[i].kick_speed)
+                   .arg(packet[i].vel_x)
+                   .arg(packet[i].vel_y)
+                   .arg(packet[i].vel_angular);
     }
 
     // sending packets
     QByteArray dgram;
     dgram.resize(robot_control.ByteSize());
+
     robot_control.SerializeToArray(dgram.data(), dgram.size());
     if(packet->is_blue){
         if (socket->writeDatagram(dgram, QHostAddress::LocalHost, SSL_SIMULATION_CONTROL_BLUE_PORT) > -1) {
@@ -63,4 +73,5 @@ void Dhanush::send_velocity(BotPacket* packet)
             // for logging purposes
         }
     }
+
 }

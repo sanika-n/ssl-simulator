@@ -8,6 +8,8 @@
 #define BLUE_BOTS 6
 #define YELLOW_BOTS 6
 
+// Test stuff (remove this if you want)
+
 using namespace sslsim;
 /**
  * @brief Construct a new Drona::Drona object

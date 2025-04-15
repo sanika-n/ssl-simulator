@@ -17,6 +17,7 @@ Kuruk::Kuruk(QWidget *parent)
     // giving ownership of players and ball to kshetra and drona
     ui->kshetra->setPlayers(pandav, kaurav);
     ui->kshetra->setBall(ball);
+    ui->kshetra->setFixedSize(1280, 720);  // hardcoded override
     drona->setPlayers(pandav, kaurav);
     drona->setBall(ball);
 

@@ -20,6 +20,8 @@
 #include <clocale>
 #include <QCoreApplication>
 #include <QUdpSocket>
+#include <QDebug>
+
 #include <QThread>
 #include <QNetworkDatagram>
 #include <QCommandLineParser>
@@ -165,6 +167,7 @@ RobotCommandAdaptor::RobotCommandAdaptor(bool blue, Timer* timer): m_is_blue(blu
     m_senderPort(-1),
     m_timer(timer)
 {
+
     m_server.bind(QHostAddress::Any, (blue)? SSL_SIMULATION_CONTROL_BLUE_PORT : SSL_SIMULATION_CONTROL_YELLOW_PORT);
     connect(&m_server, &QUdpSocket::readyRead, this, &RobotCommandAdaptor::handleDatagrams);
 }
@@ -535,9 +538,10 @@ void RobotCommandAdaptor::handleDatagrams()
 
         for (const auto& command : control->robot_commands()) {
             if (command.has_move_command()) {
-                // LOG << "recieved command";
+
+                //qDebug() << "[RobotCommandAdaptor] Received command for bot";
                 const auto& moveCmd = command.move_command();
-                // LOG << moveCmd.local_velocity().forward();
+                //LOG << moveCmd.local_velocity().forward();
                 if (moveCmd.has_wheel_velocity() || moveCmd.has_global_velocity()) {
                     sendRcr = true;
                     const std::string robotStr = "(Robot :" + std::to_string(command.id()) + ")";
@@ -554,9 +558,8 @@ void RobotCommandAdaptor::handleDatagrams()
 }
 
 void RobotCommandAdaptor::handleRobotResponse(const QList<robot::RadioResponse>& res) {
-    if (m_senderAddress.isNull()) {
-        return;
-    }
+
+    if (m_senderAddress.isNull()) {return;}
 
     sslsim::RobotControlResponse out;
     bool send = false;

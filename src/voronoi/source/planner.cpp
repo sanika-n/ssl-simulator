@@ -91,8 +91,7 @@ vector<QPointF> plan_path(vector<pair<double, double>> my_team,vector<pair<doubl
     for(int i=0; i < my_team.size(); ++i)
     {   //if(i==target_id) continue;
         ver->push_back(new VPoint( my_team[i].first , my_team[i].second, id++));
-        LOG << i << ' ' << my_team[i].first << ' ' << my_team[i].second;
-    }
+        }
 
     // Add all enemy bots as obstacles
     for (const auto& bot : enemy_team)
@@ -101,7 +100,7 @@ vector<QPointF> plan_path(vector<pair<double, double>> my_team,vector<pair<doubl
     }
 
     // Add buffer points for start and end
-    int val = 10;
+    int val =200;
     // start point front
     const auto& start_bot = my_team[target_id];
     ver->push_back(new VPoint( start_bot.first + val*0.766, start_bot.second + val*0.642, id++));
@@ -133,6 +132,7 @@ vector<QPointF> plan_path(vector<pair<double, double>> my_team,vector<pair<doubl
     vector<int> path = g.shortestPath(start_id, end_id);
     // LOG << 3;
 
+    //i goes till path.size()-1 so that bot can start by going to the next point on the path
     // Convert path vertices into QPointF for visualization or control
     vector<QPointF> pos;
     for(int i=0;i<path.size()-1;i++){

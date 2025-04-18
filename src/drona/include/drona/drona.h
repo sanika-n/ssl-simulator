@@ -24,6 +24,7 @@
 #include <QThread>
 #include <QNetworkDatagram>
 
+
 enum Team{
     BLUE = 0,
     YELLOW = 1

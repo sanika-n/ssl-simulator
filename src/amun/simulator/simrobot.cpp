@@ -613,7 +613,10 @@ robot::RadioResponse SimRobot::setCommand(const sslsim::RobotCommand &command, S
     // current velocities
     btTransform t = m_body->getWorldTransform();
     t.setOrigin(btVector3(0,0,0));
-    btVector3 v_local(t.inverse() * m_body->getLinearVelocity());
+
+    btTransform t_inv = t.inverse();
+    btVector3 v_local(t_inv * m_body->getLinearVelocity());
+
     float v_f = v_local.y()/SIMULATOR_SCALE;
     float v_s = v_local.x()/SIMULATOR_SCALE;
     float omega = m_body->getAngularVelocity().z();
@@ -623,6 +626,10 @@ robot::RadioResponse SimRobot::setCommand(const sslsim::RobotCommand &command, S
     speedStatus->set_v_s(v_s);
     speedStatus->set_omega(omega);
 
+    /*if ( m_specs.id() ==5){
+    std::cout << "[SimRobot] v_f: " << v_f << ", v_s: " << v_s << ", omega: " << omega << std::endl;
+    std::cout << "isCharged: " << m_isCharged << std::endl;
+    }*/
     return response;
 }
 

@@ -32,6 +32,7 @@ Kuruk::Kuruk(QWidget *parent)
     connect(ui->actionHotMap, &QAction::triggered, ui->kshetra, &Kshetra::viewHotMap);
     connect(ui->actionAttack, &QAction::triggered, shunya, &Shunya::attack_setup);
     connect(ui->actionDefense, &QAction::triggered, shunya, &Shunya::defense_setup);
+
 }
 
 

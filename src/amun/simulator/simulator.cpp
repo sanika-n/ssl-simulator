@@ -228,6 +228,7 @@ void Simulator::process()
 
     // apply only radio commands that were already received by the robots
     while (m_radioCommands.size() > 0 && std::get<1>(m_radioCommands.head()) < m_time) {
+
         RadioCommand commands = m_radioCommands.dequeue();
         for (const sslsim::RobotCommand& command : std::get<0>(commands)->robot_commands()) {
             if (m_data->robotCommandPacketLoss > 0 && m_data->rng.uniformFloat(0, 1) <= m_data->robotCommandPacketLoss) {
@@ -244,7 +245,6 @@ void Simulator::process()
                 robot::RadioResponse response = map[id].first->setCommand(command, data->ball, charge,
                                                                                    data->robotCommandPacketLoss, data->robotReplyPacketLoss);
                 response.set_time(time);
-
                 if (isBlue != nullptr) {
                     response.set_is_blue(*isBlue);
                 }
@@ -268,6 +268,7 @@ void Simulator::process()
     // radio responses are sent when a robot gets his command
     // thus send the responses immediatelly
     emit sendRadioResponses(responses);
+
     sendSSLSimErrorInternal(ErrorSource::BLUE);
     sendSSLSimErrorInternal(ErrorSource::YELLOW);
     sendSSLSimErrorInternal(ErrorSource::CONFIG);

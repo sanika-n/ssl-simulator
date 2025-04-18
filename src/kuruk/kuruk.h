@@ -24,6 +24,7 @@ class Kuruk : public QMainWindow
 {
     Q_OBJECT
 public:
+    bool just_teleported = false; //to add ticks to delay drona sending vel commands after shunya teleports bots
     explicit Kuruk(QWidget *parent = nullptr);
     Vyasa *vyasa;
     ~Kuruk();

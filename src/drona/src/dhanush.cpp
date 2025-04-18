@@ -50,13 +50,13 @@ void Dhanush::send_velocity(BotPacket* packet)
         local_vel->set_angular(packet[i].vel_angular);
 
 
-        // Debug the data being packed
+        /* Debug the data being packed
         LOG << QString("Bot %1 | Kick: %2 | Vx: %3 | Vy: %4 | W: %5")
                    .arg(packet[i].id)
                    .arg(packet[i].kick_speed)
                    .arg(packet[i].vel_x)
                    .arg(packet[i].vel_y)
-                   .arg(packet[i].vel_angular);
+                   .arg(packet[i].vel_angular);*/
     }
 
     // sending packets

@@ -195,7 +195,12 @@ void Shunya::setBotPosition(google::protobuf::RepeatedPtrField<sslsim::TeleportR
     bot_pos->set_x(x);
     bot_pos->set_y(y);
     bot_pos->set_present(true);
-    bot_pos->set_by_force(true);
+
+    bot_pos->set_v_x(0.0);
+    bot_pos->set_v_y(0.0);
+    bot_pos->set_v_angular(0.0);
+
+    bot_pos->set_by_force(false);
     bot_pos->set_orientation(orientation);
 
 }

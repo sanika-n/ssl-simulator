@@ -1,5 +1,7 @@
 # must include kshetra.h also so that auto moc compiler works
-add_library(kshetra src/kshetra.cpp include/kshetra/kshetra.h)
+add_library(kshetra src/kshetra.cpp include/kshetra/kshetra.h
+    include/kshetra/robotinfowidget.h
+    include/kshetra/robotinfowidget.cpp)
 
 target_link_libraries(kshetra
     Qt5::Network

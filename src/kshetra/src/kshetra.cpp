@@ -1,4 +1,5 @@
 #include "kshetra.h"
+#include "robotinfowidget.h"
 #include <google/protobuf/repeated_field.h>
 #include <QNetworkDatagram>
 #include <cmath>
@@ -44,6 +45,12 @@ Kshetra::Kshetra(QWidget *parent):
 {
     scene_mantri = std::make_shared<std::vector<Mantri>>();
     see_hotmap_ = false;
+    robotInfoWidget = new RobotInfoWidget();
+    robotInfoWidget->setWindowTitle("Robot Info");
+    robotInfoWidget->setMinimumWidth(800);
+
+    // Show it from the beginning with placeholder text
+    robotInfoWidget->show();
 }
 
 Kshetra::~Kshetra()
@@ -169,10 +176,17 @@ void Kshetra::handleState(QByteArray *buffer)
                     if(bot == scene_kaurav->end()){
                         LOG << "adding robot " << itr->robot_id();
                         scene_kaurav->push_back(YellowBot(scene, scene_hotmap, transformToScene(QPoint(itr->x(), itr->y())), itr->orientation(), itr->robot_id()));
+                        YellowBot &new_bot = scene_kaurav->back();
+                        connect(new_bot.getSignalEmitter(), &RobotSignalEmitter::robotRightClicked,this, &Kshetra::onRobotRightClicked);
                         continue;
                     }
                     bot->updatePosition(transformToScene(QPoint(itr->x(), itr->y())), itr->orientation());
                 }
+                
+                // robotInfoWidget = new RobotInfoWidget(this);
+                // robotInfoWidget->setWindowTitle("Robot Info");
+                // robotInfoWidget->setAttribute(Qt::WA_DeleteOnClose);
+                // robotInfoWidget->show();
             }else{
                 LOG << "yellow bots not there! paying respects";
             }
@@ -222,49 +236,6 @@ void Kshetra::setFieldLines(const SSL_GeometryFieldSize &field_info)
         addArc_(scene, transformToScene(vecToPoint(itr->center())), itr->radius()/10, itr->thickness());
     }
 
-
-
-    // All the white lines are actually defined in protobuf/geometry.cpp
-    // and are drawn here in kshetra.cpp
-    // just above this comment block.
-
-    // The black lines are both defined here and are drawn here itself in kshetra.cpp
-    // The wall_offset and te
-
-    // Get field geometry from the protobuf
-    const auto& field = field_geometry.field();  // SSL_GeometryFieldSize
-    float fieldLengthHalf = field.field_length() / 2.0f;
-    float fieldWidthHalf  = field.field_width()  / 2.0f;
-    float wallOffset      = field.boundary_width();  // all in mm
-
-    auto drawWallLine = [&](float x1, float y1, float x2, float y2) {
-        QGraphicsLineItem* wall = scene->addLine(
-            QLineF(transformToScene(QPointF(x1, y1)), transformToScene(QPointF(x2, y2))),
-            QPen(QBrush(Qt::black), 2)
-            );
-        this->lines.append(wall);
-    };
-
-    // Top wall (make left/right longer by wallOffset)
-    drawWallLine(-fieldLengthHalf - wallOffset,  fieldWidthHalf + wallOffset,
-                 fieldLengthHalf + wallOffset,  fieldWidthHalf + wallOffset);
-
-    // Bottom wall
-    drawWallLine(-fieldLengthHalf - wallOffset, -fieldWidthHalf - wallOffset,
-                 fieldLengthHalf + wallOffset, -fieldWidthHalf - wallOffset);
-
-    // Left wall (make top/bottom longer)
-    drawWallLine(-fieldLengthHalf - wallOffset, -fieldWidthHalf - wallOffset,
-                 -fieldLengthHalf - wallOffset,  fieldWidthHalf + wallOffset);
-
-    // Right wall
-    drawWallLine(fieldLengthHalf + wallOffset, -fieldWidthHalf - wallOffset,
-                 fieldLengthHalf + wallOffset,  fieldWidthHalf + wallOffset);
-
-
-
-
-
     lines_init_ = true;
 }
 
@@ -291,4 +262,9 @@ void Kshetra::setHotMap()
     if(frame%10 == 0){
         HP.setHotMap();
     }
+}
+
+void Kshetra::onRobotRightClicked(int id, QPointF position, float orientation) {
+    qDebug() << "Slot hit: Robot ID:" << id << "at" << position << "orientation" << orientation;
+    robotInfoWidget->updateInfo(id, position, orientation);
 }

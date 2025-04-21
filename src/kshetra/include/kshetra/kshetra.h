@@ -20,6 +20,7 @@
 #include "yodha/yodha.h"
 #include "yodha/mantri.h"
 #include "drona/drona.h"
+#include "robotinfowidget.h"
 #include "protobuf/ssl_wrapper.pb.h"
 #include "protobuf/ssl_geometry.pb.h"
 #include <google/protobuf/repeated_field.h>
@@ -163,12 +164,14 @@ public slots:
     * @brief Initializes the hotmap if not done already and updates it every 10 frames
     */
     void setHotMap();
+    void onRobotRightClicked(int id, QPointF position, float orientation);
 
 private:
     QGraphicsScene *scene;
     QGraphicsScene *scene_hotmap;
     QGraphicsScene *scene_hotmap_future;
     QPainter *painter;
+    RobotInfoWidget *robotInfoWidget;
     std::shared_ptr<std::vector<BlueBot>> scene_pandav;
     std::shared_ptr<std::vector<YellowBot>> scene_kaurav;
     std::shared_ptr<Ball> scene_ball;

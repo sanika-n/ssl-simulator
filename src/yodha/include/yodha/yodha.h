@@ -108,37 +108,54 @@ private:
 
 };
 
+class RobotSignalEmitter : public QObject {
+    Q_OBJECT
+public:
+    RobotSignalEmitter(QObject *parent = nullptr) : QObject(parent) {}
+
+signals:
+    void robotRightClicked(int id, QPointF position, float orientation);
+};
+
+
 /**
  * @class YellowBot
  * @brief Defines how to make the yellow robots (its structure) and functions to update its positions
  * 
  * Every function defined inside is the same as that of the blue bots
  */
+ 
 class YellowBot{
-public:
-    YellowBot(){};
-    YellowBot(QGraphicsScene *scene, QGraphicsScene *scene_hotmap, QPointF &&point, float orientation,int id);
-    float getx(){ return x; }
-    float gety(){ return y; }
-    QPointF mapFromScene(float x, float y){ return body_graphics->mapFromScene(x, y); }
-    void updatePosition(const QPointF &&point, float orientation);
-    int id;
-private:
-    class YellowBotGraphics : public QGraphicsPathItem{
     public:
-        YellowBotGraphics(){};
-        YellowBotGraphics(int id): id(id){};
-        YellowBotGraphics(QPainterPath &path, int id):QGraphicsPathItem(path), id(id){};
-        void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget = nullptr) override;
-    protected:
+        YellowBot(){};
+        YellowBot(QGraphicsScene *scene, QGraphicsScene *scene_hotmap, QPointF &&point, float orientation,int id);
+        float getx(){ return x; }
+        float gety(){ return y; }
+        QPointF mapFromScene(float x, float y){ return body_graphics->mapFromScene(x, y); }
+        void updatePosition(const QPointF &&point, float orientation);
         int id;
-        void mousePressEvent(QGraphicsSceneMouseEvent *event) override;
-        void mouseMoveEvent(QGraphicsSceneMouseEvent *event) override;
-        void keyPressEvent(QKeyEvent *event) override;
-    };
-    YellowBotGraphics *body_graphics, *body_graphics_hotmap=nullptr;
-    float x, y, orientation;
+        RobotSignalEmitter* getSignalEmitter() const { return signalEmitter; }
+    
+    private:
+        RobotSignalEmitter *signalEmitter = nullptr; 
+    private:
+        class YellowBotGraphics : public QGraphicsPathItem{
+        public:
+            YellowBotGraphics():signalEmitter(nullptr){};
+            YellowBotGraphics(int id, RobotSignalEmitter *emitter ): id(id), signalEmitter(emitter){};
+            YellowBotGraphics(QPainterPath &path, int id, RobotSignalEmitter *emitter):QGraphicsPathItem(path), id(id), signalEmitter(emitter){};
+            void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget = nullptr) override;
+        protected:
+            int id;
+            RobotSignalEmitter *signalEmitter = nullptr;
+            void mousePressEvent(QGraphicsSceneMouseEvent *event) override;
+            void mouseMoveEvent(QGraphicsSceneMouseEvent *event) override;
+            void keyPressEvent(QKeyEvent *event) override;
+        };
+        YellowBotGraphics *body_graphics, *body_graphics_hotmap=nullptr;
+        float x, y, orientation;
 };
+
 
 /**
  * @class Ball

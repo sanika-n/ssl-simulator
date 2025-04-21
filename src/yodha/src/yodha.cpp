@@ -34,6 +34,7 @@ YellowBot::YellowBot(QGraphicsScene *scene, QGraphicsScene *scene_hotmap, QPoint
     y(point.y()),
     orientation(orientation)
 {
+    signalEmitter = new RobotSignalEmitter();
     QPainterPath path;
     path.setFillRule(Qt::WindingFill);
     QRectF bounding_rect = QRectF(-ROBOT_RADIUS, -ROBOT_RADIUS, 2*ROBOT_RADIUS, 2*ROBOT_RADIUS);
@@ -42,8 +43,8 @@ YellowBot::YellowBot(QGraphicsScene *scene, QGraphicsScene *scene_hotmap, QPoint
     path.moveTo(ROBOT_RADIUS*cos(qDegreesToRadians(SUBTEND_ANGLE)), ROBOT_RADIUS*sin(qDegreesToRadians(SUBTEND_ANGLE)));
     path.lineTo(ROBOT_RADIUS*cos(qDegreesToRadians(SUBTEND_ANGLE)), -ROBOT_RADIUS*sin(qDegreesToRadians(SUBTEND_ANGLE)));
 
-    body_graphics = new YellowBotGraphics(path, id);
-    body_graphics_hotmap = new YellowBotGraphics(path, id);
+    body_graphics = new YellowBotGraphics(path, id, signalEmitter);
+    body_graphics_hotmap = new YellowBotGraphics(path, id, signalEmitter);
 
     body_graphics->setRotation(qRadiansToDegrees(orientation));
     body_graphics_hotmap->setRotation(qRadiansToDegrees(orientation));
@@ -76,6 +77,14 @@ void YellowBot::YellowBotGraphics::paint(QPainter *painter, const QStyleOptionGr
 
 void YellowBot::YellowBotGraphics::mousePressEvent(QGraphicsSceneMouseEvent *event)
 {
+    if (event->button() == Qt::RightButton) {
+        if (signalEmitter) {
+            emit signalEmitter->robotRightClicked(id, this->pos(), this->rotation());
+            qDebug() << "Emitted signal from bot id:" << id;
+        } else {
+            qDebug() << "signalEmitter is null!";
+        }
+    }
 }
 
 void YellowBot::YellowBotGraphics::mouseMoveEvent(QGraphicsSceneMouseEvent *event)

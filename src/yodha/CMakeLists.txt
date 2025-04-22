@@ -6,6 +6,7 @@ add_library(yodha src/yodha.cpp include/yodha/yodha.h
 target_link_libraries(yodha
     Qt5::Core
     Qt5::Widgets
+    Qt5::Gamepad
     katha::shunya
 )
 

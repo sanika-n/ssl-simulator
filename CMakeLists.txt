@@ -32,7 +32,7 @@ restore_env()
 
 # to compile Qt meta objects automatically, so peaceee
 set(CMAKE_AUTOMOC ON)
-find_package(Qt5 COMPONENTS Core Widgets Network OpenGL REQUIRED)
+find_package(Qt5 COMPONENTS Core Widgets Network OpenGL Gamepad REQUIRED)
 
 # place to download stuff
 set(DEPENDENCY_DOWNLOADS "${CMAKE_BINARY_DIR}/dependencies")

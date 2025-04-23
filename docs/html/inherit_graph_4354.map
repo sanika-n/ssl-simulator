@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classEigen_1_1TranspositionsBase.html" title=" " alt="" coords="5,42,245,111"/>
+<area shape="rect" id="Node000001" href="$classEigen_1_1Transpositions.html" title=" " alt="" coords="293,5,499,60"/>
+<area shape="poly" id="edge993_Node000000_Node000001" title=" " alt="" coords="258,52,293,47,294,52,259,58"/>
+<area shape="rect" id="Node000002" href="$classEigen_1_1Transpositions.html" title="Represents a sequence of transpositions (row/column interchange)" alt="" coords="303,85,489,154"/>
+<area shape="poly" id="edge994_Node000000_Node000002" title=" " alt="" coords="259,95,303,102,302,107,259,100"/>
+</map>

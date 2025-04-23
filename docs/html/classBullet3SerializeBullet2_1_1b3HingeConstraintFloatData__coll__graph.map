@@ -1,0 +1,14 @@
+<map id="Bullet3SerializeBullet2::b3HingeConstraintFloatData" name="Bullet3SerializeBullet2::b3HingeConstraintFloatData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="927,48,1141,88"/>
+<area shape="rect" id="Node000002" href="$classBullet3SerializeBullet2_1_1b3TypedConstraintData.html" title=" " alt="" coords="544,15,727,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="741,41,927,56,926,62,740,46"/>
+<area shape="rect" id="Node000003" href="$structBullet3SerializeBullet2_1_1bInvalidHandle.html" title=" " alt="" coords="264,15,435,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="448,32,544,32,544,37,448,37"/>
+<area shape="rect" id="Node000004" href="$classBullet3SerializeBullet2_1_1b3TransformFloatData.html" title=" " alt="" coords="548,79,723,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="737,99,818,98,902,92,946,85,947,91,903,97,818,103,737,104"/>
+<area shape="rect" id="Node000005" href="$classBullet3SerializeBullet2_1_1b3Matrix3x3FloatData.html" title=" " alt="" coords="261,144,437,184"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="450,142,519,127,561,116,562,121,521,132,451,147"/>
+<area shape="rect" id="Node000006" href="$classBullet3SerializeBullet2_1_1b3Vector3FloatData.html" title=" " alt="" coords="5,109,176,149"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="189,121,548,101,548,106,190,126"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="190,140,261,150,261,155,189,145"/>
+</map>

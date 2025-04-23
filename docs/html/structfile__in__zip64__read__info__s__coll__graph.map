@@ -1,0 +1,22 @@
+<map id="file_in_zip64_read_info_s" name="file_in_zip64_read_info_s">
+<area shape="rect" id="Node000001" title=" " alt="" coords="435,343,574,383"/>
+<area shape="rect" id="Node000002" href="$structz__stream__s.html" title=" " alt="" coords="319,218,415,243"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="391,251,486,340,483,344,387,255"/>
+<area shape="rect" id="Node000003" href="$structinternal__state.html" title=" " alt="" coords="162,350,274,375"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="332,252,300,276,287,298,275,320,238,352,234,348,271,317,283,295,296,273,329,248"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="287,346,313,334,336,317,349,299,357,280,364,243,369,244,362,281,353,302,340,321,316,339,289,351"/>
+<area shape="rect" id="Node000004" href="$structgz__header__s.html" title=" " alt="" coords="5,218,108,243"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="58,257,63,288,68,304,77,317,95,332,117,343,162,355,161,361,115,348,92,336,73,320,64,306,57,290,53,258"/>
+<area shape="rect" id="Node000005" href="$structct__data__s.html" title=" " alt="" coords="189,5,273,31"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="216,43,188,88,174,115,165,143,160,173,161,204,174,263,195,314,213,349,209,351,190,316,169,265,156,204,155,173,159,142,170,113,183,85,212,40"/>
+<area shape="rect" id="Node000006" href="$structtree__desc__s.html" title=" " alt="" coords="183,218,282,243"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="234,45,235,218,230,218,229,45"/>
+<area shape="rect" id="Node000007" href="$structstatic__tree__desc__s.html" title=" " alt="" coords="317,93,460,119"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="266,35,369,91,366,95,263,40"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="226,257,222,275,219,316,220,349,214,350,214,316,217,274,221,255"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="365,129,249,220,246,216,361,125"/>
+<area shape="rect" id="Node000008" href="$structzlib__filefunc64__32__def__s.html" title=" " alt="" coords="489,211,627,251"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="547,264,515,344,510,342,543,262"/>
+<area shape="rect" id="Node000009" href="$structzlib__filefunc64__def__s.html" title=" " alt="" coords="484,93,643,119"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="565,133,561,210,556,210,560,132"/>
+</map>

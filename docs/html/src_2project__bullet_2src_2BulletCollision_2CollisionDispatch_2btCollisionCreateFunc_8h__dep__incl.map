@@ -1,0 +1,65 @@
+<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/src/BulletCollision/CollisionDispatch/btCollisionCreateFunc.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/src/BulletCollision/CollisionDispatch/btCollisionCreateFunc.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="2509,5,2746,104"/>
+<area shape="rect" id="Node000002" href="$src_2project__bullet_2src_2BulletCollision_2CollisionDispatch_2btCollisionDispatcher_8h.html" title=" " alt="" coords="1305,152,1542,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2495,74,1542,188,1542,183,2495,69"/>
+<area shape="rect" id="Node000011" href="$src_2project__bullet_2src_2BulletCollision_2CollisionDispatch_2btConvexConvexAlgorithm_8h.html" title=" " alt="" coords="2153,299,2390,397"/>
+<area shape="poly" id="edge31_Node000001_Node000011" title=" " alt="" coords="2560,115,2332,300,2329,296,2556,111"/>
+<area shape="rect" id="Node000015" href="$src_2project__bullet_2src_2BulletCollision_2CollisionDispatch_2btEmptyCollisionAlgorithm_8h.html" title=" " alt="" coords="2414,299,2651,397"/>
+<area shape="poly" id="edge32_Node000001_Node000015" title=" " alt="" coords="2610,118,2551,299,2546,298,2605,117"/>
+<area shape="rect" id="Node000023" href="$src_2project__bullet_2src_2BulletCollision_2CollisionDispatch_2btCompoundCollisionAlgorithm_8h.html" title=" " alt="" coords="2656,152,2897,251"/>
+<area shape="poly" id="edge26_Node000001_Node000023" title=" " alt="" coords="2689,112,2728,150,2725,153,2685,116"/>
+<area shape="rect" id="Node000026" href="$src_2project__bullet_2src_2BulletCollision_2CollisionDispatch_2btConvexConcaveCollisionAlgorithm_8h.html" title=" " alt="" coords="2977,152,3253,251"/>
+<area shape="poly" id="edge29_Node000001_Node000026" title=" " alt="" coords="2760,92,2978,157,2976,162,2758,97"/>
+<area shape="rect" id="Node000028" href="$src_2project__bullet_2src_2BulletCollision_2CollisionDispatch_2btSimulationIslandManager_8h.html" title=" " alt="" coords="3309,152,3546,251"/>
+<area shape="poly" id="edge33_Node000001_Node000028" title=" " alt="" coords="2760,68,2997,100,3133,123,3267,149,3309,160,3308,165,3265,155,3132,128,2996,105,2760,73"/>
+<area shape="rect" id="Node000003" href="$btActivatingCollisionAlgorithm_8cpp.html" title=" " alt="" coords="5,299,257,397"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1290,206,1091,211,835,225,695,238,552,254,409,275,269,301,258,304,257,299,268,296,408,270,551,249,695,232,835,220,1090,205,1290,200"/>
+<area shape="rect" id="Node000004" href="$btCollisionDispatcher_8cpp.html" title=" " alt="" coords="547,299,785,397"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="1291,218,1059,249,927,272,797,301,786,304,784,299,796,296,926,267,1058,243,1290,213"/>
+<area shape="rect" id="Node000005" href="$btCollisionWorld_8cpp.html" title=" " alt="" coords="1343,445,1581,544"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="1434,264,1458,445,1453,445,1429,265"/>
+<area shape="rect" id="Node000006" href="$src_2project__bullet_2src_2BulletCollision_2CollisionDispatch_2btCollisionWorld_8h.html" title=" " alt="" coords="1486,299,1723,397"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="1496,257,1545,296,1542,300,1493,261"/>
+<area shape="rect" id="Node000009" href="$src_2project__bullet_2src_2btBulletCollisionCommon_8h.html" title=" " alt="" coords="1115,453,1319,537"/>
+<area shape="poly" id="edge25_Node000002_Node000009" title=" " alt="" coords="1422,265,1407,333,1394,367,1375,399,1345,430,1310,455,1307,450,1342,426,1371,396,1389,365,1402,331,1417,264"/>
+<area shape="poly" id="edge12_Node000002_Node000011" title=" " alt="" coords="1556,214,1808,246,1953,269,2097,296,2153,309,2152,314,2096,301,1952,274,1807,251,1555,219"/>
+<area shape="rect" id="Node000013" href="$src_2project__bullet_2src_2BulletCollision_2CollisionDispatch_2btConvexPlaneCollisionAlgorithm_8h.html" title=" " alt="" coords="1829,299,2085,397"/>
+<area shape="poly" id="edge14_Node000002_Node000013" title=" " alt="" coords="1556,236,1829,309,1828,315,1555,241"/>
+<area shape="poly" id="edge16_Node000002_Node000015" title=" " alt="" coords="1555,202,1726,210,1938,226,2171,253,2288,273,2403,296,2414,299,2413,304,2401,301,2287,278,2170,259,1938,231,1726,215,1555,208"/>
+<area shape="rect" id="Node000017" href="$src_2project__bullet_2src_2BulletCollision_2CollisionDispatch_2btSphereBoxCollisionAlgorithm_8h.html" title=" " alt="" coords="281,299,523,397"/>
+<area shape="poly" id="edge18_Node000002_Node000017" title=" " alt="" coords="1291,210,1136,219,947,236,741,262,536,301,524,304,522,299,535,296,740,257,946,231,1136,214,1291,205"/>
+<area shape="rect" id="Node000019" href="$src_2project__bullet_2src_2BulletCollision_2CollisionDispatch_2btSphereSphereCollisionAlgorithm_8h.html" title=" " alt="" coords="1099,299,1361,397"/>
+<area shape="poly" id="edge20_Node000002_Node000019" title=" " alt="" coords="1349,261,1297,300,1293,296,1346,257"/>
+<area shape="rect" id="Node000021" href="$src_2project__bullet_2src_2BulletCollision_2CollisionDispatch_2btSphereTriangleCollisionAlgorithm_8h.html" title=" " alt="" coords="809,299,1075,397"/>
+<area shape="poly" id="edge23_Node000002_Node000021" title=" " alt="" coords="1292,242,1088,301,1076,305,1075,300,1087,296,1291,236"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="1549,409,1512,447,1508,443,1545,406"/>
+<area shape="rect" id="Node000007" href="$btGhostObject_8cpp.html" title=" " alt="" coords="1577,592,1814,691"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="1615,410,1627,475,1646,543,1668,591,1663,593,1641,545,1621,476,1609,411"/>
+<area shape="rect" id="Node000008" href="$src_2project__bullet_2src_2BulletCollision_2CollisionDispatch_2btGhostObject_8h.html" title=" " alt="" coords="1655,445,1893,544"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="1673,404,1719,443,1715,447,1670,408"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="1473,396,1332,448,1314,455,1312,450,1330,443,1472,391"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="1743,558,1724,593,1719,590,1739,555"/>
+<area shape="rect" id="Node000010" href="$src_2project__bullet_2src_2btBulletDynamicsCommon_8h.html" title=" " alt="" coords="1110,599,1323,683"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="1219,551,1219,599,1214,599,1214,551"/>
+<area shape="rect" id="Node000012" href="$btConvexConvexAlgorithm_8cpp.html" title=" " alt="" coords="2210,445,2447,544"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="2298,409,2312,444,2307,446,2293,411"/>
+<area shape="rect" id="Node000014" href="$btConvexPlaneCollisionAlgorithm_8cpp.html" title=" " alt="" coords="1916,445,2187,544"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="1998,407,2022,443,2017,446,1994,410"/>
+<area shape="rect" id="Node000016" href="$btEmptyCollisionAlgorithm_8cpp.html" title=" " alt="" coords="2471,445,2709,544"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="2559,409,2573,444,2568,446,2555,411"/>
+<area shape="rect" id="Node000018" href="$btSphereBoxCollisionAlgorithm_8cpp.html" title=" " alt="" coords="227,445,483,544"/>
+<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="385,411,374,446,369,444,380,410"/>
+<area shape="poly" id="edge22_Node000019_Node000009" title=" " alt="" coords="1227,412,1223,453,1218,452,1222,411"/>
+<area shape="rect" id="Node000020" href="$btSphereSphereCollisionAlgorithm_8cpp.html" title=" " alt="" coords="815,445,1091,544"/>
+<area shape="poly" id="edge21_Node000019_Node000020" title=" " alt="" coords="1127,406,1047,448,1044,443,1124,401"/>
+<area shape="rect" id="Node000022" href="$btSphereTriangleCollisionAlgorithm_8cpp.html" title=" " alt="" coords="507,445,790,544"/>
+<area shape="poly" id="edge24_Node000021_Node000022" title=" " alt="" coords="833,406,748,448,745,443,830,401"/>
+<area shape="rect" id="Node000024" href="$src_2project__bullet_2src_2BulletCollision_2CollisionDispatch_2btCompoundCompoundCollisionAlgorithm_8h.html" title=" " alt="" coords="2675,299,2985,397"/>
+<area shape="poly" id="edge27_Node000023_Node000024" title=" " alt="" coords="2802,263,2815,297,2810,299,2797,265"/>
+<area shape="rect" id="Node000025" href="$btCompoundCompoundCollisionAlgorithm_8cpp.html" title=" " alt="" coords="2733,445,3060,544"/>
+<area shape="poly" id="edge28_Node000024_Node000025" title=" " alt="" coords="2861,409,2877,444,2872,446,2856,411"/>
+<area shape="rect" id="Node000027" href="$btConvexConcaveCollisionAlgorithm_8cpp.html" title=" " alt="" coords="3010,299,3301,397"/>
+<area shape="poly" id="edge30_Node000026_Node000027" title=" " alt="" coords="3135,263,3144,297,3139,299,3130,265"/>
+<area shape="rect" id="Node000029" href="$btSimulationIslandManager_8cpp.html" title=" " alt="" coords="3325,299,3562,397"/>
+<area shape="poly" id="edge34_Node000028_Node000029" title=" " alt="" coords="3437,264,3441,298,3435,298,3432,265"/>
+</map>

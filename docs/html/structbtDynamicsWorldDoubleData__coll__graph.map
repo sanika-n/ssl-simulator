@@ -1,0 +1,7 @@
+<map id="btDynamicsWorldDoubleData" name="btDynamicsWorldDoubleData">
+<area shape="rect" id="Node000001" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="121,93,336,119"/>
+<area shape="rect" id="Node000002" href="$structbtContactSolverInfoDoubleData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="5,5,233,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,37,215,91,212,95,143,41"/>
+<area shape="rect" id="Node000003" href="$structbtVector3DoubleData.html" title=" " alt="" coords="257,5,419,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="315,42,277,71,245,95,242,91,274,67,311,37"/>
+</map>

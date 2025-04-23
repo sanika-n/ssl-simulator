@@ -1,0 +1,29 @@
+<map id="btGImpactCompoundShape" name="btGImpactCompoundShape">
+<area shape="rect" id="Node000001" title="btGImpactCompoundShape allows to handle multiple btCollisionShape objects at once" alt="" coords="1697,97,1897,123"/>
+<area shape="rect" id="Node000009" href="$classbtGImpactCompoundShape_1_1CompoundPrimitiveManager.html" title="compound primitive manager" alt="" coords="2095,22,2311,62"/>
+<area shape="poly" id="edge14_Node000009_Node000001" title=" " alt="" coords="1887,92,2094,57,2095,63,1888,98"/>
+<area shape="rect" id="Node000002" href="$classbtGImpactShapeInterface.html" title="Base class for gimpact shapes." alt="" coords="1333,97,1521,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1535,116,1697,115,1697,121,1535,121"/>
+<area shape="poly" id="edge10_Node000001_Node000002" title=" " alt="" coords="1535,99,1697,99,1697,105,1535,104"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="1053,121,1184,147"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1198,133,1360,120,1361,125,1198,139"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="1197,117,1333,106,1333,112,1198,123"/>
+<area shape="rect" id="Node000004" href="$classbtGImpactQuantizedBvh.html" title="Structure for containing Boxes." alt="" coords="1028,68,1209,93"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="1223,88,1333,98,1333,104,1223,93"/>
+<area shape="rect" id="Node000005" href="$classbtQuantizedBvhTree.html" title="Basic Box tree structure." alt="" coords="663,97,816,123"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="830,112,914,112,1004,106,1075,91,1076,96,1004,111,915,118,830,117"/>
+<area shape="rect" id="Node000006" href="$classGIM__QUANTIZED__BVH__NODE__ARRAY.html" title=" " alt="" coords="289,90,503,130"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="516,107,662,107,662,113,516,113"/>
+<area shape="rect" id="Node000007" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="5,90,240,130"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="254,116,289,116,289,121,254,122"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="254,98,289,99,289,104,254,104"/>
+<area shape="rect" id="Node000008" href="$classbtPrimitiveManagerBase.html" title="Prototype Base class for primitive classification." alt="" coords="648,5,831,31"/>
+<area shape="poly" id="edge9_Node000004_Node000008" title=" " alt="" coords="780,34,816,49,855,61,943,74,1028,79,1027,84,943,80,854,66,814,54,778,39"/>
+<area shape="poly" id="edge12_Node000009_Node000008" title=" " alt="" coords="845,25,1117,27,1799,27,1954,32,2095,39,2094,45,1954,37,1799,33,1117,33,845,31"/>
+<area shape="poly" id="edge13_Node000009_Node000008" title=" " alt="" coords="845,5,1117,3,1799,3,1954,8,2095,20,2094,25,1954,14,1799,9,1117,9,845,11"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="2162,72,2119,94,2071,111,2028,119,1983,123,1898,123,1898,118,1982,118,2027,114,2070,106,2117,89,2159,67"/>
+<area shape="rect" id="Node000010" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="1347,147,1508,187"/>
+<area shape="poly" id="edge15_Node000001_Node000010" title=" " alt="" coords="1521,151,1673,127,1718,120,1719,125,1674,133,1522,156"/>
+<area shape="rect" id="Node000011" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="1341,211,1513,251"/>
+<area shape="poly" id="edge16_Node000001_Node000011" title=" " alt="" coords="1526,208,1599,190,1672,166,1726,143,1771,120,1774,125,1728,148,1674,171,1600,195,1527,213"/>
+</map>

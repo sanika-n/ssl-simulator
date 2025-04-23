@@ -1,0 +1,17 @@
+<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/Gimpact/btClipPolygon.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/Gimpact/btClipPolygon.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="137,5,349,89"/>
+<area shape="rect" id="Node000002" href="$include_2bullet_2BulletCollision_2Gimpact_2btTriangleShapeEx_8h.html" title=" " alt="" coords="135,137,352,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,103,246,137,241,137,241,103"/>
+<area shape="rect" id="Node000003" href="$include_2bullet_2BulletCollision_2Gimpact_2btContactProcessing_8h.html" title=" " alt="" coords="5,269,236,353"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="197,233,162,271,158,267,193,230"/>
+<area shape="rect" id="Node000004" href="$include_2bullet_2BulletCollision_2Gimpact_2btGImpactBvh_8h.html" title=" " alt="" coords="260,269,472,353"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="293,230,329,267,325,271,289,233"/>
+<area shape="rect" id="Node000005" href="$include_2bullet_2BulletCollision_2Gimpact_2btGImpactQuantizedBvh_8h.html" title=" " alt="" coords="238,401,494,485"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="369,367,369,401,363,401,363,367"/>
+<area shape="rect" id="Node000006" href="$include_2bullet_2BulletCollision_2Gimpact_2btGImpactShape_8h.html" title=" " alt="" coords="260,533,472,617"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="369,499,369,533,363,533,363,499"/>
+<area shape="rect" id="Node000007" href="$include_2bullet_2BulletCollision_2Gimpact_2btCompoundFromGimpact_8h.html" title=" " alt="" coords="81,665,349,749"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="310,629,265,667,261,663,306,625"/>
+<area shape="rect" id="Node000008" href="$include_2bullet_2BulletCollision_2Gimpact_2btGImpactCollisionAlgorithm_8h.html" title=" " alt="" coords="374,665,659,749"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="426,625,471,663,467,667,422,629"/>
+</map>

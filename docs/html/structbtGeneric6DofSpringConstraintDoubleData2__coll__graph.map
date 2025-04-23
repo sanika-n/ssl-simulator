@@ -1,0 +1,25 @@
+<map id="btGeneric6DofSpringConstraintDoubleData2" name="btGeneric6DofSpringConstraintDoubleData2">
+<area shape="rect" id="Node000001" title=" " alt="" coords="392,839,616,879"/>
+<area shape="rect" id="Node000002" href="$structbtGeneric6DofConstraintDoubleData2.html" title=" " alt="" coords="389,736,619,776"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="507,790,507,839,501,839,501,790"/>
+<area shape="rect" id="Node000003" href="$structbtTypedConstraintDoubleData.html" title=" " alt="" coords="569,648,786,673"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="645,682,541,738,538,733,643,677"/>
+<area shape="rect" id="Node000004" href="$structbtRigidBodyDoubleData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="616,543,795,569"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="701,583,683,648,678,647,696,581"/>
+<area shape="rect" id="Node000005" href="$structbtCollisionObjectDoubleData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="175,437,385,462"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="306,469,342,494,385,515,442,530,489,534,537,535,598,539,616,541,615,546,597,544,537,540,489,540,441,536,383,520,339,498,303,473"/>
+<area shape="rect" id="Node000006" href="$structbtCollisionShapeData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="95,264,257,289"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="150,300,127,320,107,345,98,371,99,383,105,394,120,403,152,413,231,434,230,439,150,418,118,408,101,398,94,384,93,370,103,342,123,317,147,296"/>
+<area shape="rect" id="Node000007" href="$structbtTransformDoubleData.html" title=" " alt="" coords="313,264,490,289"/>
+<area shape="poly" id="edge13_Node000002_Node000007" title=" " alt="" coords="431,296,464,326,492,365,506,403,510,435,507,509,507,662,507,736,501,736,501,662,501,509,504,435,500,405,487,368,460,330,428,300"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="363,297,318,326,298,345,282,368,277,385,275,404,279,436,274,437,270,404,272,384,278,365,294,342,315,322,360,293"/>
+<area shape="rect" id="Node000008" href="$structbtMatrix3x3DoubleData.html" title="for serialization" alt="" coords="376,93,555,119"/>
+<area shape="poly" id="edge11_Node000004_Node000008" title=" " alt="" coords="502,125,517,141,534,176,542,208,544,238,542,267,539,327,545,359,558,395,588,442,625,484,691,541,688,545,621,487,584,445,554,397,540,360,534,327,536,267,538,238,537,209,529,178,512,144,498,128"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="459,133,408,265,403,263,454,131"/>
+<area shape="rect" id="Node000009" href="$structbtVector3DoubleData.html" title=" " alt="" coords="210,5,371,31"/>
+<area shape="poly" id="edge14_Node000002_Node000009" title=" " alt="" coords="196,32,132,43,70,59,25,80,12,92,8,105,8,662,10,668,17,674,45,687,142,710,267,728,389,742,389,747,267,734,141,715,44,692,14,678,6,671,3,662,3,104,8,89,22,75,69,54,131,38,196,27"/>
+<area shape="poly" id="edge12_Node000004_Node000009" title=" " alt="" coords="385,16,496,20,612,33,663,44,704,59,732,79,740,91,743,104,743,451,740,478,732,504,714,544,710,542,727,502,734,477,737,451,737,105,735,93,728,82,702,64,662,49,612,38,496,25,385,21"/>
+<area shape="poly" id="edge10_Node000005_Node000009" title=" " alt="" coords="249,39,213,56,174,80,136,109,103,144,94,161,89,175,85,211,74,266,65,311,64,332,67,352,76,372,92,394,110,403,143,413,228,434,227,439,142,418,107,408,89,398,72,375,62,353,59,332,59,311,69,265,80,210,84,174,89,159,99,141,132,105,171,75,211,51,247,34"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="293,44,296,80,305,118,325,162,349,203,394,262,389,265,345,206,320,164,300,120,291,81,288,45"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="328,34,443,91,440,95,325,39"/>
+</map>

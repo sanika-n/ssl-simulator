@@ -1,0 +1,22 @@
+<map id="btSoftBody::Note" name="btSoftBody::Note">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,348,136,373"/>
+<area shape="rect" id="Node000002" href="$structbtSoftBody_1_1Element.html" title=" " alt="" coords="68,5,223,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,39,73,62,64,76,61,92,61,274,62,314,65,347,60,348,57,315,56,274,56,91,60,74,69,58,97,35"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="120,40,96,63,88,76,85,92,85,274,85,315,81,348,76,347,80,314,80,274,80,91,83,74,92,59,116,36"/>
+<area shape="rect" id="Node000004" href="$structbtSoftBody_1_1Feature.html" title=" " alt="" coords="120,170,269,195"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="149,44,167,110,189,169,184,171,162,111,144,45"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="162,43,184,109,199,169,193,170,179,111,157,44"/>
+<area shape="rect" id="Node000005" href="$structbtSoftBody_1_1Material.html" title=" " alt="" coords="195,80,349,105"/>
+<area shape="poly" id="edge8_Node000005_Node000002" title=" " alt="" coords="172,36,246,77,244,82,169,40"/>
+<area shape="poly" id="edge9_Node000005_Node000002" title=" " alt="" coords="186,35,260,77,257,82,183,40"/>
+<area shape="rect" id="Node000003" href="$structbtSoftBody_1_1Node.html" title=" " alt="" coords="127,260,262,285"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="168,295,89,350,86,346,165,291"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="189,209,191,260,186,260,184,209"/>
+<area shape="poly" id="edge10_Node000003_Node000004" title=" " alt="" coords="206,209,204,260,198,260,200,209"/>
+<area shape="poly" id="edge7_Node000004_Node000005" title=" " alt="" coords="255,117,207,171,203,168,251,114"/>
+<area shape="rect" id="Node000006" href="$structbtDbvtNode.html" title=" " alt="" coords="341,170,441,195"/>
+<area shape="poly" id="edge11_Node000003_Node000006" title=" " alt="" coords="354,203,221,262,219,257,352,198"/>
+<area shape="poly" id="edge13_Node000006_Node000006" title=" " alt="" coords="455,173,464,176,467,183,459,191,441,194,440,188,457,186,462,182,460,181,453,178"/>
+<area shape="rect" id="Node000007" href="$structbtDbvtAabbMm.html" title=" " alt="" coords="374,80,498,105"/>
+<area shape="poly" id="edge12_Node000006_Node000007" title=" " alt="" coords="426,119,399,171,394,168,421,116"/>
+</map>

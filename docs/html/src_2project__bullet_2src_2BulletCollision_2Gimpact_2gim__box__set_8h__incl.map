@@ -1,0 +1,33 @@
+<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/src/BulletCollision/Gimpact/gim_box_set.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/src/BulletCollision/Gimpact/gim_box_set.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="145,5,335,104"/>
+<area shape="rect" id="Node000002" href="$src_2project__bullet_2src_2BulletCollision_2Gimpact_2gim__array_8h.html" title=" " alt="" coords="5,152,104,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,106,88,147,85,143,156,102"/>
+<area shape="rect" id="Node000007" href="$src_2project__bullet_2src_2BulletCollision_2Gimpact_2gim__radixsort_8h.html" title=" " alt="" coords="129,152,253,177"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="220,105,204,141,199,138,216,103"/>
+<area shape="rect" id="Node000008" href="$src_2project__bullet_2src_2BulletCollision_2Gimpact_2gim__box__collision_8h.html" title=" " alt="" coords="215,225,366,251"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="256,104,286,211,281,213,251,105"/>
+<area shape="rect" id="Node000013" href="$src_2project__bullet_2src_2BulletCollision_2Gimpact_2gim__tri__collision_8h.html" title=" " alt="" coords="328,152,469,177"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="312,102,372,142,369,146,309,106"/>
+<area shape="rect" id="Node000003" href="$src_2project__bullet_2src_2BulletCollision_2Gimpact_2gim__memory_8h.html" title=" " alt="" coords="21,225,139,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="61,177,74,212,69,213,56,179"/>
+<area shape="rect" id="Node000004" href="$src_2project__bullet_2src_2BulletCollision_2Gimpact_2gim__math_8h.html" title=" " alt="" coords="79,533,179,559"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="82,251,81,299,81,338,101,439,124,519,119,521,96,441,76,339,76,299,77,251"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="91,306,162,331"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="89,249,115,293,110,295,85,252"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="48,607,211,632"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="132,559,132,593,127,593,127,559"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="174,180,111,220,108,215,171,175"/>
+<area shape="rect" id="Node000009" href="$src_2project__bullet_2src_2BulletCollision_2Gimpact_2gim__basic__geometry__operations_8h.html" title=" " alt="" coords="186,299,345,339"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="289,252,278,287,273,285,284,250"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="369,306,559,331"/>
+<area shape="poly" id="edge14_Node000008_Node000012" title=" " alt="" coords="317,248,427,298,425,303,315,253"/>
+<area shape="rect" id="Node000010" href="$src_2project__bullet_2src_2BulletCollision_2Gimpact_2gim__linear__math_8h.html" title=" " alt="" coords="168,387,312,412"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="262,340,250,374,245,373,257,338"/>
+<area shape="poly" id="edge11_Node000010_Node000004" title=" " alt="" coords="217,414,185,434,157,462,142,491,135,520,130,519,137,489,153,458,182,430,214,410"/>
+<area shape="rect" id="Node000011" href="$src_2project__bullet_2src_2BulletCollision_2Gimpact_2gim__geom__types_8h.html" title=" " alt="" coords="167,460,313,485"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="243,412,243,446,237,446,237,412"/>
+<area shape="poly" id="edge13_Node000011_Node000004" title=" " alt="" coords="224,488,161,528,158,523,221,483"/>
+<area shape="poly" id="edge16_Node000013_Node000008" title=" " alt="" coords="383,180,321,220,318,215,380,175"/>
+<area shape="rect" id="Node000014" href="$src_2project__bullet_2src_2BulletCollision_2Gimpact_2gim__clip__polygon_8h.html" title=" " alt="" coords="390,225,538,251"/>
+<area shape="poly" id="edge17_Node000013_Node000014" title=" " alt="" coords="411,176,446,213,442,217,407,179"/>
+</map>

@@ -67,6 +67,9 @@ public slots:
      * @brief Logs the connection error
      * @param socketError
      */
+
+    void move_ball(QPointF point);
+
     void onSocketError(QAbstractSocket::SocketError socketError);
     /**
      * @brief Handles the data passing through udp till all the data is receieved and logs the errors in the case that it does not

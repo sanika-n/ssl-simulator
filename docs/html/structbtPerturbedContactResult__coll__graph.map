@@ -1,0 +1,14 @@
+<map id="btPerturbedContactResult" name="btPerturbedContactResult">
+<area shape="rect" id="Node000001" title=" " alt="" coords="34,211,223,236"/>
+<area shape="rect" id="Node000002" href="$classbtManifoldResult.html" title="btManifoldResult is a helper class to manage contact results." alt="" coords="39,123,173,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,161,106,186,120,209,115,212,101,187,99,162"/>
+<area shape="poly" id="edge6_Node000001_Node000002" title=" " alt="" coords="115,161,128,209,123,211,110,162"/>
+<area shape="rect" id="Node000003" href="$structbtDiscreteCollisionDetectorInterface_1_1Result.html" title=" " alt="" coords="5,5,207,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,59,103,122,97,122,95,59"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="117,59,115,122,109,122,112,59"/>
+<area shape="rect" id="Node000004" href="$structbtCollisionObjectWrapper.html" title=" " alt="" coords="231,13,419,38"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="290,47,130,125,128,120,288,42"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="434,16,445,25,437,34,420,38,419,33,435,29,440,26,431,20"/>
+<area shape="rect" id="Node000005" href="$classbtIDebugDraw.html" title=" " alt="" coords="274,123,389,148"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="322,162,312,176,298,189,262,207,224,217,223,212,260,202,295,184,308,173,318,159"/>
+</map>

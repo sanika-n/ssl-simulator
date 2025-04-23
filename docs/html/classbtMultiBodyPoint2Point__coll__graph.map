@@ -1,0 +1,15 @@
+<map id="btMultiBodyPoint2Point" name="btMultiBodyPoint2Point">
+<area shape="rect" id="Node000001" title="This file was written by Erwin Coumans." alt="" coords="125,225,299,251"/>
+<area shape="rect" id="Node000002" href="$classbtMultiBodyConstraint.html" title=" " alt="" coords="128,123,296,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,161,206,195,209,225,203,226,200,195,201,161"/>
+<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="223,161,224,195,221,226,215,225,218,195,217,161"/>
+<area shape="rect" id="Node000003" href="$classbtMultiBody.html" title=" " alt="" coords="5,13,107,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="79,45,143,96,187,120,184,125,140,101,76,50"/>
+<area shape="rect" id="Node000004" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="131,5,293,45"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="215,59,215,122,209,122,209,59"/>
+<area shape="rect" id="Node000005" href="$classbtRigidBody.html" title=" " alt="" coords="333,123,435,148"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="354,157,233,228,230,223,351,153"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="317,13,451,38"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="379,52,378,89,381,122,375,123,372,89,374,52"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="394,52,396,89,393,123,387,122,390,89,389,52"/>
+</map>

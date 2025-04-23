@@ -1,0 +1,12 @@
+<map id="Bullet::btQuantizedBvhDoubleData" name="Bullet::btQuantizedBvhDoubleData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="875,114,1124,139"/>
+<area shape="rect" id="Node000002" href="$classBullet_1_1btVector3DoubleData.html" title=" " alt="" coords="5,51,212,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,47,236,45,290,44,344,45,599,52,710,61,851,83,909,96,961,111,960,116,908,101,850,88,709,66,598,57,344,51,290,49,236,51,212,53"/>
+<area shape="rect" id="Node000003" href="$classBullet_1_1btOptimizedBvhNodeDoubleData.html" title=" " alt="" coords="383,77,590,117"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="226,74,236,75,383,87,383,92,236,80,225,79"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="604,101,875,117,874,122,604,107"/>
+<area shape="rect" id="Node000004" href="$classBullet_1_1btQuantizedBvhNodeData.html" title=" " alt="" coords="368,142,605,167"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="619,153,732,150,850,144,916,137,917,142,851,149,732,156,619,158"/>
+<area shape="rect" id="Node000005" href="$classBullet_1_1btBvhSubtreeInfoData.html" title=" " alt="" coords="381,191,593,217"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="606,199,725,190,850,172,912,156,966,137,967,142,914,161,851,177,725,196,607,204"/>
+</map>

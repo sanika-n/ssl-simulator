@@ -1,0 +1,24 @@
+<map id="Eigen::internal::unary_evaluator&lt; SparseView&lt; ArgType &gt;, IteratorBased &gt;" name="Eigen::internal::unary_evaluator&lt; SparseView&lt; ArgType &gt;, IteratorBased &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="996,35,1211,90"/>
+<area shape="rect" id="Node000002" href="$structEigen_1_1internal_1_1evaluator__base.html" title=" " alt="" coords="625,5,873,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="874,44,996,57,996,62,873,50"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="887,28,996,40,995,46,887,34"/>
+<area shape="rect" id="Node000003" href="$structEigen_1_1internal_1_1evaluator.html" title=" " alt="" coords="656,69,843,109"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="856,81,972,73,996,71,996,77,972,79,857,87"/>
+<area shape="rect" id="Node000004" href="$structEigen_1_1internal_1_1unary__evaluator.html" title=" " alt="" coords="283,69,497,109"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="511,95,656,95,656,100,511,101"/>
+<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="511,78,656,79,656,84,511,83"/>
+<area shape="rect" id="Node000005" href="$classEigen_1_1SparseView.html" title="Expression of a dense or sparse matrix with zero or too small values removed." alt="" coords="673,133,826,173"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="839,131,971,99,1012,88,1013,93,973,104,840,136"/>
+<area shape="rect" id="Node000006" href="$classEigen_1_1SparseMatrixBase.html" title=" " alt="" coords="275,133,505,173"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="519,159,673,158,673,164,519,165"/>
+<area shape="poly" id="edge10_Node000005_Node000006" title=" " alt="" coords="519,142,673,143,673,148,519,147"/>
+<area shape="rect" id="Node000007" href="$structEigen_1_1EigenBase.html" title=" " alt="" coords="8,141,223,166"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="237,160,274,160,274,165,237,165"/>
+<area shape="poly" id="edge9_Node000006_Node000007" title=" " alt="" coords="237,142,274,142,274,147,237,147"/>
+<area shape="rect" id="Node000008" href="$structEigen_1_1NumTraits.html" title=" " alt="" coords="289,198,491,223"/>
+<area shape="poly" id="edge11_Node000005_Node000008" title=" " alt="" coords="483,193,672,163,673,168,484,198"/>
+<area shape="rect" id="Node000009" href="$structEigen_1_1GenericNumTraits.html" title=" " alt="" coords="5,198,225,223"/>
+<area shape="poly" id="edge12_Node000008_Node000009" title=" " alt="" coords="239,217,289,217,289,222,239,222"/>
+<area shape="poly" id="edge13_Node000008_Node000009" title=" " alt="" coords="239,199,289,199,289,205,239,204"/>
+</map>

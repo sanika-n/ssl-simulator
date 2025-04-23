@@ -1,0 +1,11 @@
+<map id="Eigen::DiagonalMatrix&lt; _Scalar, SizeAtCompileTime, MaxSizeAtCompileTime &gt;" name="Eigen::DiagonalMatrix&lt; _Scalar, SizeAtCompileTime, MaxSizeAtCompileTime &gt;">
+<area shape="rect" id="Node000001" title="Represents a diagonal matrix with its storage." alt="" coords="684,13,908,67"/>
+<area shape="rect" id="Node000002" href="$classEigen_1_1DiagonalBase.html" title=" " alt="" coords="269,5,555,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="568,46,684,46,684,51,568,52"/>
+<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="568,28,684,29,684,34,568,34"/>
+<area shape="rect" id="Node000003" href="$structEigen_1_1EigenBase.html" title=" " alt="" coords="5,27,220,53"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="234,46,269,46,269,52,234,52"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="234,28,269,28,269,34,234,34"/>
+<area shape="rect" id="Node000004" href="$structEigen_1_1internal_1_1traits.html" title=" " alt="" coords="333,99,491,139"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="504,97,683,60,684,65,505,102"/>
+</map>

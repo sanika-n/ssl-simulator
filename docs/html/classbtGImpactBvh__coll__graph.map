@@ -1,0 +1,12 @@
+<map id="btGImpactBvh" name="btGImpactBvh">
+<area shape="rect" id="Node000001" title="Structure for containing Boxes." alt="" coords="159,271,273,296"/>
+<area shape="rect" id="Node000002" href="$classbtBvhTree.html" title="Basic Box tree structure." alt="" coords="71,183,158,208"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,218,155,245,192,268,189,273,152,249,127,221"/>
+<area shape="rect" id="Node000003" href="$classGIM__BVH__TREE__NODE__ARRAY.html" title=" " alt="" coords="5,95,224,120"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,134,117,182,112,182,112,134"/>
+<area shape="rect" id="Node000004" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="15,5,214,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="108,59,111,94,105,95,103,59"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="126,59,124,95,119,94,121,59"/>
+<area shape="rect" id="Node000005" href="$classbtPrimitiveManagerBase.html" title="Prototype Base class for primitive classification." alt="" coords="182,183,365,208"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="260,221,226,272,222,269,256,218"/>
+</map>

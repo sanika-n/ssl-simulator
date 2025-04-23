@@ -1,0 +1,14 @@
+<map id="world::GeometryDefaultTypeInternal" name="world::GeometryDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="13,372,222,412"/>
+<area shape="rect" id="Node000002" href="$classworld_1_1Geometry.html" title=" " alt="" coords="52,284,183,309"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,323,120,372,115,372,115,323"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,59,119,284,114,284,96,59"/>
+<area shape="rect" id="Node000005" href="$classworld_1_1BallModel.html" title=" " alt="" coords="156,108,287,133"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="134,52,207,106,204,110,131,56"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="134,196,309,221"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="199,232,133,286,130,282,195,228"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="224,147,224,195,219,195,219,147"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="211,13,386,38"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="283,50,233,110,229,106,278,47"/>
+</map>

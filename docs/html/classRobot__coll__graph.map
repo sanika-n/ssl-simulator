@@ -1,0 +1,17 @@
+<map id="Robot" name="Robot">
+<area shape="rect" id="Node000001" title=" " alt="" coords="87,284,147,309"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,59,119,284,114,284,96,59"/>
+<area shape="rect" id="Node000004" href="$classRobotId.html" title=" " alt="" coords="141,108,213,133"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="124,54,169,106,165,109,120,57"/>
+<area shape="rect" id="Node000006" href="$classVector2.html" title=" " alt="" coords="238,108,309,133"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="145,49,253,106,250,110,143,54"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="133,196,237,221"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,234,129,285,125,282,165,231"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="182,147,187,195,182,196,177,147"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="211,13,327,38"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="250,50,191,110,187,106,246,46"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="254,145,199,197,196,194,250,141"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="352,13,467,38"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="383,48,292,110,289,106,380,43"/>
+</map>

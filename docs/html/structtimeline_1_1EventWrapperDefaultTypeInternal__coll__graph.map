@@ -1,0 +1,9 @@
+<map id="timeline::EventWrapperDefaultTypeInternal" name="timeline::EventWrapperDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="85,196,309,236"/>
+<area shape="rect" id="Node000002" href="$classtimeline_1_1EventWrapper.html" title=" " alt="" coords="109,108,285,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,147,200,196,195,196,195,147"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="129,53,186,106,183,110,125,57"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="211,5,387,45"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="270,57,212,110,208,106,266,53"/>
+</map>

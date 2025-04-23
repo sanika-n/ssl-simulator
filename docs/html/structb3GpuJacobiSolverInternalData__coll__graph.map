@@ -1,0 +1,17 @@
+<map id="b3GpuJacobiSolverInternalData" name="b3GpuJacobiSolverInternalData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="509,183,735,209"/>
+<area shape="rect" id="Node000002" href="$classb3PrefixScanCL.html" title=" " alt="" coords="79,14,202,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,17,276,15,346,20,418,32,487,56,530,84,567,119,596,154,615,182,611,185,591,158,563,123,527,88,484,61,416,37,345,25,276,21,216,22"/>
+<area shape="rect" id="Node000003" href="$classb3OpenCLArray.html" title=" " alt="" coords="41,64,240,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="254,86,367,99,427,110,486,125,551,152,602,181,599,185,548,157,484,131,426,115,366,104,253,91"/>
+<area shape="rect" id="Node000004" href="$classb3OpenCLArray.html" title=" " alt="" coords="43,129,238,154"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="252,142,365,149,486,163,573,181,572,186,485,168,365,155,252,147"/>
+<area shape="rect" id="Node000005" href="$classb3OpenCLArray.html" title=" " alt="" coords="31,183,250,209"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="263,193,509,193,509,199,263,199"/>
+<area shape="rect" id="Node000006" href="$classb3AlignedObjectArray.html" title=" " alt="" coords="59,244,223,284"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="236,264,356,259,421,253,485,243,543,226,592,206,594,211,545,231,486,248,422,258,356,265,237,269"/>
+<area shape="rect" id="Node000007" href="$classb3OpenCLArray.html" title=" " alt="" coords="5,309,276,334"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="289,319,387,307,437,297,484,283,520,266,554,246,605,207,608,211,557,250,523,271,486,288,438,302,388,313,290,324"/>
+<area shape="rect" id="Node000008" href="$classb3FillCL.html" title=" " alt="" coords="104,358,177,383"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="191,374,253,378,328,377,408,365,447,354,484,339,527,310,564,273,592,236,611,208,615,210,597,239,568,277,531,314,487,344,449,359,409,370,329,382,253,384,191,380"/>
+</map>

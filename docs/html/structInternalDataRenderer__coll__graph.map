@@ -1,0 +1,17 @@
+<map id="InternalDataRenderer" name="InternalDataRenderer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="813,171,976,197"/>
+<area shape="rect" id="Node000002" href="$structGLInstanceRendererInternalData.html" title=" " alt="" coords="405,83,640,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="639,108,714,122,790,140,867,169,865,174,789,145,713,127,638,114"/>
+<area shape="rect" id="Node000003" href="$classb3AlignedObjectArray.html" title=" " alt="" coords="23,72,187,112"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="201,90,405,92,405,98,200,96"/>
+<area shape="rect" id="Node000004" href="$structSimpleCamera.html" title=" " alt="" coords="463,137,582,162"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="596,153,814,174,813,179,596,159"/>
+<area shape="rect" id="Node000005" href="$structCommonCameraInterface.html" title=" " alt="" coords="9,137,200,162"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="214,147,463,147,463,152,214,152"/>
+<area shape="rect" id="Node000006" href="$structSimpleCameraInternalData.html" title=" " alt="" coords="5,186,204,211"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="218,185,381,167,463,155,464,161,382,172,218,190"/>
+<area shape="rect" id="Node000007" href="$classb3AlignedObjectArray.html" title=" " alt="" coords="441,187,605,227"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="619,205,789,197,818,194,819,199,790,203,619,210"/>
+<area shape="rect" id="Node000008" href="$structGLRenderToTexture.html" title=" " alt="" coords="449,251,596,277"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="609,255,697,243,789,224,830,210,866,194,869,199,832,215,790,229,698,249,610,260"/>
+</map>

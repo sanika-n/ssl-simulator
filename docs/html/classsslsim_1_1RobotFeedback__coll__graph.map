@@ -1,0 +1,7 @@
+<map id="sslsim::RobotFeedback" name="sslsim::RobotFeedback">
+<area shape="rect" id="Node000001" title=" " alt="" coords="110,108,282,133"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,53,185,106,182,110,124,57"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="211,5,383,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="268,57,211,110,207,106,265,53"/>
+</map>

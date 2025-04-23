@@ -1,0 +1,54 @@
+<map id="sslsim::SimulatorCommandDefaultTypeInternal" name="sslsim::SimulatorCommandDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,959,208,999"/>
+<area shape="rect" id="Node000002" href="$classsslsim_1_1SimulatorCommand.html" title=" " alt="" coords="5,871,208,896"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,910,109,958,104,958,104,910"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="328,5,509,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="315,47,218,72,171,80,129,84,112,88,99,95,91,108,88,127,88,789,94,834,105,869,100,871,89,835,83,790,83,126,86,106,96,92,110,83,128,79,171,75,217,67,314,42"/>
+<area shape="rect" id="Node000005" href="$classsslsim_1_1SimulatorControl.html" title=" " alt="" coords="154,313,337,339"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="389,57,378,71,357,119,349,160,341,202,321,252,293,288,263,315,260,311,289,285,316,249,336,201,344,159,352,117,374,68,384,54"/>
+<area shape="rect" id="Node000007" href="$classsslsim_1_1TeleportBall.html" title=" " alt="" coords="148,115,297,141"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="364,53,327,72,243,118,241,113,324,67,362,49"/>
+<area shape="rect" id="Node000009" href="$classsslsim_1_1SimulatorConfig.html" title=" " alt="" coords="307,680,483,705"/>
+<area shape="poly" id="edge11_Node000009_Node000003" title=" " alt="" coords="410,59,401,92,397,127,397,599,397,680,392,680,392,599,392,127,396,91,404,58"/>
+<area shape="rect" id="Node000011" href="$classSSL__GeometryData.html" title=" " alt="" coords="467,489,615,515"/>
+<area shape="poly" id="edge14_Node000011_Node000003" title=" " alt="" coords="434,58,444,90,448,127,448,415,454,439,470,459,491,475,513,487,511,492,488,479,466,463,449,441,443,416,443,127,438,92,429,59"/>
+<area shape="rect" id="Node000013" href="$classSSL__GeometryFieldSize.html" title=" " alt="" coords="985,115,1159,141"/>
+<area shape="poly" id="edge17_Node000013_Node000003" title=" " alt="" coords="524,43,634,50,720,49,804,52,910,67,986,89,1048,113,1046,118,984,94,909,72,804,57,719,55,633,55,523,48"/>
+<area shape="rect" id="Node000015" href="$classSSL__GeometryModels.html" title=" " alt="" coords="513,313,677,339"/>
+<area shape="poly" id="edge20_Node000015_Node000003" title=" " alt="" coords="454,53,466,68,493,116,505,158,517,200,540,249,563,284,586,311,582,315,559,287,535,252,512,202,500,159,488,118,462,71,450,56"/>
+<area shape="rect" id="Node000017" href="$classSSL__BallModelStraightTwoPhase.html" title=" " alt="" coords="534,108,727,148"/>
+<area shape="poly" id="edge23_Node000017_Node000003" title=" " alt="" coords="475,48,516,67,595,106,593,110,514,72,473,53"/>
+<area shape="rect" id="Node000019" href="$classSSL__BallModelChipFixedLoss.html" title=" " alt="" coords="751,115,961,141"/>
+<area shape="poly" id="edge26_Node000019_Node000003" title=" " alt="" coords="523,43,523,43,604,53,685,67,763,89,828,113,826,118,761,95,683,72,603,58,522,48,522,48"/>
+<area shape="rect" id="Node000021" href="$classsslsim_1_1RealismConfig.html" title=" " alt="" coords="1183,115,1350,141"/>
+<area shape="poly" id="edge29_Node000021_Node000003" title=" " alt="" coords="523,42,664,48,834,49,999,53,1069,58,1126,67,1193,88,1246,113,1244,118,1191,93,1125,72,1069,64,999,59,834,55,664,53,523,48"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="144,768,347,808"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="208,818,125,873,122,868,205,813"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="248,353,248,413,248,694,248,768,243,768,243,694,243,413,243,353"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="123,211,306,251"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="228,263,244,312,239,314,223,264"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="223,155,219,211,214,210,218,154"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="148,5,297,45"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="225,59,225,115,220,115,220,59"/>
+<area shape="poly" id="edge10_Node000004_Node000009" title=" " alt="" coords="366,715,277,770,274,766,364,710"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="453,577,629,617"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="502,627,414,682,411,678,499,622"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="544,528,544,577,539,577,539,528"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="499,401,691,427"/>
+<area shape="poly" id="edge15_Node000011_Node000012" title=" " alt="" coords="582,440,551,490,546,487,578,437"/>
+<area shape="poly" id="edge16_Node000012_Node000013" title=" " alt="" coords="1044,150,882,250,661,380,618,403,615,399,659,375,879,245,1041,146"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="985,5,1159,45"/>
+<area shape="poly" id="edge18_Node000013_Node000014" title=" " alt="" coords="1075,59,1075,115,1069,115,1069,59"/>
+<area shape="poly" id="edge19_Node000012_Node000015" title=" " alt="" coords="597,353,597,401,592,401,592,353"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="549,211,713,251"/>
+<area shape="poly" id="edge21_Node000015_Node000016" title=" " alt="" coords="621,265,602,314,597,312,616,263"/>
+<area shape="poly" id="edge22_Node000016_Node000017" title=" " alt="" coords="633,162,633,211,628,211,628,162"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="534,5,727,45"/>
+<area shape="poly" id="edge24_Node000017_Node000018" title=" " alt="" coords="633,59,633,108,628,108,628,59"/>
+<area shape="poly" id="edge25_Node000016_Node000019" title=" " alt="" coords="833,152,807,171,776,189,712,213,710,208,774,184,804,167,830,147"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="751,5,961,45"/>
+<area shape="poly" id="edge27_Node000019_Node000020" title=" " alt="" coords="859,59,859,115,853,115,853,59"/>
+<area shape="poly" id="edge28_Node000010_Node000021" title=" " alt="" coords="1233,150,1212,165,1193,183,1179,205,1173,230,1173,504,1169,515,1156,525,1111,541,1046,555,965,567,787,585,630,595,629,589,787,579,965,562,1045,550,1110,536,1153,520,1164,512,1168,503,1168,229,1174,203,1189,180,1209,161,1230,146"/>
+<area shape="rect" id="Node000022" title=" " alt="" coords="1183,5,1350,45"/>
+<area shape="poly" id="edge30_Node000021_Node000022" title=" " alt="" coords="1269,59,1269,115,1264,115,1264,59"/>
+</map>

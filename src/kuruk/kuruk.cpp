@@ -11,14 +11,21 @@ QLabel* Kuruk::robotIdLabel = nullptr;
 QLabel* Kuruk::robotPositionLabel = nullptr;
 QLabel* Kuruk::robotOrientationLabel = nullptr;
 
+/**
+ * @brief Constructor for kuruk class.
+ * creates a window widget and displays GUI and all elements
+ * @param parent
+ */
+
 Kuruk::Kuruk(QWidget *parent)
     : QMainWindow{parent},
-    ui(new Ui::kuruk),
-    vyasa(new Vyasa(this)),
-    shunya(new Shunya(this)),
-    drona(new Drona(this)),
-    vishnu(new Vishnu(this))
+    ui(new Ui::kuruk), ///new ui element
+    vyasa(new Vyasa(this)), ///new vyasa instance
+    shunya(new Shunya(this)),///new shunya instance
+    drona(new Drona(this)),///new drona instance
+    vishnu(new Vishnu(this)) ///new vishnu instance
 {
+    ///initialising list of players and ball in ui
     ui->setupUi(this);
     sidebar = new QWidget(this);
     sidebarDockWidget = new QDockWidget("Robot Info", this);
@@ -44,7 +51,7 @@ Kuruk::Kuruk(QWidget *parent)
     kaurav = std::make_shared<std::vector<YellowBot>>();
     ball = std::make_shared<Ball>(Qt::black, 5);
 
-    // giving ownership of players and ball to kshetra and drona
+    /// giving ownership of players and ball to kshetra and drona
     ui->kshetra->setPlayers(pandav, kaurav);
     ui->kshetra->setBall(ball);
     ui->kshetra->setFixedSize(1280, 720);  // hardcoded override
@@ -65,7 +72,9 @@ Kuruk::Kuruk(QWidget *parent)
     connect(ui->kshetra, &Kshetra::robotSelected, this, &Kuruk::updateSidebar);
 }
 
-
+/**
+ * @brief kuruk deconstructor. deletes all instances and objects created, cleans everything up
+ */
 Kuruk::~Kuruk(){
     delete ui;
     delete vyasa;

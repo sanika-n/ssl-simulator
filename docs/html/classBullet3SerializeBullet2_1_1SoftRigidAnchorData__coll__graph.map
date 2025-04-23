@@ -1,0 +1,10 @@
+<map id="Bullet3SerializeBullet2::SoftRigidAnchorData" name="Bullet3SerializeBullet2::SoftRigidAnchorData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="572,57,743,97"/>
+<area shape="rect" id="Node000002" href="$classBullet3SerializeBullet2_1_1b3Matrix3x3FloatData.html" title=" " alt="" coords="261,57,437,97"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="451,75,572,75,572,80,451,80"/>
+<area shape="rect" id="Node000003" href="$classBullet3SerializeBullet2_1_1b3Vector3FloatData.html" title=" " alt="" coords="5,16,176,56"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="190,32,200,32,375,35,548,55,572,58,571,64,548,60,374,40,200,37,190,37"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="190,49,262,61,261,66,189,54"/>
+<area shape="rect" id="Node000004" href="$structBullet3SerializeBullet2_1_1bInvalidHandle.html" title=" " alt="" coords="264,121,435,161"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="448,118,571,92,572,98,449,124"/>
+</map>

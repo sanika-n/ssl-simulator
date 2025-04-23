@@ -1,0 +1,30 @@
+<map id="pathfinding::PathFindingTaskDefaultTypeInternal" name="pathfinding::PathFindingTaskDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="19,812,198,852"/>
+<area shape="rect" id="Node000002" href="$classpathfinding_1_1PathFindingTask.html" title=" " alt="" coords="5,724,212,749"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,763,111,812,106,812,106,763"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="98,5,279,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="136,55,104,83,94,100,90,120,90,642,96,687,107,723,102,724,91,688,85,643,85,119,89,98,100,79,132,51"/>
+<area shape="rect" id="Node000005" href="$classpathfinding_1_1WorldState.html" title=" " alt="" coords="152,533,327,559"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="165,58,148,87,141,120,141,452,148,478,165,500,188,518,212,531,210,536,186,522,161,504,143,481,135,452,135,119,143,85,160,55"/>
+<area shape="rect" id="Node000007" href="$classpathfinding_1_1RectObstacle.html" title=" " alt="" coords="175,343,365,368"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="189,60,188,105,191,160,200,221,216,279,237,314,260,340,256,344,232,317,212,281,194,222,186,161,183,105,184,60"/>
+<area shape="rect" id="Node000009" href="$classpathfinding_1_1Vector.html" title=" " alt="" coords="333,108,477,133"/>
+<area shape="poly" id="edge11_Node000009_Node000003" title=" " alt="" coords="246,48,379,105,377,110,244,53"/>
+<area shape="rect" id="Node000011" href="$classpathfinding_1_1TrajectoryInput.html" title=" " alt="" coords="439,343,639,368"/>
+<area shape="poly" id="edge14_Node000011_Node000003" title=" " alt="" coords="294,35,390,56,441,72,493,93,542,120,587,153,624,192,654,239,660,260,654,281,638,303,617,321,573,345,571,340,614,316,634,299,649,279,655,260,649,241,620,195,583,157,539,124,491,98,440,77,388,61,293,40"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="150,621,329,661"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="203,672,126,726,123,722,200,667"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="242,572,242,621,237,621,237,572"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="179,431,353,471"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="259,484,245,534,240,532,254,483"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="272,382,269,431,264,430,266,382"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="226,240,415,280"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="306,293,279,344,274,341,302,291"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="385,145,375,159,349,202,331,241,326,239,345,200,370,156,381,142"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="439,240,639,280"/>
+<area shape="poly" id="edge16_Node000012_Node000009" title=" " alt="" coords="439,139,461,155,500,198,530,238,525,242,496,202,458,159,436,143"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="649,5,793,45"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="644,52,444,110,443,105,643,47"/>
+<area shape="poly" id="edge13_Node000004_Node000011" title=" " alt="" coords="521,380,443,461,340,561,265,623,262,619,336,557,439,457,517,376"/>
+<area shape="poly" id="edge15_Node000011_Node000012" title=" " alt="" coords="542,294,542,342,537,342,537,294"/>
+</map>

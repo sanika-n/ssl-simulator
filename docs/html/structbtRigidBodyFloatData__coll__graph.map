@@ -1,0 +1,17 @@
+<map id="btRigidBodyFloatData" name="btRigidBodyFloatData">
+<area shape="rect" id="Node000001" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="725,508,891,533"/>
+<area shape="rect" id="Node000002" href="$structbtCollisionObjectFloatData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="259,420,456,445"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="431,445,749,505,748,511,430,451"/>
+<area shape="rect" id="Node000003" href="$structbtCollisionShapeData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="5,264,168,289"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="86,303,89,350,97,374,111,394,134,407,170,416,259,426,258,431,169,421,132,412,108,398,92,376,84,351,81,303"/>
+<area shape="rect" id="Node000004" href="$structbtTransformFloatData.html" title="for serialization" alt="" coords="291,264,455,289"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="339,298,299,327,281,346,268,368,263,382,268,395,281,408,298,418,296,422,278,412,263,397,258,382,263,366,277,343,296,323,336,294"/>
+<area shape="rect" id="Node000005" href="$structbtMatrix3x3FloatData.html" title="for serialization" alt="" coords="647,93,812,119"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="773,124,789,141,796,165,801,205,807,315,811,508,805,508,802,315,795,205,790,166,784,144,769,128"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="729,133,720,162,702,188,675,210,645,228,581,253,515,269,456,276,455,271,514,263,579,248,643,223,672,206,698,185,715,160,724,131"/>
+<area shape="rect" id="Node000006" href="$structbtVector3FloatData.html" title=" " alt="" coords="537,5,685,31"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="699,19,792,26,889,40,931,51,964,65,987,82,994,93,996,104,996,434,994,452,986,467,962,490,929,506,892,515,890,510,927,501,959,486,982,464,988,450,991,434,991,105,989,95,983,86,962,69,929,56,888,45,792,31,698,24"/>
+<area shape="poly" id="edge7_Node000002_Node000006" title=" " alt="" coords="584,41,534,84,510,112,492,144,481,180,480,213,486,244,494,274,501,304,503,334,496,365,477,398,461,412,443,422,440,417,458,408,473,394,491,363,497,333,495,305,488,275,480,245,475,213,476,179,487,142,506,109,530,80,580,37"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="524,32,493,41,464,54,437,72,416,95,393,140,381,188,376,232,376,264,370,264,371,232,376,187,388,138,411,92,434,68,461,49,492,36,522,27"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="639,37,715,91,712,95,636,41"/>
+</map>

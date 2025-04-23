@@ -1,0 +1,7 @@
+<map id="btPoint2PointConstraintDoubleData" name="btPoint2PointConstraintDoubleData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="59,108,312,133"/>
+<area shape="rect" id="Node000002" href="$structbtTypedConstraintData.html" title="this structure is not used, except for loading pre&#45;2.82 .bullet files" alt="" coords="5,5,176,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,44,94,64,102,82,117,96,135,106,133,110,114,100,98,86,89,65,86,44"/>
+<area shape="rect" id="Node000003" href="$structbtVector3DoubleData.html" title=" " alt="" coords="201,5,362,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="277,45,268,66,254,86,237,100,218,110,215,106,234,95,250,82,263,63,272,43"/>
+</map>

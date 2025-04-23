@@ -1,0 +1,12 @@
+<map id="UrdfVisual" name="UrdfVisual">
+<area shape="rect" id="Node000001" title=" " alt="" coords="80,256,171,281"/>
+<area shape="rect" id="Node000002" href="$structUrdfGeometry.html" title=" " alt="" coords="5,168,120,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,207,73,231,85,244,100,254,97,258,81,248,68,233,60,208"/>
+<area shape="rect" id="Node000003" href="$structUrdfMaterial.html" title=" " alt="" coords="144,168,248,193"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,206,161,234,139,258,135,254,157,230,178,203"/>
+<area shape="rect" id="Node000004" href="$classbtVector4.html" title=" " alt="" coords="154,80,238,105"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="199,119,199,167,193,167,193,119"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="154,5,238,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="190,44,192,80,186,80,185,45"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="207,45,206,80,200,80,202,44"/>
+</map>

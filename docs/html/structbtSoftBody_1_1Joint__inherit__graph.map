@@ -1,0 +1,12 @@
+<map id="btSoftBody::Joint" name="btSoftBody::Joint">
+<area shape="rect" id="Node000001" title=" " alt="" coords="173,5,302,31"/>
+<area shape="rect" id="Node000002" href="$structbtSoftBody_1_1AJoint.html" title=" " alt="" coords="5,79,144,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,38,95,81,93,76,191,33"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="207,39,109,81,107,76,205,34"/>
+<area shape="rect" id="Node000003" href="$structbtSoftBody_1_1CJoint.html" title=" " alt="" coords="168,79,307,104"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="231,44,233,78,228,79,226,45"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="249,45,247,79,242,78,243,44"/>
+<area shape="rect" id="Node000004" href="$structbtSoftBody_1_1LJoint.html" title=" " alt="" coords="331,79,467,104"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="270,34,366,76,364,81,268,39"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="284,33,380,76,378,81,282,38"/>
+</map>

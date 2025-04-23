@@ -1,0 +1,12 @@
+<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/Gimpact/gim_clip_polygon.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/Gimpact/gim_clip_polygon.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="76,5,288,89"/>
+<area shape="rect" id="Node000002" href="$include_2bullet_2BulletCollision_2Gimpact_2gim__geometry_8h.html" title=" " alt="" coords="5,269,217,353"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,103,139,138,124,207,116,269,111,269,118,206,134,137,149,101"/>
+<area shape="rect" id="Node000004" href="$include_2bullet_2BulletCollision_2Gimpact_2gim__tri__collision_8h.html" title=" " alt="" coords="148,137,360,221"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,100,233,136,229,138,209,103"/>
+<area shape="rect" id="Node000003" href="$include_2bullet_2BulletCollision_2Gimpact_2gim__contact_8h.html" title=" " alt="" coords="5,401,217,485"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,367,114,401,109,401,109,367"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="201,233,158,271,155,267,197,229"/>
+<area shape="rect" id="Node000005" href="$include_2bullet_2BulletCollision_2Gimpact_2gim__box__set_8h.html" title=" " alt="" coords="241,269,453,353"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="294,231,320,267,316,270,289,234"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="Gwen::Controls::ResizableControl" name="Gwen::Controls::ResizableControl">
+<area shape="rect" id="Node000001" title=" " alt="" coords="199,152,391,192"/>
+<area shape="rect" id="Node000004" href="$classGwen_1_1Controls_1_1WindowControl.html" title=" " alt="" coords="181,240,409,265"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="297,206,297,240,292,240,292,206"/>
+<area shape="rect" id="Node000002" href="$classGwen_1_1Controls_1_1Base.html" title=" " alt="" coords="214,79,375,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="297,118,297,152,292,152,292,118"/>
+<area shape="rect" id="Node000003" href="$classGwen_1_1Event_1_1Handler.html" title=" " alt="" coords="213,5,376,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="297,44,297,79,292,79,292,44"/>
+<area shape="rect" id="Node000005" href="$classMyGraphWindow.html" title=" " alt="" coords="5,313,139,339"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="247,272,109,316,107,311,245,267"/>
+<area shape="rect" id="Node000006" href="$classMyProfileWindow.html" title=" " alt="" coords="163,313,298,339"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="277,277,243,315,239,311,273,274"/>
+<area shape="rect" id="Node000007" href="$classUnitTest.html" title=" " alt="" coords="323,313,397,339"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="309,275,344,311,341,315,305,278"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="324,273,358,311,354,315,320,276"/>
+</map>

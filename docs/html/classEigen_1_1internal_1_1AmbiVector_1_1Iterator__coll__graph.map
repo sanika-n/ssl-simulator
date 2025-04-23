@@ -1,0 +1,10 @@
+<map id="Eigen::internal::AmbiVector&lt; _Scalar, _StorageIndex &gt;::Iterator" name="Eigen::internal::AmbiVector&lt; _Scalar, _StorageIndex &gt;::Iterator">
+<area shape="rect" id="Node000001" title=" " alt="" coords="86,183,285,237"/>
+<area shape="rect" id="Node000002" href="$classEigen_1_1internal_1_1AmbiVector.html" title=" " alt="" coords="5,80,205,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,129,168,181,164,184,125,133"/>
+<area shape="rect" id="Node000003" href="$structEigen_1_1NumTraits.html" title=" " alt="" coords="229,87,432,113"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="306,123,222,185,219,180,302,119"/>
+<area shape="rect" id="Node000004" href="$structEigen_1_1GenericNumTraits.html" title=" " alt="" coords="221,5,441,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="325,44,327,87,321,87,320,44"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="342,44,340,87,335,87,336,44"/>
+</map>

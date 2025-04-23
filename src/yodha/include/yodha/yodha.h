@@ -9,6 +9,8 @@
 
 #include <QGraphicsScene>
 #include <QGraphicsPathItem>
+#include <QGraphicsSceneMouseEvent>
+
 class BlueBotGraphics;
 class YellowBotGraphics;
 
@@ -162,6 +164,7 @@ class YellowBot{
  * @brief Updates tthe posiiton of the ball and deals with its vvarious graphical aspects
  */
 class Ball{
+
 public:
     /**
      * @brief Initializes the various parameters with their typedef
@@ -173,6 +176,7 @@ public:
      */
     Ball(QColor color, float radius);
     Ball(QPointF pos, QGraphicsScene *scene, QGraphicsScene *scene_hotmap);
+
     /**
      * @brief Function to update the position of the ball
      * @param pos Takes the position of the ball as parameter
@@ -200,9 +204,20 @@ private:
      */
     QColor color;
     float radius;
-    QGraphicsEllipseItem *graphics = nullptr;
-    QGraphicsEllipseItem *graphics_hotmap = nullptr;
-    QPointF position;
+    QPointF position;  // Ball's position
+
+    class BallGraphics : public QGraphicsEllipseItem {
+    public:
+        BallGraphics(){};
+
+    protected:
+        void mouseMoveEvent(QGraphicsSceneMouseEvent *event) override;
+        void mousePressEvent(QGraphicsSceneMouseEvent *event) override;
+    };
+
+    BallGraphics *graphics = nullptr;  // For regular scene
+    BallGraphics *graphics_hotmap = nullptr;  // For hotmap scene
 };
+
 
 #endif // YODHA_H

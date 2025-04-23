@@ -1,0 +1,5 @@
+<map id="GIM_BOX_TREE_NODE" name="GIM_BOX_TREE_NODE">
+<area shape="rect" id="Node000001" title="Node Structure for trees." alt="" coords="5,93,173,119"/>
+<area shape="rect" id="Node000002" href="$classGIM__AABB.html" title="Axis aligned box." alt="" coords="44,5,135,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,45,92,93,87,93,87,45"/>
+</map>

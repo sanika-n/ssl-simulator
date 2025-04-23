@@ -22,12 +22,16 @@
 #include "drona/drona.h"
 #include "yodha/yodha.h"
 #include "vishnu/vishnu.h"
+/**
+ * @brief The Kuruk class creates a main window,
+ */
 
 class Kuruk : public QMainWindow
 {
     Q_OBJECT
 public:
     explicit Kuruk(QWidget *parent = nullptr);
+
     Vyasa *vyasa;
     static QLabel* robotIdLabel;
     static QLabel* robotPositionLabel;
@@ -47,6 +51,7 @@ private:
     
 public slots:
     void updateSidebar(int id, QPointF position, float orientation);
+
 signals:
     // void configureBots();
 };

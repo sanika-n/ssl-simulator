@@ -1,0 +1,19 @@
+<map id="GcStateTrackerDefaultTypeInternal" name="GcStateTrackerDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,563,203,603"/>
+<area shape="rect" id="Node000002" href="$classGcStateTracker.html" title=" " alt="" coords="45,475,163,500"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,514,107,562,101,562,101,514"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="25,5,207,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,59,90,88,85,120,85,400,91,441,102,474,97,475,86,442,80,401,80,119,85,86,96,57"/>
+<area shape="rect" id="Node000005" href="$structBall.html" title=" " alt="" coords="149,299,253,324"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="122,59,135,140,146,188,161,235,178,270,195,297,191,300,173,272,156,237,141,190,130,141,117,60"/>
+<area shape="rect" id="Node000007" href="$classVector3.html" title=" " alt="" coords="210,108,281,133"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="155,51,231,106,228,110,152,55"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="120,387,283,412"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="180,423,119,476,116,472,176,419"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="204,338,204,386,199,386,199,338"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="171,211,319,236"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="235,250,210,299,205,297,231,247"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="248,147,248,211,243,211,243,147"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="231,13,345,38"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="279,52,253,109,248,107,275,50"/>
+</map>

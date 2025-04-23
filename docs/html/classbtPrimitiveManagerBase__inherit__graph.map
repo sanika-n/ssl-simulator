@@ -1,0 +1,9 @@
+<map id="btPrimitiveManagerBase" name="btPrimitiveManagerBase">
+<area shape="rect" id="Node000001" title="Prototype Base class for primitive classification." alt="" coords="5,45,188,70"/>
+<area shape="rect" id="Node000002" href="$classbtGImpactCompoundShape_1_1CompoundPrimitiveManager.html" title="compound primitive manager" alt="" coords="236,5,452,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,50,255,43,256,48,202,55"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="154,40,235,28,236,33,155,45"/>
+<area shape="rect" id="Node000003" href="$classbtGImpactMeshShapePart_1_1TrimeshPrimitiveManager.html" title="Trimesh primitive manager." alt="" coords="245,69,443,109"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="155,70,246,83,245,88,154,75"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="202,59,256,67,255,72,201,65"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="amun::Timing" name="amun::Timing">
+<area shape="rect" id="Node000001" title=" " alt="" coords="136,108,248,133"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,53,182,106,178,110,123,57"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="211,13,367,38"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="269,49,206,110,202,106,266,46"/>
+</map>

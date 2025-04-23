@@ -1,0 +1,31 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classEigen_1_1MapBase.html" title=" " alt="" coords="5,260,201,300"/>
+<area shape="rect" id="Node000001" href="$classEigen_1_1Map.html" title=" " alt="" coords="249,5,515,45"/>
+<area shape="poly" id="edge885_Node000000_Node000001" title=" " alt="" coords="114,246,134,202,163,150,201,99,223,75,248,55,269,43,272,48,251,60,227,79,205,102,167,153,139,205,119,248"/>
+<area shape="rect" id="Node000003" href="$classEigen_1_1Map.html" title=" " alt="" coords="257,69,507,109"/>
+<area shape="poly" id="edge887_Node000000_Node000003" title=" " alt="" coords="123,247,174,182,209,148,248,119,273,107,275,112,251,124,212,152,178,185,127,250"/>
+<area shape="rect" id="Node000004" href="$classEigen_1_1RefBase.html" title=" " alt="" coords="281,134,483,189"/>
+<area shape="poly" id="edge888_Node000000_Node000004" title=" " alt="" coords="147,251,195,223,248,198,280,186,281,191,250,202,197,228,149,255"/>
+<area shape="rect" id="Node000006" href="$classEigen_1_1RefBase.html" title=" " alt="" coords="286,213,478,267"/>
+<area shape="poly" id="edge890_Node000000_Node000006" title=" " alt="" coords="215,261,285,251,286,256,216,267"/>
+<area shape="rect" id="Node000008" href="$classEigen_1_1RefBase.html" title=" " alt="" coords="291,291,473,346"/>
+<area shape="poly" id="edge892_Node000000_Node000008" title=" " alt="" coords="215,293,291,303,290,309,215,298"/>
+<area shape="rect" id="Node000009" href="$classEigen_1_1RefBase.html" title=" " alt="" coords="277,370,487,425"/>
+<area shape="poly" id="edge893_Node000000_Node000009" title=" " alt="" coords="151,305,198,330,250,355,284,367,282,372,248,360,196,335,148,309"/>
+<area shape="rect" id="Node000010" href="$classEigen_1_1RefBase.html" title=" " alt="" coords="291,449,473,503"/>
+<area shape="poly" id="edge894_Node000000_Node000010" title=" " alt="" coords="128,310,179,374,213,407,251,435,292,454,289,459,248,440,209,411,175,377,123,313"/>
+<area shape="rect" id="Node000011" href="$classEigen_1_1RefBase.html" title=" " alt="" coords="281,527,483,553"/>
+<area shape="poly" id="edge895_Node000000_Node000011" title=" " alt="" coords="117,312,136,358,164,414,202,469,225,493,251,514,282,529,280,534,248,518,221,497,198,472,159,416,131,361,112,314"/>
+<area shape="rect" id="Node000002" href="$classEigen_1_1MappedSparseMatrix.html" title="Sparse matrix." alt="" coords="567,5,818,45"/>
+<area shape="poly" id="edge886_Node000001_Node000002" title=" " alt="" coords="528,23,567,23,567,28,528,28"/>
+<area shape="rect" id="Node000005" href="$classEigen_1_1Ref.html" title="A matrix or vector expression mapping an existing expression." alt="" coords="587,141,798,181"/>
+<area shape="poly" id="edge889_Node000004_Node000005" title=" " alt="" coords="497,159,587,159,587,164,497,164"/>
+<area shape="rect" id="Node000007" href="$classEigen_1_1Ref_3_01const_01TPlainObjectType_00_01Options_00_01StrideType_01_4.html" title=" " alt="" coords="571,220,814,260"/>
+<area shape="poly" id="edge891_Node000006_Node000007" title=" " alt="" coords="492,237,571,237,571,243,492,243"/>
+<area shape="rect" id="Node000012" href="$classEigen_1_1Ref.html" title=" " alt="" coords="563,448,823,488"/>
+<area shape="poly" id="edge896_Node000011_Node000012" title=" " alt="" coords="474,522,514,513,562,499,611,485,613,491,563,504,515,519,475,527"/>
+<area shape="rect" id="Node000013" href="$classEigen_1_1Ref.html" title=" " alt="" coords="572,513,813,567"/>
+<area shape="poly" id="edge897_Node000011_Node000013" title=" " alt="" coords="496,537,572,537,572,543,496,543"/>
+<area shape="rect" id="Node000014" href="$classEigen_1_1Ref.html" title=" " alt="" coords="601,592,785,632"/>
+<area shape="poly" id="edge898_Node000011_Node000014" title=" " alt="" coords="451,553,606,589,605,595,450,558"/>
+</map>

@@ -188,8 +188,31 @@ void Shunya::setBallPosition(google::protobuf::RepeatedPtrField<sslsim::Teleport
     auto ball_pos = ball->Add();
     ball_pos->set_x(x);
     ball_pos->set_y(y);
-    ball_pos->set_by_force(true);
+    //ball_pos->set_by_force(true);
+
 }
+
+void Shunya::move_ball(QPointF point)
+{
+    command->Clear();
+    sslsim::SimulatorControl *control = command->mutable_control();
+
+    // Temporary repeated field to satisfy setBallPosition
+    google::protobuf::RepeatedPtrField<sslsim::TeleportBall> temp_balls;
+    setBallPosition(&temp_balls, point.x(), point.y());
+
+    // Copy the only TeleportBall into the actual control message
+    if (temp_balls.size() > 0) {
+        control->mutable_teleport_ball()->CopyFrom(temp_balls.Get(0));
+    }
+
+    QByteArray dgram;
+    dgram.resize(command->ByteSize());
+    command->SerializeToArray(dgram.data(), dgram.size());
+
+    socket->writeDatagram(dgram, QHostAddress::LocalHost, SSL_SIMULATION_CONTROL_PORT);
+}
+
 
 
 void Shunya::setBotPosition(google::protobuf::RepeatedPtrField<sslsim::TeleportRobot> *bot, int id, float x, float y, float orientation, bool is_blue)

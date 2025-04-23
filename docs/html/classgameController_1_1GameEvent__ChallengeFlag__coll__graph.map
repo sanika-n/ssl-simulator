@@ -1,0 +1,7 @@
+<map id="gameController::GameEvent_ChallengeFlag" name="gameController::GameEvent_ChallengeFlag">
+<area shape="rect" id="Node000001" title=" " alt="" coords="102,108,309,148"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,53,187,106,183,110,125,57"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="211,5,418,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,57,228,110,224,106,282,53"/>
+</map>

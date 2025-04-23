@@ -1,0 +1,7 @@
+<map id="GameEvent_PlacementSucceeded" name="GameEvent_PlacementSucceeded">
+<area shape="rect" id="Node000001" title=" " alt="" coords="93,108,337,133"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,52,201,106,198,110,129,56"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="211,5,455,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="300,56,231,110,228,106,297,52"/>
+</map>

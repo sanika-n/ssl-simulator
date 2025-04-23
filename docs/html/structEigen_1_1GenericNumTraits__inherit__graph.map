@@ -1,0 +1,18 @@
+<map id="Eigen::GenericNumTraits&lt; T &gt;" name="Eigen::GenericNumTraits&lt; T &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,127,225,153"/>
+<area shape="rect" id="Node000002" href="$structEigen_1_1NumTraits.html" title=" " alt="" coords="273,5,487,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,119,272,67,341,43,342,48,274,72,167,124"/>
+<area shape="poly" id="edge6_Node000001_Node000002" title=" " alt="" coords="137,117,197,80,272,43,273,43,275,48,274,48,199,84,139,121"/>
+<area shape="rect" id="Node000003" href="$structEigen_1_1NumTraits.html" title=" " alt="" coords="273,69,487,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="238,130,273,125,273,130,239,135"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="172,122,273,107,274,112,173,127"/>
+<area shape="rect" id="Node000005" href="$structEigen_1_1NumTraits.html" title=" " alt="" coords="279,163,481,189"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="173,153,279,168,278,174,172,158"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="239,145,336,161,335,166,238,150"/>
+<area shape="rect" id="Node000006" href="$structEigen_1_1NumTraits.html" title="Holds information about the various numeric (i.e. scalar) types allowed by Eigen." alt="" coords="295,213,465,238"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="143,157,202,184,274,209,295,216,294,221,273,215,200,189,141,162"/>
+<area shape="poly" id="edge10_Node000001_Node000006" title=" " alt="" coords="186,155,274,185,360,210,358,215,273,191,184,160"/>
+<area shape="rect" id="Node000004" href="$structEigen_1_1NumTraits_3_01AutoDiffScalar_3_01DerType_01_4_01_4.html" title=" " alt="" coords="535,84,735,124"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="500,110,534,110,534,115,500,116"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="500,92,534,93,534,98,500,98"/>
+</map>

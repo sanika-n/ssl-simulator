@@ -1,0 +1,12 @@
+<map id="pathfinding::TrajectoryPoint" name="pathfinding::TrajectoryPoint">
+<area shape="rect" id="Node000001" title=" " alt="" coords="17,313,217,339"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,59,119,313,114,313,96,59"/>
+<area shape="rect" id="Node000004" href="$classpathfinding_1_1Vector.html" title=" " alt="" coords="161,108,305,133"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="137,51,218,106,215,110,134,55"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="133,211,333,251"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,261,134,315,130,311,198,257"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="236,147,236,210,231,210,231,147"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="211,5,355,45"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="269,58,242,109,237,106,264,56"/>
+</map>

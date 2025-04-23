@@ -1,0 +1,17 @@
+<map id="amun::StatusAmun" name="amun::StatusAmun">
+<area shape="rect" id="Node000001" title=" " alt="" coords="44,284,191,309"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,59,119,284,114,284,96,59"/>
+<area shape="rect" id="Node000004" href="$classamun_1_1PortBindError.html" title=" " alt="" coords="139,108,293,133"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="133,52,203,106,200,110,130,56"/>
+<area shape="rect" id="Node000006" href="$classamun_1_1StatusGameController.html" title=" " alt="" coords="317,108,528,133"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="152,48,243,81,350,105,349,111,242,87,150,53"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="134,196,325,221"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,232,134,286,131,282,201,228"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="222,146,230,195,225,196,217,147"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="211,5,365,45"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="267,58,227,109,223,106,263,55"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="396,143,341,174,274,198,272,193,339,170,393,139"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="389,5,600,45"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="474,58,434,109,430,106,470,55"/>
+</map>

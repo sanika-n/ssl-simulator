@@ -1,0 +1,13 @@
+<map id="btCollisionObjectDoubleData" name="btCollisionObjectDoubleData">
+<area shape="rect" id="Node000001" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="148,313,359,339"/>
+<area shape="rect" id="Node000002" href="$structbtCollisionShapeData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="5,211,168,236"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,250,83,270,90,288,113,301,152,311,151,316,111,306,86,291,78,271,78,250"/>
+<area shape="rect" id="Node000003" href="$structbtTransformDoubleData.html" title=" " alt="" coords="390,211,567,236"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="441,244,280,316,278,311,439,239"/>
+<area shape="rect" id="Node000004" href="$structbtMatrix3x3DoubleData.html" title="for serialization" alt="" coords="564,93,743,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="626,128,497,213,495,208,623,124"/>
+<area shape="rect" id="Node000005" href="$structbtVector3DoubleData.html" title=" " alt="" coords="398,5,559,31"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="425,38,385,54,342,77,302,107,270,144,259,166,252,189,247,238,249,281,254,313,248,314,244,282,242,237,247,188,255,164,266,141,299,103,339,72,383,49,423,33"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="481,44,481,211,476,211,476,44"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="516,34,631,91,628,95,513,39"/>
+</map>

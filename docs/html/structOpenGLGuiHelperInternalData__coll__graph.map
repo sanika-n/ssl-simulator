@@ -1,0 +1,21 @@
+<map id="OpenGLGuiHelperInternalData" name="OpenGLGuiHelperInternalData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="809,203,1028,228"/>
+<area shape="rect" id="Node000002" href="$structCommonGraphicsApp.html" title=" " alt="" coords="467,104,629,129"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="610,130,870,200,869,205,609,135"/>
+<area shape="rect" id="Node000003" href="$classCommonWindowInterface.html" title=" " alt="" coords="41,5,232,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="246,21,343,34,444,58,491,79,529,102,527,106,488,84,442,63,342,39,245,26"/>
+<area shape="rect" id="Node000004" href="$structCommonRenderInterface.html" title=" " alt="" coords="44,55,229,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="243,72,443,94,486,101,485,107,442,99,243,78"/>
+<area shape="rect" id="Node000005" href="$structCommonParameterInterface.html" title=" " alt="" coords="33,104,240,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="253,114,466,114,466,119,253,119"/>
+<area shape="rect" id="Node000006" href="$structCommon2dCanvasInterface.html" title=" " alt="" coords="35,153,238,179"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="251,155,442,134,485,127,486,132,443,139,252,160"/>
+<area shape="rect" id="Node000007" href="$classMyDebugDrawer.html" title=" " alt="" coords="483,203,613,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="627,213,809,213,809,218,627,218"/>
+<area shape="rect" id="Node000008" href="$classbtIDebugDraw.html" title=" " alt="" coords="79,203,194,228"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="208,213,482,213,482,218,208,218"/>
+<area shape="rect" id="Node000009" href="$classGL__ShapeDrawer.html" title="OpenGL shape drawing." alt="" coords="481,256,615,281"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="628,255,785,233,834,225,835,231,786,238,629,260"/>
+<area shape="rect" id="Node000010" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="5,253,268,293"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="282,269,481,267,481,272,282,274"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="btConnectivityProcessor" name="btConnectivityProcessor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="868,51,1048,77"/>
+<area shape="rect" id="Node000002" href="$classbtTriangleCallback.html" title=" " alt="" coords="549,27,692,53"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="706,43,868,55,867,60,705,49"/>
+<area shape="rect" id="Node000003" href="$structbtTriangleInfoMap.html" title="The btTriangleInfoMap stores edge angle information for some triangles. You can compute this informat..." alt="" coords="551,77,690,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="704,83,844,73,867,71,868,77,844,79,704,88"/>
+<area shape="rect" id="Node000004" href="$classbtHashMap.html" title=" " alt="" coords="311,77,500,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="514,96,551,95,551,100,514,101"/>
+<area shape="poly" id="edge7_Node000003_Node000004" title=" " alt="" coords="514,78,551,78,551,84,514,83"/>
+<area shape="rect" id="Node000005" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="5,5,167,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="181,42,341,74,340,79,180,47"/>
+<area shape="rect" id="Node000006" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="5,69,167,109"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="180,87,310,87,310,92,180,92"/>
+<area shape="rect" id="Node000007" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="5,133,167,173"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="180,132,340,99,341,105,181,137"/>
+</map>

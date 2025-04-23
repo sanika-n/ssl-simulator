@@ -1,0 +1,14 @@
+<map id="GameEvent_BotHeldBallDeliberatelyDefaultTypeInternal" name="GameEvent_BotHeldBallDeliberatelyDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,387,268,427"/>
+<area shape="rect" id="Node000002" href="$classGameEvent__BotHeldBallDeliberately.html" title=" " alt="" coords="5,299,268,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,338,139,386,134,386,134,338"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="25,5,206,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,59,138,298,133,299,115,60"/>
+<area shape="rect" id="Node000005" href="$classVector2.html" title=" " alt="" coords="249,108,320,133"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="163,50,265,106,263,110,160,54"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="153,196,416,236"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="245,246,156,301,153,296,242,241"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="287,147,287,196,282,196,282,147"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="230,13,345,38"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="289,52,288,108,282,108,284,52"/>
+</map>

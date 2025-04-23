@@ -1,0 +1,10 @@
+<map id="btSoftBody::Feature" name="btSoftBody::Feature">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,168,155,193"/>
+<area shape="rect" id="Node000002" href="$structbtSoftBody_1_1Element.html" title=" " alt="" coords="31,5,185,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,45,86,110,80,168,74,168,81,109,94,43"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="113,45,104,110,90,169,84,167,98,109,108,44"/>
+<area shape="rect" id="Node000003" href="$structbtSoftBody_1_1Material.html" title=" " alt="" coords="129,80,284,105"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="129,37,186,78,182,82,126,42"/>
+<area shape="poly" id="edge5_Node000003_Node000002" title=" " alt="" coords="144,36,199,77,196,82,141,41"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="180,115,99,170,96,166,177,111"/>
+</map>

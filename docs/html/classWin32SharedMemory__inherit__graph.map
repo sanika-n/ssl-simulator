@@ -1,0 +1,9 @@
+<map id="Win32SharedMemory" name="Win32SharedMemory">
+<area shape="rect" id="Node000001" title=" " alt="" coords="137,79,300,104"/>
+<area shape="rect" id="Node000003" href="$classWin32SharedMemoryClient.html" title=" " alt="" coords="5,152,205,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,114,125,154,122,150,187,109"/>
+<area shape="rect" id="Node000004" href="$classWin32SharedMemoryServer.html" title=" " alt="" coords="230,152,434,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="250,109,315,150,312,154,247,114"/>
+<area shape="rect" id="Node000002" href="$classSharedMemoryInterface.html" title=" " alt="" coords="129,5,308,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,44,221,79,216,79,216,44"/>
+</map>

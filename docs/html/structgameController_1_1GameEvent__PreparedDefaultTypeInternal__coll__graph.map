@@ -1,0 +1,9 @@
+<map id="gameController::GameEvent_PreparedDefaultTypeInternal" name="gameController::GameEvent_PreparedDefaultTypeInternal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="98,211,313,251"/>
+<area shape="rect" id="Node000002" href="$classgameController_1_1GameEvent__Prepared.html" title=" " alt="" coords="102,108,309,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,162,208,211,203,211,203,162"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="129,53,187,106,183,110,125,57"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="211,5,418,45"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="286,57,228,110,224,106,282,53"/>
+</map>

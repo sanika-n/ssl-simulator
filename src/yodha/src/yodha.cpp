@@ -95,7 +95,7 @@ void YellowBot::YellowBotGraphics::mousePressEvent(QGraphicsSceneMouseEvent *eve
         } else {
             qDebug() << "signalEmitter is null!";
         }
-
+    }
 }
 
 void YellowBot::YellowBotGraphics::mouseMoveEvent(QGraphicsSceneMouseEvent *event)

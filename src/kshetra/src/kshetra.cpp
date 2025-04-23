@@ -100,7 +100,6 @@ void Kshetra::viewHotMap()
 // }
 
 void Kshetra::handleGraph(std::vector<QPointF> *vertices){
-    LOG << "drawing" << vertices->size();
     if(vertices->size() == 0)return;
     for(auto line: lines){scene->removeItem(line);}
     lines.clear();
@@ -148,7 +147,6 @@ void Kshetra::handleState(QByteArray *buffer)
                     scene_ball->updatePosition(transformToScene(QPointF(ball.x(), ball.y())));
                 }
             }else{
-                LOG << "ball not there! paying respects";
             }
 
             //drawing robots

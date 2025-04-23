@@ -141,7 +141,6 @@ vector<int> Graph::shortestPath(int start, int end){
     pq.push(make_pair(make_pair(0.0, start), -1));
     map<int, int> backtrack;
     while(!pq.empty()){
-        cout << "size: " << pq.size() << endl;
         pair<pair<double, int>, int> t = pq.top();
         pq.pop();
         if(d[t.first.second]!=-1.0){

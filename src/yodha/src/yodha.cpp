@@ -8,6 +8,8 @@
 #define ROBOT_RADIUS 10
 float SUBTEND_ANGLE=30;
 
+bool left_click_mode = true;
+
 /**
  * @brief Converting to m and changing origin to center of field from top left corner
  *
@@ -77,6 +79,15 @@ void YellowBot::YellowBotGraphics::paint(QPainter *painter, const QStyleOptionGr
 
 void YellowBot::YellowBotGraphics::mousePressEvent(QGraphicsSceneMouseEvent *event)
 {
+    // Responsible for deciding whether we want to activate physics mode or teleport mode
+    if (event->button() == Qt::LeftButton) {
+        left_click_mode = true;
+    }
+    else if (event->button() == Qt::RightButton) {
+        left_click_mode = false;
+    }
+
+    // Sends data to the sidebar
     if (event->button() == Qt::RightButton) {
         if (signalEmitter) {
             emit signalEmitter->robotRightClicked(id, this->pos(), this->rotation());
@@ -84,7 +95,7 @@ void YellowBot::YellowBotGraphics::mousePressEvent(QGraphicsSceneMouseEvent *eve
         } else {
             qDebug() << "signalEmitter is null!";
         }
-    }
+
 }
 
 void YellowBot::YellowBotGraphics::mouseMoveEvent(QGraphicsSceneMouseEvent *event)
@@ -94,7 +105,9 @@ void YellowBot::YellowBotGraphics::mouseMoveEvent(QGraphicsSceneMouseEvent *even
     // LOG << "item frame : " << event->lastPos();
     // LOG << "qt based transform : " << mapToScene(event->lastPos());
     // LOG << "my transform : " << QPointF(pos().x() - event->lastPos().y() ,event->lastPos().x() + pos().y());
-    temp.move_one_bot(id, transformFromScene(mapToScene(event->lastPos())), false);
+    if (left_click_mode) temp.move_one_bot(id, transformFromScene(mapToScene(event->lastPos())), false, true);
+    else temp.move_one_bot(id, transformFromScene(mapToScene(event->lastPos())), false, false);
+
 }
 BlueBot::BlueBot(QGraphicsScene *scene, QGraphicsScene *scene_hotmap, QPointF &&point, float orientation, int id):
     id(id),
@@ -142,6 +155,28 @@ void BlueBot::BlueBotGraphics::paint(QPainter *painter, const QStyleOptionGraphi
 
 void BlueBot::BlueBotGraphics::mousePressEvent(QGraphicsSceneMouseEvent *event)
 {
+    // Responsible for deciding whether we want to activate physics mode or teleport mode
+    if (event->button() == Qt::LeftButton) {
+        left_click_mode = true;
+    }
+    else if (event->button() == Qt::RightButton) {
+        left_click_mode = false;
+    }
+
+    // I don't know from where this below code came
+    // I'm not deleteing it in case someone needs it
+
+    // sslsim::TeleportRobot teleport;
+    // teleport.mutable_id()->set_id(id);  // bot ID (uint32_t)
+    // teleport.mutable_id()->set_team(gameController::Team::BLUE); // or YELLOW
+
+    // // Convert simulator coordinates to SSL-Vision frame
+    // QPointF targetSimPos(1.0, 2.0);  // your desired x, y in sim coords (in meters)
+    // coordinates::toVision(targetSimPos, teleport);  // fills teleport.x(), teleport.y()
+
+    // teleport.set_v_x(0);  // optional: stop the bot
+    // teleport.set_v_y(0);
+    // teleport.set_by_force(true);  // if needed to override dribbling etc.
 }
 
 void BlueBot::BlueBotGraphics::mouseMoveEvent(QGraphicsSceneMouseEvent *event)
@@ -150,7 +185,8 @@ void BlueBot::BlueBotGraphics::mouseMoveEvent(QGraphicsSceneMouseEvent *event)
     // LOG << "item frame : " << event->lastPos();
     // LOG << "qt based transform : " << mapToScene(event->lastPos());
     // LOG << "my transform : " << QPointF(pos().x() - event->lastPos().y() ,event->lastPos().x() + pos().y());
-    temp.move_one_bot(id, transformFromScene(mapToScene(event->lastPos())), true);
+    if (left_click_mode) temp.move_one_bot(id, transformFromScene(mapToScene(event->lastPos())), true, true);
+    else temp.move_one_bot(id, transformFromScene(mapToScene(event->lastPos())), true, false);
 }
 
 Ball::Ball(QColor color, float radius):

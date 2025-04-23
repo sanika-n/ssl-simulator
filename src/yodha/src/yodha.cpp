@@ -4,6 +4,7 @@
 #include <QDebug>
 #include <QPainter>
 #include <QGraphicsSceneMouseEvent>
+#include <QObject>
 #define LOG qDebug() << "[yodha] : "
 #define ROBOT_RADIUS 10
 float SUBTEND_ANGLE=30;
@@ -71,6 +72,115 @@ void YellowBot::updatePosition(const QPointF &&point, float orientation)
     return;
 }
 
+// Add this to yodha.cpp, replacing the existing YellowBot::YellowBotGraphics::focusInEvent,
+// focusOutEvent, and handleGamepadInput functions
+
+void YellowBot::YellowBotGraphics::focusInEvent(QFocusEvent* event) {
+    Q_UNUSED(event);
+
+    // First check available gamepads
+    auto gamepadIds = QGamepadManager::instance()->connectedGamepads();
+    qDebug() << "[yodha] : Available gamepads:" << gamepadIds;
+
+    if (gamepadIds.isEmpty()) {
+        qDebug() << "[yodha] : No gamepads detected!";
+        // Create gamepad with default index anyway
+        gamepad = new QGamepad(0);
+    } else {
+        // Use the first available gamepad
+        gamepad = new QGamepad(gamepadIds.first());
+        qDebug() << "[yodha] : Using gamepad with ID:" << gamepadIds.first();
+    }
+
+    qDebug() << "[yodha] : Gamepad connected status:" << gamepad->isConnected();
+
+    // Set up connections to monitor gamepad buttons (helpful for debugging)
+    QObject::connect(gamepad, &QGamepad::buttonAChanged, [](bool pressed) {
+        qDebug() << "[yodha] : Button A:" << pressed;
+    });
+
+    QObject::connect(gamepad, &QGamepad::buttonBChanged, [](bool pressed) {
+        qDebug() << "[yodha] : Button B:" << pressed;
+    });
+
+    QObject::connect(gamepad, &QGamepad::connectedChanged, [](bool connected) {
+        qDebug() << "[yodha] : Gamepad connection changed to:" << connected;
+    });
+
+    // Set up gamepad timer
+    if (!gamepadTimer) {
+        gamepadTimer = new QTimer();
+        QObject::connect(gamepadTimer, &QTimer::timeout, [this]() {
+            this->handleGamepadInput();
+        });
+        gamepadTimer->start(16);
+    }
+}
+
+void YellowBot::YellowBotGraphics::focusOutEvent(QFocusEvent* event) {
+    Q_UNUSED(event);
+
+    if (gamepadTimer) {
+        gamepadTimer->stop();
+        delete gamepadTimer;
+        gamepadTimer = nullptr;
+    }
+
+    if (gamepad) {
+        delete gamepad;
+        gamepad = nullptr;
+    }
+}
+
+// Replace the handleGamepadInput function with this improved version:
+
+void YellowBot::YellowBotGraphics::handleGamepadInput() {
+    if (!gamepad || !gamepad->isConnected()) {
+        return;
+    }
+
+    float dx = gamepad->axisLeftX();  // -1 to 1
+    float dy = gamepad->axisLeftY();  // -1 to 1
+    double r2Value = gamepad->buttonR2();
+    // Add a small deadzone to ignore small movements
+    if (std::abs(dx) < 0.15) dx = 0;
+    if (std::abs(dy) < 0.15) dy = 0;
+
+    if (std::abs(dx) > 0 || std::abs(dy) > 0) {
+        // Scale movement
+        float speed = 15.0;
+        if (r2Value == 1){
+            speed = 50.0;
+        }
+        QPointF newPos = pos() + QPointF(dx * speed, dy * speed);
+
+        // Just update the visual position directly
+        //setPos(newPos);
+
+        Shunya temp;
+        // Fix: For YellowBot, is_blue should be FALSE, not true
+        QPointF tempPos = newPos;
+        temp.move_one_bot(id, transformFromScene(std::move(tempPos)), false);
+
+        qDebug() << "[yodha] : Yellow bot" << id << "moved to" << newPos;
+    }
+
+    bool previousL1State = false;
+
+    // Inside your function:
+    double l1Value = gamepad->buttonL1();
+    bool currentL1State = (l1Value == 1);
+
+    if (currentL1State && !previousL1State) {
+        id = (id + 1) % 6;
+        qDebug() << "[yodha] : ID switched to" << id;
+    }
+
+    previousL1State = currentL1State;
+}
+
+
+
 void YellowBot::YellowBotGraphics::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
     painter->setBrush(Qt::yellow);
@@ -96,6 +206,8 @@ void YellowBot::YellowBotGraphics::mousePressEvent(QGraphicsSceneMouseEvent *eve
             qDebug() << "signalEmitter is null!";
         }
     }
+
+    setFocus();
 }
 
 void YellowBot::YellowBotGraphics::mouseMoveEvent(QGraphicsSceneMouseEvent *event)

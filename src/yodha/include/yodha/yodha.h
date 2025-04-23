@@ -1,16 +1,18 @@
 #ifndef YODHA_H
 #define YODHA_H
 /**
- * @file yodha.h 
+ * @file yodha.h
  * @brief Defines the classes bluebot, bluebotgraphics, yellowbot, yellowbotgraphics and the ball
- * 
+ *
  * This file contains all the definition regarding the various bots and their graphical aspects
  */
 
 #include <QGraphicsScene>
 #include <QGraphicsPathItem>
 #include <QGraphicsSceneMouseEvent>
-
+#include <QGamepad>
+#include <QTimer>
+#include <QGamepadManager>
 class BlueBotGraphics;
 class YellowBotGraphics;
 
@@ -38,7 +40,7 @@ public:
      * @return Returns the x position of the bot
      */
     float getx(){ return x; }
-     /**
+    /**
      * @brief Gets the y value of the bot
      * @return Returns the y position of the bot
      */
@@ -93,12 +95,12 @@ private:
         int id;
         /**
          * @brief Defines the function describing what happens when mouse is clicked or moved
-         * @param *event Refers to the value of the event pointer 
+         * @param *event Refers to the value of the event pointer
          */
         void mousePressEvent(QGraphicsSceneMouseEvent *event) override;
         /**
          * @brief Defines the function describing what happens when some key is pressed
-         * @param *event Refers to the value of the event pointer 
+         * @param *event Refers to the value of the event pointer
          */
         void mouseMoveEvent(QGraphicsSceneMouseEvent *event) override;
     };
@@ -123,7 +125,7 @@ signals:
 /**
  * @class YellowBot
  * @brief Defines how to make the yellow robots (its structure) and functions to update its positions
- * 
+ *
  * Every function defined inside is the same as that of the blue bots
  */
  
@@ -140,19 +142,25 @@ class YellowBot{
     
     private:
         RobotSignalEmitter *signalEmitter = nullptr; 
-    private:
         class YellowBotGraphics : public QGraphicsPathItem{
         public:
             YellowBotGraphics():signalEmitter(nullptr){};
             YellowBotGraphics(int id, RobotSignalEmitter *emitter ): id(id), signalEmitter(emitter){};
-            YellowBotGraphics(QPainterPath &path, int id, RobotSignalEmitter *emitter):QGraphicsPathItem(path), id(id), signalEmitter(emitter){};
+            YellowBotGraphics(QPainterPath &path, int id, RobotSignalEmitter *emitter):QGraphicsPathItem(path), id(id), signalEmitter(emitter){
+                setFlag(QGraphicsItem::ItemIsFocusable);
+            };
             void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget = nullptr) override;
+            void focusInEvent(QFocusEvent *event) override;
+            void focusOutEvent(QFocusEvent *event) override;
         protected:
             int id;
             RobotSignalEmitter *signalEmitter = nullptr;
             void mousePressEvent(QGraphicsSceneMouseEvent *event) override;
             void mouseMoveEvent(QGraphicsSceneMouseEvent *event) override;
             void keyPressEvent(QKeyEvent *event) override;
+            QGamepad *gamepad = nullptr;
+            QTimer *gamepadTimer = nullptr;
+            void handleGamepadInput();
         };
         YellowBotGraphics *body_graphics, *body_graphics_hotmap=nullptr;
         float x, y, orientation;

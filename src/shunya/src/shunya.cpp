@@ -36,7 +36,7 @@ void Shunya::onSocketError(QAbstractSocket::SocketError socketError)
 
 void Shunya::handleDatagrams()
 {
-// when data comes in
+    // when data comes in
     while(socket->hasPendingDatagrams()){
         LOG << "simulator error ";
         auto datagram = socket->receiveDatagram();
@@ -233,3 +233,4 @@ void Shunya::setBotPosition(google::protobuf::RepeatedPtrField<sslsim::TeleportR
     bot_pos->set_orientation(orientation);
 
 }
+

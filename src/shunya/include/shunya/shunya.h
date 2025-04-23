@@ -1,9 +1,9 @@
 #ifndef SHUNYA_H
 #define SHUNYA_H
 /**
- * @file shunya.h 
+ * @file shunya.h
  * @brief Defines the shunya class which sets up the playing field
- * 
+ *
  * This file contains the definitions for settingup all the players and establishing conenction
  */
 
@@ -15,7 +15,7 @@
 /**
  * @class Shunya
  * @brief Defines various functions for setup
- * 
+ *
  * It defines functions such as setting the position of the bots and balls along with socket errors and handling datgrams.
  */
 class Shunya : public QObject
@@ -41,6 +41,8 @@ public:
      * @param y The y position of the bots
      */
     void setBallPosition(google::protobuf::RepeatedPtrField<sslsim::TeleportBall> *ball, float x, float y);
+
+
     ~Shunya();
 
 public slots:

@@ -13,6 +13,9 @@
 #define KURUK_H
 
 #include <QMainWindow>
+#include <QWidget>
+#include <QDockWidget>
+#include <QLabel>
 #include "ui_kuruk.h"
 #include "vyasa/vyasa.h"
 #include "shunya/shunya.h"
@@ -26,6 +29,11 @@ class Kuruk : public QMainWindow
 public:
     explicit Kuruk(QWidget *parent = nullptr);
     Vyasa *vyasa;
+    static QLabel* robotIdLabel;
+    static QLabel* robotPositionLabel;
+    static QLabel* robotOrientationLabel;
+    QWidget* sidebar;
+    QDockWidget* sidebarDockWidget;
     ~Kuruk();
 
 private:
@@ -36,6 +44,9 @@ private:
     std::shared_ptr<std::vector<BlueBot>> pandav;
     std::shared_ptr<std::vector<YellowBot>> kaurav;
     std::shared_ptr<Ball> ball;
+    
+public slots:
+    void updateSidebar(int id, QPointF position, float orientation);
 signals:
     // void configureBots();
 };

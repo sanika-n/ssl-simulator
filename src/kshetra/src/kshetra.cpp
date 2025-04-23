@@ -1,5 +1,4 @@
 #include "kshetra.h"
-#include "robotinfowidget.h"
 #include <google/protobuf/repeated_field.h>
 #include <QNetworkDatagram>
 #include <cmath>
@@ -45,12 +44,6 @@ Kshetra::Kshetra(QWidget *parent):
 {
     scene_mantri = std::make_shared<std::vector<Mantri>>();
     see_hotmap_ = false;
-    robotInfoWidget = new RobotInfoWidget();
-    robotInfoWidget->setWindowTitle("Robot Info");
-    robotInfoWidget->setMinimumWidth(800);
-
-    // Show it from the beginning with placeholder text
-    robotInfoWidget->show();
 }
 
 Kshetra::~Kshetra()
@@ -181,10 +174,7 @@ void Kshetra::handleState(QByteArray *buffer)
                     bot->updatePosition(transformToScene(QPoint(itr->x(), itr->y())), itr->orientation());
                 }
                 
-                // robotInfoWidget = new RobotInfoWidget(this);
-                // robotInfoWidget->setWindowTitle("Robot Info");
-                // robotInfoWidget->setAttribute(Qt::WA_DeleteOnClose);
-                // robotInfoWidget->show();
+                
             }else{
                 LOG << "yellow bots not there! paying respects";
             }
@@ -263,6 +253,7 @@ void Kshetra::setHotMap()
 }
 
 void Kshetra::onRobotRightClicked(int id, QPointF position, float orientation) {
-    qDebug() << "Slot hit: Robot ID:" << id << "at" << position << "orientation" << orientation;
-    robotInfoWidget->updateInfo(id, position, orientation);
+    
+    emit robotSelected(id, position, orientation);
+
 }

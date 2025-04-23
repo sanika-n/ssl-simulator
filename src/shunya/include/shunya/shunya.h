@@ -62,7 +62,7 @@ public slots:
      * @param point The position of the bot
      * @param is_blue The boolean for whether the bot is blue or not
      */
-    void move_one_bot(int id, QPointF point, bool is_blue);
+    void move_one_bot(int id, QPointF point, bool is_blue, bool instant_teleportation_ignore_physics = false);
     /**
      * @brief Logs the connection error
      * @param socketError

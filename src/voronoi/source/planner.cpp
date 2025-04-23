@@ -45,7 +45,6 @@ using namespace gra;
  */
 vector<QPointF> plan_path(vector<pair<double, double>> bot_pos, pair<double, double> endpt, int target_id)
 {
-    LOG << "started";
     using namespace vor;
 
     v = new Voronoi();
@@ -55,7 +54,6 @@ vector<QPointF> plan_path(vector<pair<double, double>> bot_pos, pair<double, dou
     for(int i=0; i < bot_pos.size(); ++i)
     {
         ver->push_back(new VPoint( bot_pos[i].first , bot_pos[i].second, i));
-        LOG << i << ' ' << bot_pos[i].first << ' ' << bot_pos[i].second;
     }
 
     // Add buffer points for start and end
@@ -96,6 +94,5 @@ vector<QPointF> plan_path(vector<pair<double, double>> bot_pos, pair<double, dou
         auto p = g.getVertexById(path[i]);
         pos.push_back(QPointF(p.first, p.second));
     }
-    LOG << "ended" << path.size();
     return pos;
 }

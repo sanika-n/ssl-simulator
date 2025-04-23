@@ -60,25 +60,39 @@ Shunya::~Shunya(){
     command = nullptr;
     socket = nullptr;
 }
-void Shunya::move_one_bot(int id, QPointF point, bool is_blue)
+
+
+
+void Shunya::move_one_bot(int id,
+                          QPointF point,
+                          bool    is_blue,
+                          bool instant_teleportation_ignore_physics)
 {
-    //creating the message
     command->Clear();
-    sslsim::SimulatorControl *control = command->mutable_control();
-    auto bot = control->mutable_teleport_robot();
+    auto* bots = command
+                     ->mutable_control()
+                     ->mutable_teleport_robot();
 
-    //initial position of the bots can be set here
-    setBotPosition(bot, id, point.x(), point.y(), 0, is_blue);
-    QByteArray dgram;
-    dgram.resize(command->ByteSize());
-    command->SerializeToArray(dgram.data(), dgram.size());
+    // push a new TeleportRobot exactly as before
+    setBotPosition(bots,id,point.x(),point.y(),/*yaw=*/0,is_blue);
 
-    //sending message
-    if (socket->writeDatagram(dgram, QHostAddress::LocalHost, SSL_SIMULATION_CONTROL_PORT) > -1) {
-        // LOG << "sent data";
+    // now only set the flag if the caller really asked for a hard teleport
+    // Note: set_by_force = true means follow real physics
+    // set_by_force = false means directly teleport
+    // This chain of action eventually makes its way to Simulator::moveRobot
+    // And then eventually to SimRobot::handleMoveCommand
+    if (!instant_teleportation_ignore_physics) {
+        auto* tr = bots->Mutable(bots->size() - 1);
+        tr->set_by_force(true);
     }
 
+    // send it
+    QByteArray dgram(command->ByteSize(), 0);
+    command->SerializeToArray(dgram.data(), dgram.size());
+    socket->writeDatagram(dgram,QHostAddress::LocalHost,SSL_SIMULATION_CONTROL_PORT);
 }
+
+
 
 void Shunya::setup()
 {
@@ -100,7 +114,6 @@ void Shunya::setup()
 
     //sending message
     if (socket->writeDatagram(dgram, QHostAddress::LocalHost, SSL_SIMULATION_CONTROL_PORT) > -1) {
-        LOG << "sent data";
     }
 }
 
@@ -133,7 +146,6 @@ void Shunya::attack_setup()
 
     //sending message
     if (socket->writeDatagram(dgram, QHostAddress::LocalHost, SSL_SIMULATION_CONTROL_PORT) > -1) {
-        LOG << "sent data";
     }
 }
 
@@ -188,14 +200,13 @@ void Shunya::setBotPosition(google::protobuf::RepeatedPtrField<sslsim::TeleportR
         bot_id->set_team(gameController::BLUE);
     }else{
         bot_id->set_team(gameController::YELLOW);
-    }
-    LOG << bot_id->team();
+    };
     bot_id->set_id(id);
     //we cannot pass partial positions as of now, need to give all values
     bot_pos->set_x(x);
     bot_pos->set_y(y);
     bot_pos->set_present(true);
-    bot_pos->set_by_force(true);
+    //bot_pos->set_by_force(true); // This was there in the original code, that I removed when doing the instant_teleportation for move_one_bot
     bot_pos->set_orientation(orientation);
 
 }

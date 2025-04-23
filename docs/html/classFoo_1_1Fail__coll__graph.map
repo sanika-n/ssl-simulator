@@ -1,6 +1,0 @@
-<map id="Foo::Fail" name="Foo::Fail">
-<area shape="rect" id="Node000001" title=" " alt="" coords="25,79,100,104"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,120,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="57,44,58,78,53,79,51,45"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="74,45,72,79,67,78,69,44"/>
-</map>

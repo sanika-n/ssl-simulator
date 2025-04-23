@@ -1,9 +1,0 @@
-<map id="Vector2fDefaultTypeInternal" name="Vector2fDefaultTypeInternal">
-<area shape="rect" id="Node000001" title=" " alt="" coords="81,196,285,221"/>
-<area shape="rect" id="Node000002" href="$classVector2f.html" title=" " alt="" coords="145,108,221,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,147,185,195,180,195,180,147"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,53,174,106,170,109,121,57"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="211,13,330,38"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="252,50,195,110,192,106,249,46"/>
-</map>

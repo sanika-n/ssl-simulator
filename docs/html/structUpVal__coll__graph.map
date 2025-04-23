@@ -1,6 +1,0 @@
-<map id="UpVal" name="UpVal">
-<area shape="rect" id="Node000001" title=" " alt="" coords="22,110,82,135"/>
-<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="97,111,105,115,109,123,100,133,83,135,82,130,98,128,103,122,101,119,95,116"/>
-<area shape="rect" id="Node000002" href="$structlua__TValue.html" title=" " alt="" coords="5,5,99,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,45,55,110,49,110,49,45"/>
-</map>

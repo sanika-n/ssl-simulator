@@ -1,7 +1,0 @@
-<map id="GameEvent_PlacementFailed" name="GameEvent_PlacementFailed">
-<area shape="rect" id="Node000001" title=" " alt="" coords="101,108,313,133"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,52,194,106,191,110,127,56"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="211,5,423,45"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,56,222,110,219,106,283,52"/>
-</map>

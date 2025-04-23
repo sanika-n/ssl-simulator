@@ -1,9 +1,0 @@
-<map id="amun::PlotValueDefaultTypeInternal" name="amun::PlotValueDefaultTypeInternal">
-<area shape="rect" id="Node000001" title=" " alt="" coords="93,196,299,236"/>
-<area shape="rect" id="Node000002" href="$classamun_1_1PlotValue.html" title=" " alt="" coords="132,108,260,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,147,199,196,193,196,193,147"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="128,53,185,106,182,110,124,57"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="211,13,383,38"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="276,49,210,110,207,106,273,45"/>
-</map>

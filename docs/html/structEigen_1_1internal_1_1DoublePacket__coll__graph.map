@@ -1,8 +1,0 @@
-<map id="Eigen::internal::DoublePacket&lt; Packet &gt;" name="Eigen::internal::DoublePacket&lt; Packet &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,212,217,252"/>
-<area shape="rect" id="Node000002" href="$structEigen_1_1internal_1_1packet__traits.html" title=" " alt="" coords="28,95,195,135"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,149,114,212,109,212,109,149"/>
-<area shape="rect" id="Node000003" href="$structEigen_1_1internal_1_1default__packet__traits.html" title=" " alt="" coords="26,5,197,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,59,106,94,101,95,100,59"/>
-<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="123,59,122,95,116,94,117,59"/>
-</map>

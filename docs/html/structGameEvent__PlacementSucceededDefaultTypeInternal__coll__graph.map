@@ -1,9 +1,0 @@
-<map id="GameEvent_PlacementSucceededDefaultTypeInternal" name="GameEvent_PlacementSucceededDefaultTypeInternal">
-<area shape="rect" id="Node000001" title=" " alt="" coords="93,196,337,236"/>
-<area shape="rect" id="Node000002" href="$classGameEvent__PlacementSucceeded.html" title=" " alt="" coords="93,108,337,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,147,217,196,212,196,212,147"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="132,52,201,106,198,110,129,56"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="211,5,455,45"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="300,56,231,110,228,106,297,52"/>
-</map>

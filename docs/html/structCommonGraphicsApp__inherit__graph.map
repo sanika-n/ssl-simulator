@@ -1,7 +1,0 @@
-<map id="CommonGraphicsApp" name="CommonGraphicsApp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="86,5,249,31"/>
-<area shape="rect" id="Node000002" href="$classSimpleOpenGL2App.html" title=" " alt="" coords="5,79,156,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,41,97,81,93,76,141,37"/>
-<area shape="rect" id="Node000003" href="$structSimpleOpenGL3App.html" title=" " alt="" coords="180,79,331,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,37,243,76,239,81,190,41"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="GJK&lt; btConvexTemplate &gt;" name="GJK&lt; btConvexTemplate &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="30,225,227,251"/>
-<area shape="rect" id="Node000002" href="$structGJK_1_1sSimplex.html" title=" " alt="" coords="153,108,336,148"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,159,143,227,140,223,212,156"/>
-<area shape="rect" id="Node000003" href="$structGJK_1_1sSV.html" title=" " alt="" coords="5,5,188,45"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="92,59,88,101,91,147,106,190,124,224,119,226,101,193,86,149,83,101,87,58"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="137,51,218,106,215,110,134,55"/>
-</map>

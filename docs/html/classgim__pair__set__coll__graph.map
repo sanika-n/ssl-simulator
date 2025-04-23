@@ -1,8 +1,0 @@
-<map id="gim_pair_set" name="gim_pair_set">
-<area shape="rect" id="Node000001" title="A pairset array." alt="" coords="42,168,149,193"/>
-<area shape="rect" id="Node000002" href="$classgim__array.html" title=" " alt="" coords="5,93,185,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,132,91,168,86,168,84,133"/>
-<area shape="poly" id="edge3_Node000001_Node000002" title=" " alt="" coords="107,133,105,168,100,168,101,132"/>
-<area shape="rect" id="Node000003" href="$structGIM__PAIR.html" title="Overlapping pair." alt="" coords="53,5,137,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="98,45,98,93,93,93,93,45"/>
-</map>

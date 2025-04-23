@@ -1,6 +1,0 @@
-<map id="btOverlappingPairCache" name="btOverlappingPairCache">
-<area shape="rect" id="Node000001" title=" " alt="" coords="13,79,192,104"/>
-<area shape="rect" id="Node000002" href="$classbtOverlappingPairCallback.html" title="The btOverlappingPairCallback class is an additional optional broadphase user callback for adding/rem..." alt="" coords="5,5,200,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,44,98,78,93,79,91,45"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="114,45,112,79,107,78,109,44"/>
-</map>

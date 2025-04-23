@@ -1,7 +1,0 @@
-<map id="sslsim::RobotControlResponse" name="sslsim::RobotControlResponse">
-<area shape="rect" id="Node000001" title=" " alt="" coords="98,108,318,133"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,52,196,106,192,110,128,56"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="211,5,431,45"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="289,56,224,110,221,106,286,52"/>
-</map>

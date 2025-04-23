@@ -1,7 +1,0 @@
-<map id="GameEvent_ExcessiveBotSubstitution" name="GameEvent_ExcessiveBotSubstitution">
-<area shape="rect" id="Node000001" title=" " alt="" coords="86,108,357,133"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,52,207,106,204,110,131,56"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="211,5,482,45"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="312,56,238,110,235,106,308,52"/>
-</map>

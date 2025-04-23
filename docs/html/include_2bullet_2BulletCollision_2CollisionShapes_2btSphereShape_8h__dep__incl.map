@@ -1,7 +1,0 @@
-<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/CollisionShapes/btSphereShape.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/CollisionShapes/btSphereShape.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,248,89"/>
-<area shape="rect" id="Node000002" href="$include_2bullet_2btBulletCollisionCommon_8h.html" title=" " alt="" coords="14,137,239,221"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,103,129,137,124,137,124,103"/>
-<area shape="rect" id="Node000003" href="$include_2bullet_2btBulletDynamicsCommon_8h.html" title=" " alt="" coords="9,269,244,353"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="129,235,129,269,124,269,124,235"/>
-</map>

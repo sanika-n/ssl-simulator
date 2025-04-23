@@ -1,9 +1,0 @@
-<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="325,5,619,104"/>
-<area shape="rect" id="Node000002" href="$include_2bullet_2BulletCollision_2NarrowPhaseCollision_2btGjkPairDetector_8h.html" title=" " alt="" coords="5,159,304,243"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="354,112,246,162,244,157,352,107"/>
-<area shape="rect" id="Node000003" href="$include_2bullet_2BulletCollision_2NarrowPhaseCollision_2btPointCollector_8h.html" title=" " alt="" coords="329,159,615,243"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="475,118,475,159,469,159,469,118"/>
-<area shape="rect" id="Node000004" href="$include_2bullet_2BulletCollision_2NarrowPhaseCollision_2btPolyhedralContactClipping_8h.html" title=" " alt="" coords="640,152,944,251"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="593,107,686,149,684,154,590,112"/>
-</map>

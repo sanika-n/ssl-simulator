@@ -1,9 +1,0 @@
-<map id="world::BallPositionDefaultTypeInternal" name="world::BallPositionDefaultTypeInternal">
-<area shape="rect" id="Node000001" title=" " alt="" coords="94,196,285,236"/>
-<area shape="rect" id="Node000002" href="$classworld_1_1BallPosition.html" title=" " alt="" coords="118,108,261,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,147,192,196,187,196,187,147"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,53,179,106,176,110,123,57"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="211,5,354,45"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="256,57,203,110,199,106,252,53"/>
-</map>

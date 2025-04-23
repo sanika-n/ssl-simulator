@@ -1,7 +1,0 @@
-<map id="Bullet3SerializeBullet2::b3ConvexInternalShapeData" name="Bullet3SerializeBullet2::b3ConvexInternalShapeData">
-<area shape="rect" id="Node000001" title=" " alt="" coords="417,37,633,77"/>
-<area shape="rect" id="Node000002" href="$classBullet3SerializeBullet2_1_1b3CollisionShapeData.html" title=" " alt="" coords="5,5,179,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,30,417,47,417,52,192,35"/>
-<area shape="rect" id="Node000003" href="$classBullet3SerializeBullet2_1_1b3Vector3FloatData.html" title=" " alt="" coords="7,69,177,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,89,289,87,393,80,431,75,432,80,394,85,289,92,191,94"/>
-</map>

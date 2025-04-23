@@ -1,6 +1,0 @@
-<map id="btCharacterControllerInterface" name="btCharacterControllerInterface">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,225,104"/>
-<area shape="rect" id="Node000002" href="$classbtActionInterface.html" title="Basic interface to allow actions such as vehicles and characters to be updated inside a btDynamicsWor..." alt="" coords="48,5,183,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,44,111,78,106,79,104,45"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="127,45,125,79,120,78,121,44"/>
-</map>

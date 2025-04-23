@@ -1,9 +1,0 @@
-<map id="Eigen::internal::product_evaluator&lt; Product&lt; Lhs, RhsView, DefaultProduct &gt;, ProductTag, SparseShape, SparseSelfAdjointShape &gt;" name="Eigen::internal::product_evaluator&lt; Product&lt; Lhs, RhsView, DefaultProduct &gt;, ProductTag, SparseShape, SparseSelfAdjointShape &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="555,5,767,89"/>
-<area shape="rect" id="Node000002" href="$structEigen_1_1internal_1_1evaluator.html" title=" " alt="" coords="268,20,507,75"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="520,54,554,53,554,59,520,59"/>
-<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="520,36,554,36,554,41,520,41"/>
-<area shape="rect" id="Node000003" href="$structEigen_1_1internal_1_1unary__evaluator.html" title=" " alt="" coords="5,27,220,67"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="234,54,268,54,268,59,234,59"/>
-<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="234,36,268,36,268,41,234,41"/>
-</map>

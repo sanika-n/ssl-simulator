@@ -1,9 +1,0 @@
-<map id="btConvex2dConvex2dAlgorithm" name="btConvex2dConvex2dAlgorithm">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,152,235,177"/>
-<area shape="rect" id="Node000002" href="$classbtActivatingCollisionAlgorithm.html" title="This class is not enabled yet (work&#45;in&#45;progress) to more aggressively activate objects." alt="" coords="9,79,231,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,118,116,152,110,152,109,118"/>
-<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="131,118,130,152,124,152,126,118"/>
-<area shape="rect" id="Node000003" href="$classbtCollisionAlgorithm.html" title=" " alt="" coords="43,5,197,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,44,116,78,110,79,109,45"/>
-<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="131,45,130,79,124,78,126,44"/>
-</map>

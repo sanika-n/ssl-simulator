@@ -1,9 +1,0 @@
-<map id="GameEvent_MultipleFoulsDefaultTypeInternal" name="GameEvent_MultipleFoulsDefaultTypeInternal">
-<area shape="rect" id="Node000001" title=" " alt="" coords="81,196,321,236"/>
-<area shape="rect" id="Node000002" href="$classGameEvent__MultipleFouls.html" title=" " alt="" coords="105,108,297,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,147,204,196,199,196,199,147"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="129,52,190,106,186,110,126,56"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="211,5,403,45"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="277,56,216,110,213,106,274,52"/>
-</map>

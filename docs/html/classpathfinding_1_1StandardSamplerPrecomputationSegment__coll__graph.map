@@ -1,7 +1,0 @@
-<map id="pathfinding::StandardSamplerPrecomputationSegment" name="pathfinding::StandardSamplerPrecomputationSegment">
-<area shape="rect" id="Node000001" title=" " alt="" coords="328,37,543,77"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="28,5,209,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,33,328,44,327,49,223,39"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,69,232,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,74,328,66,328,71,246,79"/>
-</map>

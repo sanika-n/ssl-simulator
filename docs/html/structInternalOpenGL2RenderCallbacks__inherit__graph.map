@@ -1,9 +1,0 @@
-<map id="InternalOpenGL2RenderCallbacks" name="InternalOpenGL2RenderCallbacks">
-<area shape="rect" id="Node000001" title=" " alt="" coords="99,79,339,104"/>
-<area shape="rect" id="Node000003" href="$structOpenGL2RenderCallbacks.html" title=" " alt="" coords="5,152,196,177"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,113,121,154,119,149,187,109"/>
-<area shape="rect" id="Node000004" href="$structSimpleOpenGL2RenderCallbacks.html" title=" " alt="" coords="221,152,455,177"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="252,109,320,149,317,154,249,113"/>
-<area shape="rect" id="Node000002" href="$structRenderCallbacks.html" title=" " alt="" coords="154,5,285,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,44,222,79,217,79,217,44"/>
-</map>

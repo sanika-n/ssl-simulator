@@ -1,9 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classb3GpuBroadphaseInterface.html" title=" " alt="" coords="5,55,204,80"/>
-<area shape="rect" id="Node000001" href="$classb3GpuGridBroadphase.html" title=" " alt="" coords="295,5,463,31"/>
-<area shape="poly" id="edge27_Node000000_Node000001" title=" " alt="" coords="189,50,307,28,308,33,190,55"/>
-<area shape="rect" id="Node000002" href="$classb3GpuParallelLinearBvhBroadphase.html" title=" " alt="" coords="252,55,507,80"/>
-<area shape="poly" id="edge28_Node000000_Node000002" title=" " alt="" coords="218,65,252,65,252,70,218,70"/>
-<area shape="rect" id="Node000003" href="$classb3GpuSapBroadphase.html" title=" " alt="" coords="297,104,462,129"/>
-<area shape="poly" id="edge29_Node000000_Node000003" title=" " alt="" coords="190,80,308,101,307,107,189,85"/>
-</map>

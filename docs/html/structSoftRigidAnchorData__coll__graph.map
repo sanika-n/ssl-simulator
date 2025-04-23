@@ -1,8 +1,0 @@
-<map id="SoftRigidAnchorData" name="SoftRigidAnchorData">
-<area shape="rect" id="Node000001" title=" " alt="" coords="40,185,196,211"/>
-<area shape="rect" id="Node000002" href="$structbtMatrix3x3FloatData.html" title="for serialization" alt="" coords="175,95,341,121"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,130,138,188,135,183,227,126"/>
-<area shape="rect" id="Node000003" href="$structbtVector3FloatData.html" title=" " alt="" coords="5,5,153,31"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="75,44,69,82,73,122,89,157,110,184,105,187,85,159,67,123,64,81,69,44"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="116,34,236,93,233,98,114,39"/>
-</map>

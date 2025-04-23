@@ -1,7 +1,0 @@
-<map id="AutoRefConfig_GameEventBehaviorEntry_DoNotUseDefaultTypeInternal" name="AutoRefConfig_GameEventBehaviorEntry_DoNotUseDefaultTypeInternal">
-<area shape="rect" id="Node000001" title=" " alt="" coords="740,49,997,89"/>
-<area shape="rect" id="Node000002" href="$classAutoRefConfig__GameEventBehaviorEntry__DoNotUse.html" title=" " alt="" coords="369,49,625,89"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="639,67,740,67,740,72,639,72"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,320,133"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="334,67,369,67,369,72,334,72"/>
-</map>

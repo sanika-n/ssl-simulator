@@ -1,9 +1,0 @@
-<map id="ssl::LocationDefaultTypeInternal" name="ssl::LocationDefaultTypeInternal">
-<area shape="rect" id="Node000001" title=" " alt="" coords="99,196,280,236"/>
-<area shape="rect" id="Node000002" href="$classssl_1_1Location.html" title=" " alt="" coords="138,108,241,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,147,192,196,187,196,187,147"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,53,179,106,176,110,123,57"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="211,13,357,38"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="265,49,203,110,199,106,261,46"/>
-</map>

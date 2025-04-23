@@ -1,9 +1,0 @@
-<map id="Bullet::btCapsuleShapeData" name="Bullet::btCapsuleShapeData">
-<area shape="rect" id="Node000001" title=" " alt="" coords="119,211,323,236"/>
-<area shape="rect" id="Node000002" href="$classBullet_1_1btConvexInternalShapeData.html" title=" " alt="" coords="131,108,311,148"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,162,224,210,219,210,219,162"/>
-<area shape="rect" id="Node000003" href="$classBullet_1_1btCollisionShapeData.html" title=" " alt="" coords="5,5,213,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,41,158,82,189,106,186,110,154,86,121,44"/>
-<area shape="rect" id="Node000004" href="$classBullet_1_1btVector3FloatData.html" title=" " alt="" coords="237,5,432,31"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="330,45,321,66,307,86,273,110,270,106,303,82,317,63,326,43"/>
-</map>

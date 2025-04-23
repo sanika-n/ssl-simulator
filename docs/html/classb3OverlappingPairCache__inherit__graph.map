@@ -1,9 +1,0 @@
-<map id="b3OverlappingPairCache" name="b3OverlappingPairCache">
-<area shape="rect" id="Node000001" title=" " alt="" coords="234,5,415,31"/>
-<area shape="rect" id="Node000002" href="$classb3HashedOverlappingPairCache.html" title="Hash&#45;space based Pair Cache, thanks to Erin Catto, Box2D, http://www.box2d.org, and Pierre Terdiman,..." alt="" coords="5,79,236,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="280,38,155,81,153,76,278,33"/>
-<area shape="rect" id="Node000003" href="$classb3NullPairCache.html" title="b3NullPairCache skips add/removal of overlapping pairs. Userful for benchmarking and unit testing." alt="" coords="261,79,389,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="327,44,327,79,322,79,322,44"/>
-<area shape="rect" id="Node000004" href="$classb3SortedOverlappingPairCache.html" title=" " alt="" coords="413,79,636,104"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="371,33,493,76,491,81,369,38"/>
-</map>

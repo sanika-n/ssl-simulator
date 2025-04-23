@@ -1,9 +1,0 @@
-<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/src/BulletCollision/CollisionShapes/btScaledBvhTriangleMeshShape.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/src/BulletCollision/CollisionShapes/btScaledBvhTriangleMeshShape.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="141,5,386,104"/>
-<area shape="rect" id="Node000002" href="$btScaledBvhTriangleMeshShape_8cpp.html" title=" " alt="" coords="5,152,265,251"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,116,180,153,176,150,209,113"/>
-<area shape="rect" id="Node000003" href="$src_2project__bullet_2src_2btBulletCollisionCommon_8h.html" title=" " alt="" coords="289,159,493,243"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="317,113,357,157,353,161,313,116"/>
-<area shape="rect" id="Node000004" href="$src_2project__bullet_2src_2btBulletDynamicsCommon_8h.html" title=" " alt="" coords="285,299,498,383"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="394,257,394,298,389,298,389,257"/>
-</map>

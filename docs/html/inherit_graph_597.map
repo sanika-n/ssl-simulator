@@ -1,7 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classbtActionInterface.html" title="Basic interface to allow actions such as vehicles and characters to be updated inside a btDynamicsWor..." alt="" coords="5,31,140,56"/>
-<area shape="rect" id="Node000001" href="$classbtCharacterControllerInterface.html" title=" " alt="" coords="188,5,408,31"/>
-<area shape="poly" id="edge47_Node000000_Node000001" title=" " alt="" coords="153,32,187,28,188,33,154,37"/>
-<area shape="rect" id="Node000002" href="$classbtRaycastVehicle.html" title="rayCast vehicle, very special constraint that turn a rigidbody into a vehicle." alt="" coords="231,55,365,80"/>
-<area shape="poly" id="edge48_Node000000_Node000002" title=" " alt="" coords="154,49,231,58,230,63,153,55"/>
-</map>

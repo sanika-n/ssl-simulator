@@ -1,6 +1,0 @@
-<map id="btConvexTriangleCallback" name="btConvexTriangleCallback">
-<area shape="rect" id="Node000001" title="For each triangle in the concave mesh that overlaps with the AABB of a convex (m_convexProxy),..." alt="" coords="5,79,196,104"/>
-<area shape="rect" id="Node000002" href="$classbtTriangleCallback.html" title=" " alt="" coords="29,5,172,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,44,96,78,91,79,89,45"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="112,45,110,79,105,78,107,44"/>
-</map>

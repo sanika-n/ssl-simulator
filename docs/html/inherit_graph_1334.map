@@ -1,7 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$structCommonRenderInterface.html" title=" " alt="" coords="5,31,191,56"/>
-<area shape="rect" id="Node000001" href="$classGLInstancingRenderer.html" title=" " alt="" coords="249,5,414,31"/>
-<area shape="poly" id="edge286_Node000000_Node000001" title=" " alt="" coords="204,29,248,24,249,30,205,34"/>
-<area shape="rect" id="Node000002" href="$structSimpleOpenGL2Renderer.html" title=" " alt="" coords="239,55,424,80"/>
-<area shape="poly" id="edge287_Node000000_Node000002" title=" " alt="" coords="205,52,239,55,238,60,205,57"/>
-</map>

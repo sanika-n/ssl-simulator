@@ -1,9 +1,0 @@
-<map id="TiXmlDeclaration" name="TiXmlDeclaration">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,152,140,177"/>
-<area shape="rect" id="Node000002" href="$classTiXmlNode.html" title=" " alt="" coords="25,79,120,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,118,68,152,63,152,61,118"/>
-<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="84,118,82,152,77,152,79,118"/>
-<area shape="rect" id="Node000003" href="$classTiXmlBase.html" title=" " alt="" coords="27,5,119,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="67,44,68,78,63,79,61,45"/>
-<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="84,45,82,79,77,78,79,44"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="btConvexConvexAlgorithm::CreateFunc" name="btConvexConvexAlgorithm::CreateFunc">
-<area shape="rect" id="Node000001" title=" " alt="" coords="21,108,218,148"/>
-<area shape="rect" id="Node000002" href="$structbtCollisionAlgorithmCreateFunc.html" title="Used by the btCollisionDispatcher to register and create instances for btCollisionAlgorithm." alt="" coords="5,13,233,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,52,115,108,109,108,109,52"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="130,52,129,108,124,108,125,52"/>
-<area shape="rect" id="Node000003" href="$classbtConvexPenetrationDepthSolver.html" title="ConvexPenetrationDepthSolver provides an interface for penetration depth calculation." alt="" coords="257,5,456,45"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="301,53,165,110,163,105,299,48"/>
-</map>

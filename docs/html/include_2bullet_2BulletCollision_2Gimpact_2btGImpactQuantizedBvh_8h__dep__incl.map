@@ -1,9 +1,0 @@
-<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/Gimpact/btGImpactQuantizedBvh.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/Gimpact/btGImpactQuantizedBvh.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="162,5,418,89"/>
-<area shape="rect" id="Node000002" href="$include_2bullet_2BulletCollision_2Gimpact_2btGImpactShape_8h.html" title=" " alt="" coords="184,137,396,221"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="293,103,293,137,287,137,287,103"/>
-<area shape="rect" id="Node000003" href="$include_2bullet_2BulletCollision_2Gimpact_2btCompoundFromGimpact_8h.html" title=" " alt="" coords="5,269,273,353"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="234,233,189,271,185,267,230,229"/>
-<area shape="rect" id="Node000004" href="$include_2bullet_2BulletCollision_2Gimpact_2btGImpactCollisionAlgorithm_8h.html" title=" " alt="" coords="298,269,583,353"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="350,229,395,267,391,271,346,233"/>
-</map>

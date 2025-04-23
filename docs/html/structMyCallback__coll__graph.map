@@ -1,9 +1,0 @@
-<map id="MyCallback" name="MyCallback">
-<area shape="rect" id="Node000001" title=" " alt="" coords="53,152,152,177"/>
-<area shape="rect" id="Node000002" href="$classbtTriangleRaycastCallback.html" title=" " alt="" coords="5,79,200,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,118,98,152,93,152,91,118"/>
-<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="114,118,112,152,107,152,109,118"/>
-<area shape="rect" id="Node000003" href="$classbtTriangleCallback.html" title=" " alt="" coords="31,5,174,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,44,98,78,93,79,91,45"/>
-<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="114,45,112,79,107,78,109,44"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="Node" name="Node">
-<area shape="rect" id="Node000001" title=" " alt="" coords="11,93,67,119"/>
-<area shape="rect" id="Node000003" href="$unionTKey.html" title=" " alt="" coords="29,181,83,207"/>
-<area shape="poly" id="edge3_Node000003_Node000001" title=" " alt="" coords="17,130,9,143,10,156,20,169,33,179,30,183,16,173,5,158,4,142,12,128"/>
-<area shape="rect" id="Node000002" href="$structlua__TValue.html" title=" " alt="" coords="31,5,124,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,44,62,56,46,94,41,92,57,54,63,42"/>
-<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="94,42,98,54,112,87,112,113,96,159,86,172,75,183,71,179,82,169,91,156,106,112,107,88,93,56,89,44"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="48,168,38,119,43,118,53,167"/>
-</map>

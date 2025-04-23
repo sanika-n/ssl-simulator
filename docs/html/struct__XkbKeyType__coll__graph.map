@@ -1,8 +1,0 @@
-<map id="_XkbKeyType" name="_XkbKeyType">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,185,113,211"/>
-<area shape="rect" id="Node000002" href="$struct__XkbMods.html" title=" " alt="" coords="15,5,104,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,44,55,81,54,123,60,185,55,185,49,123,49,81,53,44"/>
-<area shape="rect" id="Node000003" href="$struct__XkbKTMapEntry.html" title=" " alt="" coords="120,95,252,121"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="88,36,171,93,168,97,85,41"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="160,131,77,187,74,183,157,126"/>
-</map>

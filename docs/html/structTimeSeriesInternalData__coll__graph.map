@@ -1,7 +1,0 @@
-<map id="TimeSeriesInternalData" name="TimeSeriesInternalData">
-<area shape="rect" id="Node000001" title=" " alt="" coords="101,108,277,133"/>
-<area shape="rect" id="Node000002" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="5,5,167,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,53,178,106,174,110,115,57"/>
-<area shape="rect" id="Node000003" href="$structCommon2dCanvasInterface.html" title=" " alt="" coords="191,13,394,38"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="285,52,274,69,260,86,241,100,221,110,218,106,238,95,256,82,270,66,280,49"/>
-</map>

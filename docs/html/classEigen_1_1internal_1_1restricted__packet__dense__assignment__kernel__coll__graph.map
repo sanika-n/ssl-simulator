@@ -1,8 +1,0 @@
-<map id="Eigen::internal::restricted_packet_dense_assignment_kernel&lt; DstEvaluatorTypeT, SrcEvaluatorTypeT, Functor &gt;" name="Eigen::internal::restricted_packet_dense_assignment_kernel&lt; DstEvaluatorTypeT, SrcEvaluatorTypeT, Functor &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="585,5,803,75"/>
-<area shape="rect" id="Node000002" href="$classEigen_1_1internal_1_1generic__dense__assignment__kernel.html" title=" " alt="" coords="287,5,536,75"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="550,46,585,46,585,51,550,52"/>
-<area shape="poly" id="edge3_Node000001_Node000002" title=" " alt="" coords="550,28,585,29,585,34,550,34"/>
-<area shape="rect" id="Node000003" href="$structFunctor.html" title=" " alt="" coords="5,20,168,60"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="182,37,286,37,286,43,182,43"/>
-</map>

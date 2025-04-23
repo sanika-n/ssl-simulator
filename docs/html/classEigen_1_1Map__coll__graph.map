@@ -1,6 +1,0 @@
-<map id="Eigen::Map&lt; PlainObjectType, MapOptions, StrideType &gt;" name="Eigen::Map&lt; PlainObjectType, MapOptions, StrideType &gt;">
-<area shape="rect" id="Node000001" title="A matrix or vector expression mapping an existing array of data." alt="" coords="12,108,229,148"/>
-<area shape="rect" id="Node000002" href="$classEigen_1_1MapBase.html" title=" " alt="" coords="5,5,236,60"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,74,116,108,111,108,109,74"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="132,74,131,108,125,108,127,74"/>
-</map>

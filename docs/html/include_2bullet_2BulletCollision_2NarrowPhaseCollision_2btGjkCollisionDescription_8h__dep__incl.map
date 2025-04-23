@@ -1,8 +1,0 @@
-<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/NarrowPhaseCollision/btGjkCollisionDescription.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/NarrowPhaseCollision/btGjkCollisionDescription.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="19,5,282,104"/>
-<area shape="rect" id="Node000002" href="$include_2bullet_2BulletCollision_2NarrowPhaseCollision_2btComputeGjkEpaPenetration_8h.html" title=" " alt="" coords="5,284,296,383"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,117,97,153,90,194,97,235,118,283,114,285,92,237,85,194,92,151,107,115"/>
-<area shape="rect" id="Node000003" href="$include_2bullet_2BulletCollision_2NarrowPhaseCollision_2btGjkEpa3_8h.html" title=" " alt="" coords="107,152,357,236"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,114,210,150,205,153,184,117"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="203,249,182,285,177,282,198,247"/>
-</map>

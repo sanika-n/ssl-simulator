@@ -1,6 +1,0 @@
-<map id="btSphereSphereCollisionAlgorithm::CreateFunc" name="btSphereSphereCollisionAlgorithm::CreateFunc">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,251,119"/>
-<area shape="rect" id="Node000002" href="$structbtCollisionAlgorithmCreateFunc.html" title="Used by the btCollisionDispatcher to register and create instances for btCollisionAlgorithm." alt="" coords="14,5,242,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,44,123,78,118,79,117,44"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="139,44,138,79,133,78,134,44"/>
-</map>

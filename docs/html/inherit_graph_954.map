@@ -1,7 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classbtPrimitiveManagerBase.html" title="Prototype Base class for primitive classification." alt="" coords="5,45,188,70"/>
-<area shape="rect" id="Node000001" href="$classbtGImpactCompoundShape_1_1CompoundPrimitiveManager.html" title="compound primitive manager" alt="" coords="236,5,452,45"/>
-<area shape="poly" id="edge193_Node000000_Node000001" title=" " alt="" coords="201,41,235,37,236,42,202,46"/>
-<area shape="rect" id="Node000002" href="$classbtGImpactMeshShapePart_1_1TrimeshPrimitiveManager.html" title="Trimesh primitive manager." alt="" coords="245,69,443,109"/>
-<area shape="poly" id="edge194_Node000000_Node000002" title=" " alt="" coords="202,68,245,74,245,79,201,74"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="btWheelContactPoint" name="btWheelContactPoint">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,183,164,208"/>
-<area shape="rect" id="Node000002" href="$classbtRigidBody.html" title=" " alt="" coords="34,80,135,105"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,119,87,183,82,183,82,119"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="18,5,151,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="79,44,80,80,75,80,73,45"/>
-<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="96,45,94,80,89,80,91,44"/>
-</map>

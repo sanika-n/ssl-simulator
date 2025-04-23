@@ -1,9 +1,0 @@
-<map id="gameController::GameEvent_UnsportingBehaviorMinorDefaultTypeInternal" name="gameController::GameEvent_UnsportingBehaviorMinorDefaultTypeInternal">
-<area shape="rect" id="Node000001" title=" " alt="" coords="661,30,904,85"/>
-<area shape="rect" id="Node000002" href="$classgameController_1_1GameEvent__UnsportingBehaviorMinor.html" title=" " alt="" coords="340,37,547,77"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="561,55,661,55,661,60,561,60"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="34,5,215,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="229,33,340,44,340,50,229,38"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="5,69,244,109"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="257,73,339,65,340,70,258,79"/>
-</map>

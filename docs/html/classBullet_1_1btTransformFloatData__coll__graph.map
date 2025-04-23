@@ -1,8 +1,0 @@
-<map id="Bullet::btTransformFloatData" name="Bullet::btTransformFloatData">
-<area shape="rect" id="Node000001" title=" " alt="" coords="35,181,245,207"/>
-<area shape="rect" id="Node000002" href="$classBullet_1_1btMatrix3x3FloatData.html" title=" " alt="" coords="167,93,377,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,128,159,183,156,179,241,124"/>
-<area shape="rect" id="Node000003" href="$classBullet_1_1btVector3FloatData.html" title=" " alt="" coords="5,5,200,31"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="98,45,92,80,96,118,112,153,132,180,128,183,108,155,91,119,87,80,93,44"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="139,34,250,91,248,95,136,39"/>
-</map>

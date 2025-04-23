@@ -1,7 +1,0 @@
-<map id="amun::SimulatorWorstCaseVision" name="amun::SimulatorWorstCaseVision">
-<area shape="rect" id="Node000001" title=" " alt="" coords="103,108,302,148"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,53,185,106,181,110,124,57"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="211,5,410,45"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="282,57,225,110,221,106,278,53"/>
-</map>

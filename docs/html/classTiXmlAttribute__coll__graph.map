@@ -1,8 +1,0 @@
-<map id="TiXmlAttribute" name="TiXmlAttribute">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,168,123,193"/>
-<area shape="rect" id="Node000002" href="$classTiXmlBase.html" title=" " alt="" coords="18,93,110,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,132,60,168,54,168,53,133"/>
-<area shape="poly" id="edge3_Node000001_Node000002" title=" " alt="" coords="75,133,74,168,68,168,70,132"/>
-<area shape="rect" id="Node000003" href="$structTiXmlCursor.html" title=" " alt="" coords="13,5,115,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="67,45,67,93,61,93,61,45"/>
-</map>

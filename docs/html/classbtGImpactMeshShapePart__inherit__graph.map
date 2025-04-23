@@ -1,9 +1,0 @@
-<map id="btGImpactMeshShapePart" name="btGImpactMeshShapePart">
-<area shape="rect" id="Node000001" title="This class manages a sub part of a mesh supplied by the btStridingMeshInterface interface." alt="" coords="5,152,196,177"/>
-<area shape="rect" id="Node000002" href="$classbtGImpactShapeInterface.html" title="Base class for gimpact shapes." alt="" coords="7,79,195,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,118,96,152,91,152,89,118"/>
-<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="112,118,110,152,105,152,107,118"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="35,5,166,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="95,44,96,78,91,79,89,45"/>
-<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="112,45,110,79,105,78,107,44"/>
-</map>

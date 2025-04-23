@@ -1,9 +1,0 @@
-<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/src/protobuf/ssl_gc_engine.pb.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/src/protobuf/ssl_gc_engine.pb.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="119,5,350,60"/>
-<area shape="rect" id="Node000002" href="$ssl__gc__api_8pb_8h.html" title=" " alt="" coords="9,108,215,163"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,71,146,110,142,106,190,67"/>
-<area shape="rect" id="Node000004" href="$ssl__gc__engine_8pb_8cc.html" title=" " alt="" coords="240,108,477,163"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="280,67,328,106,325,110,276,71"/>
-<area shape="rect" id="Node000003" href="$ssl__gc__api_8pb_8cc.html" title=" " alt="" coords="5,211,219,265"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,176,115,211,109,211,109,176"/>
-</map>

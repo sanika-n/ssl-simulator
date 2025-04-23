@@ -1,7 +1,0 @@
-<map id="world::RobotPosition" name="world::RobotPosition">
-<area shape="rect" id="Node000001" title=" " alt="" coords="114,108,270,133"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,53,182,106,178,110,123,57"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="211,5,367,45"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="262,57,206,110,202,106,258,53"/>
-</map>

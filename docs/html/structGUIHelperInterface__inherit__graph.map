@@ -1,7 +1,0 @@
-<map id="GUIHelperInterface" name="GUIHelperInterface">
-<area shape="rect" id="Node000001" title="The Bullet 2 GraphicsPhysicsBridge let&#39;s the graphics engine create graphics representation and synch..." alt="" coords="84,5,231,31"/>
-<area shape="rect" id="Node000002" href="$structDummyGUIHelper.html" title="the DummyGUIHelper does nothing, so we can test the examples without GUI/graphics (in &#39;console mode&#39;)" alt="" coords="5,79,147,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,42,91,80,88,76,132,38"/>
-<area shape="rect" id="Node000003" href="$structOpenGLGuiHelper.html" title=" " alt="" coords="171,79,309,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,38,228,76,225,80,179,42"/>
-</map>

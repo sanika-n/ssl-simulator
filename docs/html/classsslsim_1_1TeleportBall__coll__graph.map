@@ -1,7 +1,0 @@
-<map id="sslsim::TeleportBall" name="sslsim::TeleportBall">
-<area shape="rect" id="Node000001" title=" " alt="" coords="116,108,265,133"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,187,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,53,181,106,177,110,123,57"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="211,5,360,45"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="259,57,204,110,201,106,255,53"/>
-</map>

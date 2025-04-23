@@ -1,9 +1,0 @@
-<map id="amun::PortBindErrorDefaultTypeInternal" name="amun::PortBindErrorDefaultTypeInternal">
-<area shape="rect" id="Node000001" title=" " alt="" coords="91,196,293,236"/>
-<area shape="rect" id="Node000002" href="$classamun_1_1PortBindError.html" title=" " alt="" coords="115,108,269,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,147,195,196,189,196,189,147"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,53,182,106,178,110,123,57"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="211,5,365,45"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="261,57,206,110,202,106,257,53"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="SoftBodyFaceData" name="SoftBodyFaceData">
-<area shape="rect" id="Node000001" title=" " alt="" coords="100,93,240,119"/>
-<area shape="rect" id="Node000002" href="$structbtVector3FloatData.html" title=" " alt="" coords="5,5,153,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,38,159,91,156,95,100,42"/>
-<area shape="rect" id="Node000003" href="$structSoftBodyMaterialData.html" title=" " alt="" coords="178,5,343,31"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="240,42,184,95,181,91,237,38"/>
-</map>

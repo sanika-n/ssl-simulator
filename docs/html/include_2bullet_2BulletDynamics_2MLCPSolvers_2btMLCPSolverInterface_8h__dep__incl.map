@@ -1,9 +1,0 @@
-<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletDynamics/MLCPSolvers/btMLCPSolverInterface.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletDynamics/MLCPSolvers/btMLCPSolverInterface.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="233,5,508,89"/>
-<area shape="rect" id="Node000002" href="$include_2bullet_2BulletDynamics_2MLCPSolvers_2btDantzigSolver_8h.html" title=" " alt="" coords="5,137,235,221"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="281,98,200,140,198,135,279,93"/>
-<area shape="rect" id="Node000003" href="$include_2bullet_2BulletDynamics_2MLCPSolvers_2btLemkeSolver_8h.html" title=" " alt="" coords="259,137,482,221"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="373,103,373,137,368,137,368,103"/>
-<area shape="rect" id="Node000004" href="$include_2bullet_2BulletDynamics_2MLCPSolvers_2btSolveProjectedGaussSeidel_8h.html" title=" " alt="" coords="506,137,822,221"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="476,92,573,135,570,140,474,97"/>
-</map>

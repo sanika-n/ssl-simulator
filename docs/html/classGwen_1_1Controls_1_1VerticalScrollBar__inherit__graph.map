@@ -1,9 +1,0 @@
-<map id="Gwen::Controls::VerticalScrollBar" name="Gwen::Controls::VerticalScrollBar">
-<area shape="rect" id="Node000001" title=" " alt="" coords="25,225,204,265"/>
-<area shape="rect" id="Node000002" href="$classGwen_1_1Controls_1_1BaseScrollBar.html" title=" " alt="" coords="5,152,224,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,191,117,225,112,225,112,191"/>
-<area shape="rect" id="Node000003" href="$classGwen_1_1Controls_1_1Base.html" title=" " alt="" coords="34,79,195,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,118,117,152,112,152,112,118"/>
-<area shape="rect" id="Node000004" href="$classGwen_1_1Event_1_1Handler.html" title=" " alt="" coords="33,5,196,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="117,44,117,79,112,79,112,44"/>
-</map>

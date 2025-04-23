@@ -1,7 +1,0 @@
-<map id="b3Point2PointConstraintDoubleData" name="b3Point2PointConstraintDoubleData">
-<area shape="rect" id="Node000001" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="61,108,317,133"/>
-<area shape="rect" id="Node000002" href="$structb3TypedConstraintData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64" alt="" coords="5,5,180,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,44,98,64,107,82,122,96,141,105,138,110,119,100,103,86,93,66,89,45"/>
-<area shape="rect" id="Node000003" href="$structb3Vector3DoubleData.html" title=" " alt="" coords="204,5,368,31"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="282,45,273,66,259,86,241,100,222,110,220,106,238,95,255,82,268,63,277,43"/>
-</map>

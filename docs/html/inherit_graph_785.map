@@ -1,9 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$structbtCollisionWorld_1_1RayResultCallback.html" title="RayResultCallback is used to report new raycast results." alt="" coords="5,37,208,77"/>
-<area shape="rect" id="Node000001" href="$structbtCollisionWorld_1_1AllHitsRayResultCallback.html" title=" " alt="" coords="259,5,437,45"/>
-<area shape="poly" id="edge125_Node000000_Node000001" title=" " alt="" coords="221,39,258,35,259,40,222,45"/>
-<area shape="rect" id="Node000002" href="$structbtCollisionWorld_1_1ClosestRayResultCallback.html" title=" " alt="" coords="256,69,440,109"/>
-<area shape="poly" id="edge126_Node000000_Node000002" title=" " alt="" coords="222,70,256,75,256,80,221,75"/>
-<area shape="rect" id="Node000003" href="$classbtKinematicClosestNotMeRayResultCallback.html" title=" " alt="" coords="488,69,705,109"/>
-<area shape="poly" id="edge127_Node000002_Node000003" title=" " alt="" coords="454,87,488,87,488,92,454,92"/>
-</map>

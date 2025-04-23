@@ -1,9 +1,0 @@
-<map id="btSphereSphereCollisionAlgorithm" name="btSphereSphereCollisionAlgorithm">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,152,251,177"/>
-<area shape="rect" id="Node000002" href="$classbtActivatingCollisionAlgorithm.html" title="This class is not enabled yet (work&#45;in&#45;progress) to more aggressively activate objects." alt="" coords="17,79,239,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,118,124,152,118,152,117,118"/>
-<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="139,118,138,152,132,152,134,118"/>
-<area shape="rect" id="Node000003" href="$classbtCollisionAlgorithm.html" title=" " alt="" coords="51,5,205,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="122,44,124,78,118,79,117,45"/>
-<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="139,45,138,79,132,78,134,44"/>
-</map>

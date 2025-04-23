@@ -1,9 +1,0 @@
-<map id="gameController::BallSpeedMeasurementDefaultTypeInternal" name="gameController::BallSpeedMeasurementDefaultTypeInternal">
-<area shape="rect" id="Node000001" title=" " alt="" coords="83,211,323,251"/>
-<area shape="rect" id="Node000002" href="$classgameController_1_1BallSpeedMeasurement.html" title=" " alt="" coords="105,108,301,148"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,162,205,211,200,211,200,162"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,187,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="128,53,185,106,181,110,124,57"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="211,5,407,45"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="281,57,224,110,221,106,277,53"/>
-</map>

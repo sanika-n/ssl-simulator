@@ -1,7 +1,0 @@
-<map id="btPoint2PointConstraintFloatData" name="btPoint2PointConstraintFloatData">
-<area shape="rect" id="Node000001" title="point to point constraint between two rigidbodies each with a pivotpoint that descibes the &#39;ballsocke..." alt="" coords="63,108,303,133"/>
-<area shape="rect" id="Node000002" href="$structbtTypedConstraintData.html" title="this structure is not used, except for loading pre&#45;2.82 .bullet files" alt="" coords="5,5,176,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,44,89,64,96,83,109,96,127,105,124,110,106,100,91,85,83,65,83,44"/>
-<area shape="rect" id="Node000003" href="$structbtVector3FloatData.html" title=" " alt="" coords="201,5,349,31"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="270,45,261,66,247,86,231,100,213,110,210,106,228,95,243,82,256,63,265,43"/>
-</map>

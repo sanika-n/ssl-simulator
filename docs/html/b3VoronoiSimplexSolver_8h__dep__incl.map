@@ -1,9 +1,0 @@
-<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/src/Bullet3OpenCL/NarrowphaseCollision/b3VoronoiSimplexSolver.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/src/Bullet3OpenCL/NarrowphaseCollision/b3VoronoiSimplexSolver.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="297,5,565,104"/>
-<area shape="rect" id="Node000002" href="$b3ConvexHullContact_8cpp.html" title=" " alt="" coords="5,152,273,251"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="323,113,238,154,236,150,320,108"/>
-<area shape="rect" id="Node000003" href="$b3GjkPairDetector_8cpp.html" title=" " alt="" coords="297,152,565,251"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="434,118,434,152,429,152,429,118"/>
-<area shape="rect" id="Node000004" href="$b3VoronoiSimplexSolver_8cpp.html" title=" " alt="" coords="589,152,857,251"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="542,108,627,150,625,154,540,113"/>
-</map>

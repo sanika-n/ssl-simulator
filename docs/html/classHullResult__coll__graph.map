@@ -1,7 +1,0 @@
-<map id="HullResult" name="HullResult">
-<area shape="rect" id="Node000001" title=" " alt="" coords="133,108,223,133"/>
-<area shape="rect" id="Node000002" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="5,5,167,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,56,123,82,155,106,152,110,119,86,99,59"/>
-<area shape="rect" id="Node000003" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="191,5,352,45"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="262,60,244,86,227,100,209,110,206,105,224,95,240,82,257,57"/>
-</map>

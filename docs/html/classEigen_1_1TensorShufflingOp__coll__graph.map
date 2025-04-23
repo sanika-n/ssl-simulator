@@ -1,8 +1,0 @@
-<map id="Eigen::TensorShufflingOp&lt; Shuffle, XprType &gt;" name="Eigen::TensorShufflingOp&lt; Shuffle, XprType &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,123,188,163"/>
-<area shape="rect" id="Node000002" href="$classEigen_1_1TensorBase.html" title=" " alt="" coords="16,5,177,60"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,74,92,122,87,122,85,74"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="108,74,106,122,101,122,103,74"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="202,20,269,45"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="212,56,123,124,120,120,208,52"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="Eigen::Block&lt; XprType, BlockRows, BlockCols, InnerPanel &gt;" name="Eigen::Block&lt; XprType, BlockRows, BlockCols, InnerPanel &gt;">
-<area shape="rect" id="Node000001" title="Expression of a fixed&#45;size or dynamic&#45;size block." alt="" coords="260,13,433,67"/>
-<area shape="rect" id="Node000002" href="$classEigen_1_1BlockImpl.html" title=" " alt="" coords="5,5,212,75"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,46,260,46,260,51,226,52"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="226,28,260,29,260,34,226,34"/>
-</map>

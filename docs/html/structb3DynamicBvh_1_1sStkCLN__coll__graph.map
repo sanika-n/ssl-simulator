@@ -1,8 +1,0 @@
-<map id="b3DynamicBvh::sStkCLN" name="b3DynamicBvh::sStkCLN">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,200,188,225"/>
-<area shape="rect" id="Node000002" href="$structb3DbvtNode.html" title=" " alt="" coords="45,95,148,121"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,135,99,200,94,200,94,135"/>
-<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="163,99,171,102,175,108,166,116,148,119,148,114,164,112,169,108,168,106,161,104"/>
-<area shape="rect" id="Node000003" href="$structb3DbvtAabbMm.html" title=" " alt="" coords="33,5,160,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,44,99,95,94,95,94,44"/>
-</map>

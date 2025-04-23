@@ -1,9 +1,0 @@
-<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/src/Bullet3OpenCL/NarrowphaseCollision/kernels/satClipHullContacts.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/src/project_bullet/src/Bullet3OpenCL/NarrowphaseCollision/kernels/satClipHullContacts.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="320,5,588,104"/>
-<area shape="rect" id="Node000002" href="$b3ConvexHullContact_8cpp.html" title=" " alt="" coords="5,152,273,251"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="338,112,246,154,243,149,335,107"/>
-<area shape="rect" id="Node000003" href="$testCompileBullet3NarrowphaseKernels_8cpp.html" title=" " alt="" coords="298,152,610,251"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="457,118,457,152,451,152,451,118"/>
-<area shape="rect" id="Node000004" href="$testExecuteBullet3NarrowphaseKernels_8cpp.html" title=" " alt="" coords="634,152,943,251"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="579,107,678,149,676,154,577,112"/>
-</map>

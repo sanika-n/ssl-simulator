@@ -1,6 +1,0 @@
-<map id="Eigen::SparseSelfAdjointView&lt; MatrixType, _Mode &gt;" name="Eigen::SparseSelfAdjointView&lt; MatrixType, _Mode &gt;">
-<area shape="rect" id="Node000001" title="Pseudo expression to manipulate a triangular sparse matrix as a selfadjoint matrix." alt="" coords="10,108,217,148"/>
-<area shape="rect" id="Node000002" href="$structEigen_1_1EigenBase.html" title=" " alt="" coords="5,5,221,60"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,74,109,108,103,108,102,74"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="125,74,123,108,118,108,120,74"/>
-</map>

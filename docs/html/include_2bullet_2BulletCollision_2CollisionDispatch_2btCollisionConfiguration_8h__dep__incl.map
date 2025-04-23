@@ -1,9 +1,0 @@
-<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/CollisionDispatch/btCollisionConfiguration.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/CollisionDispatch/btCollisionConfiguration.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,316,89"/>
-<area shape="rect" id="Node000002" href="$include_2bullet_2BulletCollision_2CollisionDispatch_2btDefaultCollisionConfiguration_8h.html" title=" " alt="" coords="31,137,291,236"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,103,163,137,158,137,158,103"/>
-<area shape="rect" id="Node000003" href="$include_2bullet_2btBulletCollisionCommon_8h.html" title=" " alt="" coords="48,284,273,368"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="163,250,163,284,158,284,158,250"/>
-<area shape="rect" id="Node000004" href="$include_2bullet_2btBulletDynamicsCommon_8h.html" title=" " alt="" coords="43,416,278,500"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="163,382,163,416,158,416,158,382"/>
-</map>

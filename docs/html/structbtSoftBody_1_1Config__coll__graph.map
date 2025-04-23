@@ -1,7 +1,0 @@
-<map id="btSoftBody::Config" name="btSoftBody::Config">
-<area shape="rect" id="Node000001" title=" " alt="" coords="107,123,249,148"/>
-<area shape="rect" id="Node000002" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="5,5,167,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,54,149,97,170,121,166,124,145,100,109,58"/>
-<area shape="rect" id="Node000003" href="$classbtAlignedObjectArray.html" title=" " alt="" coords="191,5,352,45"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="266,59,257,81,244,100,228,114,210,125,207,120,225,110,240,97,252,78,261,57"/>
-</map>

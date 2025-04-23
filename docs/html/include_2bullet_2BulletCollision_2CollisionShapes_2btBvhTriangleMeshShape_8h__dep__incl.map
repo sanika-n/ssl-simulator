@@ -1,9 +1,0 @@
-<map id="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/CollisionShapes/btBvhTriangleMeshShape.h" name="build/Desktop_Qt_5_15_18_GCC_64bit&#45;Debug/project_bullet&#45;prefix/include/bullet/BulletCollision/CollisionShapes/btBvhTriangleMeshShape.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="132,5,441,89"/>
-<area shape="rect" id="Node000002" href="$include_2bullet_2BulletCollision_2CollisionShapes_2btMultimaterialTriangleMeshShape_8h.html" title=" " alt="" coords="5,137,291,236"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,101,199,139,195,135,233,97"/>
-<area shape="rect" id="Node000003" href="$include_2bullet_2btBulletCollisionCommon_8h.html" title=" " alt="" coords="314,145,539,229"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="340,97,387,142,383,146,337,101"/>
-<area shape="rect" id="Node000004" href="$include_2bullet_2btBulletDynamicsCommon_8h.html" title=" " alt="" coords="309,284,544,368"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="429,242,429,284,424,284,424,242"/>
-</map>

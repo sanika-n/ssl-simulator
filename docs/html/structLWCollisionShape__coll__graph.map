@@ -1,9 +1,0 @@
-<map id="LWCollisionShape" name="LWCollisionShape">
-<area shape="rect" id="Node000001" title=" " alt="" coords="82,93,219,119"/>
-<area shape="rect" id="Node000002" href="$structLWPlane.html" title=" " alt="" coords="5,5,83,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="61,41,86,67,125,91,122,95,82,71,57,44"/>
-<area shape="rect" id="Node000003" href="$structLWSphere.html" title=" " alt="" coords="107,5,194,31"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="153,45,153,93,148,93,148,45"/>
-<area shape="rect" id="Node000004" href="$structLWBox.html" title=" " alt="" coords="219,5,285,31"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="244,45,225,71,205,85,185,96,182,91,203,81,221,67,240,42"/>
-</map>

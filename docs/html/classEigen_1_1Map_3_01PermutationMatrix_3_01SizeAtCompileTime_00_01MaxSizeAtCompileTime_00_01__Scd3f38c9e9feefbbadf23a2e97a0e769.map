@@ -1,9 +1,0 @@
-<map id="Eigen::Map&lt; PermutationMatrix&lt; SizeAtCompileTime, MaxSizeAtCompileTime, _StorageIndex &gt;, _PacketAccess &gt;" name="Eigen::Map&lt; PermutationMatrix&lt; SizeAtCompileTime, MaxSizeAtCompileTime, _StorageIndex &gt;, _PacketAccess &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="619,13,915,67"/>
-<area shape="rect" id="Node000002" href="$classEigen_1_1PermutationBase.html" title=" " alt="" coords="268,5,571,75"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="584,46,618,46,618,52,584,52"/>
-<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="584,28,618,28,618,34,584,34"/>
-<area shape="rect" id="Node000003" href="$structEigen_1_1EigenBase.html" title=" " alt="" coords="5,27,220,53"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="234,46,268,46,268,52,234,51"/>
-<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="234,29,268,28,268,34,234,34"/>
-</map>

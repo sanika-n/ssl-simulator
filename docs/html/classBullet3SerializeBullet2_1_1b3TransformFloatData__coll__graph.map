@@ -1,8 +1,0 @@
-<map id="Bullet3SerializeBullet2::b3TransformFloatData" name="Bullet3SerializeBullet2::b3TransformFloatData">
-<area shape="rect" id="Node000001" title=" " alt="" coords="544,8,719,48"/>
-<area shape="rect" id="Node000002" href="$classBullet3SerializeBullet2_1_1b3Matrix3x3FloatData.html" title=" " alt="" coords="261,43,437,83"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="450,48,543,36,544,41,451,53"/>
-<area shape="rect" id="Node000003" href="$classBullet3SerializeBullet2_1_1b3Vector3FloatData.html" title=" " alt="" coords="5,8,176,48"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="190,20,200,20,360,16,520,19,544,20,543,25,520,24,360,22,200,25,190,26"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="190,39,261,48,261,54,189,44"/>
-</map>

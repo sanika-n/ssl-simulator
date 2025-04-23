@@ -200,6 +200,3 @@ void Shunya::setBotPosition(google::protobuf::RepeatedPtrField<sslsim::TeleportR
 
 }
 
-double Shunya::setOrientation(){
-
-}

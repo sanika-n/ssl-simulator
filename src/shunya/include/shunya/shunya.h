@@ -42,7 +42,6 @@ public:
      */
     void setBallPosition(google::protobuf::RepeatedPtrField<sslsim::TeleportBall> *ball, float x, float y);
 
-    double setOrientation();
 
     ~Shunya();
 

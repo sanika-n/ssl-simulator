@@ -165,15 +165,15 @@ void YellowBot::YellowBotGraphics::handleGamepadInput() {
     bool previousL1State = false;
 
     // Inside your function:
-    // double l1Value = gamepad->buttonL1();
-    // bool currentL1State = (l1Value == 1);
+    double l1Value = gamepad->buttonL1();
+    bool currentL1State = (l1Value == 1);
 
-    // if (currentL1State && !previousL1State) {
-    //     id = (id + 1) % 6;
-    //     qDebug() << "[yodha] : ID switched to" << id;
-    // }
+    if (currentL1State && !previousL1State) {
+        id = (id + 1) % 6;
+        qDebug() << "[yodha] : ID switched to" << id;
+    }
 
-    // previousL1State = currentL1State;
+    previousL1State = currentL1State;
 }
 
 

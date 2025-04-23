@@ -18,9 +18,11 @@ target_link_libraries(kuruk
     katha::vishnu
 )
 
+
 include(GNUInstallDirs)
 install(TARGETS kuruk
     BUNDLE DESTINATION .
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
+

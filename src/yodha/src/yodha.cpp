@@ -156,8 +156,13 @@ Ball::Ball(QPointF pos, QGraphicsScene *scene, QGraphicsScene *scene_hotmap):
 {
     //the coordinate system of QGraphicsScene is: top-left corner as origin and an inverted y-axis
     QRectF bounding_rect = QRectF(pos.x() - radius, pos.y() - radius, 2*radius, 2*radius);
-    graphics = scene->addEllipse(bounding_rect, QPen(), QBrush(color));
-    graphics_hotmap = scene_hotmap->addEllipse(bounding_rect, QPen(), QBrush(color));
+    graphics = new BallGraphics();
+    graphics->setRect(bounding_rect); // Set bounding rect for the ball's appearance in the scene
+    scene->addItem(graphics);  // Add to the regular scene
+
+    graphics_hotmap = new BallGraphics();
+    graphics_hotmap->setRect(bounding_rect);  // Set bounding rect for hotmap appearance
+    scene_hotmap->addItem(graphics_hotmap);
 }
 
 void Ball::updatePosition(QPointF pos)
@@ -170,6 +175,16 @@ void Ball::updatePosition(QPointF pos)
     graphics_hotmap->setRect(boundingSquare(pos, radius));
 }
 
+void Ball::BallGraphics::mouseMoveEvent(QGraphicsSceneMouseEvent *event){
+
+   LOG << "Mouse Move Event Triggered!";
+        Shunya temp;
+        QPointF newPos = transformFromScene(mapToScene(event->lastPos()));
+        temp.move_ball(newPos);
+
+}
+
+void Ball::BallGraphics::mousePressEvent(QGraphicsSceneMouseEvent *event){}
 void YellowBot::YellowBotGraphics::keyPressEvent(QKeyEvent *event)
 {
     // TODO: Handle keyboard commands to move a selected bot

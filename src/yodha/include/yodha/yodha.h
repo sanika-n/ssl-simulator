@@ -12,6 +12,8 @@
 
 #include <QGraphicsScene>
 #include <QGraphicsPathItem>
+#include <QGraphicsSceneMouseEvent>
+
 class BlueBotGraphics;
 class YellowBotGraphics;
 
@@ -68,20 +70,33 @@ private:
     float x, y, orientation;
 };
 
-class Ball{
+
+class Ball {
 public:
     Ball(QColor color, float radius);
     Ball(QPointF pos, QGraphicsScene *scene, QGraphicsScene *scene_hotmap);
-    void updatePosition(QPointF pos);
-    QPointF getPosition(){ return position; }
-    float getx(){ return position.x(); }
-    float gety(){ return position.y(); }
+    void updatePosition(QPointF pos);  // Update ball's position
+    QPointF getPosition() { return position; }
+    float getx() { return position.x(); }
+    float gety() { return position.y(); }
+
 private:
     QColor color;
     float radius;
-    QGraphicsEllipseItem *graphics = nullptr;
-    QGraphicsEllipseItem *graphics_hotmap = nullptr;
-    QPointF position;
+    QPointF position;  // Ball's position
+
+    class BallGraphics : public QGraphicsEllipseItem {
+    public:
+        BallGraphics(){};
+
+    protected:
+        void mouseMoveEvent(QGraphicsSceneMouseEvent *event) override;
+        void mousePressEvent(QGraphicsSceneMouseEvent *event) override;
+    };
+
+    BallGraphics *graphics = nullptr;  // For regular scene
+    BallGraphics *graphics_hotmap = nullptr;  // For hotmap scene
 };
+
 
 #endif // YODHA_H

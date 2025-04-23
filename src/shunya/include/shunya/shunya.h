@@ -30,6 +30,7 @@ public slots:
     void attack_setup();
     void defense_setup();
     void move_one_bot(int id, QPointF point, bool is_blue);
+    void move_ball(QPointF point);
     void onSocketError(QAbstractSocket::SocketError socketError);
     void handleDatagrams();
 

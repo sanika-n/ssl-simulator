@@ -12,6 +12,7 @@ target_link_libraries(yodha
     Qt5::Widgets
     # Qt5::Gamepad  # Remove Qt Gamepad dependency
     SDL2::SDL2     # Add SDL2 dependency
+    #SDL2::SDL2main
     katha::shunya
 )
 

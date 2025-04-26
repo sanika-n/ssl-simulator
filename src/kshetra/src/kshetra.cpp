@@ -211,6 +211,45 @@ void Kshetra::setGround(qint32 width, qint32 height)
 
 void Kshetra::setFieldLines(const SSL_GeometryFieldSize &field_info)
 {
+    // All the white lines are actually defined in protobuf/geometry.cpp
+    // and are drawn here in kshetra.cpp
+    // just above this comment block.
+
+    // The black lines are both defined here and are drawn here itself in kshetra.cpp
+    // The wall_offset and te
+
+    // Get field geometry from the protobuf
+    const auto& field = field_geometry.field();  // SSL_GeometryFieldSize
+    float fieldLengthHalf = field.field_length() / 2.0f;
+    float fieldWidthHalf  = field.field_width()  / 2.0f;
+    float wallOffset      = field.boundary_width();  // all in mm
+
+    auto drawWallLine = [&](float x1, float y1, float x2, float y2) {
+        QGraphicsLineItem* wall = scene->addLine(
+            QLineF(transformToScene(QPointF(x1, y1)), transformToScene(QPointF(x2, y2))),
+            QPen(QBrush(Qt::black), 2)
+            );
+        this->lines.append(wall);
+    };
+
+
+    // Top wall (make left/right longer by wallOffset)
+    drawWallLine(-fieldLengthHalf - wallOffset,  fieldWidthHalf + wallOffset,
+                 fieldLengthHalf + wallOffset,  fieldWidthHalf + wallOffset);
+
+    // Bottom wall
+    drawWallLine(-fieldLengthHalf - wallOffset, -fieldWidthHalf - wallOffset,
+                 fieldLengthHalf + wallOffset, -fieldWidthHalf - wallOffset);
+
+    // Left wall (make top/bottom longer)
+    drawWallLine(-fieldLengthHalf - wallOffset, -fieldWidthHalf - wallOffset,
+                 -fieldLengthHalf - wallOffset,  fieldWidthHalf + wallOffset);
+
+    // Right wall
+    drawWallLine(fieldLengthHalf + wallOffset, -fieldWidthHalf - wallOffset,
+                 fieldLengthHalf + wallOffset,  fieldWidthHalf + wallOffset);
+
+
     //not storing the field lines since they are static
     static bool lines_init_ = false;
     if(lines_init_) return;

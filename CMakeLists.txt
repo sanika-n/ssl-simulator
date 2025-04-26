@@ -31,7 +31,7 @@ find_package(Protobuf 3.3.0)
 restore_env()
 
 # Find SDL2 package
-find_package(SDL2 REQUIRED)
+find_package(SDL2 CONFIG REQUIRED)
 
 # to compile Qt meta objects automatically, so peaceee
 set(CMAKE_AUTOMOC ON)

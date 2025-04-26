@@ -78,42 +78,39 @@ void YellowBot::updatePosition(const QPointF &&point, float orientation)
 void YellowBot::YellowBotGraphics::focusInEvent(QFocusEvent* event) {
     Q_UNUSED(event);
 
-    // First check available gamepads
-    auto gamepadIds = QGamepadManager::instance()->connectedGamepads();
-    qDebug() << "[yodha] : Available gamepads:" << gamepadIds;
-
-    if (gamepadIds.isEmpty()) {
-        qDebug() << "[yodha] : No gamepads detected!";
-        // Create gamepad with default index anyway
-        gamepad = new QGamepad(0);
-    } else {
-        // Use the first available gamepad
-        gamepad = new QGamepad(gamepadIds.first());
-        qDebug() << "[yodha] : Using gamepad with ID:" << gamepadIds.first();
+    // Initialize SDL if not already initialized (with gamecontroller subsystem)
+    if (SDL_WasInit(SDL_INIT_GAMECONTROLLER) == 0) {
+        if (SDL_Init(SDL_INIT_GAMECONTROLLER) < 0) {
+            qDebug() << "[yodha] : SDL could not initialize! SDL Error:" << SDL_GetError();
+            return;
+        }
     }
 
-    qDebug() << "[yodha] : Gamepad connected status:" << gamepad->isConnected();
+    // Check for available controllers
+    int numJoysticks = SDL_NumJoysticks();
+    qDebug() << "[yodha] : Available controllers:" << numJoysticks;
 
-    // Set up connections to monitor gamepad buttons (helpful for debugging)
-    QObject::connect(gamepad, &QGamepad::buttonAChanged, [](bool pressed) {
-        qDebug() << "[yodha] : Button A:" << pressed;
-    });
+    // Try to open the first available controller
+    for (int i = 0; i < numJoysticks; i++) {
+        if (SDL_IsGameController(i)) {
+            controller = SDL_GameControllerOpen(i);
+            if (controller) {
+                controllerIndex = i;
+                qDebug() << "[yodha] : Controller connected:" << SDL_GameControllerName(controller);
+                break;
+            } else {
+                qDebug() << "[yodha] : Could not open controller! SDL Error:" << SDL_GetError();
+            }
+        }
+    }
 
-    QObject::connect(gamepad, &QGamepad::buttonBChanged, [](bool pressed) {
-        qDebug() << "[yodha] : Button B:" << pressed;
-    });
-
-    QObject::connect(gamepad, &QGamepad::connectedChanged, [](bool connected) {
-        qDebug() << "[yodha] : Gamepad connection changed to:" << connected;
-    });
-
-    // Set up gamepad timer
+    // Set up gamepad timer for polling SDL events
     if (!gamepadTimer) {
         gamepadTimer = new QTimer();
         QObject::connect(gamepadTimer, &QTimer::timeout, [this]() {
             this->handleGamepadInput();
         });
-        gamepadTimer->start(16);
+        gamepadTimer->start(16); // Poll at approximately 60Hz
     }
 }
 
@@ -126,60 +123,92 @@ void YellowBot::YellowBotGraphics::focusOutEvent(QFocusEvent* event) {
         gamepadTimer = nullptr;
     }
 
-    if (gamepad) {
-        delete gamepad;
-        gamepad = nullptr;
+    if (controller) {
+        SDL_GameControllerClose(controller);
+        controller = nullptr;
+        controllerIndex = -1;
     }
 }
 
-// Replace the handleGamepadInput function with this improved version:
-
 void YellowBot::YellowBotGraphics::handleGamepadInput() {
-    if (!gamepad || !gamepad->isConnected()) {
+    if (!controller) {
         return;
     }
 
-    float dx = gamepad->axisLeftX();  // -1 to 1
-    float dy = gamepad->axisLeftY();  // -1 to 1
-    double r2Value = gamepad->buttonR2();
+    // Process SDL events to update controller state
+    SDL_Event event;
+    while (SDL_PollEvent(&event)) {
+        if (event.type == SDL_CONTROLLERDEVICEREMOVED &&
+            event.cdevice.which == controllerIndex) {
+            qDebug() << "[yodha] : Controller disconnected";
+            SDL_GameControllerClose(controller);
+            controller = nullptr;
+            controllerIndex = -1;
+            return;
+        }
+    }
+
+    // Get joystick values (SDL axes range from -32768 to 32767)
+    // Convert to -1 to 1 range to match Qt behavior
+    float dx = SDL_GameControllerGetAxis(controller, SDL_CONTROLLER_AXIS_LEFTX) / 32767.0f;
+    float dy = SDL_GameControllerGetAxis(controller, SDL_CONTROLLER_AXIS_LEFTY) / 32767.0f;
+    float rx = SDL_GameControllerGetAxis(controller, SDL_CONTROLLER_AXIS_RIGHTX) / 32767.0f;
+    float ry = SDL_GameControllerGetAxis(controller, SDL_CONTROLLER_AXIS_RIGHTY) / 32767.0f;
+
+    qDebug() << "[yodha] : Right stick values - rx:" << rx << "ry:" << ry;
+    qDebug() << "[yodha] : Left stick values - dx:" << dx << "dy:" << dy;
+
+    // Get R2 trigger value (0 to 32767, normalize to 0-1)
+    double r2Value = SDL_GameControllerGetAxis(controller, SDL_CONTROLLER_AXIS_TRIGGERRIGHT) / 32767.0f;
+
     // Add a small deadzone to ignore small movements
     if (std::abs(dx) < 0.15) dx = 0;
     if (std::abs(dy) < 0.15) dy = 0;
 
-    if (std::abs(dx) > 0 || std::abs(dy) > 0) {
-        // Scale movement
-        float speed = 15.0;
-        if (r2Value == 1){
-            speed = 50.0;
-        }
-        QPointF newPos = pos() + QPointF(dx * speed, dy * speed);
+    // Check if right stick is actively being used
+    bool rightStickActive = (std::abs(rx) > 0.15 || std::abs(ry) > 0.15);
 
-        // Just update the visual position directly
-        //setPos(newPos);
-
-        Shunya temp;
-        // Fix: For YellowBot, is_blue should be FALSE, not true
-        QPointF tempPos = newPos;
-        temp.move_one_bot(id, transformFromScene(std::move(tempPos)), false);
-
-        qDebug() << "[yodha] : Yellow bot" << id << "moved to" << newPos;
+    // Calculate orientation from right joystick if active
+    double angleRadians;
+    if (rightStickActive) {
+        angleRadians = qAtan2(-ry, rx);
+        qDebug() << "[yodha] : Right stick active - rx:" << rx << "ry:" << ry
+                 << "angle (degrees):" << qRadiansToDegrees(angleRadians);
+    } else {
+        // Keep current orientation if right stick isn't active
+        angleRadians = qDegreesToRadians(rotation());
     }
 
-    bool previousL1State = false;
+    // Position update logic
+    QPointF newPos = pos();
+    bool updatePosition = false;
 
-    // Inside your function:
-    double l1Value = gamepad->buttonL1();
-    bool currentL1State = (l1Value == 1);
+    // Only update position if left stick is active
+    if (std::abs(dx) > 0 || std::abs(dy) > 0) {
+        float speed = (r2Value > 0.9) ? 50.0 : 15.0;
+        newPos = pos() + QPointF(dx * speed, dy * speed);
+        updatePosition = true;
+    }
+
+    // Only send updates if there are changes to make
+    if (updatePosition || rightStickActive) {
+        Shunya temp;
+        QPointF tempPos = newPos;
+
+        // Send position and orientation update
+        temp.move_one_bot(id, transformFromScene(std::move(tempPos)), false, false, angleRadians);
+    }
+
+    // Handle ID switching with L1 button (SDL_CONTROLLER_BUTTON_LEFTSHOULDER)
+    static bool previousL1State = false;
+    bool currentL1State = SDL_GameControllerGetButton(controller, SDL_CONTROLLER_BUTTON_LEFTSHOULDER);
 
     if (currentL1State && !previousL1State) {
         id = (id + 1) % 6;
         qDebug() << "[yodha] : ID switched to" << id;
     }
-
     previousL1State = currentL1State;
 }
-
-
 
 void YellowBot::YellowBotGraphics::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {

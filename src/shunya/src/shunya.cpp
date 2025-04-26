@@ -63,10 +63,7 @@ Shunya::~Shunya(){
 
 
 
-void Shunya::move_one_bot(int id,
-                          QPointF point,
-                          bool    is_blue,
-                          bool instant_teleportation_ignore_physics)
+void Shunya::move_one_bot(int id,QPointF point,bool is_blue,bool instant_teleportation_ignore_physics, double orientation )
 {
     command->Clear();
     auto* bots = command
@@ -74,7 +71,7 @@ void Shunya::move_one_bot(int id,
                      ->mutable_teleport_robot();
 
     // push a new TeleportRobot exactly as before
-    setBotPosition(bots,id,point.x(),point.y(),/*yaw=*/0,is_blue);
+    setBotPosition(bots,id,point.x(),point.y(),orientation, is_blue);
 
     // now only set the flag if the caller really asked for a hard teleport
     // Note: set_by_force = true means follow real physics
@@ -159,12 +156,12 @@ void Shunya::defense_setup()
     auto bot = control->mutable_teleport_robot();
 
     //initial position of the bots can be set here
-    setBotPosition(bot, 0, -1, -1.5, 0.0, false);
-    setBotPosition(bot, 1, -1.2, 0.2, 0.0, false);
-    setBotPosition(bot, 2, -4.1, -0.5, 0.0, false);
-    setBotPosition(bot, 3, 0.2, -1.2, 0.0, false);
-    setBotPosition(bot, 4, -2, 0.7, 0.0, false);
-    setBotPosition(bot, 5, 2.2, -1.4, 0.0, false);
+    setBotPosition(bot, 0, -1, -1.5, 1.57, false);
+    setBotPosition(bot, 1, -1.2, 0.2,1.57, false);
+    setBotPosition(bot, 2, -4.1, -0.5,1.57, false);
+    setBotPosition(bot, 3, 0.2, -1.2, 1.57, false);
+    setBotPosition(bot, 4, -2, 0.7, 1.57, false);
+    setBotPosition(bot, 5, 2.2, -1.4, 1.57, false);
 
     setBotPosition(bot, 0, 1.0, -0.5, 0.0, true);
     setBotPosition(bot, 1, -1.2,-1.8, 0.0, true);

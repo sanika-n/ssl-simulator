@@ -10,9 +10,10 @@
 #include <QGraphicsScene>
 #include <QGraphicsPathItem>
 #include <QGraphicsSceneMouseEvent>
-#include <QGamepad>
+#include <SDL2/SDL.h>
+// #include <QGamepad>
 #include <QTimer>
-#include <QGamepadManager>
+// #include <QGamepadManager>
 class BlueBotGraphics;
 class YellowBotGraphics;
 
@@ -158,8 +159,10 @@ class YellowBot{
             void mousePressEvent(QGraphicsSceneMouseEvent *event) override;
             void mouseMoveEvent(QGraphicsSceneMouseEvent *event) override;
             void keyPressEvent(QKeyEvent *event) override;
-            QGamepad *gamepad = nullptr;
+            SDL_GameController *controller = nullptr;
+            // Keep QTimer as Qt is still being used for the UI
             QTimer *gamepadTimer = nullptr;
+            int controllerIndex = -1;
             void handleGamepadInput();
         };
         YellowBotGraphics *body_graphics, *body_graphics_hotmap=nullptr;
